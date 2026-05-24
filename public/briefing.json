@@ -1,95 +1,97 @@
 {
-  "summary": "Markets closed sharply lower on Friday as investors digested Powell's final day as Fed chair and rising inflation concerns. The S&P 500 shed 1.24% to 7,408.50, while the Nasdaq dropped 1.54% amid a tech selloff led by Intel, AMD, and Micron. Semiconductor stocks fell despite recent strength, as the two-day Trump-Xi summit ended without major policy breakthroughs, leaving traders disappointed. On May 15, Jerome Powell concluded his eight-year tenure as Fed chair after the FOMC held rates steady at 3.5-3.75%, with four dissenting votes marking the most divided decision since 1992. The statement cited Middle East turmoil as a key uncertainty driver, while elevated oil prices continue to fuel inflation fears. In crypto, Bitcoin slid below $79,000 as liquidations topped $500 million and ETF outflows snapped a six-week inflow streak. The Senate advanced the CLARITY Act, briefly lifting XRP 5%, though gains faded on broader risk-off sentiment.",
+  "summary": "Markets posted their eighth consecutive weekly gain on hopes of a Middle East peace breakthrough, with the S&P 500 on pace for its longest winning streak since 2023. Kevin Warsh was sworn in as Fed Chair on May 22 after the Senate confirmed Trump's pick, replacing Jerome Powell who announced he would stay on the board as governor. The April FOMC meeting saw an unusual 8-4 split decision to hold rates at 3.5-3.75%, with elevated inflation tied to the Iran conflict keeping policymakers cautious. Nvidia's Q1 earnings beat expectations on May 21, though shares showed muted reaction in a pattern typical of post-earnings moves for the chip giant. Oil pulled back from four-year highs near $120/barrel on signs of diplomatic progress, while consumer sentiment collapsed to levels last seen during the 2022 trough as energy prices fuel inflation fears. The Dow closed at a new record Friday, while crypto markets traded mixed with Bitcoin holding above $77,000 and Ethereum down nearly 3% amid ETF outflows.",
   "signals": [
     {
-      "type": "bearish",
-      "title": "Fed Holds Rates, Divided FOMC Signals Uncertain Path Forward",
-      "desc": "Four Fed officials dissented in the most divided vote since 1992, with the FOMC holding rates at 3.5-3.75% and citing Middle East uncertainty as inflation risks mount.",
+      "type": "neutral",
+      "title": "Warsh Takes Fed Helm as Powell Era Ends, Policy Outlook Uncertain",
+      "desc": "Kevin Warsh sworn in as Fed Chair May 22 with inflation elevated and job growth near zero; market expects more dovish stance but 60% chance of rate hike priced in after April's contentious 8-4 vote.",
       "asset": "macro"
     },
     {
-      "type": "bearish",
-      "title": "Stock Selloff Extends as Trump-Xi Summit Disappoints",
-      "desc": "Markets fell over 1% Friday as the two-day Trump-Xi talks ended without breakthroughs, triggering profit-taking in tech stocks that had rallied sharply in prior sessions.",
-      "asset": "stocks"
-    },
-    {
-      "type": "bearish",
-      "title": "Bitcoin Liquidations Hit $500M as BTC Slides to $78K",
-      "desc": "Crypto longs suffered a liquidation cascade as Bitcoin fell below $79,000 and ETF outflows snapped a six-week inflow streak amid global bond selloff pressures.",
-      "asset": "crypto"
-    },
-    {
-      "type": "bearish",
-      "title": "Surging Oil Prices Threaten Markets Amid Iran War Escalation",
-      "desc": "Brent crude hit a four-year high near $119.50 as Middle East conflict intensifies, raising inflation concerns and weighing on equity valuations.",
+      "type": "bullish",
+      "title": "U.S.-Iran Peace Talks Advance, Oil Retreats From 4-Year Highs",
+      "desc": "President Trump announced an agreement 'largely negotiated' with Iran over the weekend; oil futures fell 5-6% on Wednesday, easing stagflation fears and supporting equities.",
       "asset": "commodities"
     },
     {
       "type": "bullish",
-      "title": "Nvidia Earnings May 20 Could Drive Tech Rebound",
-      "desc": "Wall Street expects Nvidia to report 77% revenue growth to $78B for fiscal Q1, with strong AI demand potentially offering direction for tech stocks next week.",
+      "title": "S&P 500 Extends Win Streak to Eight Weeks, Dow Hits New Record",
+      "desc": "Major indexes posted weekly gains with the Dow closing at 50,579 on Friday; strong dip-buying and rotation into small-caps and REITs signal broadening market participation.",
       "asset": "stocks"
+    },
+    {
+      "type": "neutral",
+      "title": "Nvidia Beats Q1 Estimates, Announces Dividend Hike but Shares Flat",
+      "desc": "Nvidia reported May 21 earnings beat with revenue above $24B but stock showed typical post-results muted reaction; SoftBank and Arm rallied 20%+ on AI momentum spillover.",
+      "asset": "stocks"
+    },
+    {
+      "type": "bearish",
+      "title": "Bitcoin ETFs See $1.26B Weekly Outflows, Ethereum Down 3%",
+      "desc": "Spot Bitcoin ETFs suffered worst weekly drain since January while Ethereum fell 2.99% to $2,058; Harvard fully exited its Ethereum ETF position in Q1 amid broader crypto rotation concerns.",
+      "asset": "crypto"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "738.18",
-      "change_pct": "-0.15"
+      "price": "747.34",
+      "change_pct": "+0.37"
     },
     {
       "symbol": "QQQ",
-      "price": "707.24",
-      "change_pct": "-0.85"
+      "price": "717.54",
+      "change_pct": "+0.42"
     },
     {
       "symbol": "BTC",
-      "price": "78085",
-      "change_pct": "+0.05"
+      "price": "77114",
+      "change_pct": "+0.39"
     },
     {
       "symbol": "ETH",
-      "price": "2185",
-      "change_pct": "-0.37"
+      "price": "2058.61",
+      "change_pct": "-2.99"
     },
     {
       "symbol": "GOLD",
-      "price": "4691",
-      "change_pct": "-0.33"
+      "price": "4554",
+      "change_pct": "-2.05"
     },
     {
       "symbol": "OIL",
-      "price": "119.50",
-      "change_pct": "+7.00"
+      "price": "99.85",
+      "change_pct": "-5.66"
     },
     {
       "symbol": "DXY",
-      "price": "101.20",
-      "change_pct": "+0.20"
+      "price": "103.5",
+      "change_pct": "+0.33"
     }
   ],
-  "verdict": "Risk-off sentiment dominates as Fed division, oil spike, and crypto outflows signal caution ahead of key Nvidia earnings next week.",
-  "sentiment": "bearish",
+  "verdict": "Markets enter Memorial Day week with bullish momentum intact but facing June headwinds from thin earnings catalysts, hawkish Fed policy risks, and stretched valuations after an historic eight-week run.",
+  "sentiment": "mixed",
   "sources": [
-    "https://www.cnbc.com/2026/05/14/stock-market-today-live-updates.html",
-    "https://finance.yahoo.com/economy/policy/live/fed-meeting-live-updates-federal-reserve-holds-interest-rates-steady-in-powells-final-meeting-as-chair-111906007.html",
+    "https://www.cnbc.com/2026/05/21/stock-market-today-live-updates.html",
+    "https://www.cnbc.com/2026/04/29/fed-meeting-today-live-updates-warsh-powell.html",
+    "https://www.schwab.com/learn/story/stock-market-update-open",
     "https://www.coindesk.com/",
-    "https://www.fool.com/investing/2026/05/17/prediction-may-21-will-be-a-huge-day-for-the-stock/"
+    "https://seekingalpha.com/article/4908333-the-1-minute-market-report-may-24-2026",
+    "https://www.kiplinger.com/investing/live/nvidia-earnings-live-updates-and-commentary-may-2026"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 63,
+      "value": 59,
       "label": "Greed",
-      "previous_close": 66,
-      "updated": "2026-05-15T23:59:54+00:00"
+      "previous_close": 58,
+      "updated": "2026-05-22T23:59:54+00:00"
     },
     "crypto": {
-      "value": 27,
-      "label": "Fear",
-      "updated": "2026-05-17T00:00:00.000Z"
+      "value": 25,
+      "label": "Extreme Fear",
+      "updated": "2026-05-24T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-05-17T17:58:52.400Z",
+  "generated_at": "2026-05-24T17:59:05.461Z",
   "model": "claude-sonnet-4-5-20250929"
 }
