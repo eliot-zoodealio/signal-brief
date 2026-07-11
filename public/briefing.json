@@ -1,97 +1,96 @@
 {
-  "summary": "Markets posted their eighth consecutive weekly gain on hopes of a Middle East peace breakthrough, with the S&P 500 on pace for its longest winning streak since 2023. Kevin Warsh was sworn in as Fed Chair on May 22 after the Senate confirmed Trump's pick, replacing Jerome Powell who announced he would stay on the board as governor. The April FOMC meeting saw an unusual 8-4 split decision to hold rates at 3.5-3.75%, with elevated inflation tied to the Iran conflict keeping policymakers cautious. Nvidia's Q1 earnings beat expectations on May 21, though shares showed muted reaction in a pattern typical of post-earnings moves for the chip giant. Oil pulled back from four-year highs near $120/barrel on signs of diplomatic progress, while consumer sentiment collapsed to levels last seen during the 2022 trough as energy prices fuel inflation fears. The Dow closed at a new record Friday, while crypto markets traded mixed with Bitcoin holding above $77,000 and Ethereum down nearly 3% amid ETF outflows.",
+  "summary": "Markets posted modest gains Friday as SK Hynix made a spectacular U.S. debut, raising $26.5 billion in the largest foreign IPO ever and surging 13% on day one. The S&P 500 rose 0.42% to 7,575.39 while the Nasdaq added 0.29%, capping a positive week despite renewed Middle East tensions. Meta Platforms extended its rally, gaining 6% Friday and notching a 15% weekly gain after AI chip production announcements. Geopolitical risks simmered as Trump declared the Iran ceasefire 'over,' though oil retreated as talks continued. Crypto markets held above key support levels—Bitcoin near $64,000 and Ethereum around $1,795—despite $95 million in BTC ETF outflows Thursday. Looking ahead, Fed Chair Kevin Warsh is set to testify before Congress on Monday alongside key CPI data, with the next FOMC meeting scheduled for July 28-29. Markets remain on hold awaiting Q2 earnings season, which kicks off next week with major financials including JPMorgan, Bank of America, and Goldman Sachs.",
   "signals": [
     {
-      "type": "neutral",
-      "title": "Warsh Takes Fed Helm as Powell Era Ends, Policy Outlook Uncertain",
-      "desc": "Kevin Warsh sworn in as Fed Chair May 22 with inflation elevated and job growth near zero; market expects more dovish stance but 60% chance of rate hike priced in after April's contentious 8-4 vote.",
-      "asset": "macro"
+      "type": "bullish",
+      "title": "SK Hynix smashes IPO records with $26.5B raise, shares jump 13% on debut",
+      "desc": "South Korean chipmaker's blockbuster listing signals strong institutional appetite for AI-exposed semiconductor plays, lifting broader tech sentiment despite memory chip competition concerns.",
+      "asset": "stocks"
     },
     {
       "type": "bullish",
-      "title": "U.S.-Iran Peace Talks Advance, Oil Retreats From 4-Year Highs",
-      "desc": "President Trump announced an agreement 'largely negotiated' with Iran over the weekend; oil futures fell 5-6% on Wednesday, easing stagflation fears and supporting equities.",
-      "asset": "commodities"
-    },
-    {
-      "type": "bullish",
-      "title": "S&P 500 Extends Win Streak to Eight Weeks, Dow Hits New Record",
-      "desc": "Major indexes posted weekly gains with the Dow closing at 50,579 on Friday; strong dip-buying and rotation into small-caps and REITs signal broadening market participation.",
+      "title": "Meta surges 15% weekly on AI chip production plans, strengthening tech leadership",
+      "desc": "Reuters report that Meta will begin producing proprietary AI chips in September drove sustained buying, with the stock posting its best weekly performance since early 2024.",
       "asset": "stocks"
     },
     {
       "type": "neutral",
-      "title": "Nvidia Beats Q1 Estimates, Announces Dividend Hike but Shares Flat",
-      "desc": "Nvidia reported May 21 earnings beat with revenue above $24B but stock showed typical post-results muted reaction; SoftBank and Arm rallied 20%+ on AI momentum spillover.",
-      "asset": "stocks"
+      "title": "Bitcoin holds $64,000 despite $95M ETF outflows as institutional rotation continues",
+      "desc": "Second consecutive day of ETF outflows failed to break key technical support, though rotation from BlackRock's IBIT into Fidelity's FBTC suggests cautious positioning rather than capitulation.",
+      "asset": "crypto"
     },
     {
       "type": "bearish",
-      "title": "Bitcoin ETFs See $1.26B Weekly Outflows, Ethereum Down 3%",
-      "desc": "Spot Bitcoin ETFs suffered worst weekly drain since January while Ethereum fell 2.99% to $2,058; Harvard fully exited its Ethereum ETF position in Q1 amid broader crypto rotation concerns.",
+      "title": "Ethereum ETFs post $52M outflows amid weak onchain activity and rising leverage",
+      "desc": "ETH dropped below $1,800 as derivative leverage expanded faster than meaningful network activity, with median transaction values down 77% week-over-week despite 40% volume increase.",
       "asset": "crypto"
+    },
+    {
+      "type": "neutral",
+      "title": "Fed Chair Warsh testimony and June CPI loom as July FOMC holds steady at 3.5-3.75%",
+      "desc": "Markets price in 75% odds of no rate change at July 28-29 meeting, but next week's CPI print and congressional testimony could shift September expectations if inflation remains sticky above 3%.",
+      "asset": "macro"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "747.34",
-      "change_pct": "+0.37"
+      "price": "754.95",
+      "change_pct": "+0.43"
     },
     {
       "symbol": "QQQ",
-      "price": "717.54",
-      "change_pct": "+0.42"
+      "price": "725.51",
+      "change_pct": "+0.32"
     },
     {
       "symbol": "BTC",
-      "price": "77114",
-      "change_pct": "+0.39"
+      "price": "63936.60",
+      "change_pct": "+1.34"
     },
     {
       "symbol": "ETH",
-      "price": "2058.61",
-      "change_pct": "-2.99"
+      "price": "1794.74",
+      "change_pct": "+2.85"
     },
     {
       "symbol": "GOLD",
-      "price": "4554",
-      "change_pct": "-2.05"
+      "price": "377.01",
+      "change_pct": "-0.31"
     },
     {
       "symbol": "OIL",
-      "price": "99.85",
-      "change_pct": "-5.66"
+      "price": "73.20",
+      "change_pct": "-1.80"
     },
     {
       "symbol": "DXY",
-      "price": "103.5",
-      "change_pct": "+0.33"
+      "price": "105.20",
+      "change_pct": "+0.15"
     }
   ],
-  "verdict": "Markets enter Memorial Day week with bullish momentum intact but facing June headwinds from thin earnings catalysts, hawkish Fed policy risks, and stretched valuations after an historic eight-week run.",
+  "verdict": "Markets consolidate near highs ahead of earnings deluge and critical CPI data, with tech leadership intact but crypto flows turning cautious.",
   "sentiment": "mixed",
   "sources": [
-    "https://www.cnbc.com/2026/05/21/stock-market-today-live-updates.html",
-    "https://www.cnbc.com/2026/04/29/fed-meeting-today-live-updates-warsh-powell.html",
     "https://www.schwab.com/learn/story/stock-market-update-open",
-    "https://www.coindesk.com/",
-    "https://seekingalpha.com/article/4908333-the-1-minute-market-report-may-24-2026",
-    "https://www.kiplinger.com/investing/live/nvidia-earnings-live-updates-and-commentary-may-2026"
+    "https://www.cnbc.com/2026/07/09/stock-market-today-live-updates.html",
+    "https://www.bloomberg.com/news/articles/2026-07-09/stock-market-today-dow-s-p-live-updates",
+    "https://www.fxstreet.com/cryptocurrencies/news/crypto-today-bitcoin-ethereum-xrp-hold-recovery-levels-amid-minor-etf-outflows-202607102300",
+    "https://www.forbes.com/sites/investor-hub/article/fed-meeting-tracker-interest-rate-strategy/"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 59,
-      "label": "Greed",
-      "previous_close": 58,
-      "updated": "2026-05-22T23:59:54+00:00"
+      "value": 49,
+      "label": "Neutral",
+      "previous_close": 47,
+      "updated": "2026-07-10T23:59:47+00:00"
     },
     "crypto": {
-      "value": 25,
-      "label": "Extreme Fear",
-      "updated": "2026-05-24T00:00:00.000Z"
+      "value": 26,
+      "label": "Fear",
+      "updated": "2026-07-11T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-05-24T17:59:05.461Z",
+  "generated_at": "2026-07-11T17:55:33.357Z",
   "model": "claude-sonnet-4-5-20250929"
 }
