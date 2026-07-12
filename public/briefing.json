@@ -1,35 +1,35 @@
 {
-  "summary": "Markets posted modest gains Friday as SK Hynix made a spectacular U.S. debut, raising $26.5 billion in the largest foreign IPO ever and surging 13% on day one. The S&P 500 rose 0.42% to 7,575.39 while the Nasdaq added 0.29%, capping a positive week despite renewed Middle East tensions. Meta Platforms extended its rally, gaining 6% Friday and notching a 15% weekly gain after AI chip production announcements. Geopolitical risks simmered as Trump declared the Iran ceasefire 'over,' though oil retreated as talks continued. Crypto markets held above key support levels—Bitcoin near $64,000 and Ethereum around $1,795—despite $95 million in BTC ETF outflows Thursday. Looking ahead, Fed Chair Kevin Warsh is set to testify before Congress on Monday alongside key CPI data, with the next FOMC meeting scheduled for July 28-29. Markets remain on hold awaiting Q2 earnings season, which kicks off next week with major financials including JPMorgan, Bank of America, and Goldman Sachs.",
+  "summary": "Markets showed resilience Friday as stocks rallied despite ongoing US-Iran tensions in the Strait of Hormuz. The Dow closed up 0.29% after Thursday's sharp chip-led gains, while the S&P 500 and Nasdaq extended their advance. Oil prices eased after spiking earlier in the week when President Trump declared the Iran ceasefire 'over,' though geopolitical risk remains elevated. Investors are positioning ahead of next week's critical CPI data (due July 14) and the start of Q2 earnings season, with major banks reporting. Fed Chair Kevin Warsh's congressional testimony on July 14 will be closely watched for clues on rate trajectory, as markets price in at least one 25bp hike later in 2026. Bitcoin ETFs snapped a brutal 10-day outflow streak with $221.7 million of inflows, offering a rare bright spot in crypto after the worst month on record for spot BTC products.",
   "signals": [
     {
-      "type": "bullish",
-      "title": "SK Hynix smashes IPO records with $26.5B raise, shares jump 13% on debut",
-      "desc": "South Korean chipmaker's blockbuster listing signals strong institutional appetite for AI-exposed semiconductor plays, lifting broader tech sentiment despite memory chip competition concerns.",
-      "asset": "stocks"
-    },
-    {
-      "type": "bullish",
-      "title": "Meta surges 15% weekly on AI chip production plans, strengthening tech leadership",
-      "desc": "Reuters report that Meta will begin producing proprietary AI chips in September drove sustained buying, with the stock posting its best weekly performance since early 2024.",
-      "asset": "stocks"
-    },
-    {
-      "type": "neutral",
-      "title": "Bitcoin holds $64,000 despite $95M ETF outflows as institutional rotation continues",
-      "desc": "Second consecutive day of ETF outflows failed to break key technical support, though rotation from BlackRock's IBIT into Fidelity's FBTC suggests cautious positioning rather than capitulation.",
+      "type": "bearish",
+      "title": "Bitcoin ETFs post worst month on record with $4.5B June outflows",
+      "desc": "Spot Bitcoin ETFs hemorrhaged $4.5 billion in June, pushing year-to-date flows negative for the first time, signaling weak institutional demand as Citi slashed its 12-month BTC target from $112K to $82K.",
       "asset": "crypto"
     },
     {
       "type": "bearish",
-      "title": "Ethereum ETFs post $52M outflows amid weak onchain activity and rising leverage",
-      "desc": "ETH dropped below $1,800 as derivative leverage expanded faster than meaningful network activity, with median transaction values down 77% week-over-week despite 40% volume increase.",
-      "asset": "crypto"
+      "title": "Fed Chair Warsh set to testify on July 14 with rate hike risk looming",
+      "desc": "New Fed Chair Kevin Warsh will testify to Congress alongside June CPI release (consensus ~4.2% YoY), with nine of 18 FOMC officials penciling in at least one 2026 rate hike, pressuring risk assets.",
+      "asset": "macro"
     },
     {
       "type": "neutral",
-      "title": "Fed Chair Warsh testimony and June CPI loom as July FOMC holds steady at 3.5-3.75%",
-      "desc": "Markets price in 75% odds of no rate change at July 28-29 meeting, but next week's CPI print and congressional testimony could shift September expectations if inflation remains sticky above 3%.",
-      "asset": "macro"
+      "title": "US-Iran conflict escalates in Strait of Hormuz, oil volatility spikes",
+      "desc": "Trump declared Iran ceasefire 'over' after attacks on commercial vessels pushed WTI crude up 4.37% to $73.52; oil has since retreated as talks continue, creating two-way volatility in energy and geopolitics.",
+      "asset": "commodities"
+    },
+    {
+      "type": "bullish",
+      "title": "SK Hynix surges 13% on blockbuster US debut, chip rebound underway",
+      "desc": "South Korean chipmaker SK Hynix ADRs jumped 13% above IPO price on Friday's trading debut, lifting semiconductor sector as VanEck SMH ETF rose 2.5% Thursday, signaling AI demand resilience.",
+      "asset": "stocks"
+    },
+    {
+      "type": "bullish",
+      "title": "Q2 earnings season kicks off with S&P 500 growth expected at 23.3% YoY",
+      "desc": "Major banks (JPM, BAC, GS, WFC, C) report July 14, followed by mega-cap tech through month-end; consensus sees energy and tech leading earnings growth, offering potential catalyst for indices nearing record highs.",
+      "asset": "stocks"
     }
   ],
   "tickers": [
@@ -41,17 +41,17 @@
     {
       "symbol": "QQQ",
       "price": "725.51",
-      "change_pct": "+0.32"
+      "change_pct": "+0.31"
     },
     {
       "symbol": "BTC",
-      "price": "63936.60",
-      "change_pct": "+1.34"
+      "price": "64250",
+      "change_pct": "+0.72"
     },
     {
       "symbol": "ETH",
-      "price": "1794.74",
-      "change_pct": "+2.85"
+      "price": "1823",
+      "change_pct": "+1.93"
     },
     {
       "symbol": "GOLD",
@@ -60,23 +60,23 @@
     },
     {
       "symbol": "OIL",
-      "price": "73.20",
-      "change_pct": "-1.80"
+      "price": "73.52",
+      "change_pct": "+4.37"
     },
     {
       "symbol": "DXY",
-      "price": "105.20",
+      "price": "104.25",
       "change_pct": "+0.15"
     }
   ],
-  "verdict": "Markets consolidate near highs ahead of earnings deluge and critical CPI data, with tech leadership intact but crypto flows turning cautious.",
+  "verdict": "Markets face a pivotal week ahead with CPI, Warsh testimony, and earnings convergence likely to determine whether the current rally extends or stalls on renewed inflation and rate-hike concerns.",
   "sentiment": "mixed",
   "sources": [
-    "https://www.schwab.com/learn/story/stock-market-update-open",
-    "https://www.cnbc.com/2026/07/09/stock-market-today-live-updates.html",
+    "https://www.cnbc.com/2026/07/08/stock-market-today-live-updates.html",
     "https://www.bloomberg.com/news/articles/2026-07-09/stock-market-today-dow-s-p-live-updates",
-    "https://www.fxstreet.com/cryptocurrencies/news/crypto-today-bitcoin-ethereum-xrp-hold-recovery-levels-amid-minor-etf-outflows-202607102300",
-    "https://www.forbes.com/sites/investor-hub/article/fed-meeting-tracker-interest-rate-strategy/"
+    "https://www.coindesk.com/markets/2026/07/02/bitcoin-zooms-above-usd61-000-as-inflation-fears-soften",
+    "https://www.bls.gov/news.release/cpi.nr0.htm",
+    "https://www.forbes.com/sites/bill_stone/2026/07/05/sp-500-earnings-outlook-hinges-on-tech-energy-and-the-fed/"
   ],
   "fear_greed": {
     "stocks": {
@@ -88,9 +88,9 @@
     "crypto": {
       "value": 26,
       "label": "Fear",
-      "updated": "2026-07-11T00:00:00.000Z"
+      "updated": "2026-07-12T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-07-11T17:55:33.357Z",
+  "generated_at": "2026-07-12T17:59:16.683Z",
   "model": "claude-sonnet-4-5-20250929"
 }
