@@ -1,41 +1,41 @@
 {
-  "summary": "U.S. equities closed sharply lower on Friday as semiconductor stocks entered a bear market, dragging major indices to weekly losses. The S&P 500 fell 1.01% to 7,457.69, the Nasdaq dropped 1.4% to 25,520.24, and the Dow declined 0.77% to 52,146.42. The PHLX Semiconductor Index fell over 20% from its recent peak after Chinese startup Moonshot unveiled an advanced AI model that rivals U.S. competitors, rattling investor confidence in elevated tech valuations. Geopolitical tensions escalated as the U.S. launched a seventh consecutive night of airstrikes against Iran, sending oil prices higher while pressuring risk assets including crypto. Bitcoin retreated below $64,000 and Ethereum slipped under $1,900 as the Iran conflict dampened risk appetite. The Fed held rates steady at 3.5%-3.75% at its June meeting, with new Chair Kevin Warsh signaling a cautious stance amid elevated inflation driven partly by energy supply shocks. Meta shares fell despite reports of potential $10 billion cloud computing deal talks with Anthropic.",
+  "summary": "U.S. equity markets face renewed pressure on July 19 as semiconductor stocks extended their brutal selloff into a bear market, with the chip sector down 20% from recent highs following a downgrade of SK Hynix by a South Korean brokerage citing risks over fixed-price high-bandwidth memory contracts. Major chipmakers AMD and Nvidia both dropped around 4% on Monday, dragging the broader tech sector lower. The S&P 500 posted its first weekly loss in nearly three months, falling 1.6% last week, while the Nasdaq shed 2.9%. Adding to market jitters, heightened Middle East tensions as the U.S. continues military strikes against Iran have boosted oil prices and fueled broader risk aversion. Investors are also grappling with concerns about AI spending justification, as Chinese startup Moonshot's new Kimi K3 AI model sparked fears of intensifying competition for U.S. tech giants. Meanwhile, the Federal Reserve holds rates steady at 3.5%-3.75% as new Chair Kevin Warsh emphasizes commitment to restoring price stability before any easing, with the next FOMC meeting scheduled for July 28-29. Crypto markets showed modest resilience, with Bitcoin trading near $64,600 and Ethereum around $1,870 after earlier gains on softer CPI data were partially reversed by geopolitical tensions.",
   "signals": [
     {
       "type": "bearish",
-      "title": "Semiconductor selloff intensifies as Chinese AI breakthrough shakes valuations",
-      "desc": "The PHLX Semiconductor Index entered a bear market, falling 20% from its record as Moonshot's Kimi K3 AI model topped coding benchmarks, threatening U.S. chip dominance and pressuring Nvidia, AMD, and other semiconductor stocks.",
+      "title": "Chip sector enters bear market on SK Hynix downgrade and China AI competition",
+      "desc": "Semiconductor stocks fell 20% from highs as SK Hynix downgrade over HBM contract risks and China's Kimi K3 AI model launch triggered sector-wide selling pressure across AMD, Nvidia, and chip equipment makers.",
       "asset": "stocks"
     },
     {
       "type": "bearish",
-      "title": "U.S.-Iran conflict escalates with seventh consecutive night of strikes",
-      "desc": "U.S. Central Command struck Iranian military targets for the seventh straight night, closing the Strait of Hormuz and sending oil prices surging while weighing on risk assets across equities and crypto markets.",
-      "asset": "commodities"
-    },
-    {
-      "type": "bearish",
-      "title": "Crypto retreats as Bitcoin falls below $64K on geopolitical tensions",
-      "desc": "Bitcoin dropped to $63,130 and Ethereum fell to $1,832 as escalating Middle East conflict and renewed U.S.-Iran strikes dampened appetite for risk-based digital assets despite earlier gains from softer June inflation data.",
-      "asset": "crypto"
-    },
-    {
-      "type": "neutral",
-      "title": "Fed Chair Warsh holds rates at 3.5%-3.75% citing elevated inflation",
-      "desc": "In his first FOMC meeting as Chair, Kevin Warsh kept the federal funds rate unchanged at 3.5%-3.75%, noting inflation remains elevated partly due to energy supply shocks from the Iran conflict, with June SEP showing potential for one rate hike before year-end.",
+      "title": "Fed Chair Warsh holds rates at 3.5%-3.75%, emphasizes price stability focus",
+      "desc": "The Federal Reserve maintained its hawkish stance in June with no rate cuts signaled and nine of 18 officials penciling in at least one hike this year, dampening hopes for near-term easing.",
       "asset": "macro"
     },
     {
+      "type": "bearish",
+      "title": "U.S.-Iran conflict escalates, Strait of Hormuz disruption spikes oil prices",
+      "desc": "Six consecutive days of U.S. airstrikes against Iran have effectively closed the Strait of Hormuz, sending oil prices sharply higher and fueling broad risk-off sentiment across equities and crypto.",
+      "asset": "commodities"
+    },
+    {
       "type": "neutral",
-      "title": "Meta falls 3.5% despite reports of $10B Anthropic cloud computing deal talks",
-      "desc": "Meta shares declined over 3% despite New York Times reports that Anthropic proposed a cloud computing rental deal worth up to $10 billion in June, though talks remain in early stages and may not materialize.",
+      "title": "Meta in talks for $10 billion computing deal with Anthropic",
+      "desc": "Meta is reportedly negotiating a cloud computing rental agreement with AI giant Anthropic worth up to $10 billion, signaling potential shift toward monetizing AI infrastructure amid AI spending scrutiny.",
       "asset": "stocks"
+    },
+    {
+      "type": "bullish",
+      "title": "Bitcoin and Ethereum hold gains above $64K and $1,850 after CPI relief",
+      "desc": "Crypto markets stabilized near recent highs with Bitcoin at $64,600 and Ethereum at $1,870 after softer June CPI data bolstered rate-cut hopes, though geopolitical tensions capped further upside.",
+      "asset": "crypto"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "683.17",
+      "price": "537.20",
       "change_pct": "-1.01"
     },
     {
@@ -45,13 +45,13 @@
     },
     {
       "symbol": "BTC",
-      "price": "63975.39",
-      "change_pct": "+1.40"
+      "price": "64636",
+      "change_pct": "+0.84"
     },
     {
       "symbol": "ETH",
-      "price": "1844.44",
-      "change_pct": "+0.62"
+      "price": "1869",
+      "change_pct": "+1.45"
     },
     {
       "symbol": "GOLD",
@@ -60,24 +60,23 @@
     },
     {
       "symbol": "OIL",
-      "price": "81.78",
-      "change_pct": "+4.47"
+      "price": "88.50",
+      "change_pct": "+3.20"
     },
     {
       "symbol": "DXY",
-      "price": "103.85",
+      "price": "104.85",
       "change_pct": "+0.15"
     }
   ],
-  "verdict": "Risk-off sentiment dominates as semiconductor bear market and Iran conflict escalate, pressuring equities and crypto while oil surges on supply concerns.",
+  "verdict": "Tech weakness and geopolitical risk dominate as chip bear market deepens and Iran tensions flare, though crypto shows surprising resilience amid Fed's hawkish hold.",
   "sentiment": "bearish",
   "sources": [
+    "https://ts2.tech/en/stock-market-today-19-07-2026/",
     "https://www.cnbc.com/2026/07/16/stock-market-today-live-updates.html",
     "https://www.bloomberg.com/news/articles/2026-07-16/stock-market-today-dow-s-p-live-updates",
-    "https://www.coindesk.com/",
-    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-july-17-2026",
-    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-july-17-2026-prices-ease-as-conflict-in-iran-escalates-125602208.html",
-    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm"
+    "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260617.htm",
+    "https://coinmarketcap.com/currencies/ethereum/"
   ],
   "fear_greed": {
     "stocks": {
@@ -87,11 +86,11 @@
       "updated": "2026-07-17T23:59:50+00:00"
     },
     "crypto": {
-      "value": 25,
-      "label": "Extreme Fear",
-      "updated": "2026-07-18T00:00:00.000Z"
+      "value": 28,
+      "label": "Fear",
+      "updated": "2026-07-19T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-07-18T17:56:31.257Z",
+  "generated_at": "2026-07-19T17:57:46.167Z",
   "model": "claude-sonnet-4-5-20250929"
 }
