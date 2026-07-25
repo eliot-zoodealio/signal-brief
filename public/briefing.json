@@ -1,96 +1,97 @@
 {
-  "summary": "U.S. equity markets face renewed pressure on July 19 as semiconductor stocks extended their brutal selloff into a bear market, with the chip sector down 20% from recent highs following a downgrade of SK Hynix by a South Korean brokerage citing risks over fixed-price high-bandwidth memory contracts. Major chipmakers AMD and Nvidia both dropped around 4% on Monday, dragging the broader tech sector lower. The S&P 500 posted its first weekly loss in nearly three months, falling 1.6% last week, while the Nasdaq shed 2.9%. Adding to market jitters, heightened Middle East tensions as the U.S. continues military strikes against Iran have boosted oil prices and fueled broader risk aversion. Investors are also grappling with concerns about AI spending justification, as Chinese startup Moonshot's new Kimi K3 AI model sparked fears of intensifying competition for U.S. tech giants. Meanwhile, the Federal Reserve holds rates steady at 3.5%-3.75% as new Chair Kevin Warsh emphasizes commitment to restoring price stability before any easing, with the next FOMC meeting scheduled for July 28-29. Crypto markets showed modest resilience, with Bitcoin trading near $64,600 and Ethereum around $1,870 after earlier gains on softer CPI data were partially reversed by geopolitical tensions.",
+  "summary": "Markets face downward pressure as geopolitical tensions and inflation concerns weigh on sentiment. Oil prices pulled back to $90.12 after earlier spikes above $95 as U.S.-Iran hostilities continue, with the conflict costing taxpayers $37.5 billion and driving Treasury yields higher. Tech stocks extended losses with the Nasdaq down nearly 2% over the past month amid growing skepticism over AI spending returns. Tesla plunged 18% after Q2 operating profit missed forecasts by $1.3 billion, exemplifying earnings risk in high-profile growth names. Crypto markets weakened in tandem, with Bitcoin spot ETF outflows of $225 million breaking a weeklong positive streak as higher Treasury yields pulled capital from risk assets. Fed rate expectations have shifted, with markets now pricing 55% odds of a September hike and the forward curve pointing to the first 2026 rate cut delayed to July from earlier expectations.",
   "signals": [
     {
       "type": "bearish",
-      "title": "Chip sector enters bear market on SK Hynix downgrade and China AI competition",
-      "desc": "Semiconductor stocks fell 20% from highs as SK Hynix downgrade over HBM contract risks and China's Kimi K3 AI model launch triggered sector-wide selling pressure across AMD, Nvidia, and chip equipment makers.",
+      "title": "Tesla Q2 earnings miss by $1.3 billion triggers 18% crash",
+      "desc": "Tesla's Q2 operating profit shortfall highlights execution risk and valuation pressure across high-growth tech names as AI infrastructure spending fails to deliver near-term returns.",
       "asset": "stocks"
     },
     {
       "type": "bearish",
-      "title": "Fed Chair Warsh holds rates at 3.5%-3.75%, emphasizes price stability focus",
-      "desc": "The Federal Reserve maintained its hawkish stance in June with no rate cuts signaled and nine of 18 officials penciling in at least one hike this year, dampening hopes for near-term easing.",
-      "asset": "macro"
-    },
-    {
-      "type": "bearish",
-      "title": "U.S.-Iran conflict escalates, Strait of Hormuz disruption spikes oil prices",
-      "desc": "Six consecutive days of U.S. airstrikes against Iran have effectively closed the Strait of Hormuz, sending oil prices sharply higher and fueling broad risk-off sentiment across equities and crypto.",
-      "asset": "commodities"
-    },
-    {
-      "type": "neutral",
-      "title": "Meta in talks for $10 billion computing deal with Anthropic",
-      "desc": "Meta is reportedly negotiating a cloud computing rental agreement with AI giant Anthropic worth up to $10 billion, signaling potential shift toward monetizing AI infrastructure amid AI spending scrutiny.",
-      "asset": "stocks"
+      "title": "Bitcoin ETF outflows hit $225 million, ending week-long streak",
+      "desc": "Rising Treasury yields and inflation fears drove institutional capital away from crypto as higher opportunity costs weigh on non-yielding assets like Bitcoin.",
+      "asset": "crypto"
     },
     {
       "type": "bullish",
-      "title": "Bitcoin and Ethereum hold gains above $64K and $1,850 after CPI relief",
-      "desc": "Crypto markets stabilized near recent highs with Bitcoin at $64,600 and Ethereum at $1,870 after softer June CPI data bolstered rate-cut hopes, though geopolitical tensions capped further upside.",
-      "asset": "crypto"
+      "title": "Oil retreats 2.25% to $90 easing inflation pressures",
+      "desc": "WTI crude pulled back from highs above $95 despite ongoing Middle East hostilities, providing relief to equities sensitive to input costs and rate expectations.",
+      "asset": "commodities"
+    },
+    {
+      "type": "bearish",
+      "title": "Fed September rate hike odds surge to 55% on oil, tariffs",
+      "desc": "Persistent inflation from oil supply disruptions and new global tariffs push Treasury yields higher and rate cut expectations further into 2026, pressuring equities and crypto.",
+      "asset": "macro"
+    },
+    {
+      "type": "neutral",
+      "title": "Alphabet cloud revenue beats expectations with $500B backlog",
+      "desc": "Google parent reported cloud revenue far surpassing estimates and disclosed massive contracted business backlog, offering selective support to AI infrastructure thesis amid broader tech selloff.",
+      "asset": "stocks"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "537.20",
-      "change_pct": "-1.01"
+      "price": "738.93",
+      "change_pct": "+0.10"
     },
     {
       "symbol": "QQQ",
-      "price": "695.33",
-      "change_pct": "-1.50"
+      "price": "684.23",
+      "change_pct": "-1.12"
     },
     {
       "symbol": "BTC",
-      "price": "64636",
-      "change_pct": "+0.84"
+      "price": "64304.50",
+      "change_pct": "-1.60"
     },
     {
       "symbol": "ETH",
-      "price": "1869",
-      "change_pct": "+1.45"
+      "price": "1860.78",
+      "change_pct": "-2.90"
     },
     {
       "symbol": "GOLD",
-      "price": "4018.80",
-      "change_pct": "+0.67"
+      "price": "4055.70",
+      "change_pct": "+0.14"
     },
     {
       "symbol": "OIL",
-      "price": "88.50",
-      "change_pct": "+3.20"
+      "price": "90.12",
+      "change_pct": "-2.25"
     },
     {
       "symbol": "DXY",
-      "price": "104.85",
-      "change_pct": "+0.15"
+      "price": "96.81",
+      "change_pct": "-0.25"
     }
   ],
-  "verdict": "Tech weakness and geopolitical risk dominate as chip bear market deepens and Iran tensions flare, though crypto shows surprising resilience amid Fed's hawkish hold.",
+  "verdict": "Defensive rotation continues as inflation and geopolitical risks trump AI optimism, favoring energy and commodities over tech and crypto.",
   "sentiment": "bearish",
   "sources": [
-    "https://ts2.tech/en/stock-market-today-19-07-2026/",
-    "https://www.cnbc.com/2026/07/16/stock-market-today-live-updates.html",
-    "https://www.bloomberg.com/news/articles/2026-07-16/stock-market-today-dow-s-p-live-updates",
-    "https://www.federalreserve.gov/monetarypolicy/fomcminutes20260617.htm",
-    "https://coinmarketcap.com/currencies/ethereum/"
+    "https://www.cnbc.com/2026/07/23/stock-market-today-live-updates.html",
+    "https://seekingalpha.com/article/4925619-the-1-minute-market-report-july-25-2026",
+    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-july-24-2026-crypto-prices-retreat-on-higher-us-treasury-yields-152200068.html",
+    "https://www.fool.com/coverage/stock-market-today/2026/07/24/stock-market-today-july-24-dow-recovers-and-sandisk-tumbles-11-as-tech-stocks-fall-further/",
+    "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-july-22-dow-sp-500-nasdaq-alphabet-tesla-earnings-in-focus-083644887.html",
+    "https://ts2.tech/en/stock-market-today-25-07-2026/"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 37,
+      "value": 39,
       "label": "Fear",
-      "previous_close": 42,
-      "updated": "2026-07-17T23:59:50+00:00"
+      "previous_close": 40,
+      "updated": "2026-07-24T23:59:54+00:00"
     },
     "crypto": {
-      "value": 28,
+      "value": 27,
       "label": "Fear",
-      "updated": "2026-07-19T00:00:00.000Z"
+      "updated": "2026-07-25T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-07-19T17:57:46.167Z",
+  "generated_at": "2026-07-25T17:58:55.880Z",
   "model": "claude-sonnet-4-5-20250929"
 }
