@@ -1,97 +1,96 @@
 {
-  "summary": "Markets face downward pressure as geopolitical tensions and inflation concerns weigh on sentiment. Oil prices pulled back to $90.12 after earlier spikes above $95 as U.S.-Iran hostilities continue, with the conflict costing taxpayers $37.5 billion and driving Treasury yields higher. Tech stocks extended losses with the Nasdaq down nearly 2% over the past month amid growing skepticism over AI spending returns. Tesla plunged 18% after Q2 operating profit missed forecasts by $1.3 billion, exemplifying earnings risk in high-profile growth names. Crypto markets weakened in tandem, with Bitcoin spot ETF outflows of $225 million breaking a weeklong positive streak as higher Treasury yields pulled capital from risk assets. Fed rate expectations have shifted, with markets now pricing 55% odds of a September hike and the forward curve pointing to the first 2026 rate cut delayed to July from earlier expectations.",
+  "summary": "<cite index=\"1-1\">Geopolitical tensions jolted global markets Thursday, sending equities and bonds lower as oil jumped, reviving inflation concerns</cite> ahead of Friday's July jobs report. <cite index=\"1-5\">The S&P 500 fell 0.2% on Thursday</cite>, while <cite index=\"1-9\">the tech-heavy Nasdaq 100 dropped 0.4%</cite>. <cite index=\"2-4\">In after-hours trading, Airbnb jumped more than 8% after reporting stronger-than-expected revenue and earnings, while Cloudflare soared 16% on an upbeat full-year and current-quarter outlook</cite>. On the crypto front, <cite index=\"19-1,19-4\">the crypto market slipped 0.5% as Bitcoin and Ethereum posted minor losses</cite>, with <cite index=\"19-10\">Bitcoin trading at $64,373.79, down 0.25%</cite> and <cite index=\"19-15\">the Fear & Greed Index improving from 25 (Extreme Fear) to 29 (Fear)</cite>. Markets are bracing for Friday's July nonfarm payrolls report, with <cite index=\"44-1\">economists expecting a gain of just 83,000 jobs and an unchanged unemployment rate at 4.2%</cite>. <cite index=\"48-3,48-11\">The U.S. war with Iran continues without any kind of agreement to fully reopen the Strait of Hormuz</cite>, keeping energy prices elevated and rate-hike odds elevated following the Fed's late-July decision to hold rates steady at 3.5%-3.75%.",
   "signals": [
     {
       "type": "bearish",
-      "title": "Tesla Q2 earnings miss by $1.3 billion triggers 18% crash",
-      "desc": "Tesla's Q2 operating profit shortfall highlights execution risk and valuation pressure across high-growth tech names as AI infrastructure spending fails to deliver near-term returns.",
+      "title": "Geopolitical tensions spike oil, lift inflation fears",
+      "desc": "Middle East conflict escalation sent oil prices higher Thursday, reviving inflation concerns and pushing stocks lower ahead of key jobs data.",
+      "asset": "stocks"
+    },
+    {
+      "type": "bullish",
+      "title": "Airbnb and Cloudflare surge on earnings beats",
+      "desc": "After-hours trading saw Airbnb jump 8% and Cloudflare soar 16% on strong results, signaling pockets of resilience in tech earnings season.",
       "asset": "stocks"
     },
     {
       "type": "bearish",
-      "title": "Bitcoin ETF outflows hit $225 million, ending week-long streak",
-      "desc": "Rising Treasury yields and inflation fears drove institutional capital away from crypto as higher opportunity costs weigh on non-yielding assets like Bitcoin.",
-      "asset": "crypto"
-    },
-    {
-      "type": "bullish",
-      "title": "Oil retreats 2.25% to $90 easing inflation pressures",
-      "desc": "WTI crude pulled back from highs above $95 despite ongoing Middle East hostilities, providing relief to equities sensitive to input costs and rate expectations.",
-      "asset": "commodities"
-    },
-    {
-      "type": "bearish",
-      "title": "Fed September rate hike odds surge to 55% on oil, tariffs",
-      "desc": "Persistent inflation from oil supply disruptions and new global tariffs push Treasury yields higher and rate cut expectations further into 2026, pressuring equities and crypto.",
+      "title": "July jobs report expected to show weak payroll growth",
+      "desc": "Economists forecast only 83,000 jobs added in July, the weakest in months, which could signal labor market softening and complicate Fed policy.",
       "asset": "macro"
     },
     {
       "type": "neutral",
-      "title": "Alphabet cloud revenue beats expectations with $500B backlog",
-      "desc": "Google parent reported cloud revenue far surpassing estimates and disclosed massive contracted business backlog, offering selective support to AI infrastructure thesis amid broader tech selloff.",
-      "asset": "stocks"
+      "title": "Crypto fear gauge improves despite minor Bitcoin losses",
+      "desc": "Bitcoin edged down 0.25% but the Fear & Greed Index rose to 29 from 25, suggesting easing panic even as markets consolidate.",
+      "asset": "crypto"
+    },
+    {
+      "type": "bearish",
+      "title": "Hormuz Strait closure keeps energy prices elevated",
+      "desc": "Ongoing U.S.-Iran tensions with no deal to reopen the Strait of Hormuz sustain oil price pressure, weighing on risk sentiment and rate expectations.",
+      "asset": "commodities"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "738.93",
-      "change_pct": "+0.10"
+      "price": "769.79",
+      "change_pct": "-0.20"
     },
     {
       "symbol": "QQQ",
-      "price": "684.23",
-      "change_pct": "-1.12"
+      "price": "714.65",
+      "change_pct": "-0.37"
     },
     {
       "symbol": "BTC",
-      "price": "64304.50",
-      "change_pct": "-1.60"
+      "price": "64373.79",
+      "change_pct": "-0.25"
     },
     {
       "symbol": "ETH",
-      "price": "1860.78",
-      "change_pct": "-2.90"
+      "price": "1906.96",
+      "change_pct": "+2.10"
     },
     {
       "symbol": "GOLD",
-      "price": "4055.70",
-      "change_pct": "+0.14"
+      "price": "389.67",
+      "change_pct": "+0.01"
     },
     {
       "symbol": "OIL",
-      "price": "90.12",
-      "change_pct": "-2.25"
+      "price": "75.90",
+      "change_pct": "-5.53"
     },
     {
       "symbol": "DXY",
-      "price": "96.81",
-      "change_pct": "-0.25"
+      "price": "99.78",
+      "change_pct": "0.00"
     }
   ],
-  "verdict": "Defensive rotation continues as inflation and geopolitical risks trump AI optimism, favoring energy and commodities over tech and crypto.",
+  "verdict": "Markets await Friday's jobs report amid geopolitical volatility, weak payroll expectations, and elevated oil prices that cloud the Fed's path forward.",
   "sentiment": "bearish",
   "sources": [
-    "https://www.cnbc.com/2026/07/23/stock-market-today-live-updates.html",
-    "https://seekingalpha.com/article/4925619-the-1-minute-market-report-july-25-2026",
-    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-july-24-2026-crypto-prices-retreat-on-higher-us-treasury-yields-152200068.html",
-    "https://www.fool.com/coverage/stock-market-today/2026/07/24/stock-market-today-july-24-dow-recovers-and-sandisk-tumbles-11-as-tech-stocks-fall-further/",
-    "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-july-22-dow-sp-500-nasdaq-alphabet-tesla-earnings-in-focus-083644887.html",
-    "https://ts2.tech/en/stock-market-today-25-07-2026/"
+    "https://www.bloomberg.com/news/articles/2026-08-06/stock-market-today-dow-s-p-live-updates",
+    "https://tradingeconomics.com/united-states/stock-market",
+    "https://www.cnbc.com/2026/08/06/the-july-jobs-numbers-are-due-out-friday-heres-what-to-expect.html",
+    "https://www.coingabbar.com/en/crypto-currency-news/crypto-news-today-bitcoin-eth-stablecoins-defi-market-drops",
+    "https://www.nbcnews.com/business/economy/july-2026-jobs-report-rcna591138"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 39,
-      "label": "Fear",
-      "previous_close": 40,
-      "updated": "2026-07-24T23:59:54+00:00"
+      "value": 60,
+      "label": "Greed",
+      "previous_close": 60,
+      "updated": "2026-08-07T10:40:46+00:00"
     },
     "crypto": {
-      "value": 27,
+      "value": 29,
       "label": "Fear",
-      "updated": "2026-07-25T00:00:00.000Z"
+      "updated": "2026-08-07T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-07-25T17:58:55.880Z",
+  "generated_at": "2026-08-07T10:59:57.640Z",
   "model": "claude-sonnet-4-5-20250929"
 }
