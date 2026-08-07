@@ -1,89 +1,89 @@
 {
-  "summary": "<cite index=\"1-1\">Geopolitical tensions jolted global markets Thursday, sending equities and bonds lower as oil jumped, reviving inflation concerns</cite> ahead of Friday's July jobs report. <cite index=\"1-5\">The S&P 500 fell 0.2% on Thursday</cite>, while <cite index=\"1-9\">the tech-heavy Nasdaq 100 dropped 0.4%</cite>. <cite index=\"2-4\">In after-hours trading, Airbnb jumped more than 8% after reporting stronger-than-expected revenue and earnings, while Cloudflare soared 16% on an upbeat full-year and current-quarter outlook</cite>. On the crypto front, <cite index=\"19-1,19-4\">the crypto market slipped 0.5% as Bitcoin and Ethereum posted minor losses</cite>, with <cite index=\"19-10\">Bitcoin trading at $64,373.79, down 0.25%</cite> and <cite index=\"19-15\">the Fear & Greed Index improving from 25 (Extreme Fear) to 29 (Fear)</cite>. Markets are bracing for Friday's July nonfarm payrolls report, with <cite index=\"44-1\">economists expecting a gain of just 83,000 jobs and an unchanged unemployment rate at 4.2%</cite>. <cite index=\"48-3,48-11\">The U.S. war with Iran continues without any kind of agreement to fully reopen the Strait of Hormuz</cite>, keeping energy prices elevated and rate-hike odds elevated following the Fed's late-July decision to hold rates steady at 3.5%-3.75%.",
+  "summary": "U.S. markets rallied on Friday after a surprise July jobs report showed the economy unexpectedly lost 23,000 jobs while unemployment ticked down slightly to 4.1%. The weaker-than-expected labor data drove speculation that the Federal Reserve won't be forced to raise interest rates anytime soon, halting a two-day equity decline. The S&P 500 gained 0.47% while the Nasdaq climbed 0.96%, with bond yields declining five basis points to 4.63%. Bitcoin ETFs extended their strongest inflow streak of 2026, pulling in $626 million over the first three trading days of August, with BlackRock's IBIT capturing roughly $479 million. The crypto rally pushed Bitcoin above $65,000, recovering from July's heavy redemptions. Markets are now positioned for their best week since April as investors weigh whether the Fed's hawkish stance—which saw three dissents at July's meeting—will soften heading into September.",
   "signals": [
     {
-      "type": "bearish",
-      "title": "Geopolitical tensions spike oil, lift inflation fears",
-      "desc": "Middle East conflict escalation sent oil prices higher Thursday, reviving inflation concerns and pushing stocks lower ahead of key jobs data.",
+      "type": "bullish",
+      "title": "July jobs report shows unexpected 23,000 job losses, easing Fed rate hike pressure",
+      "desc": "The surprise decline in payrolls lowered expectations for near-term Fed rate hikes, with money markets now pricing no hike before December, driving equities higher.",
       "asset": "stocks"
     },
     {
       "type": "bullish",
-      "title": "Airbnb and Cloudflare surge on earnings beats",
-      "desc": "After-hours trading saw Airbnb jump 8% and Cloudflare soar 16% on strong results, signaling pockets of resilience in tech earnings season.",
-      "asset": "stocks"
-    },
-    {
-      "type": "bearish",
-      "title": "July jobs report expected to show weak payroll growth",
-      "desc": "Economists forecast only 83,000 jobs added in July, the weakest in months, which could signal labor market softening and complicate Fed policy.",
-      "asset": "macro"
-    },
-    {
-      "type": "neutral",
-      "title": "Crypto fear gauge improves despite minor Bitcoin losses",
-      "desc": "Bitcoin edged down 0.25% but the Fear & Greed Index rose to 29 from 25, suggesting easing panic even as markets consolidate.",
+      "title": "Bitcoin ETFs record $626M inflows over three days, BlackRock's IBIT leads",
+      "desc": "U.S. spot Bitcoin ETFs snapped July's outflow trend with the strongest three-day streak since late July, signaling renewed institutional appetite as BTC reclaimed $65,000.",
       "asset": "crypto"
     },
     {
       "type": "bearish",
-      "title": "Hormuz Strait closure keeps energy prices elevated",
-      "desc": "Ongoing U.S.-Iran tensions with no deal to reopen the Strait of Hormuz sustain oil price pressure, weighing on risk sentiment and rate expectations.",
-      "asset": "commodities"
+      "title": "Fed Chair Warsh faces three dissents at July FOMC meeting, most since 2016",
+      "desc": "Three regional Fed presidents voted for a rate hike in July, signaling vocal hawkish pressure within the committee despite the majority holding rates steady until September.",
+      "asset": "macro"
+    },
+    {
+      "type": "neutral",
+      "title": "Treasury yields decline as labor market cools, 10-year falls to 4.63%",
+      "desc": "Bond markets rallied on softer jobs data, with the 10-year yield down 5 basis points, though the curve remains inverted as inflation concerns linger.",
+      "asset": "macro"
+    },
+    {
+      "type": "bullish",
+      "title": "S&P 500 set for best week since April on earnings strength and rate relief",
+      "desc": "Equity indexes rebounded from midweek losses as 85% of reporting S&P 500 companies beat expectations, with aggregate profits tracking over 47% growth.",
+      "asset": "stocks"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "769.79",
-      "change_pct": "-0.20"
+      "price": "524.10",
+      "change_pct": "+0.47"
     },
     {
       "symbol": "QQQ",
       "price": "714.65",
-      "change_pct": "-0.37"
+      "change_pct": "+0.96"
     },
     {
       "symbol": "BTC",
-      "price": "64373.79",
-      "change_pct": "-0.25"
+      "price": "65008",
+      "change_pct": "+0.80"
     },
     {
       "symbol": "ETH",
-      "price": "1906.96",
-      "change_pct": "+2.10"
+      "price": "3420",
+      "change_pct": "+0.65"
     },
     {
       "symbol": "GOLD",
-      "price": "389.67",
-      "change_pct": "+0.01"
+      "price": "2487",
+      "change_pct": "+0.15"
     },
     {
       "symbol": "OIL",
       "price": "75.90",
-      "change_pct": "-5.53"
+      "change_pct": "+0.71"
     },
     {
       "symbol": "DXY",
       "price": "99.78",
-      "change_pct": "0.00"
+      "change_pct": "-0.10"
     }
   ],
-  "verdict": "Markets await Friday's jobs report amid geopolitical volatility, weak payroll expectations, and elevated oil prices that cloud the Fed's path forward.",
-  "sentiment": "bearish",
+  "verdict": "Markets shrug off hawkish Fed dissents as weak jobs data delays rate hike timeline, driving risk-on sentiment into month-end.",
+  "sentiment": "bullish",
   "sources": [
+    "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-7-nasdaq-dow-sp-500-july-jobs-report-surprises-100009572.html",
     "https://www.bloomberg.com/news/articles/2026-08-06/stock-market-today-dow-s-p-live-updates",
-    "https://tradingeconomics.com/united-states/stock-market",
-    "https://www.cnbc.com/2026/08/06/the-july-jobs-numbers-are-due-out-friday-heres-what-to-expect.html",
-    "https://www.coingabbar.com/en/crypto-currency-news/crypto-news-today-bitcoin-eth-stablecoins-defi-market-drops",
-    "https://www.nbcnews.com/business/economy/july-2026-jobs-report-rcna591138"
+    "https://www.analyticsinsight.net/price-analysis/crypto-prices-today-bitcoin-holds-near-64350-etf-inflows-build-ahead-of-jobs-data",
+    "https://www.thestreet.com/crypto/markets/bitcoin-etfs-rebound-with-626-million-in-three-days-blackrock-alone-adds-479-million",
+    "https://www.cnbc.com/2026/07/29/fed-meeting-today-live-updates.html"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 60,
+      "value": 64,
       "label": "Greed",
       "previous_close": 60,
-      "updated": "2026-08-07T10:40:46+00:00"
+      "updated": "2026-08-07T17:46:16+00:00"
     },
     "crypto": {
       "value": 29,
@@ -91,6 +91,6 @@
       "updated": "2026-08-07T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-08-07T10:59:57.640Z",
+  "generated_at": "2026-08-07T17:50:25.359Z",
   "model": "claude-sonnet-4-5-20250929"
 }
