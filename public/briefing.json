@@ -1,96 +1,96 @@
 {
-  "summary": "U.S. markets rallied on Friday after a surprise July jobs report showed the economy unexpectedly lost 23,000 jobs while unemployment ticked down slightly to 4.1%. The weaker-than-expected labor data drove speculation that the Federal Reserve won't be forced to raise interest rates anytime soon, halting a two-day equity decline. The S&P 500 gained 0.47% while the Nasdaq climbed 0.96%, with bond yields declining five basis points to 4.63%. Bitcoin ETFs extended their strongest inflow streak of 2026, pulling in $626 million over the first three trading days of August, with BlackRock's IBIT capturing roughly $479 million. The crypto rally pushed Bitcoin above $65,000, recovering from July's heavy redemptions. Markets are now positioned for their best week since April as investors weigh whether the Fed's hawkish stance—which saw three dissents at July's meeting—will soften heading into September.",
+  "summary": "<cite index=\"7-10,7-11\">The S&P 500 rose on Friday as traders interpreted an unexpected loss of jobs in July as meaning the Federal Reserve won't need to raise interest rates soon</cite>, with <cite index=\"7-11,7-12\">the broad market index advancing 0.62% for a record close of 7,757.64, while the Nasdaq Composite climbed 1.3% to 26,690.62</cite>. <cite index=\"45-14,45-15\">Economists surveyed by Bloomberg had expected to see 80,000 new jobs created in July, but instead, 23,000 jobs were lost and the unemployment rate ticked down to 4.1%</cite>. <cite index=\"7-17\">Markets reacted to the report by taking a September rate hike off the table</cite>. The dovish repricing came just over a week after <cite index=\"10-2,10-3\">the FOMC voted 9-3 to keep rates steady, with regional presidents Beth Hammack, Neel Kashkari, and Lorie Logan dissenting in favor of a hike</cite>. On the earnings front, <cite index=\"7-4\">Atlassian shares surged more than 29% in premarket after beating FactSet consensus on revenue and earnings</cite>, while <cite index=\"7-6,7-7\">Wendy's dropped 2% after global sales decreased by more than 6% and the company withdrew its 2026 financial outlook</cite>. <cite index=\"45-13,47-3\">Bitcoin and ethereum prices responded positively to the weak jobs report, with both firming up as cooler labor data tends to support risk assets</cite>.",
   "signals": [
     {
       "type": "bullish",
-      "title": "July jobs report shows unexpected 23,000 job losses, easing Fed rate hike pressure",
-      "desc": "The surprise decline in payrolls lowered expectations for near-term Fed rate hikes, with money markets now pricing no hike before December, driving equities higher.",
-      "asset": "stocks"
+      "title": "July jobs report shocks with 23K job losses, killing rate-hike bets",
+      "desc": "Unexpected job losses sparked a rally in stocks and crypto as markets priced out a September Fed hike, reducing monetary tightening risk.",
+      "asset": "macro"
+    },
+    {
+      "type": "bearish",
+      "title": "Fed hawks emerge: 3-member dissent strongest since 2016",
+      "desc": "Three regional Fed presidents voted for a hike at July's FOMC meeting, signaling hawkish resistance and inflation concerns persist.",
+      "asset": "macro"
     },
     {
       "type": "bullish",
-      "title": "Bitcoin ETFs record $626M inflows over three days, BlackRock's IBIT leads",
-      "desc": "U.S. spot Bitcoin ETFs snapped July's outflow trend with the strongest three-day streak since late July, signaling renewed institutional appetite as BTC reclaimed $65,000.",
+      "title": "Atlassian crushes earnings, stock surges 29% premarket",
+      "desc": "Strong Q4 revenue and earnings beat lifted the software name sharply higher, though full-year guidance was slightly below estimates.",
+      "asset": "stocks"
+    },
+    {
+      "type": "neutral",
+      "title": "Crypto holds $65K/$1,910 as weak jobs data eases Fed pressure",
+      "desc": "Bitcoin and Ethereum firmed modestly after the jobs miss cooled rate-hike odds, but geopolitical and legislative headwinds limit upside momentum.",
       "asset": "crypto"
     },
     {
       "type": "bearish",
-      "title": "Fed Chair Warsh faces three dissents at July FOMC meeting, most since 2016",
-      "desc": "Three regional Fed presidents voted for a rate hike in July, signaling vocal hawkish pressure within the committee despite the majority holding rates steady until September.",
-      "asset": "macro"
-    },
-    {
-      "type": "neutral",
-      "title": "Treasury yields decline as labor market cools, 10-year falls to 4.63%",
-      "desc": "Bond markets rallied on softer jobs data, with the 10-year yield down 5 basis points, though the curve remains inverted as inflation concerns linger.",
-      "asset": "macro"
-    },
-    {
-      "type": "bullish",
-      "title": "S&P 500 set for best week since April on earnings strength and rate relief",
-      "desc": "Equity indexes rebounded from midweek losses as 85% of reporting S&P 500 companies beat expectations, with aggregate profits tracking over 47% growth.",
+      "title": "Wendy's withdraws 2026 outlook as U.S. sales plunge 8.2%",
+      "desc": "Restaurant chain pulled guidance and posted sharp sales declines despite beating earnings, signaling weak consumer demand in quick-service.",
       "asset": "stocks"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "524.10",
-      "change_pct": "+0.47"
+      "price": "768.56",
+      "change_pct": "-0.16"
     },
     {
       "symbol": "QQQ",
       "price": "714.65",
-      "change_pct": "+0.96"
+      "change_pct": "-0.37"
     },
     {
       "symbol": "BTC",
-      "price": "65008",
-      "change_pct": "+0.80"
+      "price": "65143",
+      "change_pct": "+1.37"
     },
     {
       "symbol": "ETH",
-      "price": "3420",
-      "change_pct": "+0.65"
+      "price": "1910",
+      "change_pct": "+0.41"
     },
     {
       "symbol": "GOLD",
-      "price": "2487",
-      "change_pct": "+0.15"
+      "price": "2485",
+      "change_pct": "+1.20"
     },
     {
       "symbol": "OIL",
-      "price": "75.90",
-      "change_pct": "+0.71"
+      "price": "83.50",
+      "change_pct": "-6.50"
     },
     {
       "symbol": "DXY",
-      "price": "99.78",
-      "change_pct": "-0.10"
+      "price": "103.20",
+      "change_pct": "-0.35"
     }
   ],
-  "verdict": "Markets shrug off hawkish Fed dissents as weak jobs data delays rate hike timeline, driving risk-on sentiment into month-end.",
-  "sentiment": "bullish",
+  "verdict": "Risk assets are rallying on dovish repricing after the shockingly weak July jobs report, but hawkish Fed dissents and lingering geopolitical tensions keep volatility elevated.",
+  "sentiment": "mixed",
   "sources": [
-    "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-7-nasdaq-dow-sp-500-july-jobs-report-surprises-100009572.html",
+    "https://www.cnbc.com/2026/08/06/stock-market-today-live-updates.html",
     "https://www.bloomberg.com/news/articles/2026-08-06/stock-market-today-dow-s-p-live-updates",
-    "https://www.analyticsinsight.net/price-analysis/crypto-prices-today-bitcoin-holds-near-64350-etf-inflows-build-ahead-of-jobs-data",
-    "https://www.thestreet.com/crypto/markets/bitcoin-etfs-rebound-with-626-million-in-three-days-blackrock-alone-adds-479-million",
-    "https://www.cnbc.com/2026/07/29/fed-meeting-today-live-updates.html"
+    "https://www.cnbc.com/2026/07/29/fed-meeting-today-live-updates.html",
+    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-august-7-2026-crypto-prices-moving-higher-following-july-jobs-report-131451960.html",
+    "https://www.thestreet.com/crypto/investing/ethereum-price-today-august-7-2026"
   ],
   "fear_greed": {
     "stocks": {
       "value": 64,
       "label": "Greed",
       "previous_close": 60,
-      "updated": "2026-08-07T17:46:16+00:00"
+      "updated": "2026-08-07T23:59:47+00:00"
     },
     "crypto": {
-      "value": 29,
+      "value": 30,
       "label": "Fear",
-      "updated": "2026-08-07T00:00:00.000Z"
+      "updated": "2026-08-08T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-08-07T17:50:25.359Z",
+  "generated_at": "2026-08-08T10:41:13.996Z",
   "model": "claude-sonnet-4-5-20250929"
 }
