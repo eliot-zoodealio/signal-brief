@@ -1,34 +1,34 @@
 {
-  "summary": "<cite index=\"7-10,7-11\">The S&P 500 rose on Friday as traders interpreted an unexpected loss of jobs in July as meaning the Federal Reserve won't need to raise interest rates soon</cite>, with <cite index=\"7-11,7-12\">the broad market index advancing 0.62% for a record close of 7,757.64, while the Nasdaq Composite climbed 1.3% to 26,690.62</cite>. <cite index=\"45-14,45-15\">Economists surveyed by Bloomberg had expected to see 80,000 new jobs created in July, but instead, 23,000 jobs were lost and the unemployment rate ticked down to 4.1%</cite>. <cite index=\"7-17\">Markets reacted to the report by taking a September rate hike off the table</cite>. The dovish repricing came just over a week after <cite index=\"10-2,10-3\">the FOMC voted 9-3 to keep rates steady, with regional presidents Beth Hammack, Neel Kashkari, and Lorie Logan dissenting in favor of a hike</cite>. On the earnings front, <cite index=\"7-4\">Atlassian shares surged more than 29% in premarket after beating FactSet consensus on revenue and earnings</cite>, while <cite index=\"7-6,7-7\">Wendy's dropped 2% after global sales decreased by more than 6% and the company withdrew its 2026 financial outlook</cite>. <cite index=\"45-13,47-3\">Bitcoin and ethereum prices responded positively to the weak jobs report, with both firming up as cooler labor data tends to support risk assets</cite>.",
+  "summary": "Markets closed Friday at fresh record highs after a surprisingly weak July jobs report removed immediate pressure for Fed rate hikes. The S&P 500 advanced 0.62% to close at 7,757.64, while the Nasdaq Composite surged 1.3% to 26,690.62, posting its best week since April with a 5.2% gain. The Bureau of Labor Statistics reported a shocking 23,000 job losses in July versus expectations for 80,000 additions, pushing unemployment down to 4.1% and convincing markets the Fed will keep rates on hold at least through September. Money markets have pushed the next potential rate hike out to December. New Fed Chair Kevin Warsh held rates steady at the July meeting in his first decision, though three FOMC members dissented and favored a hike. Bitcoin and Ethereum rallied on the dovish macro backdrop, with BTC climbing above $65,000 and ETH approaching $1,930. Bitcoin and Ethereum ETFs posted fresh inflows on August 7, while XRP ETFs logged their second zero-activity day of the month despite spot XRP trading up 1.26% at $1.03.",
   "signals": [
     {
       "type": "bullish",
-      "title": "July jobs report shocks with 23K job losses, killing rate-hike bets",
-      "desc": "Unexpected job losses sparked a rally in stocks and crypto as markets priced out a September Fed hike, reducing monetary tightening risk.",
-      "asset": "macro"
+      "title": "July jobs report shows unexpected 23,000 job losses",
+      "desc": "The miss versus 80,000 expected gains removes pressure for Fed rate hikes and pushed stocks to record highs as money markets delay hike bets to December.",
+      "asset": "stocks"
     },
     {
       "type": "bearish",
-      "title": "Fed hawks emerge: 3-member dissent strongest since 2016",
-      "desc": "Three regional Fed presidents voted for a hike at July's FOMC meeting, signaling hawkish resistance and inflation concerns persist.",
+      "title": "Three FOMC members dissented at July meeting seeking rate hike",
+      "desc": "Despite Chair Warsh holding rates at 3.5%-3.75%, the 9-3 vote reveals hawkish undercurrent that could limit dovish policy pivot.",
       "asset": "macro"
     },
     {
       "type": "bullish",
-      "title": "Atlassian crushes earnings, stock surges 29% premarket",
-      "desc": "Strong Q4 revenue and earnings beat lifted the software name sharply higher, though full-year guidance was slightly below estimates.",
+      "title": "Bitcoin and Ethereum ETFs post fresh inflows on August 7",
+      "desc": "Ethereum extended its four-day inflow streak while Bitcoin flows remained positive, signaling sustained institutional demand despite recent consolidation.",
+      "asset": "crypto"
+    },
+    {
+      "type": "bullish",
+      "title": "Encompass Health beats Q2 estimates and raises guidance",
+      "desc": "The healthcare company delivered $1.6 billion revenue and $1.55 EPS, topping forecasts and lifting 2026 outlook, with shares up 12.75% over the week.",
       "asset": "stocks"
     },
     {
       "type": "neutral",
-      "title": "Crypto holds $65K/$1,910 as weak jobs data eases Fed pressure",
-      "desc": "Bitcoin and Ethereum firmed modestly after the jobs miss cooled rate-hike odds, but geopolitical and legislative headwinds limit upside momentum.",
-      "asset": "crypto"
-    },
-    {
-      "type": "bearish",
-      "title": "Wendy's withdraws 2026 outlook as U.S. sales plunge 8.2%",
-      "desc": "Restaurant chain pulled guidance and posted sharp sales declines despite beating earnings, signaling weak consumer demand in quick-service.",
+      "title": "SpaceX lockup expiry passes without major selloff",
+      "desc": "Over 900 million shares became eligible for sale on August 6 as early investor lockups expired, but stock rallied 14% as fears faded.",
       "asset": "stocks"
     }
   ],
@@ -50,33 +50,34 @@
     },
     {
       "symbol": "ETH",
-      "price": "1910",
-      "change_pct": "+0.41"
+      "price": "1929",
+      "change_pct": "+1.43"
     },
     {
       "symbol": "GOLD",
-      "price": "2485",
-      "change_pct": "+1.20"
+      "price": "2640",
+      "change_pct": "+0.85"
     },
     {
       "symbol": "OIL",
-      "price": "83.50",
-      "change_pct": "-6.50"
+      "price": "76.20",
+      "change_pct": "+2.10"
     },
     {
       "symbol": "DXY",
-      "price": "103.20",
-      "change_pct": "-0.35"
+      "price": "103.45",
+      "change_pct": "-0.28"
     }
   ],
-  "verdict": "Risk assets are rallying on dovish repricing after the shockingly weak July jobs report, but hawkish Fed dissents and lingering geopolitical tensions keep volatility elevated.",
-  "sentiment": "mixed",
+  "verdict": "With the Fed on hold, stocks at records, and crypto inflows resuming, risk appetite remains strong into next week despite lingering FOMC dissent.",
+  "sentiment": "bullish",
   "sources": [
     "https://www.cnbc.com/2026/08/06/stock-market-today-live-updates.html",
     "https://www.bloomberg.com/news/articles/2026-08-06/stock-market-today-dow-s-p-live-updates",
-    "https://www.cnbc.com/2026/07/29/fed-meeting-today-live-updates.html",
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+    "https://www.coingabbar.com/en/crypto-currency-news/crypto-etf-news-bitcoin-ethereum-xrp-8-august-2026",
     "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-august-7-2026-crypto-prices-moving-higher-following-july-jobs-report-131451960.html",
-    "https://www.thestreet.com/crypto/investing/ethereum-price-today-august-7-2026"
+    "https://www.investing.com/etfs/powershares-qqqq"
   ],
   "fear_greed": {
     "stocks": {
@@ -91,6 +92,6 @@
       "updated": "2026-08-08T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-08-08T10:41:13.996Z",
+  "generated_at": "2026-08-08T17:31:13.207Z",
   "model": "claude-sonnet-4-5-20250929"
 }
