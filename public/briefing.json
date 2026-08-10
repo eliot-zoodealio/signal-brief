@@ -1,97 +1,96 @@
 {
-  "summary": "Markets are digesting Friday's surprising July jobs report which showed a loss of 23,000 jobs versus expectations of 80,000 gains, with unemployment ticking down to 4.1%. The S&P 500 closed at a record 7,757.64 on Friday, up 0.62%, while the Nasdaq climbed 1.3% to 26,690.62 as investors interpreted the weak employment data as reducing the likelihood of Fed rate hikes. Geopolitical risks have eased with progress on Strait of Hormuz negotiations, driving oil prices down over 7% for the week. Amazon surged 17% weekly after beating earnings and demonstrating strong AI infrastructure returns, while mega-cap tech earnings season has shown robust 29% year-over-year S&P 500 earnings growth. Bitcoin firmed to $65,143 and Ethereum to $1,929 following the jobs miss, as the crypto Fear & Greed Index improved from extreme fear to 29. The Fed held rates steady at its July 29 meeting with three dissents favoring hikes, keeping the 'higher for longer' narrative intact despite weakening labor data.",
+  "summary": "<cite index=\"1-4\">Wall Street closed higher on Friday as weak jobs data for July raised hope that the Federal Reserve may hold interest rates steady for longer.</cite> <cite index=\"8-4\">Stocks surged last Friday on lowered rate hike expectations after a surprise negative July payroll reading raised fears about the jobs market.</cite> However, <cite index=\"5-11,5-12,5-13\">the S&P 500 was relatively unchanged on Monday amid growing doubts that the U.S. and Iran will come to a lasting resolution to the conflict in the near term. The broad index traded down 0.1%, while the Nasdaq Composite declined 0.4%. The Dow Jones Industrial Average was down 136 points, or 0.3%.</cite> <cite index=\"5-3\">Oil rose Monday, as traders continue to assess mixed signals from the U.S. and Iran amid worries that a deal between both countries to open the Strait of Hormuz may not be anytime soon.</cite> <cite index=\"5-14\">Intel was a key laggard of the session, falling 3% after the company said it's going to be offering $15 billion in common stock.</cite> Meanwhile, <cite index=\"44-11,44-12,44-13\">while the price of ethereum continues to hold within a narrow price range, the price of bitcoin has hit high marks above $65,000 for the past four days. Bitcoin and ethereum prices moved upward following a much more negative jobs report on Friday than many economists had predicted. Analysts reduced expectations for a September Fed rate increase following the July employment report, but with two key inflation reports expected this week, we'll see if the rate-change scales tip back in the other direction.</cite>",
   "signals": [
     {
-      "type": "bullish",
-      "title": "July jobs report shocks with 23K losses, cooling Fed rate hike expectations",
-      "desc": "Economists expected 80,000 job gains but instead saw losses, sharply reducing odds of Fed tightening and lifting equities and crypto.",
-      "asset": "stocks"
-    },
-    {
-      "type": "bullish",
-      "title": "S&P 500 closes at record 7,757.64 as tech mega-caps surge on AI earnings strength",
-      "desc": "Amazon jumped 17% weekly while S&P 500 earnings are tracking 29% year-over-year growth, with mega-caps driving nearly half of 2026 EPS gains.",
-      "asset": "stocks"
-    },
-    {
-      "type": "bullish",
-      "title": "Oil plunges 7% weekly as Strait of Hormuz deal progresses, easing geopolitical risk",
-      "desc": "Treasury Secretary Bessent indicated a deal could come imminently to reopen the strait, sending WTI down 5.7% to $75.77 and Brent down 5.3% to $79.36.",
+      "type": "bearish",
+      "title": "Strait of Hormuz tensions drive oil above $85, pressure equities",
+      "desc": "Iran insists the U.S. must meet several demands before reopening the Strait of Hormuz, pushing WTI oil prices up 2% and pressuring stock indexes amid renewed inflation concerns.",
       "asset": "commodities"
     },
     {
       "type": "bearish",
-      "title": "Fed dissent intensifies with three members voting for hikes at July meeting",
-      "desc": "Despite holding rates at 3.5%-3.75%, three FOMC members dissented in favor of tightening, signaling inflation concerns persist and rate cuts remain distant.",
+      "title": "Intel announces $15B stock offering, shares drop 4%",
+      "desc": "Intel's massive dilutive equity raise sent shares tumbling 4% and dragged semiconductor and tech names lower, contributing to Nasdaq underperformance.",
+      "asset": "stocks"
+    },
+    {
+      "type": "bullish",
+      "title": "Weak July jobs data reduces Fed rate hike expectations",
+      "desc": "A surprise negative July payroll reading cooled expectations for additional Fed rate hikes, boosting risk assets including stocks and crypto on Friday.",
       "asset": "macro"
     },
     {
-      "type": "neutral",
-      "title": "Bitcoin and Ethereum consolidate near $65K and $1,930 as regulatory clarity stalls",
-      "desc": "Crypto investors await progress on the Clarity Act through Congress while institutional activity remains muted despite improved sentiment from extreme fear.",
+      "type": "bullish",
+      "title": "Bitcoin holds above $65,000 for fourth consecutive day",
+      "desc": "Bitcoin sustained gains above $65,000 on softer Fed rate hike expectations, while crypto ETFs saw $1.1 billion in inflows last week despite low trading volume.",
       "asset": "crypto"
+    },
+    {
+      "type": "neutral",
+      "title": "CPI and PPI inflation data loom mid-week",
+      "desc": "Key inflation reports due Tuesday and Wednesday could reshape rate expectations and determine whether Friday's dovish pivot holds or reverses, creating volatility.",
+      "asset": "macro"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "777.50",
-      "change_pct": "+0.62"
+      "price": "768.56",
+      "change_pct": "-0.16"
     },
     {
       "symbol": "QQQ",
-      "price": "723.03",
-      "change_pct": "+1.17"
+      "price": "714.65",
+      "change_pct": "-0.37"
     },
     {
       "symbol": "BTC",
-      "price": "65143.87",
-      "change_pct": "+1.38"
+      "price": "65003",
+      "change_pct": "+0.10"
     },
     {
       "symbol": "ETH",
-      "price": "1929.36",
-      "change_pct": "+1.43"
+      "price": "1913",
+      "change_pct": "+0.26"
     },
     {
       "symbol": "GOLD",
-      "price": "2485.00",
+      "price": "398.47",
       "change_pct": "+2.26"
     },
     {
       "symbol": "OIL",
-      "price": "75.77",
-      "change_pct": "-5.69"
+      "price": "85.23",
+      "change_pct": "+2.00"
     },
     {
       "symbol": "DXY",
-      "price": "103.20",
+      "price": "103.45",
       "change_pct": "+0.15"
     }
   ],
-  "verdict": "Risk-on rally extends on dovish labor data and easing geopolitical tensions, but Fed dissent and AI capex scrutiny warrant caution into next week.",
-  "sentiment": "bullish",
+  "verdict": "Markets drift near all-time highs but face headwinds from Strait of Hormuz tensions and upcoming CPI data that could reshape rate expectations and test recent dovish pivot.",
+  "sentiment": "mixed",
   "sources": [
-    "https://www.cnbc.com/2026/08/06/stock-market-today-live-updates.html",
-    "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-7-nasdaq-dow-sp-500-july-jobs-report-surprises-100009572.html",
-    "https://www.cnbc.com/2026/08/03/stock-market-today-live-updates.html",
-    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-august-7-2026-crypto-prices-moving-higher-following-july-jobs-report-131451960.html",
-    "https://www.forbes.com/sites/bill_stone/2026/08/01/big-tech-faces-capex-vigilantes-as-earnings-surge/",
-    "https://www.cnbc.com/2026/07/29/fed-meeting-today-live-updates.html"
+    "https://sg.finance.yahoo.com/news/stock-market-news-aug-10-085400959.html",
+    "https://www.cnbc.com/2026/08/09/stock-market-today-live-updates.html",
+    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-august-10-2026-btc-breaking-past-65000-yet-again-125722282.html",
+    "https://investrade.com/mid-morning-look-august-10-2026/",
+    "https://ts2.tech/en/stock-market-today-10-08-2026/"
   ],
   "fear_greed": {
     "stocks": {
       "value": 64,
       "label": "Greed",
-      "previous_close": 60,
-      "updated": "2026-08-07T23:59:47+00:00"
+      "previous_close": 64,
+      "updated": "2026-08-10T17:46:23+00:00"
     },
     "crypto": {
-      "value": 31,
+      "value": 30,
       "label": "Fear",
-      "updated": "2026-08-09T00:00:00.000Z"
+      "updated": "2026-08-10T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-08-09T17:32:04.443Z",
+  "generated_at": "2026-08-10T17:52:10.110Z",
   "model": "claude-sonnet-4-5-20250929"
 }
