@@ -1,67 +1,67 @@
 {
-  "summary": "Markets took a breather Monday after hitting fresh highs last week, with the S&P 500 slipping 0.06% as oil prices surged nearly 5% on renewed Middle East tensions. WTI crude topped $80 per barrel following Houthi attacks on Saudi refineries and stalled Iran-Oman negotiations over the Strait of Hormuz, pushing 10-year Treasury yields up six basis points to 4.71% and reviving inflation concerns ahead of Wednesday's critical July CPI release. The Fed's divided 9-3 vote at its July 29 meeting—the most dissent since 2016—has left markets on edge, with three regional Fed presidents dissenting in favor of rate hikes as Chair Warsh holds the line at 3.50-3.75%. Crypto markets posted a contrasting picture: Bitcoin ETFs drew over $850 million in weekly inflows, the strongest performance since April, led by BlackRock's IBIT with $693 million. Ethereum ETFs extended their streak to four consecutive days of inflows, pulling in $50 million on August 7 alone. Nvidia shares fell 3% on reports of a $500 billion AI infrastructure funding partnership with Apollo Global and Blackstone, weighing on tech indexes.",
+  "summary": "Markets traded narrowly lower Tuesday as geopolitical tensions in the Strait of Hormuz reignited after President Trump demanded compensation from Iran, stalling diplomatic progress and pushing oil back above $82. The Dow, S&P 500, and Nasdaq all dipped modestly, with tech giants Apple and Nvidia weighing on indices. Investors are now laser-focused on Wednesday's July CPI release, which is expected to show headline inflation rising 0.1% month-over-month and 3.4% year-over-year, a key input for the Fed's September rate decision. Crypto pulled back from recent highs, with Bitcoin falling 1.4% to open near $63,912 and Ethereum down 2% to $1,871, as institutional selling pressure resurfaced and traders braced for inflation data. In corporate news, Riot Platforms reportedly struck a $9 billion AI infrastructure deal with Anthropic, marking a dramatic pivot from bitcoin mining to artificial intelligence. Meanwhile, gold ETFs saw strong inflows and AbCellera Biologics surged nearly 40% on positive clinical trial results.",
   "signals": [
     {
       "type": "bearish",
-      "title": "Oil spike revives inflation fears ahead of CPI",
-      "desc": "WTI crude surged 5% to above $80/barrel on Middle East tensions, pushing Treasury yields to 4.71% and raising concerns that Wednesday's July CPI print could complicate the Fed's rate path.",
-      "asset": "commodities"
-    },
-    {
-      "type": "bearish",
-      "title": "Fed's most divided vote since 2016 signals hawk-dove split",
-      "desc": "The FOMC's 9-3 decision on July 29 to hold rates at 3.50-3.75% marked the most dissent in eight years, with three regional presidents voting for hikes, leaving September policy unclear.",
-      "asset": "macro"
-    },
-    {
-      "type": "bullish",
-      "title": "Bitcoin ETFs post $850M weekly inflows, best since April",
-      "desc": "U.S. spot Bitcoin ETFs attracted over $850 million last week led by BlackRock's IBIT with $693M, signaling institutional demand recovery after brutal first-half outflows.",
-      "asset": "crypto"
-    },
-    {
-      "type": "bearish",
-      "title": "Nvidia drops 3% on $500B AI infrastructure funding news",
-      "desc": "Nvidia shares fell nearly 3% on reports of a massive AI infrastructure funding package with Apollo and Blackstone, weighing on the Nasdaq as investors digest capex scale.",
+      "title": "Trump Demands Iran Compensation, Stalling Hormuz Deal",
+      "desc": "President Trump's demand for compensation from Iran derailed diplomatic talks to reopen the Strait of Hormuz, pushing oil prices back above $82 and dragging equities lower.",
       "asset": "stocks"
     },
     {
       "type": "neutral",
-      "title": "Ethereum ETFs extend inflow streak to four days",
-      "desc": "Spot Ethereum ETFs pulled in $49.60 million on August 7, marking the fourth consecutive day of inflows at $244.94 million for the week, though volumes remain modest versus Bitcoin products.",
+      "title": "July CPI Release Wednesday Morning at 8:30 AM ET",
+      "desc": "Markets await key July inflation data expected to show 3.4% year-over-year CPI, which could shift expectations for Fed rate moves in September.",
+      "asset": "macro"
+    },
+    {
+      "type": "bearish",
+      "title": "Bitcoin and Ethereum Retreat Ahead of CPI Data",
+      "desc": "Bitcoin opened down 1.4% at $63,912 and Ethereum fell 2% to $1,871 as institutional selling pressure and inflation uncertainty weighed on crypto sentiment.",
       "asset": "crypto"
+    },
+    {
+      "type": "bullish",
+      "title": "Riot Platforms Pivots to AI with $9B Anthropic Deal",
+      "desc": "Riot Platforms announced a reported $9 billion agreement with Anthropic to shift from bitcoin mining to AI infrastructure, underscoring crypto-to-AI sector rotation.",
+      "asset": "stocks"
+    },
+    {
+      "type": "bullish",
+      "title": "Gold ETF Inflows Surge $626.8M on Safe-Haven Demand",
+      "desc": "The GLD ETF saw $626.8 million in inflows as shares outstanding rose 0.9%, reflecting demand for safe-haven assets amid geopolitical and inflation risks.",
+      "asset": "commodities"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "545.67",
-      "change_pct": "-0.06"
+      "price": "522.45",
+      "change_pct": "-0.10"
     },
     {
       "symbol": "QQQ",
-      "price": "720.87",
-      "change_pct": "+0.00"
+      "price": "719.59",
+      "change_pct": "-0.26"
     },
     {
       "symbol": "BTC",
-      "price": "64961",
-      "change_pct": "+1.00"
+      "price": "63981",
+      "change_pct": "-1.40"
     },
     {
       "symbol": "ETH",
-      "price": "1884",
-      "change_pct": "-1.92"
+      "price": "1871",
+      "change_pct": "-2.00"
     },
     {
       "symbol": "GOLD",
-      "price": "2458",
-      "change_pct": "+0.30"
+      "price": "228.89",
+      "change_pct": "+0.90"
     },
     {
       "symbol": "OIL",
-      "price": "80.40",
-      "change_pct": "+5.00"
+      "price": "82.00",
+      "change_pct": "+1.12"
     },
     {
       "symbol": "DXY",
@@ -69,22 +69,23 @@
       "change_pct": "+0.15"
     }
   ],
-  "verdict": "Markets face a critical inflection point with Wednesday's CPI release likely to determine whether the Fed can cut in September or hawkish dissenters gain the upper hand amid oil-driven inflation fears.",
+  "verdict": "Markets are in wait-and-see mode ahead of Wednesday's CPI print, with geopolitical risk and inflation uncertainty capping risk appetite across equities and crypto.",
   "sentiment": "mixed",
   "sources": [
     "https://www.bloomberg.com/news/articles/2026-08-10/stock-market-today-dow-s-p-live-updates",
-    "https://finance.yahoo.com/markets/live/stock-market-today-monday-august-10-dow-sp-500-nasdaq-104358890.html",
-    "https://www.cnbc.com/2026/07/29/fed-meeting-today-live-updates.html",
-    "https://www.bloomberg.com/news/articles/2026-08-10/bitcoin-btc-etf-inflows-hit-850-million-after-coldcard-wallet-hack",
-    "https://blog.kraken.com/economic-brief/august-5-2026",
-    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-10-2026"
+    "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-august-11-dow-sp-500-nasdaq-102827503.html",
+    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-11-2026",
+    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-august-11-2026-opening-prices-fall-back-ahead-of-inflation-reports-this-week-124608146.html",
+    "https://www.coindesk.com/",
+    "https://ts2.tech/en/stock-market-today-11-08-2026/",
+    "https://blog.kraken.com/economic-brief/august-5-2026"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 65,
+      "value": 61,
       "label": "Greed",
       "previous_close": 64,
-      "updated": "2026-08-11T10:38:16+00:00"
+      "updated": "2026-08-11T17:50:37+00:00"
     },
     "crypto": {
       "value": 29,
@@ -92,6 +93,6 @@
       "updated": "2026-08-11T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-08-11T10:57:10.275Z",
+  "generated_at": "2026-08-11T17:57:11.522Z",
   "model": "claude-sonnet-4-5-20250929"
 }
