@@ -1,96 +1,97 @@
 {
-  "summary": "<cite index=\"1-4\">Wall Street closed higher on Friday as weak jobs data for July raised hope that the Federal Reserve may hold interest rates steady for longer.</cite> <cite index=\"8-4\">Stocks surged last Friday on lowered rate hike expectations after a surprise negative July payroll reading raised fears about the jobs market.</cite> However, <cite index=\"5-11,5-12,5-13\">the S&P 500 was relatively unchanged on Monday amid growing doubts that the U.S. and Iran will come to a lasting resolution to the conflict in the near term. The broad index traded down 0.1%, while the Nasdaq Composite declined 0.4%. The Dow Jones Industrial Average was down 136 points, or 0.3%.</cite> <cite index=\"5-3\">Oil rose Monday, as traders continue to assess mixed signals from the U.S. and Iran amid worries that a deal between both countries to open the Strait of Hormuz may not be anytime soon.</cite> <cite index=\"5-14\">Intel was a key laggard of the session, falling 3% after the company said it's going to be offering $15 billion in common stock.</cite> Meanwhile, <cite index=\"44-11,44-12,44-13\">while the price of ethereum continues to hold within a narrow price range, the price of bitcoin has hit high marks above $65,000 for the past four days. Bitcoin and ethereum prices moved upward following a much more negative jobs report on Friday than many economists had predicted. Analysts reduced expectations for a September Fed rate increase following the July employment report, but with two key inflation reports expected this week, we'll see if the rate-change scales tip back in the other direction.</cite>",
+  "summary": "Markets took a breather Monday after hitting fresh highs last week, with the S&P 500 slipping 0.06% as oil prices surged nearly 5% on renewed Middle East tensions. WTI crude topped $80 per barrel following Houthi attacks on Saudi refineries and stalled Iran-Oman negotiations over the Strait of Hormuz, pushing 10-year Treasury yields up six basis points to 4.71% and reviving inflation concerns ahead of Wednesday's critical July CPI release. The Fed's divided 9-3 vote at its July 29 meeting—the most dissent since 2016—has left markets on edge, with three regional Fed presidents dissenting in favor of rate hikes as Chair Warsh holds the line at 3.50-3.75%. Crypto markets posted a contrasting picture: Bitcoin ETFs drew over $850 million in weekly inflows, the strongest performance since April, led by BlackRock's IBIT with $693 million. Ethereum ETFs extended their streak to four consecutive days of inflows, pulling in $50 million on August 7 alone. Nvidia shares fell 3% on reports of a $500 billion AI infrastructure funding partnership with Apollo Global and Blackstone, weighing on tech indexes.",
   "signals": [
     {
       "type": "bearish",
-      "title": "Strait of Hormuz tensions drive oil above $85, pressure equities",
-      "desc": "Iran insists the U.S. must meet several demands before reopening the Strait of Hormuz, pushing WTI oil prices up 2% and pressuring stock indexes amid renewed inflation concerns.",
+      "title": "Oil spike revives inflation fears ahead of CPI",
+      "desc": "WTI crude surged 5% to above $80/barrel on Middle East tensions, pushing Treasury yields to 4.71% and raising concerns that Wednesday's July CPI print could complicate the Fed's rate path.",
       "asset": "commodities"
     },
     {
       "type": "bearish",
-      "title": "Intel announces $15B stock offering, shares drop 4%",
-      "desc": "Intel's massive dilutive equity raise sent shares tumbling 4% and dragged semiconductor and tech names lower, contributing to Nasdaq underperformance.",
-      "asset": "stocks"
-    },
-    {
-      "type": "bullish",
-      "title": "Weak July jobs data reduces Fed rate hike expectations",
-      "desc": "A surprise negative July payroll reading cooled expectations for additional Fed rate hikes, boosting risk assets including stocks and crypto on Friday.",
+      "title": "Fed's most divided vote since 2016 signals hawk-dove split",
+      "desc": "The FOMC's 9-3 decision on July 29 to hold rates at 3.50-3.75% marked the most dissent in eight years, with three regional presidents voting for hikes, leaving September policy unclear.",
       "asset": "macro"
     },
     {
       "type": "bullish",
-      "title": "Bitcoin holds above $65,000 for fourth consecutive day",
-      "desc": "Bitcoin sustained gains above $65,000 on softer Fed rate hike expectations, while crypto ETFs saw $1.1 billion in inflows last week despite low trading volume.",
+      "title": "Bitcoin ETFs post $850M weekly inflows, best since April",
+      "desc": "U.S. spot Bitcoin ETFs attracted over $850 million last week led by BlackRock's IBIT with $693M, signaling institutional demand recovery after brutal first-half outflows.",
       "asset": "crypto"
     },
     {
+      "type": "bearish",
+      "title": "Nvidia drops 3% on $500B AI infrastructure funding news",
+      "desc": "Nvidia shares fell nearly 3% on reports of a massive AI infrastructure funding package with Apollo and Blackstone, weighing on the Nasdaq as investors digest capex scale.",
+      "asset": "stocks"
+    },
+    {
       "type": "neutral",
-      "title": "CPI and PPI inflation data loom mid-week",
-      "desc": "Key inflation reports due Tuesday and Wednesday could reshape rate expectations and determine whether Friday's dovish pivot holds or reverses, creating volatility.",
-      "asset": "macro"
+      "title": "Ethereum ETFs extend inflow streak to four days",
+      "desc": "Spot Ethereum ETFs pulled in $49.60 million on August 7, marking the fourth consecutive day of inflows at $244.94 million for the week, though volumes remain modest versus Bitcoin products.",
+      "asset": "crypto"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "768.56",
-      "change_pct": "-0.16"
+      "price": "545.67",
+      "change_pct": "-0.06"
     },
     {
       "symbol": "QQQ",
-      "price": "714.65",
-      "change_pct": "-0.37"
+      "price": "720.87",
+      "change_pct": "+0.00"
     },
     {
       "symbol": "BTC",
-      "price": "65003",
-      "change_pct": "+0.10"
+      "price": "64961",
+      "change_pct": "+1.00"
     },
     {
       "symbol": "ETH",
-      "price": "1913",
-      "change_pct": "+0.26"
+      "price": "1884",
+      "change_pct": "-1.92"
     },
     {
       "symbol": "GOLD",
-      "price": "398.47",
-      "change_pct": "+2.26"
+      "price": "2458",
+      "change_pct": "+0.30"
     },
     {
       "symbol": "OIL",
-      "price": "85.23",
-      "change_pct": "+2.00"
+      "price": "80.40",
+      "change_pct": "+5.00"
     },
     {
       "symbol": "DXY",
-      "price": "103.45",
+      "price": "103.20",
       "change_pct": "+0.15"
     }
   ],
-  "verdict": "Markets drift near all-time highs but face headwinds from Strait of Hormuz tensions and upcoming CPI data that could reshape rate expectations and test recent dovish pivot.",
+  "verdict": "Markets face a critical inflection point with Wednesday's CPI release likely to determine whether the Fed can cut in September or hawkish dissenters gain the upper hand amid oil-driven inflation fears.",
   "sentiment": "mixed",
   "sources": [
-    "https://sg.finance.yahoo.com/news/stock-market-news-aug-10-085400959.html",
-    "https://www.cnbc.com/2026/08/09/stock-market-today-live-updates.html",
-    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-august-10-2026-btc-breaking-past-65000-yet-again-125722282.html",
-    "https://investrade.com/mid-morning-look-august-10-2026/",
-    "https://ts2.tech/en/stock-market-today-10-08-2026/"
+    "https://www.bloomberg.com/news/articles/2026-08-10/stock-market-today-dow-s-p-live-updates",
+    "https://finance.yahoo.com/markets/live/stock-market-today-monday-august-10-dow-sp-500-nasdaq-104358890.html",
+    "https://www.cnbc.com/2026/07/29/fed-meeting-today-live-updates.html",
+    "https://www.bloomberg.com/news/articles/2026-08-10/bitcoin-btc-etf-inflows-hit-850-million-after-coldcard-wallet-hack",
+    "https://blog.kraken.com/economic-brief/august-5-2026",
+    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-10-2026"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 64,
+      "value": 65,
       "label": "Greed",
       "previous_close": 64,
-      "updated": "2026-08-10T17:46:23+00:00"
+      "updated": "2026-08-11T10:38:16+00:00"
     },
     "crypto": {
-      "value": 30,
+      "value": 29,
       "label": "Fear",
-      "updated": "2026-08-10T00:00:00.000Z"
+      "updated": "2026-08-11T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-08-10T17:52:10.110Z",
+  "generated_at": "2026-08-11T10:57:10.275Z",
   "model": "claude-sonnet-4-5-20250929"
 }
