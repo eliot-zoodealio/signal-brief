@@ -1,98 +1,97 @@
 {
-  "summary": "Markets traded narrowly lower Tuesday as geopolitical tensions in the Strait of Hormuz reignited after President Trump demanded compensation from Iran, stalling diplomatic progress and pushing oil back above $82. The Dow, S&P 500, and Nasdaq all dipped modestly, with tech giants Apple and Nvidia weighing on indices. Investors are now laser-focused on Wednesday's July CPI release, which is expected to show headline inflation rising 0.1% month-over-month and 3.4% year-over-year, a key input for the Fed's September rate decision. Crypto pulled back from recent highs, with Bitcoin falling 1.4% to open near $63,912 and Ethereum down 2% to $1,871, as institutional selling pressure resurfaced and traders braced for inflation data. In corporate news, Riot Platforms reportedly struck a $9 billion AI infrastructure deal with Anthropic, marking a dramatic pivot from bitcoin mining to artificial intelligence. Meanwhile, gold ETFs saw strong inflows and AbCellera Biologics surged nearly 40% on positive clinical trial results.",
+  "summary": "Markets posted modest gains Wednesday after July CPI data met expectations, rising 3.4% year-over-year and cooling slightly from June's 3.5% pace. The in-line inflation print kept Federal Reserve officials divided on rate policy following July's contentious 9-3 vote to hold rates at 3.5%-3.75%, where three regional presidents dissented in favor of a hike. AI infrastructure stocks drove the session's strength, with CoreWeave surging 20% on stronger-than-expected sales and Super Micro Computer advancing 15% after topping revenue forecasts. Bitcoin held above $64,000 while ethereum traded near $1,915 as crypto investors scaled back September rate hike expectations following last week's disappointing jobs report. The benign inflation data gives Chair Warsh breathing room, though geopolitical tensions around U.S.-Iran negotiations and Middle East energy supply remain a persistent headwind across risk assets.",
   "signals": [
     {
-      "type": "bearish",
-      "title": "Trump Demands Iran Compensation, Stalling Hormuz Deal",
-      "desc": "President Trump's demand for compensation from Iran derailed diplomatic talks to reopen the Strait of Hormuz, pushing oil prices back above $82 and dragging equities lower.",
-      "asset": "stocks"
-    },
-    {
       "type": "neutral",
-      "title": "July CPI Release Wednesday Morning at 8:30 AM ET",
-      "desc": "Markets await key July inflation data expected to show 3.4% year-over-year CPI, which could shift expectations for Fed rate moves in September.",
+      "title": "July CPI rises 3.4% year-over-year, matching expectations",
+      "desc": "Headline inflation cooled slightly from June's 3.5% but core CPI rose 0.2% monthly, keeping Fed officials split on whether to resume rate hikes in September.",
       "asset": "macro"
     },
     {
       "type": "bearish",
-      "title": "Bitcoin and Ethereum Retreat Ahead of CPI Data",
-      "desc": "Bitcoin opened down 1.4% at $63,912 and Ethereum fell 2% to $1,871 as institutional selling pressure and inflation uncertainty weighed on crypto sentiment.",
-      "asset": "crypto"
-    },
-    {
-      "type": "bullish",
-      "title": "Riot Platforms Pivots to AI with $9B Anthropic Deal",
-      "desc": "Riot Platforms announced a reported $9 billion agreement with Anthropic to shift from bitcoin mining to AI infrastructure, underscoring crypto-to-AI sector rotation.",
+      "title": "Fed holds rates at 3.5%-3.75% with three hawkish dissents",
+      "desc": "Three FOMC members voted to hike in July amid persistent inflation concerns, marking rare dissent under Chair Warsh and weighing on duration-sensitive assets.",
       "asset": "stocks"
     },
     {
       "type": "bullish",
-      "title": "Gold ETF Inflows Surge $626.8M on Safe-Haven Demand",
-      "desc": "The GLD ETF saw $626.8 million in inflows as shares outstanding rose 0.9%, reflecting demand for safe-haven assets amid geopolitical and inflation risks.",
+      "title": "AI infrastructure stocks surge on strong earnings beats",
+      "desc": "CoreWeave jumped 20% and Super Micro Computer rallied 15% after both companies posted better-than-expected revenue results, driving tech sector gains.",
+      "asset": "stocks"
+    },
+    {
+      "type": "bullish",
+      "title": "Crypto holds gains as rate hike expectations fade post-CPI",
+      "desc": "Bitcoin maintained levels above $64,000 and ethereum near $1,915 as traders reduced bets on a September rate increase following weak July jobs data and tame inflation.",
+      "asset": "crypto"
+    },
+    {
+      "type": "bearish",
+      "title": "U.S.-Iran impasse raises energy supply concerns",
+      "desc": "Stalled negotiations over Strait of Hormuz reopening and hardening demands around war compensation pressured equities Tuesday, with oil prices rising on supply risk.",
       "asset": "commodities"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "522.45",
-      "change_pct": "-0.10"
+      "price": "524.32",
+      "change_pct": "+0.30"
     },
     {
       "symbol": "QQQ",
-      "price": "719.59",
-      "change_pct": "-0.26"
+      "price": "723.03",
+      "change_pct": "+0.61"
     },
     {
       "symbol": "BTC",
-      "price": "63981",
-      "change_pct": "-1.40"
+      "price": "64194.00",
+      "change_pct": "+1.02"
     },
     {
       "symbol": "ETH",
-      "price": "1871",
-      "change_pct": "-2.00"
+      "price": "1915.50",
+      "change_pct": "+1.83"
     },
     {
       "symbol": "GOLD",
-      "price": "228.89",
-      "change_pct": "+0.90"
+      "price": "2475.00",
+      "change_pct": "+0.70"
     },
     {
       "symbol": "OIL",
-      "price": "82.00",
-      "change_pct": "+1.12"
+      "price": "82.50",
+      "change_pct": "-0.29"
     },
     {
       "symbol": "DXY",
-      "price": "103.20",
+      "price": "102.85",
       "change_pct": "+0.15"
     }
   ],
-  "verdict": "Markets are in wait-and-see mode ahead of Wednesday's CPI print, with geopolitical risk and inflation uncertainty capping risk appetite across equities and crypto.",
+  "verdict": "Stocks grind higher on in-line CPI as AI earnings offset Fed uncertainty, but geopolitical risks and divided FOMC keep the rally tentative.",
   "sentiment": "mixed",
   "sources": [
-    "https://www.bloomberg.com/news/articles/2026-08-10/stock-market-today-dow-s-p-live-updates",
-    "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-august-11-dow-sp-500-nasdaq-102827503.html",
-    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-11-2026",
-    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-august-11-2026-opening-prices-fall-back-ahead-of-inflation-reports-this-week-124608146.html",
-    "https://www.coindesk.com/",
-    "https://ts2.tech/en/stock-market-today-11-08-2026/",
-    "https://blog.kraken.com/economic-brief/august-5-2026"
+    "https://www.bls.gov/news.release/cpi.nr0.htm",
+    "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-august-12-dow-sp-500-nasdaq-cpi-report-091555133.html",
+    "https://www.cnbc.com/2026/07/29/fed-meeting-today-live-updates.html",
+    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-august-12-2026-crypto-prices-rise-with-cpi-report-on-deck-121022039.html",
+    "https://tradingeconomics.com/united-states/stock-market",
+    "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-august-11-dow-sp-500-nasdaq-102827503.html"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 61,
+      "value": 62,
       "label": "Greed",
-      "previous_close": 64,
-      "updated": "2026-08-11T17:50:37+00:00"
+      "previous_close": 61,
+      "updated": "2026-08-12T17:54:50+00:00"
     },
     "crypto": {
-      "value": 29,
+      "value": 27,
       "label": "Fear",
-      "updated": "2026-08-11T00:00:00.000Z"
+      "updated": "2026-08-12T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-08-11T17:57:11.522Z",
+  "generated_at": "2026-08-12T17:57:19.228Z",
   "model": "claude-sonnet-4-5-20250929"
 }
