@@ -1,97 +1,97 @@
 {
-  "summary": "Markets posted modest gains Wednesday after July CPI data met expectations, rising 3.4% year-over-year and cooling slightly from June's 3.5% pace. The in-line inflation print kept Federal Reserve officials divided on rate policy following July's contentious 9-3 vote to hold rates at 3.5%-3.75%, where three regional presidents dissented in favor of a hike. AI infrastructure stocks drove the session's strength, with CoreWeave surging 20% on stronger-than-expected sales and Super Micro Computer advancing 15% after topping revenue forecasts. Bitcoin held above $64,000 while ethereum traded near $1,915 as crypto investors scaled back September rate hike expectations following last week's disappointing jobs report. The benign inflation data gives Chair Warsh breathing room, though geopolitical tensions around U.S.-Iran negotiations and Middle East energy supply remain a persistent headwind across risk assets.",
+  "summary": "<cite index=\"18-3,22-8\">The July CPI report released Wednesday showed headline inflation rose 0.1% month-over-month and 3.4% year-over-year</cite>, coming in cooler than some expectations and <cite index=\"2-1\">reinforcing bets the Federal Reserve will refrain from raising interest rates next month</cite>. <cite index=\"39-10,39-11\">The July producer price index released Thursday was flat, below the 0.2% expected gain</cite>, further supporting dovish sentiment. <cite index=\"1-6\">Stocks rose after the key inflation report, while upbeat earnings from several technology companies helped support sentiment</cite>. <cite index=\"1-7,1-8\">CoreWeave surged 18% after narrowing losses and meeting revenue expectations, while Super Micro Computer jumped 9% after beating earnings</cite>. <cite index=\"39-1\">Tapestry fell 8.8% after offering disappointing guidance despite beating fourth-quarter earnings expectations</cite>. <cite index=\"6-2,6-3\">Wendy's surged more than 13% after a Financial Times report that investor Nelson Peltz is preparing a bid to take the company private through Trian Fund Management</cite>. <cite index=\"3-7\">Geopolitical tensions continue as Iran said the Strait of Hormuz remains under its control after President Trump made statements about the waterway</cite>.",
   "signals": [
     {
+      "type": "bullish",
+      "title": "July CPI and PPI data come in below expectations",
+      "desc": "Headline CPI rose just 0.1% monthly and PPI was flat versus 0.2% expected, reducing near-term rate hike odds and supporting risk assets.",
+      "asset": "stocks"
+    },
+    {
+      "type": "bullish",
+      "title": "CoreWeave and Super Micro beat earnings expectations",
+      "desc": "AI infrastructure names delivered strong results with CoreWeave up 18% and SMCI up 9%, signaling continued strength in AI capex spending.",
+      "asset": "stocks"
+    },
+    {
+      "type": "bullish",
+      "title": "Nelson Peltz prepares bid to take Wendy's private",
+      "desc": "Trian Fund Management is working on a buyout offer for Wendy's with co-investors, sending shares up over 13% on M&A speculation.",
+      "asset": "stocks"
+    },
+    {
+      "type": "bearish",
+      "title": "Tapestry guidance disappoints despite earnings beat",
+      "desc": "Luxury holding company fell 8.8% after offering weak forward outlook, signaling softening consumer demand for premium goods.",
+      "asset": "stocks"
+    },
+    {
       "type": "neutral",
-      "title": "July CPI rises 3.4% year-over-year, matching expectations",
-      "desc": "Headline inflation cooled slightly from June's 3.5% but core CPI rose 0.2% monthly, keeping Fed officials split on whether to resume rate hikes in September.",
-      "asset": "macro"
-    },
-    {
-      "type": "bearish",
-      "title": "Fed holds rates at 3.5%-3.75% with three hawkish dissents",
-      "desc": "Three FOMC members voted to hike in July amid persistent inflation concerns, marking rare dissent under Chair Warsh and weighing on duration-sensitive assets.",
-      "asset": "stocks"
-    },
-    {
-      "type": "bullish",
-      "title": "AI infrastructure stocks surge on strong earnings beats",
-      "desc": "CoreWeave jumped 20% and Super Micro Computer rallied 15% after both companies posted better-than-expected revenue results, driving tech sector gains.",
-      "asset": "stocks"
-    },
-    {
-      "type": "bullish",
-      "title": "Crypto holds gains as rate hike expectations fade post-CPI",
-      "desc": "Bitcoin maintained levels above $64,000 and ethereum near $1,915 as traders reduced bets on a September rate increase following weak July jobs data and tame inflation.",
-      "asset": "crypto"
-    },
-    {
-      "type": "bearish",
-      "title": "U.S.-Iran impasse raises energy supply concerns",
-      "desc": "Stalled negotiations over Strait of Hormuz reopening and hardening demands around war compensation pressured equities Tuesday, with oil prices rising on supply risk.",
+      "title": "Iran reaffirms control over Strait of Hormuz",
+      "desc": "Tehran's statement following Trump comments maintains geopolitical uncertainty but oil prices declined on the day, suggesting markets are pricing in contained risks.",
       "asset": "commodities"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "524.32",
-      "change_pct": "+0.30"
+      "price": "768.56",
+      "change_pct": "-0.16"
     },
     {
       "symbol": "QQQ",
-      "price": "723.03",
-      "change_pct": "+0.61"
-    },
-    {
-      "symbol": "BTC",
-      "price": "64194.00",
-      "change_pct": "+1.02"
-    },
-    {
-      "symbol": "ETH",
-      "price": "1915.50",
-      "change_pct": "+1.83"
-    },
-    {
-      "symbol": "GOLD",
-      "price": "2475.00",
+      "price": "722.58",
       "change_pct": "+0.70"
     },
     {
+      "symbol": "BTC",
+      "price": "64048",
+      "change_pct": "+0.00"
+    },
+    {
+      "symbol": "ETH",
+      "price": "1905",
+      "change_pct": "+1.10"
+    },
+    {
+      "symbol": "GOLD",
+      "price": "404.92",
+      "change_pct": "+0.99"
+    },
+    {
       "symbol": "OIL",
-      "price": "82.50",
-      "change_pct": "-0.29"
+      "price": "88.50",
+      "change_pct": "-1.20"
     },
     {
       "symbol": "DXY",
       "price": "102.85",
-      "change_pct": "+0.15"
+      "change_pct": "-0.35"
     }
   ],
-  "verdict": "Stocks grind higher on in-line CPI as AI earnings offset Fed uncertainty, but geopolitical risks and divided FOMC keep the rally tentative.",
-  "sentiment": "mixed",
+  "verdict": "Cooler inflation data and solid tech earnings drive equities toward fresh highs while reducing Fed hawkish pressure for September.",
+  "sentiment": "bullish",
   "sources": [
-    "https://www.bls.gov/news.release/cpi.nr0.htm",
-    "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-august-12-dow-sp-500-nasdaq-cpi-report-091555133.html",
-    "https://www.cnbc.com/2026/07/29/fed-meeting-today-live-updates.html",
-    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-august-12-2026-crypto-prices-rise-with-cpi-report-on-deck-121022039.html",
-    "https://tradingeconomics.com/united-states/stock-market",
-    "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-august-11-dow-sp-500-nasdaq-102827503.html"
+    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-13-2026",
+    "https://www.bloomberg.com/news/articles/2026-08-12/stock-market-today-dow-s-p-live-updates",
+    "https://www.bls.gov/news.release/cpi.htm",
+    "https://www.cnbc.com/2026/08/11/stock-market-today-live-updates.html",
+    "https://investingnews.com/cryptocurrency-market-recap/",
+    "https://www.kiplinger.com/investing/economy/cpi-report-july-2026-what-to-expect"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 62,
+      "value": 66,
       "label": "Greed",
-      "previous_close": 61,
-      "updated": "2026-08-12T17:54:50+00:00"
+      "previous_close": 62,
+      "updated": "2026-08-13T17:53:35+00:00"
     },
     "crypto": {
-      "value": 27,
+      "value": 29,
       "label": "Fear",
-      "updated": "2026-08-12T00:00:00.000Z"
+      "updated": "2026-08-13T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-08-12T17:57:19.228Z",
+  "generated_at": "2026-08-13T17:57:28.296Z",
   "model": "claude-sonnet-4-5-20250929"
 }
