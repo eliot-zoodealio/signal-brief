@@ -1,97 +1,97 @@
 {
-  "summary": "<cite index=\"18-3,22-8\">The July CPI report released Wednesday showed headline inflation rose 0.1% month-over-month and 3.4% year-over-year</cite>, coming in cooler than some expectations and <cite index=\"2-1\">reinforcing bets the Federal Reserve will refrain from raising interest rates next month</cite>. <cite index=\"39-10,39-11\">The July producer price index released Thursday was flat, below the 0.2% expected gain</cite>, further supporting dovish sentiment. <cite index=\"1-6\">Stocks rose after the key inflation report, while upbeat earnings from several technology companies helped support sentiment</cite>. <cite index=\"1-7,1-8\">CoreWeave surged 18% after narrowing losses and meeting revenue expectations, while Super Micro Computer jumped 9% after beating earnings</cite>. <cite index=\"39-1\">Tapestry fell 8.8% after offering disappointing guidance despite beating fourth-quarter earnings expectations</cite>. <cite index=\"6-2,6-3\">Wendy's surged more than 13% after a Financial Times report that investor Nelson Peltz is preparing a bid to take the company private through Trian Fund Management</cite>. <cite index=\"3-7\">Geopolitical tensions continue as Iran said the Strait of Hormuz remains under its control after President Trump made statements about the waterway</cite>.",
+  "summary": "<cite index=\"11-3,15-8\">July CPI data released on August 12 showed headline inflation rose 0.1% month-over-month and held at 3.4% year-over-year, above the Fed's 2% target</cite>, while <cite index=\"10-2\">the July jobs report showed the U.S. economy lost 23,000 jobs, dramatically missing expectations</cite>. <cite index=\"18-3,25-5\">Wall Street rallied Thursday on cooler PPI data that reduced expectations for a September Fed rate hike</cite>, with <cite index=\"18-11,19-1\">the S&P 500 closing at a record high around 7,800 for the first time</cite>. However, Friday brought caution as <cite index=\"20-6,24-6\">the University of Michigan consumer sentiment index fell to 51 in August from 55.2 in July, and retail sales dropped for the first time in nine months</cite>. In crypto markets, <cite index=\"28-14\">Bitcoin ETFs recorded a sharp $131.13 million net outflow on August 13, the largest daily pullback in weeks</cite>, though <cite index=\"28-20\">Ethereum ETFs added $6.72 million in net inflows</cite>. <cite index=\"10-3,10-4\">The combination of 3.4% headline inflation, negative job growth, and oil prices near $90 creates a challenging policy environment for the Fed</cite>.",
   "signals": [
     {
-      "type": "bullish",
-      "title": "July CPI and PPI data come in below expectations",
-      "desc": "Headline CPI rose just 0.1% monthly and PPI was flat versus 0.2% expected, reducing near-term rate hike odds and supporting risk assets.",
+      "type": "bearish",
+      "title": "Consumer sentiment plunges to 51, retail sales drop for first time in nine months",
+      "desc": "August consumer confidence collapsed and July retail sales fell, raising concerns about economic weakness and sustainability of the S&P 500's rally past 7,800.",
       "asset": "stocks"
     },
     {
       "type": "bullish",
-      "title": "CoreWeave and Super Micro beat earnings expectations",
-      "desc": "AI infrastructure names delivered strong results with CoreWeave up 18% and SMCI up 9%, signaling continued strength in AI capex spending.",
-      "asset": "stocks"
-    },
-    {
-      "type": "bullish",
-      "title": "Nelson Peltz prepares bid to take Wendy's private",
-      "desc": "Trian Fund Management is working on a buyout offer for Wendy's with co-investors, sending shares up over 13% on M&A speculation.",
+      "title": "July PPI cools more than expected, pushing Fed rate hike odds lower",
+      "desc": "Cooler-than-expected producer price inflation data reduced market expectations for a September Fed rate hike, fueling Thursday's record close.",
       "asset": "stocks"
     },
     {
       "type": "bearish",
-      "title": "Tapestry guidance disappoints despite earnings beat",
-      "desc": "Luxury holding company fell 8.8% after offering weak forward outlook, signaling softening consumer demand for premium goods.",
-      "asset": "stocks"
+      "title": "Bitcoin ETFs see $131 million outflow, largest pullback in weeks",
+      "desc": "Sharp institutional exit from Bitcoin ETFs on August 13 signals risk-off positioning despite BTC holding near $63,000.",
+      "asset": "crypto"
     },
     {
       "type": "neutral",
-      "title": "Iran reaffirms control over Strait of Hormuz",
-      "desc": "Tehran's statement following Trump comments maintains geopolitical uncertainty but oil prices declined on the day, suggesting markets are pricing in contained risks.",
-      "asset": "commodities"
+      "title": "July jobs report shows 23,000 job losses versus 80,000+ expected gains",
+      "desc": "The weak employment print creates a Fed dilemma: sticky 3.4% inflation argues for tighter policy while labor weakness argues for pause.",
+      "asset": "macro"
+    },
+    {
+      "type": "bullish",
+      "title": "S&P 500 breaks 7,800 for first time on mega-cap tech strength",
+      "desc": "The benchmark hit its 27th all-time high of 2026 as AI optimism and falling rate hike odds lifted technology shares.",
+      "asset": "stocks"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "768.56",
-      "change_pct": "-0.16"
+      "price": "778.12",
+      "change_pct": "+0.03"
     },
     {
       "symbol": "QQQ",
-      "price": "722.58",
-      "change_pct": "+0.70"
+      "price": "732.07",
+      "change_pct": "+1.16"
     },
     {
       "symbol": "BTC",
-      "price": "64048",
-      "change_pct": "+0.00"
+      "price": "63,157",
+      "change_pct": "-0.94"
     },
     {
       "symbol": "ETH",
-      "price": "1905",
-      "change_pct": "+1.10"
+      "price": "1,877",
+      "change_pct": "-0.85"
     },
     {
       "symbol": "GOLD",
-      "price": "404.92",
-      "change_pct": "+0.99"
+      "price": "4,418",
+      "change_pct": "-0.05"
     },
     {
       "symbol": "OIL",
-      "price": "88.50",
-      "change_pct": "-1.20"
+      "price": "81.23",
+      "change_pct": "-0.02"
     },
     {
       "symbol": "DXY",
-      "price": "102.85",
-      "change_pct": "-0.35"
+      "price": "103.50",
+      "change_pct": "+0.10"
     }
   ],
-  "verdict": "Cooler inflation data and solid tech earnings drive equities toward fresh highs while reducing Fed hawkish pressure for September.",
-  "sentiment": "bullish",
+  "verdict": "Markets face a tug-of-war between record equity highs and deteriorating consumer confidence as the Fed navigates stagflation risks with September policy decision in focus.",
+  "sentiment": "mixed",
   "sources": [
-    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-13-2026",
-    "https://www.bloomberg.com/news/articles/2026-08-12/stock-market-today-dow-s-p-live-updates",
     "https://www.bls.gov/news.release/cpi.htm",
-    "https://www.cnbc.com/2026/08/11/stock-market-today-live-updates.html",
-    "https://investingnews.com/cryptocurrency-market-recap/",
-    "https://www.kiplinger.com/investing/economy/cpi-report-july-2026-what-to-expect"
+    "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-aug-14-103100309.html",
+    "https://www.coingabbar.com/en/crypto-currency-news/crypto-etf-news-bitcoin-ethereum-xrp-etf-flow",
+    "https://intellectia.ai/blog/august-cpi-report-fed-decision-2026",
+    "https://www.kiplinger.com/investing/economy/cpi-report-july-2026-what-to-expect",
+    "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-14-dow-sp-500-nasdaq-102635519.html"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 66,
+      "value": 64,
       "label": "Greed",
-      "previous_close": 62,
-      "updated": "2026-08-13T17:53:35+00:00"
+      "previous_close": 66,
+      "updated": "2026-08-14T17:46:06+00:00"
     },
     "crypto": {
       "value": 29,
       "label": "Fear",
-      "updated": "2026-08-13T00:00:00.000Z"
+      "updated": "2026-08-14T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-08-13T17:57:28.296Z",
+  "generated_at": "2026-08-14T17:53:15.273Z",
   "model": "claude-sonnet-4-5-20250929"
 }
