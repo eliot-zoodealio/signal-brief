@@ -1,62 +1,62 @@
 {
-  "summary": "Markets held near record territory Thursday as the S&P 500 closed at an all-time high of 7,798.99, surpassing 7,800 intraday for the first time, while tech and energy led the rally. The advance came as traders digested July's CPI report showing headline inflation at 3.4% year-over-year with a modest 0.1% monthly increase, combined with weak July jobs data showing a 23,000 job loss that has dampened expectations for Fed rate hikes. Bitcoin ETFs saw volatility with $61.1 million in outflows on August 13 after strong weekly inflows earlier, while crypto prices traded mixed with BTC hovering around $63,400-64,200. Workday shares surged 26% on takeover talks with Silver Lake, oil prices slid over 2% to $81.25 per barrel amid U.S.-Iran tensions, and Friday's session ended with modest losses as University of Michigan consumer sentiment disappointed despite the S&P 500 capping its third straight weekly gain.",
+  "summary": "U.S. equities pulled back on Friday after the S&P 500 hit a fresh record high of 7,798.99 on Thursday, marking the third consecutive weekly gain for the benchmark index despite deteriorating consumer sentiment. The University of Michigan's August consumer confidence reading plummeted to 51.0 from 55.2 in July, with year-ahead inflation expectations climbing to 4.3% as the U.S.-Iran conflict continues to pressure energy markets and weigh on sentiment. Meanwhile, Workday shares surged nearly 26% on reports that Silver Lake is in talks to acquire the software company, though discussions remain ongoing. In crypto markets, Bitcoin and Ethereum continued their recent weakness, trading at $62,721 and $1,873 respectively on Friday morning, as risk-off sentiment and geopolitical uncertainty in the Strait of Hormuz offset cooler inflation data that could keep the Fed on hold in September. The Fed held rates steady at 3.5%-3.75% in late July in a 9-3 vote under new Chair Kevin Warsh, with three dissenting members pushing for hikes, underscoring ongoing division about the policy path.",
   "signals": [
     {
+      "type": "bearish",
+      "title": "Consumer Sentiment Plunges 8% in August, Inflation Fears Rise",
+      "desc": "University of Michigan sentiment index fell to 51.0 from 55.2 in July as inflation expectations jumped to 4.3%, pressuring equities into Friday's close.",
+      "asset": "stocks"
+    },
+    {
       "type": "bullish",
-      "title": "S&P 500 hits record high above 7,800 as inflation data cools",
-      "desc": "The benchmark index notched an all-time closing high of 7,798.99 on Thursday as July CPI rose just 0.1% monthly, reducing pressure on the Fed to hike rates further.",
+      "title": "Workday Surges 26% on Silver Lake Takeover Talks",
+      "desc": "Software company Workday spiked after Reuters reported private equity firm Silver Lake is in acquisition discussions, signaling continued M&A appetite.",
       "asset": "stocks"
     },
     {
       "type": "neutral",
-      "title": "July jobs report misses badly with 23,000 job losses",
-      "desc": "The U.S. economy lost 23,000 jobs in July versus expectations for 80,000-95,000 gains, creating a policy dilemma for the Fed amid sticky 3.4% inflation.",
-      "asset": "macro"
-    },
-    {
-      "type": "bullish",
-      "title": "Workday surges 26% on Silver Lake takeover talks",
-      "desc": "Software company shares jumped after Reuters reported private equity firm Silver Lake is in discussions to acquire Workday, pushing the stock positive for 2026.",
+      "title": "S&P 500 Notches Record High at 7,799 Before Retreating",
+      "desc": "The benchmark index closed at an all-time high Thursday, surpassing 7,800 for the first time, before slipping 0.2% Friday on sentiment data.",
       "asset": "stocks"
     },
     {
       "type": "bearish",
-      "title": "Bitcoin ETFs post $61.1M outflow reversing strong weekly trend",
-      "desc": "U.S. spot Bitcoin ETFs saw outflows on August 13 with IBIT losing $14.3M and FBTC shedding $46.8M, despite earlier weekly inflows exceeding $850 million.",
+      "title": "Bitcoin and Ethereum Slide as Geopolitical Risk Weighs",
+      "desc": "Crypto prices declined despite softer inflation data, with Bitcoin falling to $62,721 and Ethereum to $1,873 amid ongoing Iran conflict uncertainty.",
       "asset": "crypto"
     },
     {
       "type": "bearish",
-      "title": "Oil prices drop over 2% on demand concerns amid geopolitical tensions",
-      "desc": "WTI crude fell to $81.25 per barrel as traders weighed declining oil demand while the U.S.-Iran conflict continues, pressuring energy sector sentiment.",
+      "title": "Oil Prices Volatile Amid U.S.-Iran War and Demand Concerns",
+      "desc": "WTI crude fell more than 2% to $81.25 per barrel as traders balanced falling demand against supply disruptions from the Strait of Hormuz closure.",
       "asset": "commodities"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "779.80",
-      "change_pct": "-0.17"
+      "price": "768.56",
+      "change_pct": "-0.16"
     },
     {
       "symbol": "QQQ",
-      "price": "732.07",
-      "change_pct": "+1.16"
+      "price": "731.07",
+      "change_pct": "-0.14"
     },
     {
       "symbol": "BTC",
-      "price": "63402",
-      "change_pct": "+0.05"
+      "price": "62721.51",
+      "change_pct": "-1.09"
     },
     {
       "symbol": "ETH",
-      "price": "1885",
-      "change_pct": "-0.07"
+      "price": "1872.97",
+      "change_pct": "-0.61"
     },
     {
       "symbol": "GOLD",
-      "price": "2520",
-      "change_pct": "+0.80"
+      "price": "2485.00",
+      "change_pct": "+0.35"
     },
     {
       "symbol": "OIL",
@@ -65,19 +65,19 @@
     },
     {
       "symbol": "DXY",
-      "price": "103.50",
-      "change_pct": "-0.25"
+      "price": "103.42",
+      "change_pct": "+0.12"
     }
   ],
-  "verdict": "Equity momentum remains intact despite mixed macro signals, with record S&P 500 levels supported by cooling inflation offset by labor market weakness creating Fed uncertainty.",
+  "verdict": "Markets consolidating at record highs but facing headwinds from deteriorating sentiment and persistent geopolitical risk as Fed policy uncertainty keeps volatility elevated.",
   "sentiment": "mixed",
   "sources": [
     "https://www.cnbc.com/2026/08/13/stock-market-today-live-updates.html",
+    "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-14-dow-sp-500-nasdaq-102635519.html",
     "https://www.cnbc.com/2026/08/12/stock-market-today-live-updates.html",
-    "https://www.kucoin.com/news/flash/bitcoin-etf-sees-61-1m-net-outflow-ethereum-etf-gains-7-4m",
-    "https://intellectia.ai/blog/august-cpi-report-fed-decision-2026",
-    "https://www.bloomberg.com/news/articles/2026-08-10/bitcoin-btc-etf-inflows-hit-850-million-after-coldcard-wallet-hack",
-    "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-14-dow-sp-500-nasdaq-102635519.html"
+    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-august-14-2026-crypto-prices-backing-off-further-123636029.html",
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+    "https://www.cnbc.com/2026/07/29/fed-meeting-today-live-updates.html"
   ],
   "fear_greed": {
     "stocks": {
@@ -92,6 +92,6 @@
       "updated": "2026-08-15T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-08-15T10:29:34.358Z",
+  "generated_at": "2026-08-15T17:20:55.172Z",
   "model": "claude-sonnet-4-5-20250929"
 }
