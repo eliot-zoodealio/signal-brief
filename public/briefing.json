@@ -1,35 +1,35 @@
 {
-  "summary": "Markets are consolidating near all-time highs after the S&P 500 broke above 7,800 for the first time this week, though Friday's session saw modest pullbacks as consumer sentiment data disappointed. The University of Michigan Index plunged to 51.0 in August from 55.2 in July, with inflation expectations ticking higher to 4.3% amid lingering concerns about the Iran conflict's impact on energy prices. Despite the softer sentiment reading, equity markets have absorbed recent inflation data well, with July CPI showing a benign 0.1% monthly increase and 3.4% year-over-year rise, keeping Fed rate-hike fears at bay after the July FOMC meeting saw three dissents pushing for tightening. Crypto markets are showing renewed institutional appetite, with Bitcoin ETFs posting their strongest weekly inflows since April at over $853 million as BTC reclaimed the $65,000 level. BlackRock's IBIT continues to dominate flows, signaling traditional finance's growing comfort with digital assets even as Bitcoin remains down 27% year-to-date and nearly 49% below its October 2025 all-time high above $126,000.",
+  "summary": "Markets enter the final week of August in consolidation mode after consumer sentiment and retail sales data disappointed earlier this week, pushing the S&P 500 down from record highs. Intel completed a massive $23 billion equity raise via a 242 million-share placement that the market absorbed without major damage, netting the chipmaker cash to fund foundry ambitions amid negative free cash flow. Traders are focused on Wednesday's FOMC minutes for clues on the Fed's September stance after recent economic softness eased rate-hike fears. Crypto markets remain under pressure despite softer inflation prints earlier this week, with Bitcoin hovering near $63,000 and Ethereum around $1,880 as geopolitical tensions in the Middle East and lack of clear catalysts weigh on sentiment. Goldman Sachs expanded its crypto footprint with a $2.25 billion acquisition of NEOS Investments, bringing nearly $1 billion in Bitcoin ETF assets under management and signaling Wall Street's deepening institutional commitment to digital assets.",
   "signals": [
     {
       "type": "bearish",
-      "title": "Consumer Sentiment Collapses Despite Recent Improvement",
-      "desc": "University of Michigan Index fell 8% to 51.0 in August, ending two months of gains as business conditions expectations sank 11-17%, pointing to renewed caution that could weigh on consumer spending.",
+      "title": "Consumer Sentiment and Retail Sales Miss Dent Recovery Narrative",
+      "desc": "Declines in consumer sentiment and retail sales overshadowed Fed pause optimism, pushing the S&P 500 down 0.2% from all-time highs and raising concerns about Corporate America's growth engine.",
       "asset": "stocks"
     },
     {
       "type": "bullish",
-      "title": "S&P 500 Breaks 7,800 for First Time on Broad Sector Strength",
-      "desc": "The benchmark index hit an all-time intraday high above 7,800 and closed at a record 7,798.99 on Thursday, led by energy's 6% weekly surge and outperformance in healthcare and financials.",
+      "title": "Intel Completes $23B Equity Raise Without Major Selloff",
+      "desc": "Intel's 242 million-share offering closed at $102.50, holding a 7.9% premium to the $95 offer price, providing capital for foundry expansion despite 4.8% dilution.",
       "asset": "stocks"
     },
     {
       "type": "neutral",
-      "title": "July CPI Shows Muted Inflation, Keeps Fed on Hold",
-      "desc": "July CPI rose just 0.1% month-over-month and 3.4% year-over-year, easing immediate rate-hike pressure despite three FOMC dissents in July, supporting the view that the Fed will pause in September.",
+      "title": "Fed Minutes on Wednesday to Guide September Rate Path",
+      "desc": "Gold and silver traders are focused on Wednesday's FOMC minutes amid uncertainty over the Fed's next move, with rates and geopolitical risk premium competing for direction.",
       "asset": "macro"
     },
     {
-      "type": "bullish",
-      "title": "Bitcoin ETF Inflows Hit $850M as Institutional Demand Surges",
-      "desc": "US Bitcoin ETFs posted their strongest weekly inflows since April at over $850 million, with Bitcoin breaking decisively above $65,000 as BlackRock's IBIT captures the lion's share of institutional capital.",
+      "type": "bearish",
+      "title": "Crypto Prices Slip Despite Softer Inflation Data",
+      "desc": "Bitcoin and Ethereum are failing to hold gains from cooler CPI readings, with BTC near $63,000 and ETH at $1,880 as Middle East tensions and lack of fresh catalysts limit upside.",
       "asset": "crypto"
     },
     {
-      "type": "bearish",
-      "title": "Retail Sales and Sentiment Point to Slowing Economic Engine",
-      "desc": "Declines in consumer sentiment and retail sales have overshadowed Fed pause optimism, raising concerns about Corporate America's growth prospects even as the S&P 500 notched a third straight weekly gain.",
-      "asset": "stocks"
+      "type": "bullish",
+      "title": "Goldman Sachs Acquires $2.25B NEOS for Crypto Exposure",
+      "desc": "Goldman's acquisition of NEOS Investments brings nearly $1 billion in Bitcoin High Income ETF assets, marking a major Wall Street commitment to structured crypto products.",
+      "asset": "crypto"
     }
   ],
   "tickers": [
@@ -40,18 +40,18 @@
     },
     {
       "symbol": "QQQ",
-      "price": "731.07",
-      "change_pct": "-0.14"
+      "price": "714.65",
+      "change_pct": "-0.37"
     },
     {
       "symbol": "BTC",
-      "price": "64200",
-      "change_pct": "+1.00"
+      "price": "63063.78",
+      "change_pct": "+0.06"
     },
     {
       "symbol": "ETH",
-      "price": "1880",
-      "change_pct": "+0.18"
+      "price": "1882.07",
+      "change_pct": "-0.04"
     },
     {
       "symbol": "GOLD",
@@ -61,23 +61,22 @@
     {
       "symbol": "OIL",
       "price": "82.40",
-      "change_pct": "+1.42"
+      "change_pct": "-1.20"
     },
     {
       "symbol": "DXY",
-      "price": "97.70",
-      "change_pct": "+0.20"
+      "price": "103.25",
+      "change_pct": "+0.15"
     }
   ],
-  "verdict": "Markets are digesting record highs against deteriorating consumer confidence, with the Fed pause narrative intact but growth concerns emerging as a new risk factor for the September session.",
+  "verdict": "Markets await Wednesday's FOMC minutes for direction as consumer weakness battles Fed pause hopes, while crypto treads water despite institutional inflows.",
   "sentiment": "mixed",
   "sources": [
-    "https://www.cnbc.com/2026/08/13/stock-market-today-live-updates.html",
+    "https://ts2.tech/en/stock-market-today-16-08-2026/",
     "https://www.bloomberg.com/news/articles/2026-08-13/asian-stocks-set-for-gains-as-us-inflation-cools-markets-wrap",
-    "https://www.bls.gov/news.release/pdf/cpi.pdf",
-    "https://www.bloomberg.com/news/articles/2026-08-10/bitcoin-btc-etf-inflows-hit-850-million-after-coldcard-wallet-hack",
-    "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-14-dow-sp-500-nasdaq-102635519.html",
-    "https://www.thestreet.com/crypto/markets/bitcoin-price-today-august-12-2026"
+    "https://www.cnbc.com/quotes/SPY,QQQ",
+    "https://coinmarketcap.com/currencies/ethereum/",
+    "https://coinmarketcap.com/cmc-ai/ethereum/latest-updates/"
   ],
   "fear_greed": {
     "stocks": {
@@ -92,6 +91,6 @@
       "updated": "2026-08-16T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-08-16T10:30:20.040Z",
+  "generated_at": "2026-08-16T17:19:52.538Z",
   "model": "claude-sonnet-4-5-20250929"
 }
