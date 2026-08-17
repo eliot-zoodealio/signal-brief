@@ -1,96 +1,97 @@
 {
-  "summary": "Markets enter the final week of August in consolidation mode after consumer sentiment and retail sales data disappointed earlier this week, pushing the S&P 500 down from record highs. Intel completed a massive $23 billion equity raise via a 242 million-share placement that the market absorbed without major damage, netting the chipmaker cash to fund foundry ambitions amid negative free cash flow. Traders are focused on Wednesday's FOMC minutes for clues on the Fed's September stance after recent economic softness eased rate-hike fears. Crypto markets remain under pressure despite softer inflation prints earlier this week, with Bitcoin hovering near $63,000 and Ethereum around $1,880 as geopolitical tensions in the Middle East and lack of clear catalysts weigh on sentiment. Goldman Sachs expanded its crypto footprint with a $2.25 billion acquisition of NEOS Investments, bringing nearly $1 billion in Bitcoin ETF assets under management and signaling Wall Street's deepening institutional commitment to digital assets.",
+  "summary": "U.S. equity futures opened cautiously Monday as investors digested last week's weak economic data and positioned ahead of a retail earnings wave. The dollar extended losses for a third session after July's disappointing retail sales and job losses reduced expectations for a Federal Reserve rate hike in September. Futures on the S&P 500 traded near flat after the index posted its third consecutive weekly gain, while tech-heavy Nasdaq futures edged higher. In crypto markets, Bitcoin hovered near $62,700 and Ethereum near $1,875 as regulatory uncertainty persists following the SEC's unexpected cancellation of its vote on new crypto startup rules. Energy markets showed strength with oil prices up over 1% amid ongoing Middle East tensions, while the dollar index continued to weaken. Investor attention now turns sharply to retail earnings this week, with Home Depot, Target, Lowe's, and Walmart set to provide crucial insights into consumer health amid elevated inflation and weakening labor markets.",
   "signals": [
     {
       "type": "bearish",
-      "title": "Consumer Sentiment and Retail Sales Miss Dent Recovery Narrative",
-      "desc": "Declines in consumer sentiment and retail sales overshadowed Fed pause optimism, pushing the S&P 500 down 0.2% from all-time highs and raising concerns about Corporate America's growth engine.",
-      "asset": "stocks"
+      "title": "Dollar Falls on Weak U.S. Economic Data, Fed Hike Bets Tumble",
+      "desc": "The dollar slipped 0.2% for a third day after weak retail sales and job losses reduced September rate-hike expectations, pressuring USD-sensitive assets.",
+      "asset": "fx"
     },
     {
-      "type": "bullish",
-      "title": "Intel Completes $23B Equity Raise Without Major Selloff",
-      "desc": "Intel's 242 million-share offering closed at $102.50, holding a 7.9% premium to the $95 offer price, providing capital for foundry expansion despite 4.8% dilution.",
+      "type": "bearish",
+      "title": "July Jobs Report Shows 23,000 Job Losses, Missing Estimates",
+      "desc": "The U.S. economy lost 23,000 jobs in July versus expectations of 80,000-95,000 gains, signaling labor market weakness and raising recession concerns.",
+      "asset": "macro"
+    },
+    {
+      "type": "neutral",
+      "title": "Retail Earnings Wave Begins Tuesday Amid Consumer Spending Concerns",
+      "desc": "Home Depot reports Tuesday followed by Target and Lowe's, with consensus wary after July retail sales fell 0.6% and consumer discretionary stocks underperformed year-to-date.",
       "asset": "stocks"
     },
     {
       "type": "neutral",
-      "title": "Fed Minutes on Wednesday to Guide September Rate Path",
-      "desc": "Gold and silver traders are focused on Wednesday's FOMC minutes amid uncertainty over the Fed's next move, with rates and geopolitical risk premium competing for direction.",
-      "asset": "macro"
-    },
-    {
-      "type": "bearish",
-      "title": "Crypto Prices Slip Despite Softer Inflation Data",
-      "desc": "Bitcoin and Ethereum are failing to hold gains from cooler CPI readings, with BTC near $63,000 and ETH at $1,880 as Middle East tensions and lack of fresh catalysts limit upside.",
+      "title": "SEC Cancels Crypto Startup Rules Vote, Leaving Industry in Limbo",
+      "desc": "The SEC unexpectedly canceled its vote on new crypto capital-raising exemptions citing scheduling issues, delaying regulatory clarity for digital asset innovation.",
       "asset": "crypto"
     },
     {
       "type": "bullish",
-      "title": "Goldman Sachs Acquires $2.25B NEOS for Crypto Exposure",
-      "desc": "Goldman's acquisition of NEOS Investments brings nearly $1 billion in Bitcoin High Income ETF assets, marking a major Wall Street commitment to structured crypto products.",
+      "title": "Binance Restricts 11 Exchanges Starting Aug 23 on Sanctions Compliance",
+      "desc": "Binance will halt transactions for HTX and 10 other platforms from August 23 following EU sanctions enforcement, potentially consolidating volume to compliant exchanges.",
       "asset": "crypto"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "768.56",
-      "change_pct": "-0.16"
+      "price": "537.20",
+      "change_pct": "-0.20"
     },
     {
       "symbol": "QQQ",
-      "price": "714.65",
-      "change_pct": "-0.37"
+      "price": "731.07",
+      "change_pct": "-0.14"
     },
     {
       "symbol": "BTC",
-      "price": "63063.78",
-      "change_pct": "+0.06"
-    },
-    {
-      "symbol": "ETH",
-      "price": "1882.07",
-      "change_pct": "-0.04"
-    },
-    {
-      "symbol": "GOLD",
-      "price": "401.48",
-      "change_pct": "+0.63"
-    },
-    {
-      "symbol": "OIL",
-      "price": "82.40",
+      "price": "62721",
       "change_pct": "-1.20"
     },
     {
+      "symbol": "ETH",
+      "price": "1873",
+      "change_pct": "-0.40"
+    },
+    {
+      "symbol": "GOLD",
+      "price": "2505",
+      "change_pct": "+0.30"
+    },
+    {
+      "symbol": "OIL",
+      "price": "74.15",
+      "change_pct": "+1.01"
+    },
+    {
       "symbol": "DXY",
-      "price": "103.25",
-      "change_pct": "+0.15"
+      "price": "102.85",
+      "change_pct": "-0.20"
     }
   ],
-  "verdict": "Markets await Wednesday's FOMC minutes for direction as consumer weakness battles Fed pause hopes, while crypto treads water despite institutional inflows.",
+  "verdict": "Markets face a defensive start to the week as weak economic data dampens Fed hawkishness, while retail earnings tests loom against a backdrop of deteriorating consumer fundamentals.",
   "sentiment": "mixed",
   "sources": [
-    "https://ts2.tech/en/stock-market-today-16-08-2026/",
-    "https://www.bloomberg.com/news/articles/2026-08-13/asian-stocks-set-for-gains-as-us-inflation-cools-markets-wrap",
-    "https://www.cnbc.com/quotes/SPY,QQQ",
-    "https://coinmarketcap.com/currencies/ethereum/",
-    "https://coinmarketcap.com/cmc-ai/ethereum/latest-updates/"
+    "https://www.bloomberg.com/news/articles/2026-08-16/stock-market-today-dow-s-p-live-updates",
+    "https://finance.yahoo.com/markets/live/stock-market-today-monday-august-17-dow-sp-500-nasdaq-094421171.html",
+    "https://intellectia.ai/blog/august-cpi-report-fed-decision-2026",
+    "https://www.kiplinger.com/investing/economy/cpi-report-july-2026-what-to-expect",
+    "https://investingnews.com/cryptocurrency-market-recap/",
+    "https://www.forbes.com/sites/bill_stone/2026/08/01/big-tech-faces-capex-vigilantes-as-earnings-surge/"
   ],
   "fear_greed": {
     "stocks": {
       "value": 65,
       "label": "Greed",
-      "previous_close": 66,
-      "updated": "2026-08-14T23:59:53+00:00"
+      "previous_close": 65,
+      "updated": "2026-08-17T10:19:01+00:00"
     },
     "crypto": {
-      "value": 34,
+      "value": 31,
       "label": "Fear",
-      "updated": "2026-08-16T00:00:00.000Z"
+      "updated": "2026-08-17T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-08-16T17:19:52.538Z",
+  "generated_at": "2026-08-17T10:38:53.326Z",
   "model": "claude-sonnet-4-5-20250929"
 }
