@@ -1,90 +1,90 @@
 {
-  "summary": "U.S. equity futures opened cautiously Monday as investors digested last week's weak economic data and positioned ahead of a retail earnings wave. The dollar extended losses for a third session after July's disappointing retail sales and job losses reduced expectations for a Federal Reserve rate hike in September. Futures on the S&P 500 traded near flat after the index posted its third consecutive weekly gain, while tech-heavy Nasdaq futures edged higher. In crypto markets, Bitcoin hovered near $62,700 and Ethereum near $1,875 as regulatory uncertainty persists following the SEC's unexpected cancellation of its vote on new crypto startup rules. Energy markets showed strength with oil prices up over 1% amid ongoing Middle East tensions, while the dollar index continued to weaken. Investor attention now turns sharply to retail earnings this week, with Home Depot, Target, Lowe's, and Walmart set to provide crucial insights into consumer health amid elevated inflation and weakening labor markets.",
+  "summary": "U.S. markets opened mixed on Monday, August 17, with tech resilience offsetting broader weakness as the S&P 500 fell 0.28% while the Nasdaq Composite edged up 0.21% on AI optimism. Chipmakers rallied after Anthropic's revenue surge bolstered confidence in sustained AI capital expenditure, though Middle East tensions and rising oil prices near $89 kept investors cautious. The White House is set to host a major crypto meeting Wednesday with SEC Chair Paul Atkins, CFTC leadership, and executives from Coinbase, Ripple, and Gemini, though the Senate has pushed the Clarity Act beyond August recess. The NAHB Housing Market Index beat expectations at 35, up from 34, but Treasury yields remain elevated with the 30-year touching highs last seen in 2007. Retail earnings from Home Depot, Walmart, Target, and Lowe's later this week will test consumer resilience, while investors await FOMC minutes Wednesday and Fed Chair Warsh's upcoming Jackson Hole appearance.",
   "signals": [
     {
-      "type": "bearish",
-      "title": "Dollar Falls on Weak U.S. Economic Data, Fed Hike Bets Tumble",
-      "desc": "The dollar slipped 0.2% for a third day after weak retail sales and job losses reduced September rate-hike expectations, pressuring USD-sensitive assets.",
-      "asset": "fx"
-    },
-    {
-      "type": "bearish",
-      "title": "July Jobs Report Shows 23,000 Job Losses, Missing Estimates",
-      "desc": "The U.S. economy lost 23,000 jobs in July versus expectations of 80,000-95,000 gains, signaling labor market weakness and raising recession concerns.",
-      "asset": "macro"
-    },
-    {
-      "type": "neutral",
-      "title": "Retail Earnings Wave Begins Tuesday Amid Consumer Spending Concerns",
-      "desc": "Home Depot reports Tuesday followed by Target and Lowe's, with consensus wary after July retail sales fell 0.6% and consumer discretionary stocks underperformed year-to-date.",
+      "type": "bullish",
+      "title": "Anthropic revenue surge fuels AI infrastructure rally",
+      "desc": "Chipmakers rallied as Anthropic's strong revenue growth reinforces the case for sustained AI datacenter capex and hyperscaler demand.",
       "asset": "stocks"
     },
     {
       "type": "neutral",
-      "title": "SEC Cancels Crypto Startup Rules Vote, Leaving Industry in Limbo",
-      "desc": "The SEC unexpectedly canceled its vote on new crypto capital-raising exemptions citing scheduling issues, delaying regulatory clarity for digital asset innovation.",
+      "title": "White House crypto meeting set for Wednesday amid regulatory uncertainty",
+      "desc": "White House meeting with SEC, CFTC, and crypto firms signals engagement, but Clarity Act delay and postponed SEC digital-asset rules maintain policy overhang.",
       "asset": "crypto"
     },
     {
-      "type": "bullish",
-      "title": "Binance Restricts 11 Exchanges Starting Aug 23 on Sanctions Compliance",
-      "desc": "Binance will halt transactions for HTX and 10 other platforms from August 23 following EU sanctions enforcement, potentially consolidating volume to compliant exchanges.",
-      "asset": "crypto"
+      "type": "bearish",
+      "title": "Middle East escalation drives oil to $89, Treasury yields spike",
+      "desc": "Fresh violence in the Middle East pushed Brent crude toward $89 and Treasury 30-year yields to 2007 highs, raising inflationary pressures and rate-hike risks.",
+      "asset": "commodities"
+    },
+    {
+      "type": "neutral",
+      "title": "Housing sentiment beats but remains deeply depressed",
+      "desc": "NAHB index rose to 35 from 34, beating consensus, but remains below 40 for 16 consecutive months as high rates and construction costs weigh on builders.",
+      "asset": "macro"
+    },
+    {
+      "type": "bearish",
+      "title": "Workday downgraded by Deutsche Bank and BTIG after 76% rally",
+      "desc": "Deutsche Bank cut Workday to Hold and BTIG to Neutral after a 76% rebound from June lows, citing valuation concerns post-Silver Lake acquisition chatter.",
+      "asset": "stocks"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "537.20",
-      "change_pct": "-0.20"
+      "price": "533.25",
+      "change_pct": "-0.16"
     },
     {
       "symbol": "QQQ",
-      "price": "731.07",
-      "change_pct": "-0.14"
+      "price": "733.15",
+      "change_pct": "+0.21"
     },
     {
       "symbol": "BTC",
-      "price": "62721",
-      "change_pct": "-1.20"
+      "price": "63,884",
+      "change_pct": "-1.31"
     },
     {
       "symbol": "ETH",
-      "price": "1873",
-      "change_pct": "-0.40"
+      "price": "1,894",
+      "change_pct": "+0.26"
     },
     {
       "symbol": "GOLD",
-      "price": "2505",
-      "change_pct": "+0.30"
+      "price": "2,487",
+      "change_pct": "+0.35"
     },
     {
       "symbol": "OIL",
-      "price": "74.15",
+      "price": "83.00",
       "change_pct": "+1.01"
     },
     {
       "symbol": "DXY",
-      "price": "102.85",
-      "change_pct": "-0.20"
+      "price": "102.45",
+      "change_pct": "+0.12"
     }
   ],
-  "verdict": "Markets face a defensive start to the week as weak economic data dampens Fed hawkishness, while retail earnings tests loom against a backdrop of deteriorating consumer fundamentals.",
+  "verdict": "Tech resilience battles macro headwinds as AI optimism offsets geopolitical risks and elevated yields, with retail earnings and FOMC minutes poised to set the tone for the week.",
   "sentiment": "mixed",
   "sources": [
+    "https://ts2.tech/en/stock-market-today-17-08-2026/",
     "https://www.bloomberg.com/news/articles/2026-08-16/stock-market-today-dow-s-p-live-updates",
     "https://finance.yahoo.com/markets/live/stock-market-today-monday-august-17-dow-sp-500-nasdaq-094421171.html",
-    "https://intellectia.ai/blog/august-cpi-report-fed-decision-2026",
-    "https://www.kiplinger.com/investing/economy/cpi-report-july-2026-what-to-expect",
-    "https://investingnews.com/cryptocurrency-market-recap/",
-    "https://www.forbes.com/sites/bill_stone/2026/08/01/big-tech-faces-capex-vigilantes-as-earnings-surge/"
+    "https://www.edwardjones.com/us-en/market-news-insights/stock-market-news/daily-market-recap",
+    "https://cointelegraph.com/",
+    "https://www.coinbase.com/price/ethereum"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 65,
+      "value": 62,
       "label": "Greed",
       "previous_close": 65,
-      "updated": "2026-08-17T10:19:01+00:00"
+      "updated": "2026-08-17T17:23:47+00:00"
     },
     "crypto": {
       "value": 31,
@@ -92,6 +92,6 @@
       "updated": "2026-08-17T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-08-17T10:38:53.326Z",
+  "generated_at": "2026-08-17T17:27:39.563Z",
   "model": "claude-sonnet-4-5-20250929"
 }
