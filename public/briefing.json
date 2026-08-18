@@ -1,57 +1,57 @@
 {
-  "summary": "U.S. equity markets opened lower on Monday, August 17, 2026, with the S&P 500, Dow, and Nasdaq all falling between 0.3% and 0.5% as rising oil prices and climbing Treasury yields weighed on sentiment ahead of a critical week of retail earnings. Oil prices surged as prospects for Middle East peace dimmed, with President Trump rejecting an extension of the Iran ceasefire and threatening further military action if Oman interferes with reopening the Strait of Hormuz. The spike in energy costs revived inflation concerns despite recent soft CPI data. Investors are now laser-focused on results from Walmart, Target, Home Depot, and Lowe's this week, looking for signs of consumer resilience amid high gasoline prices and persistent rate uncertainty. Bitcoin and Ethereum traded mixed near $63,000 and $1,900 respectively, with institutional Bitcoin ETF inflows showing renewed strength after Harvard disclosed a $101 million BTC ETF stake and Jane Street revealed over $1 billion in spot Bitcoin ETF holdings. Fed rate hike odds for September have fallen to 30% following last week's weak retail sales and softer inflation prints.",
+  "summary": "<cite index=\"4-7,4-9\">Technology stocks drove declines in global equities on Tuesday as long-dated bond yields pushed further into multidecade highs with 30-year Treasuries hitting 5.32%, the highest since 2007, and oil prices extended their climb</cite>. <cite index=\"34-14\">President Donald Trump rejected extending a 60-day temporary ceasefire with Iran that expired Monday</cite>, <cite index=\"4-10\">sending US crude above $85 a barrel</cite> and fueling concerns about persistent inflation. <cite index=\"2-2,2-3,2-4\">US stocks fell as oil prices and bond yields remained high amid renewed inflation concerns, with the Nasdaq Composite dropping 1.3%, the S&P 500 pulling back 0.6%, and the Dow declining 0.2%</cite>. <cite index=\"6-5,6-6,6-7,6-8,6-9\">A pullback in semiconductor stocks weighed heavily on the broader market, with Western Digital falling almost 7%, Sandisk dropping 8%, and Marvell Technology and Seagate Technology both down around 8%</cite>. <cite index=\"7-1\">In Asian markets overnight, the Nikkei Index tumbled 1,759 points or 2.54%</cite>. <cite index=\"17-2,17-6\">On the crypto side, institutional firm BitMine extended its ETH buying streak and now holds 4.8% of Ethereum's supply</cite>, though <cite index=\"39-8,39-10\">Bitcoin opened at $64,487.65 but moved down to $64,080.23 while Ethereum opened at $1,911.89 before slipping to $1,895.37</cite> as geopolitical tensions pressured risk assets.",
   "signals": [
     {
       "type": "bearish",
-      "title": "Trump rejects Iran ceasefire extension, oil surges above $88",
-      "desc": "Trump threatened military action against Oman and rejected ceasefire extension as Iran conflict escalates, driving oil prices sharply higher and reviving inflation fears.",
+      "title": "30-Year Treasury Yields Hit Multi-Decade High at 5.32%",
+      "desc": "Bond yields climbed to levels not seen since 2007, pressuring tech valuations and signaling persistent inflation concerns that are draining liquidity from equities.",
+      "asset": "stocks"
+    },
+    {
+      "type": "bearish",
+      "title": "Trump Rejects Iran Ceasefire Extension, Crude Tops $85",
+      "desc": "Geopolitical tensions escalated as the U.S.-Iran truce expired without extension, pushing oil prices higher and threatening to reignite inflation pressures.",
       "asset": "commodities"
     },
     {
       "type": "bearish",
-      "title": "Rising Treasury yields and oil pressure equities into retail earnings week",
-      "desc": "S&P 500 fell 0.5% and Nasdaq dropped 0.3% as 10-year yields climbed and investors de-risked ahead of key consumer spending data from Walmart, Target, and Home Depot.",
+      "title": "Semiconductor Stocks Crash on Demand Concerns",
+      "desc": "Chip stocks led tech losses with Western Digital down 7%, Sandisk down 8%, and Marvell and Seagate both off 8%, weighing heavily on the Nasdaq.",
       "asset": "stocks"
     },
     {
-      "type": "bullish",
-      "title": "Harvard and Jane Street disclose major Bitcoin ETF stakes",
-      "desc": "Harvard revealed $101 million in BTC ETF holdings while Jane Street disclosed over $1 billion across IBIT, FBTC, and GBTC, signaling deepening institutional adoption.",
+      "type": "neutral",
+      "title": "BitMine Accumulates 4.8% of Ethereum Supply",
+      "desc": "Institutional demand for ETH remains strong with five consecutive weeks of ETF inflows, though price action remains range-bound below $1,900.",
       "asset": "crypto"
     },
     {
-      "type": "neutral",
-      "title": "Fed September rate hike odds collapse to 30% after weak data",
-      "desc": "Market pricing for a September rate increase fell from 50% to 30% following surprise drop in retail sales and softer-than-expected July inflation prints.",
-      "asset": "macro"
-    },
-    {
       "type": "bearish",
-      "title": "Consumer discretionary under pressure as gasoline prices climb",
-      "desc": "Consumer discretionary stocks remain one of only two S&P 500 sectors down year-to-date as gas prices trade $1 per gallon above pre-Iran war levels ahead of key retail earnings.",
+      "title": "Asia Leads Global Equity Selloff, Nikkei Down 2.54%",
+      "desc": "Japanese equities tumbled 1,759 points overnight as global risk-off sentiment spread across markets amid rising yields and geopolitical uncertainty.",
       "asset": "stocks"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "774.51",
-      "change_pct": "-0.50"
+      "price": "772.70",
+      "change_pct": "-0.53"
     },
     {
       "symbol": "QQQ",
-      "price": "729.96",
-      "change_pct": "-0.30"
+      "price": "721.30",
+      "change_pct": "-1.17"
     },
     {
       "symbol": "BTC",
-      "price": "64052.98",
-      "change_pct": "+1.37"
+      "price": "64135.48",
+      "change_pct": "+1.38"
     },
     {
       "symbol": "ETH",
-      "price": "1904.87",
-      "change_pct": "+1.10"
+      "price": "1895.37",
+      "change_pct": "-0.86"
     },
     {
       "symbol": "GOLD",
@@ -60,31 +60,31 @@
     },
     {
       "symbol": "OIL",
-      "price": "88.21",
-      "change_pct": "+7.12"
+      "price": "85.00",
+      "change_pct": "+2.41"
     },
     {
       "symbol": "DXY",
-      "price": "102.85",
-      "change_pct": "-0.18"
+      "price": "102.15",
+      "change_pct": "+0.08"
     }
   ],
-  "verdict": "Risk-off tone dominates as Middle East tensions and elevated oil prices overshadow dovish Fed expectations, with retail earnings this week poised to determine whether the consumer can sustain the rally.",
+  "verdict": "Risk-off sentiment dominates as bond yields hit 2007 highs, Iran tensions spike oil prices, and semiconductors crater—expect continued pressure on growth stocks until inflation fears subside.",
   "sentiment": "bearish",
   "sources": [
     "https://www.bloomberg.com/news/articles/2026-08-17/stock-market-today-dow-s-p-live-updates",
-    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-17-2026",
-    "https://eurasiabusinessnews.com/2026/08/18/stock-market-today-dow-sp-500-nasdaq-fall-oil-price-above-88/",
-    "https://www.coingabbar.com/en/crypto-currency-news/crypto-etf-news-bitcoin-etf-inflows-institutional-bets",
-    "https://www.cnbc.com/2026/08/14/stock-market-next-week-outlook-for-aug-17-21-2026.html",
-    "https://www.benzinga.com/markets/prediction-markets/26/08/61265010/stock-market-will-sp-500-open-up-or-down-today-18"
+    "https://www.cnbc.com/amp/2026/08/17/stock-market-today-live-updates.html",
+    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-august-18-2026-crypto-prices-mixed-as-iran-stalemate-continues-155702632.html",
+    "https://www.benzinga.com/markets/prediction-markets/26/08/61265010/stock-market-will-sp-500-open-up-or-down-today-18",
+    "https://coinmarketcap.com/cmc-ai/ethereum/latest-updates/",
+    "https://investrade.com/morning-preview-august-18-2026/"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 59,
-      "label": "Greed",
+      "value": 55,
+      "label": "Neutral",
       "previous_close": 60,
-      "updated": "2026-08-18T10:20:46+00:00"
+      "updated": "2026-08-18T17:24:00+00:00"
     },
     "crypto": {
       "value": 41,
@@ -92,6 +92,6 @@
       "updated": "2026-08-18T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-08-18T10:36:44.565Z",
+  "generated_at": "2026-08-18T17:27:45.889Z",
   "model": "claude-sonnet-4-5-20250929"
 }
