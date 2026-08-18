@@ -1,97 +1,97 @@
 {
-  "summary": "U.S. markets opened mixed on Monday, August 17, with tech resilience offsetting broader weakness as the S&P 500 fell 0.28% while the Nasdaq Composite edged up 0.21% on AI optimism. Chipmakers rallied after Anthropic's revenue surge bolstered confidence in sustained AI capital expenditure, though Middle East tensions and rising oil prices near $89 kept investors cautious. The White House is set to host a major crypto meeting Wednesday with SEC Chair Paul Atkins, CFTC leadership, and executives from Coinbase, Ripple, and Gemini, though the Senate has pushed the Clarity Act beyond August recess. The NAHB Housing Market Index beat expectations at 35, up from 34, but Treasury yields remain elevated with the 30-year touching highs last seen in 2007. Retail earnings from Home Depot, Walmart, Target, and Lowe's later this week will test consumer resilience, while investors await FOMC minutes Wednesday and Fed Chair Warsh's upcoming Jackson Hole appearance.",
+  "summary": "U.S. equity markets opened lower on Monday, August 17, 2026, with the S&P 500, Dow, and Nasdaq all falling between 0.3% and 0.5% as rising oil prices and climbing Treasury yields weighed on sentiment ahead of a critical week of retail earnings. Oil prices surged as prospects for Middle East peace dimmed, with President Trump rejecting an extension of the Iran ceasefire and threatening further military action if Oman interferes with reopening the Strait of Hormuz. The spike in energy costs revived inflation concerns despite recent soft CPI data. Investors are now laser-focused on results from Walmart, Target, Home Depot, and Lowe's this week, looking for signs of consumer resilience amid high gasoline prices and persistent rate uncertainty. Bitcoin and Ethereum traded mixed near $63,000 and $1,900 respectively, with institutional Bitcoin ETF inflows showing renewed strength after Harvard disclosed a $101 million BTC ETF stake and Jane Street revealed over $1 billion in spot Bitcoin ETF holdings. Fed rate hike odds for September have fallen to 30% following last week's weak retail sales and softer inflation prints.",
   "signals": [
     {
-      "type": "bullish",
-      "title": "Anthropic revenue surge fuels AI infrastructure rally",
-      "desc": "Chipmakers rallied as Anthropic's strong revenue growth reinforces the case for sustained AI datacenter capex and hyperscaler demand.",
-      "asset": "stocks"
-    },
-    {
-      "type": "neutral",
-      "title": "White House crypto meeting set for Wednesday amid regulatory uncertainty",
-      "desc": "White House meeting with SEC, CFTC, and crypto firms signals engagement, but Clarity Act delay and postponed SEC digital-asset rules maintain policy overhang.",
-      "asset": "crypto"
-    },
-    {
       "type": "bearish",
-      "title": "Middle East escalation drives oil to $89, Treasury yields spike",
-      "desc": "Fresh violence in the Middle East pushed Brent crude toward $89 and Treasury 30-year yields to 2007 highs, raising inflationary pressures and rate-hike risks.",
+      "title": "Trump rejects Iran ceasefire extension, oil surges above $88",
+      "desc": "Trump threatened military action against Oman and rejected ceasefire extension as Iran conflict escalates, driving oil prices sharply higher and reviving inflation fears.",
       "asset": "commodities"
     },
     {
+      "type": "bearish",
+      "title": "Rising Treasury yields and oil pressure equities into retail earnings week",
+      "desc": "S&P 500 fell 0.5% and Nasdaq dropped 0.3% as 10-year yields climbed and investors de-risked ahead of key consumer spending data from Walmart, Target, and Home Depot.",
+      "asset": "stocks"
+    },
+    {
+      "type": "bullish",
+      "title": "Harvard and Jane Street disclose major Bitcoin ETF stakes",
+      "desc": "Harvard revealed $101 million in BTC ETF holdings while Jane Street disclosed over $1 billion across IBIT, FBTC, and GBTC, signaling deepening institutional adoption.",
+      "asset": "crypto"
+    },
+    {
       "type": "neutral",
-      "title": "Housing sentiment beats but remains deeply depressed",
-      "desc": "NAHB index rose to 35 from 34, beating consensus, but remains below 40 for 16 consecutive months as high rates and construction costs weigh on builders.",
+      "title": "Fed September rate hike odds collapse to 30% after weak data",
+      "desc": "Market pricing for a September rate increase fell from 50% to 30% following surprise drop in retail sales and softer-than-expected July inflation prints.",
       "asset": "macro"
     },
     {
       "type": "bearish",
-      "title": "Workday downgraded by Deutsche Bank and BTIG after 76% rally",
-      "desc": "Deutsche Bank cut Workday to Hold and BTIG to Neutral after a 76% rebound from June lows, citing valuation concerns post-Silver Lake acquisition chatter.",
+      "title": "Consumer discretionary under pressure as gasoline prices climb",
+      "desc": "Consumer discretionary stocks remain one of only two S&P 500 sectors down year-to-date as gas prices trade $1 per gallon above pre-Iran war levels ahead of key retail earnings.",
       "asset": "stocks"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "533.25",
-      "change_pct": "-0.16"
+      "price": "774.51",
+      "change_pct": "-0.50"
     },
     {
       "symbol": "QQQ",
-      "price": "733.15",
-      "change_pct": "+0.21"
+      "price": "729.96",
+      "change_pct": "-0.30"
     },
     {
       "symbol": "BTC",
-      "price": "63,884",
-      "change_pct": "-1.31"
+      "price": "64052.98",
+      "change_pct": "+1.37"
     },
     {
       "symbol": "ETH",
-      "price": "1,894",
-      "change_pct": "+0.26"
+      "price": "1904.87",
+      "change_pct": "+1.10"
     },
     {
       "symbol": "GOLD",
-      "price": "2,487",
-      "change_pct": "+0.35"
+      "price": "4483.10",
+      "change_pct": "+1.03"
     },
     {
       "symbol": "OIL",
-      "price": "83.00",
-      "change_pct": "+1.01"
+      "price": "88.21",
+      "change_pct": "+7.12"
     },
     {
       "symbol": "DXY",
-      "price": "102.45",
-      "change_pct": "+0.12"
+      "price": "102.85",
+      "change_pct": "-0.18"
     }
   ],
-  "verdict": "Tech resilience battles macro headwinds as AI optimism offsets geopolitical risks and elevated yields, with retail earnings and FOMC minutes poised to set the tone for the week.",
-  "sentiment": "mixed",
+  "verdict": "Risk-off tone dominates as Middle East tensions and elevated oil prices overshadow dovish Fed expectations, with retail earnings this week poised to determine whether the consumer can sustain the rally.",
+  "sentiment": "bearish",
   "sources": [
-    "https://ts2.tech/en/stock-market-today-17-08-2026/",
-    "https://www.bloomberg.com/news/articles/2026-08-16/stock-market-today-dow-s-p-live-updates",
-    "https://finance.yahoo.com/markets/live/stock-market-today-monday-august-17-dow-sp-500-nasdaq-094421171.html",
-    "https://www.edwardjones.com/us-en/market-news-insights/stock-market-news/daily-market-recap",
-    "https://cointelegraph.com/",
-    "https://www.coinbase.com/price/ethereum"
+    "https://www.bloomberg.com/news/articles/2026-08-17/stock-market-today-dow-s-p-live-updates",
+    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-17-2026",
+    "https://eurasiabusinessnews.com/2026/08/18/stock-market-today-dow-sp-500-nasdaq-fall-oil-price-above-88/",
+    "https://www.coingabbar.com/en/crypto-currency-news/crypto-etf-news-bitcoin-etf-inflows-institutional-bets",
+    "https://www.cnbc.com/2026/08/14/stock-market-next-week-outlook-for-aug-17-21-2026.html",
+    "https://www.benzinga.com/markets/prediction-markets/26/08/61265010/stock-market-will-sp-500-open-up-or-down-today-18"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 62,
+      "value": 59,
       "label": "Greed",
-      "previous_close": 65,
-      "updated": "2026-08-17T17:23:47+00:00"
+      "previous_close": 60,
+      "updated": "2026-08-18T10:20:46+00:00"
     },
     "crypto": {
-      "value": 31,
+      "value": 41,
       "label": "Fear",
-      "updated": "2026-08-17T00:00:00.000Z"
+      "updated": "2026-08-18T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-08-17T17:27:39.563Z",
+  "generated_at": "2026-08-18T10:36:44.565Z",
   "model": "claude-sonnet-4-5-20250929"
 }
