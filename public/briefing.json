@@ -1,97 +1,95 @@
 {
-  "summary": "<cite index=\"4-7,4-9\">Technology stocks drove declines in global equities on Tuesday as long-dated bond yields pushed further into multidecade highs with 30-year Treasuries hitting 5.32%, the highest since 2007, and oil prices extended their climb</cite>. <cite index=\"34-14\">President Donald Trump rejected extending a 60-day temporary ceasefire with Iran that expired Monday</cite>, <cite index=\"4-10\">sending US crude above $85 a barrel</cite> and fueling concerns about persistent inflation. <cite index=\"2-2,2-3,2-4\">US stocks fell as oil prices and bond yields remained high amid renewed inflation concerns, with the Nasdaq Composite dropping 1.3%, the S&P 500 pulling back 0.6%, and the Dow declining 0.2%</cite>. <cite index=\"6-5,6-6,6-7,6-8,6-9\">A pullback in semiconductor stocks weighed heavily on the broader market, with Western Digital falling almost 7%, Sandisk dropping 8%, and Marvell Technology and Seagate Technology both down around 8%</cite>. <cite index=\"7-1\">In Asian markets overnight, the Nikkei Index tumbled 1,759 points or 2.54%</cite>. <cite index=\"17-2,17-6\">On the crypto side, institutional firm BitMine extended its ETH buying streak and now holds 4.8% of Ethereum's supply</cite>, though <cite index=\"39-8,39-10\">Bitcoin opened at $64,487.65 but moved down to $64,080.23 while Ethereum opened at $1,911.89 before slipping to $1,895.37</cite> as geopolitical tensions pressured risk assets.",
+  "summary": "U.S. markets extended losses into a third consecutive session as Treasury yields surged to multi-decade highs, with the 30-year bond yield reaching its highest level since 2007 at approximately 5.32%. The S&P 500 fell 0.69% to 7,691.76 on Tuesday while the Nasdaq dropped 1.33% to 26,289.71, weighed down by a sharp semiconductor selloff that intensified globally. Asian markets tumbled overnight with South Korea's Kospi plunging 5.5% as chip giants Samsung and SK Hynix each shed over 7%. Retail earnings from Target and Lowe's hit premarket screens Wednesday morning alongside semiconductor results from Analog Devices. Crypto markets showed modest gains with Bitcoin opening Tuesday up 2.7% to $64,487 and Ethereum rising 2% to $1,911, though both remain mired in an extended bear market amid geopolitical uncertainty surrounding the Iran conflict. The bond rout reflects persistent inflation concerns and elevated oil prices, raising questions about the Fed's ability to hold rates steady at the September meeting despite Chair Warsh's dovish July stance.",
   "signals": [
     {
       "type": "bearish",
-      "title": "30-Year Treasury Yields Hit Multi-Decade High at 5.32%",
-      "desc": "Bond yields climbed to levels not seen since 2007, pressuring tech valuations and signaling persistent inflation concerns that are draining liquidity from equities.",
-      "asset": "stocks"
+      "title": "30-year Treasury yield hits 19-year high as global bond selloff intensifies",
+      "desc": "The U.S. 30-year bond yield scored a fresh 19-year high while Japan's 10-year reached a 30-year peak, tightening financial conditions and pressuring equity valuations across growth stocks.",
+      "asset": "macro"
     },
     {
       "type": "bearish",
-      "title": "Trump Rejects Iran Ceasefire Extension, Crude Tops $85",
-      "desc": "Geopolitical tensions escalated as the U.S.-Iran truce expired without extension, pushing oil prices higher and threatening to reignite inflation pressures.",
-      "asset": "commodities"
-    },
-    {
-      "type": "bearish",
-      "title": "Semiconductor Stocks Crash on Demand Concerns",
-      "desc": "Chip stocks led tech losses with Western Digital down 7%, Sandisk down 8%, and Marvell and Seagate both off 8%, weighing heavily on the Nasdaq.",
+      "title": "Semiconductor stocks plunge globally as Asia selloff deepens",
+      "desc": "Samsung and SK Hynix fell over 7% while Western Digital dropped 7% and Marvell declined 8%, signaling a broad retreat from the year's hottest AI-chip trade amid valuation concerns.",
       "asset": "stocks"
     },
     {
       "type": "neutral",
-      "title": "BitMine Accumulates 4.8% of Ethereum Supply",
-      "desc": "Institutional demand for ETH remains strong with five consecutive weeks of ETF inflows, though price action remains range-bound below $1,900.",
+      "title": "Major retailers Target and Lowe's report Q2 earnings Wednesday morning",
+      "desc": "Results will provide critical datapoints on consumer health as elevated bond yields and Middle East uncertainty weigh on discretionary spending outlooks.",
+      "asset": "stocks"
+    },
+    {
+      "type": "neutral",
+      "title": "Bitcoin and Ethereum post modest Tuesday gains despite extended bear market",
+      "desc": "BTC opened up 2.7% to $64,487 and ETH rose 2% to $1,911, but analysts remain split on whether the bottom is near as both cryptos remain down since the Iran conflict began in late February.",
       "asset": "crypto"
     },
     {
       "type": "bearish",
-      "title": "Asia Leads Global Equity Selloff, Nikkei Down 2.54%",
-      "desc": "Japanese equities tumbled 1,759 points overnight as global risk-off sentiment spread across markets amid rising yields and geopolitical uncertainty.",
-      "asset": "stocks"
+      "title": "Fed dissent signals hawkish pressure as inflation concerns persist",
+      "desc": "Three FOMC members dissented at the July meeting wanting to hike rates, reflecting division as Chair Warsh holds the line at 3.5%-3.75% amid sticky inflation and elevated oil prices.",
+      "asset": "macro"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "772.70",
-      "change_pct": "-0.53"
+      "price": "768.56",
+      "change_pct": "-0.16"
     },
     {
       "symbol": "QQQ",
-      "price": "721.30",
-      "change_pct": "-1.17"
+      "price": "714.65",
+      "change_pct": "-0.37"
     },
     {
       "symbol": "BTC",
-      "price": "64135.48",
-      "change_pct": "+1.38"
+      "price": "64487",
+      "change_pct": "+2.70"
     },
     {
       "symbol": "ETH",
-      "price": "1895.37",
-      "change_pct": "-0.86"
+      "price": "1911",
+      "change_pct": "+2.00"
     },
     {
       "symbol": "GOLD",
-      "price": "4483.10",
-      "change_pct": "+1.03"
+      "price": "2485",
+      "change_pct": "-0.50"
     },
     {
       "symbol": "OIL",
-      "price": "85.00",
-      "change_pct": "+2.41"
+      "price": "82.40",
+      "change_pct": "+0.30"
     },
     {
       "symbol": "DXY",
-      "price": "102.15",
-      "change_pct": "+0.08"
+      "price": "103.20",
+      "change_pct": "-0.10"
     }
   ],
-  "verdict": "Risk-off sentiment dominates as bond yields hit 2007 highs, Iran tensions spike oil prices, and semiconductors crater—expect continued pressure on growth stocks until inflation fears subside.",
+  "verdict": "Risk-off sentiment persists as bond yields pressure equities; retail earnings and semiconductor weakness will dictate whether Tuesday's decline extends into a broader correction.",
   "sentiment": "bearish",
   "sources": [
-    "https://www.bloomberg.com/news/articles/2026-08-17/stock-market-today-dow-s-p-live-updates",
-    "https://www.cnbc.com/amp/2026/08/17/stock-market-today-live-updates.html",
+    "https://www.bloomberg.com/news/articles/2026-08-18/stock-market-today-dow-s-p-live-updates",
+    "https://www.cnbc.com/2026/08/17/stock-market-today-live-updates.html",
     "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-august-18-2026-crypto-prices-mixed-as-iran-stalemate-continues-155702632.html",
-    "https://www.benzinga.com/markets/prediction-markets/26/08/61265010/stock-market-will-sp-500-open-up-or-down-today-18",
-    "https://coinmarketcap.com/cmc-ai/ethereum/latest-updates/",
-    "https://investrade.com/morning-preview-august-18-2026/"
+    "https://stockmarketwatch.com/live/stock-market-today"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 55,
+      "value": 54,
       "label": "Neutral",
-      "previous_close": 60,
-      "updated": "2026-08-18T17:24:00+00:00"
+      "previous_close": 54,
+      "updated": "2026-08-19T10:17:46+00:00"
     },
     "crypto": {
-      "value": 41,
+      "value": 46,
       "label": "Fear",
-      "updated": "2026-08-18T00:00:00.000Z"
+      "updated": "2026-08-19T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-08-18T17:27:45.889Z",
+  "generated_at": "2026-08-19T10:36:01.158Z",
   "model": "claude-sonnet-4-5-20250929"
 }
