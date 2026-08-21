@@ -1,90 +1,89 @@
 {
-  "summary": "<cite index=\"5-1,28-1\">Walmart reported its weakest sales growth in over six years, sending shares slumping Thursday</cite>, while <cite index=\"1-5,4-8\">30-year Treasury yields climbed back to 5.25% after the government's bond buyback intervention faded</cite>. <cite index=\"4-10\">Gold rallied 3.6% this week to $4,540, reflecting persistent safe-haven demand</cite> even as equity futures showed modest gains. The week's most dramatic move came in crypto: <cite index=\"45-6,45-9\">Bitcoin surged 7.1% and Ethereum jumped 17.5% Thursday after President Trump pushed Congress to pass the Clarity Act</cite>, which would define regulatory treatment for digital assets. <cite index=\"21-1,21-2,21-3\">The SEC also announced proposed rules providing a framework for crypto companies to raise capital, defining registration exemptions for crypto-related investment contracts</cite>. Markets remain on edge as <cite index=\"4-7\">Treasury's extra long-bond purchases total only $14 billion per quarter against a $32 trillion market</cite>, leaving rates vulnerable and dampening risk appetite heading into Friday's session.",
+  "summary": "U.S. equities rebounded Friday after a sharp selloff, with the S&P 500 rising 0.6% and the Dow adding 0.9% as Treasury markets stabilized following Treasury Secretary Bessent's announcement to double long-term debt buybacks from $2 billion to at least $4 billion per operation. The move, aimed at calming bond market volatility after 30-year yields hit nearly 20-year highs earlier this week, failed to fully reassure investors on Thursday but sparked a risk-on rally Friday. Bitcoin surged near $77,000, posting its best weekly gain in over three years, fueled by Trump's renewed push for the Clarity Act and declining Treasury yields. Crypto-linked equities rallied in tandem, with Strategy and Bitmine gaining around 10%. Meanwhile, Walmart shares plunged 9.2% after reporting its slowest quarterly sales growth in over six years, weighing on retail sentiment. Geopolitical tensions with Iran escalated as President Trump announced plans for \"economic warfare,\" adding an overhang to risk assets. The Philadelphia Fed Index beat expectations at 47.4, signaling manufacturing strength, though investors remain cautious heading into a light data week.",
   "signals": [
     {
-      "type": "bearish",
-      "title": "Walmart misses on weakest sales growth in 6+ years",
-      "desc": "Retail giant's disappointing quarterly results signal consumer softness and pressured discretionary spending into year-end.",
-      "asset": "stocks"
-    },
-    {
-      "type": "bearish",
-      "title": "Treasury buyback intervention reverses as 30-year yield hits 5.25%",
-      "desc": "Long-duration bonds sold off despite doubled buyback plan, erasing Wednesday's rally and keeping pressure on equity valuations.",
+      "type": "bullish",
+      "title": "Treasury doubles debt buybacks to calm bond market",
+      "desc": "Treasury Secretary Bessent announced at least $4 billion in long-term debt repurchases, pushing yields lower and supporting risk assets including equities and crypto.",
       "asset": "macro"
     },
     {
       "type": "bullish",
-      "title": "Trump crypto policy push sparks Bitcoin rally above $69K",
-      "desc": "President's call for Clarity Act passage triggered 7% BTC and 17.5% ETH surge, signaling regulatory tailwinds ahead.",
+      "title": "Bitcoin surges to $77,000 on Trump crypto push",
+      "desc": "Bitcoin posted its best weekly gain in three years as Trump urged Congress to pass the Clarity Act, with Ethereum jumping 17.5% and nearly $3 billion in short liquidations fueling the rally.",
       "asset": "crypto"
     },
     {
-      "type": "bullish",
-      "title": "SEC proposes crypto fundraising framework with exit path",
-      "desc": "New rules allow crypto projects to exit securities classification after fulfilling commitments, benefiting mature networks like Bitcoin and Ethereum.",
-      "asset": "crypto"
+      "type": "bearish",
+      "title": "Walmart posts slowest sales growth in six years",
+      "desc": "Walmart shares fell 9.2% after reporting the slowest quarterly sales growth since 2020, raising concerns about consumer spending and retail earnings quality.",
+      "asset": "stocks"
+    },
+    {
+      "type": "bearish",
+      "title": "Trump declares economic warfare on Iran",
+      "desc": "Escalating geopolitical tensions as Trump threatens Iran with economic measures, pushing oil prices higher and adding risk-off pressure to equities on Thursday.",
+      "asset": "commodities"
     },
     {
       "type": "neutral",
-      "title": "Gold extends weekly gain to 3.6% as safe-haven bid persists",
-      "desc": "Spot gold at $4,540 reflects ongoing caution despite equity bounce, suggesting investors hedging rates and geopolitical risk.",
-      "asset": "commodities"
+      "title": "Philadelphia Fed Index beats at 47.4",
+      "desc": "August manufacturing gauge topped estimates and July's 41.4 reading, signaling resilience but failing to offset broader bond market and geopolitical concerns.",
+      "asset": "macro"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "768.56",
-      "change_pct": "-0.16"
+      "price": "7679.90",
+      "change_pct": "+0.51"
     },
     {
       "symbol": "QQQ",
-      "price": "714.65",
-      "change_pct": "-0.37"
+      "price": "711.45",
+      "change_pct": "-0.65"
     },
     {
       "symbol": "BTC",
-      "price": "71980",
-      "change_pct": "+7.10"
+      "price": "77000",
+      "change_pct": "+10.2"
     },
     {
       "symbol": "ETH",
-      "price": "2293",
-      "change_pct": "+17.50"
+      "price": "2311",
+      "change_pct": "+17.5"
     },
     {
       "symbol": "GOLD",
-      "price": "4540",
-      "change_pct": "+3.60"
+      "price": "2510",
+      "change_pct": "+0.8"
     },
     {
       "symbol": "OIL",
-      "price": "94.00",
-      "change_pct": "+2.80"
+      "price": "74.20",
+      "change_pct": "+1.5"
     },
     {
       "symbol": "DXY",
-      "price": "102.40",
-      "change_pct": "-0.50"
+      "price": "101.30",
+      "change_pct": "-0.3"
     }
   ],
-  "verdict": "Crypto surges on regulatory clarity while equities wobble under persistent bond-market pressure and consumer weakness—expect choppy trading with defensive rotation intact.",
+  "verdict": "Treasury intervention and crypto-friendly policy signals are driving a fragile risk-on rally, but geopolitical tensions and retail weakness keep bulls on guard.",
   "sentiment": "mixed",
   "sources": [
     "https://www.bloomberg.com/news/articles/2026-08-20/stock-market-today-dow-s-p-live-updates",
-    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-august-20-2026-crypto-prices-surge-after-president-trump-pushes-for-clarity-act-154014757.html",
-    "https://ts2.tech/en/stock-market-today-08-21-2026/",
-    "https://www.morningstar.com/markets",
-    "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
-    "https://www.cnbc.com/quotes/SPY,QQQ"
+    "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-21-dow-sp-500-nasdaq-080533702.html",
+    "https://www.coindesk.com/",
+    "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-aug-21-090400012.html",
+    "https://www.cnbc.com/2026/07/29/fed-meeting-today-live-updates.html"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 52,
-      "label": "Neutral",
+      "value": 56,
+      "label": "Greed",
       "previous_close": 52,
-      "updated": "2026-08-21T10:21:16+00:00"
+      "updated": "2026-08-21T17:25:26+00:00"
     },
     "crypto": {
       "value": 72,
@@ -92,6 +91,6 @@
       "updated": "2026-08-21T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-08-21T10:37:24.814Z",
+  "generated_at": "2026-08-21T17:29:26.792Z",
   "model": "claude-sonnet-4-5-20250929"
 }
