@@ -1,97 +1,97 @@
 {
-  "summary": "US markets slid Thursday as the Treasury Department's surprise intervention cooled after sparking a Wednesday rally. The Treasury announced it will more than double buybacks of 10-, 20-, and 30-year debt, pushing the 30-year yield down from near 20-year highs above 5.33%, though yields rebounded in Thursday trading. Stocks fell across the board with the Dow down 0.8%, S&P 500 off 0.3%, and Nasdaq sliding 0.8%. President Trump threatened a \"crushing economic operation\" against Iran, sending oil prices up over 2% and pressuring equities. Meanwhile, Walmart tumbled 9% on slowing US sales growth despite an earnings beat, as customers made \"trade-offs\" amid high gas prices. Crypto markets surged, with Bitcoin jumping 11.5% to near $71,800 after the Treasury move. Bitcoin ETFs recorded their largest daily inflow since May—$517 million on Wednesday—led by BlackRock's IBIT. The Fed released July FOMC minutes yesterday showing three dissenting members wanted to hike rates, the first three-way hawkish dissent since 2016, underscoring concern about persistent inflation even as the committee held rates at 3.5%-3.75%. Markets now look to Fed Chair Kevin Warsh's Jackson Hole speech next week for clarity on policy direction.",
+  "summary": "<cite index=\"5-1,28-1\">Walmart reported its weakest sales growth in over six years, sending shares slumping Thursday</cite>, while <cite index=\"1-5,4-8\">30-year Treasury yields climbed back to 5.25% after the government's bond buyback intervention faded</cite>. <cite index=\"4-10\">Gold rallied 3.6% this week to $4,540, reflecting persistent safe-haven demand</cite> even as equity futures showed modest gains. The week's most dramatic move came in crypto: <cite index=\"45-6,45-9\">Bitcoin surged 7.1% and Ethereum jumped 17.5% Thursday after President Trump pushed Congress to pass the Clarity Act</cite>, which would define regulatory treatment for digital assets. <cite index=\"21-1,21-2,21-3\">The SEC also announced proposed rules providing a framework for crypto companies to raise capital, defining registration exemptions for crypto-related investment contracts</cite>. Markets remain on edge as <cite index=\"4-7\">Treasury's extra long-bond purchases total only $14 billion per quarter against a $32 trillion market</cite>, leaving rates vulnerable and dampening risk appetite heading into Friday's session.",
   "signals": [
     {
       "type": "bearish",
-      "title": "Treasury buyback rally fades as bond yields rebound Thursday",
-      "desc": "Treasury yields reversed Wednesday's sharp decline after the buyback announcement, pressuring stocks lower as the 30-year yield remains near 19-year highs and investors digest the Fed's hawkish July minutes.",
+      "title": "Walmart misses on weakest sales growth in 6+ years",
+      "desc": "Retail giant's disappointing quarterly results signal consumer softness and pressured discretionary spending into year-end.",
       "asset": "stocks"
     },
     {
       "type": "bearish",
-      "title": "Trump threatens \"crushing\" Iran sanctions, oil spikes 2%+",
-      "desc": "President Trump's social media post vowing economic action against Iran pushed crude oil up over 2%, raising inflation concerns and weighing on equities sensitive to energy costs.",
-      "asset": "commodities"
-    },
-    {
-      "type": "bearish",
-      "title": "Walmart plunges 9% on slowing US sales despite earnings beat",
-      "desc": "Walmart reported strong earnings but slowing domestic sales growth as customers make \"trade-offs\" due to high gas prices, dragging consumer discretionary stocks lower and signaling pressure on the lower-income consumer.",
-      "asset": "stocks"
+      "title": "Treasury buyback intervention reverses as 30-year yield hits 5.25%",
+      "desc": "Long-duration bonds sold off despite doubled buyback plan, erasing Wednesday's rally and keeping pressure on equity valuations.",
+      "asset": "macro"
     },
     {
       "type": "bullish",
-      "title": "Bitcoin ETFs post $517M inflow, largest since May 4",
-      "desc": "US spot Bitcoin ETFs saw their biggest daily haul in over three months led by BlackRock's IBIT, as Bitcoin surged above $69,000 following the Treasury buyback announcement and renewed institutional demand.",
+      "title": "Trump crypto policy push sparks Bitcoin rally above $69K",
+      "desc": "President's call for Clarity Act passage triggered 7% BTC and 17.5% ETH surge, signaling regulatory tailwinds ahead.",
       "asset": "crypto"
     },
     {
-      "type": "bearish",
-      "title": "July FOMC minutes show three members wanted rate hike",
-      "desc": "Fed minutes released Wednesday revealed the first three-way hawkish dissent since 2016, with members citing persistent inflation concerns and adding uncertainty ahead of Warsh's Jackson Hole speech next week.",
-      "asset": "macro"
+      "type": "bullish",
+      "title": "SEC proposes crypto fundraising framework with exit path",
+      "desc": "New rules allow crypto projects to exit securities classification after fulfilling commitments, benefiting mature networks like Bitcoin and Ethereum.",
+      "asset": "crypto"
+    },
+    {
+      "type": "neutral",
+      "title": "Gold extends weekly gain to 3.6% as safe-haven bid persists",
+      "desc": "Spot gold at $4,540 reflects ongoing caution despite equity bounce, suggesting investors hedging rates and geopolitical risk.",
+      "asset": "commodities"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "706.91",
-      "change_pct": "+0.21"
+      "price": "768.56",
+      "change_pct": "-0.16"
     },
     {
       "symbol": "QQQ",
-      "price": "716.08",
-      "change_pct": "-0.20"
+      "price": "714.65",
+      "change_pct": "-0.37"
     },
     {
       "symbol": "BTC",
-      "price": "71808",
-      "change_pct": "+11.50"
+      "price": "71980",
+      "change_pct": "+7.10"
     },
     {
       "symbol": "ETH",
-      "price": "2244",
-      "change_pct": "+17.56"
+      "price": "2293",
+      "change_pct": "+17.50"
     },
     {
       "symbol": "GOLD",
-      "price": "413.84",
-      "change_pct": "+3.84"
+      "price": "4540",
+      "change_pct": "+3.60"
     },
     {
       "symbol": "OIL",
-      "price": "72.50",
-      "change_pct": "+2.16"
+      "price": "94.00",
+      "change_pct": "+2.80"
     },
     {
       "symbol": "DXY",
-      "price": "97.70",
-      "change_pct": "+0.15"
+      "price": "102.40",
+      "change_pct": "-0.50"
     }
   ],
-  "verdict": "Risk-off tone returns as Treasury relief fades, oil spikes on Iran threats, and hawkish Fed minutes weigh on equities despite crypto's surge.",
+  "verdict": "Crypto surges on regulatory clarity while equities wobble under persistent bond-market pressure and consumer weakness—expect choppy trading with defensive rotation intact.",
   "sentiment": "mixed",
   "sources": [
-    "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-aug-20-135212527.html",
-    "https://finance.yahoo.com/markets/live/stock-market-today-thursday-august-20-dow-sp-500-nasdaq-081139322.html",
-    "https://www.theblock.co/news/markets/2026-08-20-us-bitcoin-etf-517-million-inflows-412291",
-    "https://www.cnbc.com/2026/08/18/stock-market-today-live-updates.html",
-    "https://www.federalreserve.gov/newsevents.htm",
-    "https://en.cryptonomist.ch/2026/08/20/blackrock-ibit-inflows-bitcoin/"
+    "https://www.bloomberg.com/news/articles/2026-08-20/stock-market-today-dow-s-p-live-updates",
+    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-august-20-2026-crypto-prices-surge-after-president-trump-pushes-for-clarity-act-154014757.html",
+    "https://ts2.tech/en/stock-market-today-08-21-2026/",
+    "https://www.morningstar.com/markets",
+    "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks",
+    "https://www.cnbc.com/quotes/SPY,QQQ"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 55,
+      "value": 52,
       "label": "Neutral",
-      "previous_close": 56,
-      "updated": "2026-08-20T17:22:31+00:00"
+      "previous_close": 52,
+      "updated": "2026-08-21T10:21:16+00:00"
     },
     "crypto": {
-      "value": 62,
+      "value": 72,
       "label": "Greed",
-      "updated": "2026-08-20T00:00:00.000Z"
+      "updated": "2026-08-21T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-08-20T17:29:54.961Z",
+  "generated_at": "2026-08-21T10:37:24.814Z",
   "model": "claude-sonnet-4-5-20250929"
 }
