@@ -1,35 +1,35 @@
 {
-  "summary": "U.S. equities posted modest gains Friday to cap a volatile week dominated by Treasury market turbulence and a historic cryptocurrency rally. The S&P 500 climbed 0.43% to 7,674, while the Dow added nearly 1% despite weekly losses across major indices driven by a bond sell-off that pressured risk assets. Bitcoin surged to $77,000, recording its best week in two years with a 22% gain, fueled by President Trump's push for the CLARITY Act and the Treasury's announcement to double long-term debt buybacks. The crypto-friendly regulatory shift sparked a dramatic rally in digital assets and related equities, with Robinhood jumping 14% and Coinbase up 8%. Meanwhile, business activity data showed U.S. expansion at its fastest pace in over four years, and all eyes now turn to Nvidia's Wednesday earnings report, which could determine tech's next move after the Nasdaq 100 halted a five-day losing streak.",
+  "summary": "Markets closed a turbulent week with major indexes posting weekly losses despite Friday's modest rebound, as Treasury yields whipsawed following the government's surprise announcement to double long-term debt buybacks. The S&P 500 fell 1.4% for the week while tech stocks bore the brunt of selling pressure amid bond market volatility, with the 30-year yield briefly touching a 19-year high above 5.33% before the Treasury intervention. Cryptocurrencies defied the broader risk-off mood, with Bitcoin surging 22% to $77,000—its best weekly gain since March 2024—after President Trump pushed Congress to pass the CLARITY Act and met with crypto executives at the White House. Spot Bitcoin ETFs recorded $517 million in single-day inflows, while crypto-related equities like Coinbase and Robinhood jumped 8% and 14% respectively. Geopolitical tensions escalated as Trump vowed \"economic warfare\" against Iran over Strait of Hormuz shipping disputes, lifting oil prices. All eyes now turn to Wednesday's Nvidia earnings and the July PCE inflation report as traders assess whether the AI trade can withstand higher-for-longer rates.",
   "signals": [
     {
       "type": "bullish",
-      "title": "Bitcoin rallies 22% on Trump's CLARITY Act push and Treasury buyback plan",
-      "desc": "Bitcoin hit $77,000 in its best week since 2024 as Trump urged Congress to pass crypto legislation and Treasury announced doubled long-term debt repurchases, injecting liquidity and suppressing yields.",
+      "title": "Bitcoin surges 22% as Trump pushes CLARITY Act, Treasury doubles buybacks",
+      "desc": "Bitcoin posted its best weekly gain since March 2024, reaching $77,000, driven by Trump's White House meeting with crypto executives and regulatory clarity expectations alongside Treasury liquidity injection.",
       "asset": "crypto"
     },
     {
+      "type": "bearish",
+      "title": "Tech stocks shed 3% weekly as 30-year Treasury yield hits 19-year high",
+      "desc": "Information technology sector suffered sharp losses over five sessions as Treasury yields spiked above 5.33%, pressuring growth stock valuations and forcing risk reduction ahead of Nvidia earnings.",
+      "asset": "stocks"
+    },
+    {
       "type": "bullish",
-      "title": "U.S. business activity expands at fastest pace in four years",
-      "desc": "Strong PMI data supported equity gains Friday and reduced near-term recession fears, though bond yields remain elevated following week-long Treasury volatility.",
+      "title": "US business activity hits fastest pace in over four years",
+      "desc": "August PMI data showed US business activity growing at its strongest rate since early 2022, supporting equity gains Friday and offsetting some bond market concerns.",
       "asset": "macro"
     },
     {
       "type": "neutral",
-      "title": "Nvidia earnings Wednesday could decide tech sector direction",
-      "desc": "Wall Street expects 99% YoY earnings growth to $2.09 per share on $92B revenue, with AI demand and hyperscaler capex plans in focus as Nasdaq 100 sits at key technical levels.",
-      "asset": "stocks"
-    },
-    {
-      "type": "bullish",
-      "title": "Crypto-related stocks surge on regulatory optimism",
-      "desc": "Robinhood rallied 14% and Coinbase gained 8% Friday as bitcoin's 22% weekly advance and Trump's crypto legislation push boosted sentiment for digital asset platforms.",
-      "asset": "stocks"
+      "title": "Treasury buyback announcement fails to durably suppress yields",
+      "desc": "Treasury's decision to double long-term debt repurchases initially drove yields lower Wednesday, but the rally evaporated Thursday as structural supply concerns resurfaced.",
+      "asset": "macro"
     },
     {
       "type": "bearish",
-      "title": "Major indices post weekly losses despite Friday bounce",
-      "desc": "S&P 500 fell 1.4% for the week and tech shed 3% over five days as rising Treasury yields and bond market volatility pressured growth stocks, particularly in semiconductors.",
-      "asset": "stocks"
+      "title": "Trump Iran sanctions threat lifts oil, adds inflation pressure",
+      "desc": "President's vow of \"economic warfare\" against Iran over Strait of Hormuz tensions pushed Brent crude to $91.66, reigniting inflation concerns and complicating Fed policy outlook.",
+      "asset": "commodities"
     }
   ],
   "tickers": [
@@ -40,43 +40,43 @@
     },
     {
       "symbol": "QQQ",
-      "price": "712.46",
-      "change_pct": "+0.43"
+      "price": "713.44",
+      "change_pct": "+0.35"
     },
     {
       "symbol": "BTC",
-      "price": "77000",
-      "change_pct": "+22.0"
+      "price": "77000.00",
+      "change_pct": "+22.00"
     },
     {
       "symbol": "ETH",
-      "price": "2390",
-      "change_pct": "+27.4"
+      "price": "2402.78",
+      "change_pct": "+18.50"
     },
     {
       "symbol": "GOLD",
-      "price": "2520",
-      "change_pct": "+2.5"
+      "price": "2515.00",
+      "change_pct": "+0.80"
     },
     {
       "symbol": "OIL",
-      "price": "72.50",
-      "change_pct": "+1.2"
+      "price": "91.66",
+      "change_pct": "+2.10"
     },
     {
       "symbol": "DXY",
       "price": "101.20",
-      "change_pct": "-0.8"
+      "change_pct": "-0.15"
     }
   ],
-  "verdict": "Crypto's historic rally and solid macro data provide near-term support, but Treasury volatility and Nvidia's Wednesday print will determine whether risk appetite holds or fades.",
+  "verdict": "Choppy conditions persist with bond volatility and geopolitical risk offsetting crypto euphoria; Wednesday's Nvidia report and PCE data will dictate near-term direction.",
   "sentiment": "mixed",
   "sources": [
     "https://www.bloomberg.com/news/articles/2026-08-20/stock-market-today-dow-s-p-live-updates",
     "https://www.cnbc.com/2026/08/20/stock-market-today-live-updates.html",
     "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-21-dow-sp-500-nasdaq-bitcoin-080533702.html",
-    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-august-21-2026-cryptos-continue-rally-sparked-by-treasury-repurchase-announcement-161633891.html",
-    "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+    "https://investingnews.com/cryptocurrency-market-recap/",
+    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-august-20-2026-crypto-prices-surge-after-president-trump-pushes-for-clarity-act-154014757.html"
   ],
   "fear_greed": {
     "stocks": {
@@ -91,6 +91,6 @@
       "updated": "2026-08-22T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-08-22T10:31:15.672Z",
+  "generated_at": "2026-08-22T17:20:47.844Z",
   "model": "claude-sonnet-4-5-20250929"
 }
