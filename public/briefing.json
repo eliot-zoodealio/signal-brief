@@ -1,82 +1,83 @@
 {
-  "summary": "Markets closed a turbulent week with major indexes posting weekly losses despite Friday's modest rebound, as Treasury yields whipsawed following the government's surprise announcement to double long-term debt buybacks. The S&P 500 fell 1.4% for the week while tech stocks bore the brunt of selling pressure amid bond market volatility, with the 30-year yield briefly touching a 19-year high above 5.33% before the Treasury intervention. Cryptocurrencies defied the broader risk-off mood, with Bitcoin surging 22% to $77,000—its best weekly gain since March 2024—after President Trump pushed Congress to pass the CLARITY Act and met with crypto executives at the White House. Spot Bitcoin ETFs recorded $517 million in single-day inflows, while crypto-related equities like Coinbase and Robinhood jumped 8% and 14% respectively. Geopolitical tensions escalated as Trump vowed \"economic warfare\" against Iran over Strait of Hormuz shipping disputes, lifting oil prices. All eyes now turn to Wednesday's Nvidia earnings and the July PCE inflation report as traders assess whether the AI trade can withstand higher-for-longer rates.",
+  "summary": "Markets are navigating choppy conditions as Treasury yields stabilize after a volatile week that saw the US Treasury announce expanded long-term debt buybacks in a bid to calm bond markets. The S&P 500 and Nasdaq posted weekly losses despite a Friday bounce, with tech stocks bearing the brunt of the sell-off as the 30-year yield hit multi-decade highs before the intervention. Crypto markets surged dramatically, with Bitcoin jumping above $76,000 and Ethereum rallying over 25% in three days after President Trump pushed Congress to pass the Clarity Act and Treasury buybacks injected liquidity into risk assets. Meanwhile, Fed Chair Kevin Warsh held rates steady at 3.5-3.75% in July despite three hawkish dissents, keeping investors on edge ahead of next week's PCE inflation data and Nvidia earnings on August 26. Geopolitical risk is rising as Trump vowed 'economic warfare' against Iran, pushing oil prices higher and adding to inflation concerns.",
   "signals": [
     {
       "type": "bullish",
-      "title": "Bitcoin surges 22% as Trump pushes CLARITY Act, Treasury doubles buybacks",
-      "desc": "Bitcoin posted its best weekly gain since March 2024, reaching $77,000, driven by Trump's White House meeting with crypto executives and regulatory clarity expectations alongside Treasury liquidity injection.",
+      "title": "Treasury Buyback Plan Sparks Crypto Rally",
+      "desc": "US Treasury doubled long-term debt buybacks, suppressing yields and injecting liquidity that fueled Bitcoin's 18% three-day surge to $76,700 and Ethereum's 25% rally.",
+      "asset": "crypto"
+    },
+    {
+      "type": "bullish",
+      "title": "Trump Pushes Crypto Clarity Act",
+      "desc": "President Trump urged Congress to pass crypto legislation defining regulatory framework, boosting sentiment and driving institutional risk appetite toward digital assets.",
       "asset": "crypto"
     },
     {
       "type": "bearish",
-      "title": "Tech stocks shed 3% weekly as 30-year Treasury yield hits 19-year high",
-      "desc": "Information technology sector suffered sharp losses over five sessions as Treasury yields spiked above 5.33%, pressuring growth stock valuations and forcing risk reduction ahead of Nvidia earnings.",
+      "title": "Bond Volatility Hammers Tech Stocks",
+      "desc": "30-year Treasury yield spike to near-20-year highs pressured growth stocks; Meta down 7% for the week, with tech sector shedding 3% despite Friday rebound.",
       "asset": "stocks"
     },
     {
-      "type": "bullish",
-      "title": "US business activity hits fastest pace in over four years",
-      "desc": "August PMI data showed US business activity growing at its strongest rate since early 2022, supporting equity gains Friday and offsetting some bond market concerns.",
-      "asset": "macro"
-    },
-    {
       "type": "neutral",
-      "title": "Treasury buyback announcement fails to durably suppress yields",
-      "desc": "Treasury's decision to double long-term debt repurchases initially drove yields lower Wednesday, but the rally evaporated Thursday as structural supply concerns resurfaced.",
+      "title": "Fed Holds Steady with Hawkish Dissents",
+      "desc": "FOMC kept rates at 3.5-3.75% in July but three members dissented in favor of a hike, signaling ongoing inflation vigilance ahead of September decision.",
       "asset": "macro"
     },
     {
       "type": "bearish",
-      "title": "Trump Iran sanctions threat lifts oil, adds inflation pressure",
-      "desc": "President's vow of \"economic warfare\" against Iran over Strait of Hormuz tensions pushed Brent crude to $91.66, reigniting inflation concerns and complicating Fed policy outlook.",
+      "title": "Trump Iran Threats Lift Oil, Inflation Risks",
+      "desc": "President announced 'economic warfare' against Iran, sending crude higher and raising stagflation fears that could force Fed to delay rate cuts.",
       "asset": "commodities"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "767.44",
-      "change_pct": "+0.43"
+      "price": "765.72",
+      "change_pct": "+0.41"
     },
     {
       "symbol": "QQQ",
-      "price": "713.44",
-      "change_pct": "+0.35"
+      "price": "714.25",
+      "change_pct": "+0.46"
     },
     {
       "symbol": "BTC",
-      "price": "77000.00",
-      "change_pct": "+22.00"
+      "price": "77451.53",
+      "change_pct": "+6.80"
     },
     {
       "symbol": "ETH",
-      "price": "2402.78",
-      "change_pct": "+18.50"
+      "price": "2426.29",
+      "change_pct": "+7.70"
     },
     {
       "symbol": "GOLD",
-      "price": "2515.00",
-      "change_pct": "+0.80"
+      "price": "2518.40",
+      "change_pct": "+0.65"
     },
     {
       "symbol": "OIL",
-      "price": "91.66",
-      "change_pct": "+2.10"
+      "price": "76.85",
+      "change_pct": "+1.20"
     },
     {
       "symbol": "DXY",
-      "price": "101.20",
-      "change_pct": "-0.15"
+      "price": "101.45",
+      "change_pct": "-0.25"
     }
   ],
-  "verdict": "Choppy conditions persist with bond volatility and geopolitical risk offsetting crypto euphoria; Wednesday's Nvidia report and PCE data will dictate near-term direction.",
+  "verdict": "Risk-on rotation into crypto and commodities continues as Treasury intervention eases immediate bond stress, but elevated yields and geopolitical tensions keep equity upside capped ahead of key data and Nvidia earnings.",
   "sentiment": "mixed",
   "sources": [
-    "https://www.bloomberg.com/news/articles/2026-08-20/stock-market-today-dow-s-p-live-updates",
-    "https://www.cnbc.com/2026/08/20/stock-market-today-live-updates.html",
+    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-august-21-2026-cryptos-continue-rally-sparked-by-treasury-repurchase-announcement-161633891.html",
+    "https://www.cnbc.com/2026/07/29/fed-meeting-today-live-updates.html",
     "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-21-dow-sp-500-nasdaq-bitcoin-080533702.html",
-    "https://investingnews.com/cryptocurrency-market-recap/",
-    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-august-20-2026-crypto-prices-surge-after-president-trump-pushes-for-clarity-act-154014757.html"
+    "https://www.coinbase.com/price/ethereum",
+    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-21-2026",
+    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm"
   ],
   "fear_greed": {
     "stocks": {
@@ -86,11 +87,11 @@
       "updated": "2026-08-21T23:59:58+00:00"
     },
     "crypto": {
-      "value": 71,
+      "value": 66,
       "label": "Greed",
-      "updated": "2026-08-22T00:00:00.000Z"
+      "updated": "2026-08-23T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-08-22T17:20:47.844Z",
+  "generated_at": "2026-08-23T10:31:31.177Z",
   "model": "claude-sonnet-4-5-20250929"
 }
