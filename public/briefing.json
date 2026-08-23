@@ -1,35 +1,35 @@
 {
-  "summary": "Markets are navigating choppy conditions as Treasury yields stabilize after a volatile week that saw the US Treasury announce expanded long-term debt buybacks in a bid to calm bond markets. The S&P 500 and Nasdaq posted weekly losses despite a Friday bounce, with tech stocks bearing the brunt of the sell-off as the 30-year yield hit multi-decade highs before the intervention. Crypto markets surged dramatically, with Bitcoin jumping above $76,000 and Ethereum rallying over 25% in three days after President Trump pushed Congress to pass the Clarity Act and Treasury buybacks injected liquidity into risk assets. Meanwhile, Fed Chair Kevin Warsh held rates steady at 3.5-3.75% in July despite three hawkish dissents, keeping investors on edge ahead of next week's PCE inflation data and Nvidia earnings on August 26. Geopolitical risk is rising as Trump vowed 'economic warfare' against Iran, pushing oil prices higher and adding to inflation concerns.",
+  "summary": "<cite index=\"4-3,22-14\">Bitcoin surged to $77,692 this week, notching its best five-day performance since March 2024, after President Trump met with crypto executives and urged Congress to pass the CLARITY Act</cite>. <cite index=\"20-8,22-16\">The rally accelerated when Treasury Secretary Scott Bessent announced plans to double long-term bond buyback limits, injecting liquidity into markets and suppressing yields</cite>. <cite index=\"24-7,24-21\">Spot Bitcoin ETFs pulled in roughly $307 million on August 21, while Ethereum ETFs received about $184 million, capping weekly inflows of $1.9 billion and $697 million respectively</cite>. Equity markets posted modest Friday gains to close a volatile week, with <cite index=\"4-1,4-4\">the Dow climbing about 1% and the S&P 500 adding 0.4%</cite>. <cite index=\"4-6\">Despite Friday's bounce, the major indexes all posted weekly losses after a bond sell-off put pressure on risk assets</cite>. <cite index=\"17-12,17-13\">At its July meeting, the Federal Reserve held rates steady at 3.5% to 3.75%, though three FOMC members dissented in favor of a hike</cite>. <cite index=\"7-10\">Next week brings the July PCE price index on Wednesday along with Nvidia earnings, key tests for market sentiment</cite>.",
   "signals": [
     {
       "type": "bullish",
-      "title": "Treasury Buyback Plan Sparks Crypto Rally",
-      "desc": "US Treasury doubled long-term debt buybacks, suppressing yields and injecting liquidity that fueled Bitcoin's 18% three-day surge to $76,700 and Ethereum's 25% rally.",
+      "title": "Trump pushes CLARITY Act, Bitcoin ETFs see record inflows",
+      "desc": "Bitcoin surged 22% this week to $77,692 after Trump backed crypto legislation and spot Bitcoin ETFs pulled in $1.9 billion in weekly inflows, signaling institutional demand.",
       "asset": "crypto"
     },
     {
       "type": "bullish",
-      "title": "Trump Pushes Crypto Clarity Act",
-      "desc": "President Trump urged Congress to pass crypto legislation defining regulatory framework, boosting sentiment and driving institutional risk appetite toward digital assets.",
-      "asset": "crypto"
-    },
-    {
-      "type": "bearish",
-      "title": "Bond Volatility Hammers Tech Stocks",
-      "desc": "30-year Treasury yield spike to near-20-year highs pressured growth stocks; Meta down 7% for the week, with tech sector shedding 3% despite Friday rebound.",
-      "asset": "stocks"
-    },
-    {
-      "type": "neutral",
-      "title": "Fed Holds Steady with Hawkish Dissents",
-      "desc": "FOMC kept rates at 3.5-3.75% in July but three members dissented in favor of a hike, signaling ongoing inflation vigilance ahead of September decision.",
+      "title": "Treasury doubles bond buyback limit, suppresses yields",
+      "desc": "Treasury Secretary Bessent's announcement to double long-term debt buybacks injected liquidity and lowered yields, boosting appetite for risk assets including crypto and equities.",
       "asset": "macro"
     },
     {
       "type": "bearish",
-      "title": "Trump Iran Threats Lift Oil, Inflation Risks",
-      "desc": "President announced 'economic warfare' against Iran, sending crude higher and raising stagflation fears that could force Fed to delay rate cuts.",
-      "asset": "commodities"
+      "title": "Weekend crypto liquidations hit $109 million despite ETF demand",
+      "desc": "Bitcoin and Ethereum saw $109.66 million in combined liquidations over the weekend, 80% from longs, as crowded positioning and thin liquidity triggered forced selling.",
+      "asset": "crypto"
+    },
+    {
+      "type": "bearish",
+      "title": "Bond yields rebound, equities post weekly losses",
+      "desc": "Major stock indexes posted weekly losses despite Friday's gains as Treasury yields rebounded from intervention lows, pressuring tech and growth sectors.",
+      "asset": "stocks"
+    },
+    {
+      "type": "neutral",
+      "title": "Fed minutes show three dissenters wanted July rate hike",
+      "desc": "FOMC minutes revealed three members dissented in favor of raising rates at the July meeting, signaling divisions over inflation risks as markets await next week's PCE data.",
+      "asset": "macro"
     }
   ],
   "tickers": [
@@ -40,44 +40,44 @@
     },
     {
       "symbol": "QQQ",
-      "price": "714.25",
-      "change_pct": "+0.46"
+      "price": "713.44",
+      "change_pct": "+0.35"
     },
     {
       "symbol": "BTC",
-      "price": "77451.53",
-      "change_pct": "+6.80"
+      "price": "77079.96",
+      "change_pct": "-1.75"
     },
     {
       "symbol": "ETH",
-      "price": "2426.29",
-      "change_pct": "+7.70"
+      "price": "2419.13",
+      "change_pct": "-4.06"
     },
     {
       "symbol": "GOLD",
-      "price": "2518.40",
-      "change_pct": "+0.65"
+      "price": "2515.00",
+      "change_pct": "+0.70"
     },
     {
       "symbol": "OIL",
-      "price": "76.85",
-      "change_pct": "+1.20"
+      "price": "73.50",
+      "change_pct": "-0.22"
     },
     {
       "symbol": "DXY",
-      "price": "101.45",
-      "change_pct": "-0.25"
+      "price": "101.20",
+      "change_pct": "-0.15"
     }
   ],
-  "verdict": "Risk-on rotation into crypto and commodities continues as Treasury intervention eases immediate bond stress, but elevated yields and geopolitical tensions keep equity upside capped ahead of key data and Nvidia earnings.",
+  "verdict": "Crypto rallies on Trump's CLARITY Act push and Treasury liquidity injection, but weekend leverage flush and Fed dissent cloud near-term risk appetite ahead of Nvidia and PCE.",
   "sentiment": "mixed",
   "sources": [
-    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-august-21-2026-cryptos-continue-rally-sparked-by-treasury-repurchase-announcement-161633891.html",
-    "https://www.cnbc.com/2026/07/29/fed-meeting-today-live-updates.html",
     "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-21-dow-sp-500-nasdaq-bitcoin-080533702.html",
-    "https://www.coinbase.com/price/ethereum",
-    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-21-2026",
-    "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm"
+    "https://investingnews.com/cryptocurrency-market-recap/",
+    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-august-21-2026-cryptos-continue-rally-sparked-by-treasury-repurchase-announcement-161633891.html",
+    "https://coinstats.app/ai/a/crypto-news-update-23-August-2026",
+    "https://www.cnbc.com/2026/07/29/fed-meeting-today-live-updates.html",
+    "https://www.schwab.com/learn/story/stock-market-update-open"
   ],
   "fear_greed": {
     "stocks": {
@@ -92,6 +92,6 @@
       "updated": "2026-08-23T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-08-23T10:31:31.177Z",
+  "generated_at": "2026-08-23T17:21:03.994Z",
   "model": "claude-sonnet-4-5-20250929"
 }
