@@ -1,42 +1,42 @@
 {
-  "summary": "<cite index=\"4-3,22-14\">Bitcoin surged to $77,692 this week, notching its best five-day performance since March 2024, after President Trump met with crypto executives and urged Congress to pass the CLARITY Act</cite>. <cite index=\"20-8,22-16\">The rally accelerated when Treasury Secretary Scott Bessent announced plans to double long-term bond buyback limits, injecting liquidity into markets and suppressing yields</cite>. <cite index=\"24-7,24-21\">Spot Bitcoin ETFs pulled in roughly $307 million on August 21, while Ethereum ETFs received about $184 million, capping weekly inflows of $1.9 billion and $697 million respectively</cite>. Equity markets posted modest Friday gains to close a volatile week, with <cite index=\"4-1,4-4\">the Dow climbing about 1% and the S&P 500 adding 0.4%</cite>. <cite index=\"4-6\">Despite Friday's bounce, the major indexes all posted weekly losses after a bond sell-off put pressure on risk assets</cite>. <cite index=\"17-12,17-13\">At its July meeting, the Federal Reserve held rates steady at 3.5% to 3.75%, though three FOMC members dissented in favor of a hike</cite>. <cite index=\"7-10\">Next week brings the July PCE price index on Wednesday along with Nvidia earnings, key tests for market sentiment</cite>.",
+  "summary": "<cite index=\"12-2,12-3\">US stock futures traded mixed on Monday ahead of an action-packed week featuring Nvidia earnings and the Federal Reserve's Jackson Hole Symposium, with the Trump administration also expected to announce details of new economic sanctions against Iran.</cite> <cite index=\"12-4\">Futures on the S&P 500 slipped 0.2% while Nasdaq Composite futures fell 0.7% after the major indexes posted weekly declines.</cite> Asian markets struggled overnight, with <cite index=\"10-4\">Samsung Electronics slumping over 6% after announcing plans to return as much as 110 trillion won ($80 billion) to investors this year.</cite> Meanwhile, crypto markets remained buoyant after last week's Treasury-driven rally, with <cite index=\"31-18,31-19,31-20\">US spot Bitcoin ETFs recording $600 million in net inflows on August 20, following inflows of $297.5 million on August 17, $186.4 million on August 18, and $517 million on August 19.</cite> <cite index=\"14-4,14-9\">The yield on the U.S. 30-year Treasury surged to multi-decade highs this week, and refused to fall even after Treasury Secretary Scott Bessent made the surprise decision to at least double buybacks of long-dated bonds starting in September.</cite> <cite index=\"14-10\">That heightens the importance of what Fed Chairman Kevin Warsh might say this week at Jackson Hole to calm bond investors.</cite>",
   "signals": [
     {
-      "type": "bullish",
-      "title": "Trump pushes CLARITY Act, Bitcoin ETFs see record inflows",
-      "desc": "Bitcoin surged 22% this week to $77,692 after Trump backed crypto legislation and spot Bitcoin ETFs pulled in $1.9 billion in weekly inflows, signaling institutional demand.",
-      "asset": "crypto"
-    },
-    {
-      "type": "bullish",
-      "title": "Treasury doubles bond buyback limit, suppresses yields",
-      "desc": "Treasury Secretary Bessent's announcement to double long-term debt buybacks injected liquidity and lowered yields, boosting appetite for risk assets including crypto and equities.",
-      "asset": "macro"
-    },
-    {
       "type": "bearish",
-      "title": "Weekend crypto liquidations hit $109 million despite ETF demand",
-      "desc": "Bitcoin and Ethereum saw $109.66 million in combined liquidations over the weekend, 80% from longs, as crowded positioning and thin liquidity triggered forced selling.",
-      "asset": "crypto"
-    },
-    {
-      "type": "bearish",
-      "title": "Bond yields rebound, equities post weekly losses",
-      "desc": "Major stock indexes posted weekly losses despite Friday's gains as Treasury yields rebounded from intervention lows, pressuring tech and growth sectors.",
+      "title": "Samsung shareholder return plan triggers Asia tech selloff",
+      "desc": "<cite index=\"10-4\">Samsung Electronics slumped over 6% after announcing plans to return $80 billion to investors, dragging the Kospi Index down 1.4% and pressuring memory chip stocks globally.</cite>",
       "asset": "stocks"
     },
     {
-      "type": "neutral",
-      "title": "Fed minutes show three dissenters wanted July rate hike",
-      "desc": "FOMC minutes revealed three members dissented in favor of raising rates at the July meeting, signaling divisions over inflation risks as markets await next week's PCE data.",
+      "type": "bearish",
+      "title": "30-year Treasury yields hit multi-decade highs despite buyback pledge",
+      "desc": "<cite index=\"14-4,14-9\">The U.S. 30-year Treasury yield surged to multi-decade highs and refused to fall even after Treasury Secretary Scott Bessent doubled long-dated bond buybacks, signaling persistent fiscal and inflation concerns.</cite>",
       "asset": "macro"
+    },
+    {
+      "type": "neutral",
+      "title": "Fed Chair Warsh faces Jackson Hole debut amid bond market turmoil",
+      "desc": "<cite index=\"14-10,14-11\">Fed Chairman Kevin Warsh's speech at Jackson Hole this week will be critical to calm bond investors, given the newly-installed Fed leader's tight-lipped approach after July's hawkish three-member dissent.</cite>",
+      "asset": "macro"
+    },
+    {
+      "type": "bullish",
+      "title": "Bitcoin ETF inflows surge to $600M as institutional bid returns",
+      "desc": "<cite index=\"31-18,31-19\">US spot Bitcoin ETFs recorded $600 million in net inflows on August 20, bigger than previous sessions and extending the recent run of positive flows after brief weakness mid-month.</cite>",
+      "asset": "crypto"
+    },
+    {
+      "type": "neutral",
+      "title": "Trump administration prepares Iran sanctions announcement",
+      "desc": "<cite index=\"12-3\">The Trump administration is expected to announce details of new economic sanctions against Iran, adding geopolitical uncertainty ahead of Nvidia earnings and Jackson Hole.</cite>",
+      "asset": "commodities"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "765.72",
-      "change_pct": "+0.41"
+      "price": "528.50",
+      "change_pct": "+0.40"
     },
     {
       "symbol": "QQQ",
@@ -45,23 +45,23 @@
     },
     {
       "symbol": "BTC",
-      "price": "77079.96",
-      "change_pct": "-1.75"
+      "price": "77871",
+      "change_pct": "+1.46"
     },
     {
       "symbol": "ETH",
-      "price": "2419.13",
-      "change_pct": "-4.06"
+      "price": "2472",
+      "change_pct": "+2.40"
     },
     {
       "symbol": "GOLD",
-      "price": "2515.00",
-      "change_pct": "+0.70"
+      "price": "2525",
+      "change_pct": "+0.85"
     },
     {
       "symbol": "OIL",
-      "price": "73.50",
-      "change_pct": "-0.22"
+      "price": "72.50",
+      "change_pct": "-0.30"
     },
     {
       "symbol": "DXY",
@@ -69,29 +69,29 @@
       "change_pct": "-0.15"
     }
   ],
-  "verdict": "Crypto rallies on Trump's CLARITY Act push and Treasury liquidity injection, but weekend leverage flush and Fed dissent cloud near-term risk appetite ahead of Nvidia and PCE.",
+  "verdict": "Markets face a critical week with Nvidia earnings, Fed Chair Warsh's Jackson Hole debut, and persistent bond market stress creating a volatile backdrop for risk assets.",
   "sentiment": "mixed",
   "sources": [
-    "https://finance.yahoo.com/markets/live/stock-market-today-friday-august-21-dow-sp-500-nasdaq-bitcoin-080533702.html",
-    "https://investingnews.com/cryptocurrency-market-recap/",
-    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-friday-august-21-2026-cryptos-continue-rally-sparked-by-treasury-repurchase-announcement-161633891.html",
-    "https://coinstats.app/ai/a/crypto-news-update-23-August-2026",
-    "https://www.cnbc.com/2026/07/29/fed-meeting-today-live-updates.html",
-    "https://www.schwab.com/learn/story/stock-market-update-open"
+    "https://finance.yahoo.com/markets/live/stock-market-today-monday-august-24-dow-sp-500-nasdaq-080306047.html",
+    "https://www.bloomberg.com/news/articles/2026-08-23/stock-market-today-dow-s-p-live-updates",
+    "https://www.cnbc.com/2026/08/21/stock-market-next-week-outlook-for-aug-24-28-2026.html",
+    "https://finance.yahoo.com/markets/crypto/articles/bitcoin-etf-news-btc-usd-112024547.html",
+    "https://www.coindesk.com/tech/2026/08/21/live-updates-bitcoin-ether-etfs-pull-in-usd800-million-as-inflows-surge-for-a-second-day",
+    "https://www.investing.com/etfs/powershares-qqqq"
   ],
   "fear_greed": {
     "stocks": {
       "value": 55,
       "label": "Greed",
-      "previous_close": 52,
-      "updated": "2026-08-21T23:59:58+00:00"
+      "previous_close": 55,
+      "updated": "2026-08-24T10:23:01+00:00"
     },
     "crypto": {
-      "value": 66,
+      "value": 73,
       "label": "Greed",
-      "updated": "2026-08-23T00:00:00.000Z"
+      "updated": "2026-08-24T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-08-23T17:21:03.994Z",
+  "generated_at": "2026-08-24T10:43:33.016Z",
   "model": "claude-sonnet-4-5-20250929"
 }
