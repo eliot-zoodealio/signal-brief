@@ -1,90 +1,89 @@
 {
-  "summary": "<cite index=\"12-2,12-3\">US stock futures traded mixed on Monday ahead of an action-packed week featuring Nvidia earnings and the Federal Reserve's Jackson Hole Symposium, with the Trump administration also expected to announce details of new economic sanctions against Iran.</cite> <cite index=\"12-4\">Futures on the S&P 500 slipped 0.2% while Nasdaq Composite futures fell 0.7% after the major indexes posted weekly declines.</cite> Asian markets struggled overnight, with <cite index=\"10-4\">Samsung Electronics slumping over 6% after announcing plans to return as much as 110 trillion won ($80 billion) to investors this year.</cite> Meanwhile, crypto markets remained buoyant after last week's Treasury-driven rally, with <cite index=\"31-18,31-19,31-20\">US spot Bitcoin ETFs recording $600 million in net inflows on August 20, following inflows of $297.5 million on August 17, $186.4 million on August 18, and $517 million on August 19.</cite> <cite index=\"14-4,14-9\">The yield on the U.S. 30-year Treasury surged to multi-decade highs this week, and refused to fall even after Treasury Secretary Scott Bessent made the surprise decision to at least double buybacks of long-dated bonds starting in September.</cite> <cite index=\"14-10\">That heightens the importance of what Fed Chairman Kevin Warsh might say this week at Jackson Hole to calm bond investors.</cite>",
+  "summary": "U.S. equities traded mixed on Monday as geopolitical risk and tariff threats overshadowed last week's gains. The S&P 500 slipped 0.2% while the Nasdaq fell 0.4%, weighed down by semiconductor weakness, though the Dow edged up 0.2% on blue-chip strength. Treasury Secretary Scott Bessent is expected to unveil new Iran sanctions later today after President Trump threatened the country with economic retaliation, while failed U.S.-Canada trade talks have raised reciprocal tariff concerns. Investors are looking ahead to Nvidia's Wednesday earnings and Fed Chair Kevin Warsh's Jackson Hole speech on Friday, both of which could determine near-term market direction. Meanwhile, crypto markets extended their breakout from last week, with Bitcoin pushing toward $80,000 on record ETF inflows and Ethereum rallying alongside. Treasury yields remain near multi-year highs, keeping pressure on risk assets as markets await clarity from the Fed on its inflation assessment and rate trajectory.",
   "signals": [
     {
       "type": "bearish",
-      "title": "Samsung shareholder return plan triggers Asia tech selloff",
-      "desc": "<cite index=\"10-4\">Samsung Electronics slumped over 6% after announcing plans to return $80 billion to investors, dragging the Kospi Index down 1.4% and pressuring memory chip stocks globally.</cite>",
+      "title": "U.S.-Iran sanctions and Canada tariff threats escalate geopolitical risk",
+      "desc": "Treasury Secretary Bessent set to announce Iran sanctions and U.S.-Canada trade talks collapsed, raising tariff fears and pressuring risk sentiment.",
       "asset": "stocks"
     },
     {
       "type": "bearish",
-      "title": "30-year Treasury yields hit multi-decade highs despite buyback pledge",
-      "desc": "<cite index=\"14-4,14-9\">The U.S. 30-year Treasury yield surged to multi-decade highs and refused to fall even after Treasury Secretary Scott Bessent doubled long-dated bond buybacks, signaling persistent fiscal and inflation concerns.</cite>",
-      "asset": "macro"
+      "title": "Semiconductor stocks drag Nasdaq lower ahead of Nvidia earnings",
+      "desc": "Chip stocks fell sharply with the iShares Semiconductor ETF down nearly 3%, reflecting earnings anxiety before Nvidia's Wednesday report.",
+      "asset": "stocks"
     },
     {
       "type": "neutral",
-      "title": "Fed Chair Warsh faces Jackson Hole debut amid bond market turmoil",
-      "desc": "<cite index=\"14-10,14-11\">Fed Chairman Kevin Warsh's speech at Jackson Hole this week will be critical to calm bond investors, given the newly-installed Fed leader's tight-lipped approach after July's hawkish three-member dissent.</cite>",
+      "title": "Fed Chair Warsh to speak at Jackson Hole on Friday",
+      "desc": "Markets await Warsh's keynote for clues on inflation assessment and policy direction, with limited conventional forward guidance expected.",
       "asset": "macro"
     },
     {
       "type": "bullish",
-      "title": "Bitcoin ETF inflows surge to $600M as institutional bid returns",
-      "desc": "<cite index=\"31-18,31-19\">US spot Bitcoin ETFs recorded $600 million in net inflows on August 20, bigger than previous sessions and extending the recent run of positive flows after brief weakness mid-month.</cite>",
+      "title": "Bitcoin and Ethereum ETFs post record weekly inflows",
+      "desc": "Spot Bitcoin ETFs pulled in $1.92 billion and Ethereum ETFs added $697 million last week, confirming institutional demand and pushing BTC toward $80,000.",
       "asset": "crypto"
     },
     {
-      "type": "neutral",
-      "title": "Trump administration prepares Iran sanctions announcement",
-      "desc": "<cite index=\"12-3\">The Trump administration is expected to announce details of new economic sanctions against Iran, adding geopolitical uncertainty ahead of Nvidia earnings and Jackson Hole.</cite>",
-      "asset": "commodities"
+      "type": "bearish",
+      "title": "10-year Treasury yield near 20-month high at 4.74%",
+      "desc": "Rising bond yields driven by oil-price inflation fears keep borrowing costs elevated, pressuring equity valuations and risk appetite.",
+      "asset": "macro"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "528.50",
-      "change_pct": "+0.40"
+      "price": "767.66",
+      "change_pct": "-0.19"
     },
     {
       "symbol": "QQQ",
-      "price": "713.44",
-      "change_pct": "+0.35"
+      "price": "705.16",
+      "change_pct": "-1.16"
     },
     {
       "symbol": "BTC",
-      "price": "77871",
-      "change_pct": "+1.46"
+      "price": "79106",
+      "change_pct": "+1.77"
     },
     {
       "symbol": "ETH",
-      "price": "2472",
-      "change_pct": "+2.40"
+      "price": "2507",
+      "change_pct": "+1.79"
     },
     {
       "symbol": "GOLD",
-      "price": "2525",
-      "change_pct": "+0.85"
+      "price": "4671",
+      "change_pct": "+1.20"
     },
     {
       "symbol": "OIL",
-      "price": "72.50",
-      "change_pct": "-0.30"
+      "price": "85.65",
+      "change_pct": "-1.62"
     },
     {
       "symbol": "DXY",
-      "price": "101.20",
+      "price": "102.45",
       "change_pct": "-0.15"
     }
   ],
-  "verdict": "Markets face a critical week with Nvidia earnings, Fed Chair Warsh's Jackson Hole debut, and persistent bond market stress creating a volatile backdrop for risk assets.",
+  "verdict": "Markets face a critical week with Nvidia earnings, Jackson Hole, and geopolitical uncertainty likely to drive high volatility and sector rotation.",
   "sentiment": "mixed",
   "sources": [
-    "https://finance.yahoo.com/markets/live/stock-market-today-monday-august-24-dow-sp-500-nasdaq-080306047.html",
-    "https://www.bloomberg.com/news/articles/2026-08-23/stock-market-today-dow-s-p-live-updates",
-    "https://www.cnbc.com/2026/08/21/stock-market-next-week-outlook-for-aug-24-28-2026.html",
-    "https://finance.yahoo.com/markets/crypto/articles/bitcoin-etf-news-btc-usd-112024547.html",
-    "https://www.coindesk.com/tech/2026/08/21/live-updates-bitcoin-ether-etfs-pull-in-usd800-million-as-inflows-surge-for-a-second-day",
+    "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-aug-24-134834490.html",
+    "https://www.cnbc.com/2026/08/23/stock-market-today-live-updates.html",
+    "https://www.coingabbar.com/en/crypto-currency-news/crypto-etf-news-btc-eth-xrp-weekly-inflows-2026",
+    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-august-24-2026-prices-rising-as-investors-look-for-more-fed-clues-this-week-130538704.html",
     "https://www.investing.com/etfs/powershares-qqqq"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 55,
+      "value": 56,
       "label": "Greed",
       "previous_close": 55,
-      "updated": "2026-08-24T10:23:01+00:00"
+      "updated": "2026-08-24T17:26:58+00:00"
     },
     "crypto": {
       "value": 73,
@@ -92,6 +91,6 @@
       "updated": "2026-08-24T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-08-24T10:43:33.016Z",
+  "generated_at": "2026-08-24T17:31:31.545Z",
   "model": "claude-sonnet-4-5-20250929"
 }
