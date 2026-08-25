@@ -1,34 +1,34 @@
 {
-  "summary": "Markets opened mixed on Tuesday as investors braced for Nvidia's highly anticipated earnings report Wednesday and weighed escalating geopolitical tensions. The S&P 500 fell 0.28% Monday to 7,652.86, while the Nasdaq Composite dropped 0.76% as semiconductor stocks led declines, with Micron down 5.8% and the SOXX chip ETF sliding 2.7%. Treasury yields eased after reports the Treasury may use its general account to fund bond buybacks. Meanwhile, Bitcoin surged to near $80,000, gaining roughly 28% in August 2026, driven by Treasury buyback optimism, a massive short squeeze that liquidated over $600 million in positions, and renewed political momentum for pro-crypto legislation. Futures pointed to a modest rebound Tuesday morning, with S&P 500 futures up 0.12% and Nasdaq 100 futures climbing 0.37%. U.S. Treasury Secretary Scott Bessent unveiled expanded sanctions on Iran, adding geopolitical risk to the mix as traders await critical housing and consumer data alongside the Nvidia earnings event.",
+  "summary": "U.S. equities traded mixed on Tuesday, August 25, as investors weighed fresh trade tensions and awaited key catalysts. President Trump announced 50% tariffs on Canadian automotive imports effective January 1, 2027, prompting Canada to announce retaliatory measures. Markets brushed aside the trade headwinds initially, with tech stocks rebounding as the 10-year yield dipped. Dick's Sporting Goods plummeted 17% after slashing full-year guidance, while financials rallied on improving capital markets activity. Crypto markets extended their rally, with Bitcoin briefly touching $81,000—its highest level since May—driven by Treasury bond buyback announcements and expectations around the Clarity Act vote in September. Investors are now eyeing Wednesday's Nvidia earnings and Fed Chair Kevin Warsh's first Jackson Hole speech for directional clues, as well as the upcoming PCE inflation data.",
   "signals": [
     {
+      "type": "bearish",
+      "title": "Trump slaps Canada with 50% automotive tariffs",
+      "desc": "President Trump announced 50% tariffs on Canadian cars, trucks, parts, and steel effective January 2027, escalating trade tensions and raising input cost concerns for U.S. manufacturers.",
+      "asset": "stocks"
+    },
+    {
       "type": "bullish",
-      "title": "Bitcoin rallies 28% in August on Treasury buyback plan and short squeeze",
-      "desc": "Bitcoin surged to $80,523 after Treasury bond buyback announcements triggered a massive short liquidation wave and renewed institutional flows into spot Bitcoin ETFs.",
+      "title": "Bitcoin breaks $81,000 on Treasury buyback tailwinds",
+      "desc": "Bitcoin hit a three-month high as the Treasury doubled its long-term bond buyback program and Trump pushed for crypto legislation, injecting liquidity and suppressing yields.",
       "asset": "crypto"
     },
     {
       "type": "bearish",
-      "title": "Chip stocks tumble as semiconductor weakness weighs on tech sector",
-      "desc": "Micron fell 5.8% and the SOXX semiconductor ETF dropped 2.7% Monday, dragging the Nasdaq down 0.76% ahead of Nvidia's critical earnings report Wednesday.",
+      "title": "Dick's Sporting Goods crashes on guidance cut",
+      "desc": "DKS tumbled 17% after missing Q2 earnings and slashing its full-year profit outlook, signaling consumer discretionary weakness in the sporting goods sector.",
       "asset": "stocks"
     },
     {
       "type": "neutral",
-      "title": "Treasury bond buyback plan pressures yields, supports risk assets",
-      "desc": "Reports that Treasury may use its $1 trillion general account for buybacks pushed yields lower and helped markets cut early losses Monday.",
-      "asset": "macro"
-    },
-    {
-      "type": "bearish",
-      "title": "U.S. expands Iran sanctions, raising Middle East geopolitical risk",
-      "desc": "Treasury Secretary Bessent's expanded sanctions on Iran add uncertainty to energy markets and risk appetite as traders await oil price reaction.",
-      "asset": "commodities"
+      "title": "Markets await Nvidia earnings and Warsh's Jackson Hole speech",
+      "desc": "Investors are positioning ahead of Wednesday's Nvidia Q2 report and Fed Chair Kevin Warsh's debut Jackson Hole remarks, both of which could determine near-term market direction.",
+      "asset": "stocks"
     },
     {
       "type": "bullish",
-      "title": "Nvidia earnings Wednesday could spark AI trade resurgence",
-      "desc": "Markets positioned for potential volatility around Nvidia's Wednesday earnings, with options pricing significant implied moves as AI trade sentiment hangs in balance.",
+      "title": "Financials rally on capital markets strength",
+      "desc": "Jefferies Financial gained 5.5% amid a broader financial sector rally driven by improving investment banking activity and rising market volatility.",
       "asset": "stocks"
     }
   ],
@@ -41,50 +41,48 @@
     {
       "symbol": "QQQ",
       "price": "711.30",
-      "change_pct": "-0.67"
+      "change_pct": "+0.85"
     },
     {
       "symbol": "BTC",
-      "price": "80523",
-      "change_pct": "+1.95"
-    },
-    {
-      "symbol": "ETH",
-      "price": "2463",
+      "price": "79038",
       "change_pct": "+1.60"
     },
     {
-      "symbol": "GOLD",
-      "price": "3499",
+      "symbol": "ETH",
+      "price": "2475",
       "change_pct": "+0.80"
     },
     {
+      "symbol": "GOLD",
+      "price": "2520",
+      "change_pct": "+0.50"
+    },
+    {
       "symbol": "OIL",
-      "price": "63.31",
-      "change_pct": "-0.50"
+      "price": "72.40",
+      "change_pct": "-0.30"
     },
     {
       "symbol": "DXY",
       "price": "101.20",
-      "change_pct": "-0.15"
+      "change_pct": "-0.10"
     }
   ],
-  "verdict": "Markets face a critical inflection point with Nvidia earnings Wednesday amid chip weakness, Treasury buyback optimism, and Iran sanctions uncertainty.",
+  "verdict": "Markets are in a holding pattern ahead of Nvidia earnings and Warsh's Jackson Hole debut, with crypto strength and trade tensions creating cross-currents.",
   "sentiment": "mixed",
   "sources": [
-    "https://www.cnbc.com/2026/08/23/stock-market-today-live-updates.html",
-    "https://finance.yahoo.com/markets/stocks/articles/stock-market-p-500-open-061055478.html",
-    "https://sundayguardianlive.com/business/bitcoin-price-usd-today-bitcoin-is-trading-at-8052352-usd-with-195-increase-over-last-24-hours-check-key-metrics-more-269495/",
-    "https://www.schwab.com/learn/story/stock-market-update-open",
-    "https://www.investing.com/etfs/powershares-qqqq",
-    "https://www.coingabbar.com/en/crypto-currency-news/crypto-news-today-august-25-bitcoin-80k-ethereum-price-gains"
+    "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-aug-25-132700491.html",
+    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-25-2026",
+    "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-august-25-dow-sp-500-nasdaq-080527092.html",
+    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-august-25-2026-highest-opening-for-bitcoin-in-over-three-months-123338376.html"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 55,
-      "label": "Neutral",
+      "value": 58,
+      "label": "Greed",
       "previous_close": 55,
-      "updated": "2026-08-25T10:20:16+00:00"
+      "updated": "2026-08-25T17:30:26+00:00"
     },
     "crypto": {
       "value": 74,
@@ -92,6 +90,6 @@
       "updated": "2026-08-25T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-08-25T10:40:25.818Z",
+  "generated_at": "2026-08-25T17:32:11.729Z",
   "model": "claude-sonnet-4-5-20250929"
 }
