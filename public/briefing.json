@@ -1,96 +1,97 @@
 {
-  "summary": "U.S. equities traded mixed on Monday as geopolitical risk and tariff threats overshadowed last week's gains. The S&P 500 slipped 0.2% while the Nasdaq fell 0.4%, weighed down by semiconductor weakness, though the Dow edged up 0.2% on blue-chip strength. Treasury Secretary Scott Bessent is expected to unveil new Iran sanctions later today after President Trump threatened the country with economic retaliation, while failed U.S.-Canada trade talks have raised reciprocal tariff concerns. Investors are looking ahead to Nvidia's Wednesday earnings and Fed Chair Kevin Warsh's Jackson Hole speech on Friday, both of which could determine near-term market direction. Meanwhile, crypto markets extended their breakout from last week, with Bitcoin pushing toward $80,000 on record ETF inflows and Ethereum rallying alongside. Treasury yields remain near multi-year highs, keeping pressure on risk assets as markets await clarity from the Fed on its inflation assessment and rate trajectory.",
+  "summary": "Markets opened mixed on Tuesday as investors braced for Nvidia's highly anticipated earnings report Wednesday and weighed escalating geopolitical tensions. The S&P 500 fell 0.28% Monday to 7,652.86, while the Nasdaq Composite dropped 0.76% as semiconductor stocks led declines, with Micron down 5.8% and the SOXX chip ETF sliding 2.7%. Treasury yields eased after reports the Treasury may use its general account to fund bond buybacks. Meanwhile, Bitcoin surged to near $80,000, gaining roughly 28% in August 2026, driven by Treasury buyback optimism, a massive short squeeze that liquidated over $600 million in positions, and renewed political momentum for pro-crypto legislation. Futures pointed to a modest rebound Tuesday morning, with S&P 500 futures up 0.12% and Nasdaq 100 futures climbing 0.37%. U.S. Treasury Secretary Scott Bessent unveiled expanded sanctions on Iran, adding geopolitical risk to the mix as traders await critical housing and consumer data alongside the Nvidia earnings event.",
   "signals": [
     {
-      "type": "bearish",
-      "title": "U.S.-Iran sanctions and Canada tariff threats escalate geopolitical risk",
-      "desc": "Treasury Secretary Bessent set to announce Iran sanctions and U.S.-Canada trade talks collapsed, raising tariff fears and pressuring risk sentiment.",
-      "asset": "stocks"
-    },
-    {
-      "type": "bearish",
-      "title": "Semiconductor stocks drag Nasdaq lower ahead of Nvidia earnings",
-      "desc": "Chip stocks fell sharply with the iShares Semiconductor ETF down nearly 3%, reflecting earnings anxiety before Nvidia's Wednesday report.",
-      "asset": "stocks"
-    },
-    {
-      "type": "neutral",
-      "title": "Fed Chair Warsh to speak at Jackson Hole on Friday",
-      "desc": "Markets await Warsh's keynote for clues on inflation assessment and policy direction, with limited conventional forward guidance expected.",
-      "asset": "macro"
-    },
-    {
       "type": "bullish",
-      "title": "Bitcoin and Ethereum ETFs post record weekly inflows",
-      "desc": "Spot Bitcoin ETFs pulled in $1.92 billion and Ethereum ETFs added $697 million last week, confirming institutional demand and pushing BTC toward $80,000.",
+      "title": "Bitcoin rallies 28% in August on Treasury buyback plan and short squeeze",
+      "desc": "Bitcoin surged to $80,523 after Treasury bond buyback announcements triggered a massive short liquidation wave and renewed institutional flows into spot Bitcoin ETFs.",
       "asset": "crypto"
     },
     {
       "type": "bearish",
-      "title": "10-year Treasury yield near 20-month high at 4.74%",
-      "desc": "Rising bond yields driven by oil-price inflation fears keep borrowing costs elevated, pressuring equity valuations and risk appetite.",
+      "title": "Chip stocks tumble as semiconductor weakness weighs on tech sector",
+      "desc": "Micron fell 5.8% and the SOXX semiconductor ETF dropped 2.7% Monday, dragging the Nasdaq down 0.76% ahead of Nvidia's critical earnings report Wednesday.",
+      "asset": "stocks"
+    },
+    {
+      "type": "neutral",
+      "title": "Treasury bond buyback plan pressures yields, supports risk assets",
+      "desc": "Reports that Treasury may use its $1 trillion general account for buybacks pushed yields lower and helped markets cut early losses Monday.",
       "asset": "macro"
+    },
+    {
+      "type": "bearish",
+      "title": "U.S. expands Iran sanctions, raising Middle East geopolitical risk",
+      "desc": "Treasury Secretary Bessent's expanded sanctions on Iran add uncertainty to energy markets and risk appetite as traders await oil price reaction.",
+      "asset": "commodities"
+    },
+    {
+      "type": "bullish",
+      "title": "Nvidia earnings Wednesday could spark AI trade resurgence",
+      "desc": "Markets positioned for potential volatility around Nvidia's Wednesday earnings, with options pricing significant implied moves as AI trade sentiment hangs in balance.",
+      "asset": "stocks"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "767.66",
-      "change_pct": "-0.19"
+      "price": "763.53",
+      "change_pct": "-0.29"
     },
     {
       "symbol": "QQQ",
-      "price": "705.16",
-      "change_pct": "-1.16"
+      "price": "711.30",
+      "change_pct": "-0.67"
     },
     {
       "symbol": "BTC",
-      "price": "79106",
-      "change_pct": "+1.77"
+      "price": "80523",
+      "change_pct": "+1.95"
     },
     {
       "symbol": "ETH",
-      "price": "2507",
-      "change_pct": "+1.79"
+      "price": "2463",
+      "change_pct": "+1.60"
     },
     {
       "symbol": "GOLD",
-      "price": "4671",
-      "change_pct": "+1.20"
+      "price": "3499",
+      "change_pct": "+0.80"
     },
     {
       "symbol": "OIL",
-      "price": "85.65",
-      "change_pct": "-1.62"
+      "price": "63.31",
+      "change_pct": "-0.50"
     },
     {
       "symbol": "DXY",
-      "price": "102.45",
+      "price": "101.20",
       "change_pct": "-0.15"
     }
   ],
-  "verdict": "Markets face a critical week with Nvidia earnings, Jackson Hole, and geopolitical uncertainty likely to drive high volatility and sector rotation.",
+  "verdict": "Markets face a critical inflection point with Nvidia earnings Wednesday amid chip weakness, Treasury buyback optimism, and Iran sanctions uncertainty.",
   "sentiment": "mixed",
   "sources": [
-    "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-aug-24-134834490.html",
     "https://www.cnbc.com/2026/08/23/stock-market-today-live-updates.html",
-    "https://www.coingabbar.com/en/crypto-currency-news/crypto-etf-news-btc-eth-xrp-weekly-inflows-2026",
-    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-august-24-2026-prices-rising-as-investors-look-for-more-fed-clues-this-week-130538704.html",
-    "https://www.investing.com/etfs/powershares-qqqq"
+    "https://finance.yahoo.com/markets/stocks/articles/stock-market-p-500-open-061055478.html",
+    "https://sundayguardianlive.com/business/bitcoin-price-usd-today-bitcoin-is-trading-at-8052352-usd-with-195-increase-over-last-24-hours-check-key-metrics-more-269495/",
+    "https://www.schwab.com/learn/story/stock-market-update-open",
+    "https://www.investing.com/etfs/powershares-qqqq",
+    "https://www.coingabbar.com/en/crypto-currency-news/crypto-news-today-august-25-bitcoin-80k-ethereum-price-gains"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 56,
-      "label": "Greed",
+      "value": 55,
+      "label": "Neutral",
       "previous_close": 55,
-      "updated": "2026-08-24T17:26:58+00:00"
+      "updated": "2026-08-25T10:20:16+00:00"
     },
     "crypto": {
-      "value": 73,
+      "value": 74,
       "label": "Greed",
-      "updated": "2026-08-24T00:00:00.000Z"
+      "updated": "2026-08-25T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-08-24T17:31:31.545Z",
+  "generated_at": "2026-08-25T10:40:25.818Z",
   "model": "claude-sonnet-4-5-20250929"
 }
