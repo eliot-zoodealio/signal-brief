@@ -1,95 +1,98 @@
 {
-  "summary": "U.S. equities traded mixed on Tuesday, August 25, as investors weighed fresh trade tensions and awaited key catalysts. President Trump announced 50% tariffs on Canadian automotive imports effective January 1, 2027, prompting Canada to announce retaliatory measures. Markets brushed aside the trade headwinds initially, with tech stocks rebounding as the 10-year yield dipped. Dick's Sporting Goods plummeted 17% after slashing full-year guidance, while financials rallied on improving capital markets activity. Crypto markets extended their rally, with Bitcoin briefly touching $81,000—its highest level since May—driven by Treasury bond buyback announcements and expectations around the Clarity Act vote in September. Investors are now eyeing Wednesday's Nvidia earnings and Fed Chair Kevin Warsh's first Jackson Hole speech for directional clues, as well as the upcoming PCE inflation data.",
+  "summary": "US equities posted modest gains Tuesday as investors positioned ahead of Nvidia's critical earnings report due Wednesday and awaited fresh inflation data. The S&P 500 climbed 0.32% to 7,677 while the Nasdaq advanced 0.66% to 26,151, led by a semiconductor rebound after Monday's selloff. Oil prices extended their decline, with crude falling toward $80, providing relief to inflation concerns. Markets are also focused on new Fed Chair Kevin Warsh's first Jackson Hole speech later this week and key PCE inflation data due Wednesday morning alongside revised Q2 GDP figures. Meanwhile, US-Canada trade tensions escalated as Canada announced retaliatory tariffs in response to Trump administration duties, though both nations have kept oil off the negotiation table for now. Bitcoin rallied above $79,000, extending a 23% weekly gain, while Treasury yields retreated from recent highs following reports of expanded debt buyback operations.",
   "signals": [
     {
       "type": "bearish",
-      "title": "Trump slaps Canada with 50% automotive tariffs",
-      "desc": "President Trump announced 50% tariffs on Canadian cars, trucks, parts, and steel effective January 2027, escalating trade tensions and raising input cost concerns for U.S. manufacturers.",
-      "asset": "stocks"
-    },
-    {
-      "type": "bullish",
-      "title": "Bitcoin breaks $81,000 on Treasury buyback tailwinds",
-      "desc": "Bitcoin hit a three-month high as the Treasury doubled its long-term bond buyback program and Trump pushed for crypto legislation, injecting liquidity and suppressing yields.",
-      "asset": "crypto"
-    },
-    {
-      "type": "bearish",
-      "title": "Dick's Sporting Goods crashes on guidance cut",
-      "desc": "DKS tumbled 17% after missing Q2 earnings and slashing its full-year profit outlook, signaling consumer discretionary weakness in the sporting goods sector.",
+      "title": "Nvidia earnings create index-level volatility risk",
+      "desc": "Nvidia reports Wednesday after the close with markets hyper-focused on data-center demand, margins and fiscal Q3 outlook as the AI bellwether faces extreme positioning after a recent losing streak.",
       "asset": "stocks"
     },
     {
       "type": "neutral",
-      "title": "Markets await Nvidia earnings and Warsh's Jackson Hole speech",
-      "desc": "Investors are positioning ahead of Wednesday's Nvidia Q2 report and Fed Chair Kevin Warsh's debut Jackson Hole remarks, both of which could determine near-term market direction.",
+      "title": "PCE inflation gauge and revised GDP data on deck",
+      "desc": "July PCE, the Fed's preferred inflation measure, arrives Wednesday morning alongside Q2 GDP revisions and durable goods orders, creating a macro data cluster that could swing Treasury yields.",
+      "asset": "macro"
+    },
+    {
+      "type": "bullish",
+      "title": "Bitcoin extends rally on 23% weekly surge",
+      "desc": "Bitcoin climbed above $79,000 as Treasury debt buyback news pushed yields lower and crypto market sentiment improved, with Bitcoin dominance rising to 58% amid broad-based digital asset gains.",
+      "asset": "crypto"
+    },
+    {
+      "type": "bearish",
+      "title": "US-Canada trade war escalates with retaliatory tariffs",
+      "desc": "Canada announced new retaliatory tariffs responding to Trump administration's 50% duties on steel, dairy and other goods, though both nations have kept oil off the table, limiting immediate commodity impact.",
       "asset": "stocks"
     },
     {
       "type": "bullish",
-      "title": "Financials rally on capital markets strength",
-      "desc": "Jefferies Financial gained 5.5% amid a broader financial sector rally driven by improving investment banking activity and rising market volatility.",
-      "asset": "stocks"
+      "title": "Oil decline eases inflation pressure before PCE print",
+      "desc": "WTI crude extended losses toward $80 per barrel on weak demand signals and inventory builds, reducing headline inflation risk ahead of Wednesday's PCE data and supporting equity multiples.",
+      "asset": "commodities"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "763.53",
-      "change_pct": "-0.29"
+      "price": "765.91",
+      "change_pct": "+0.32"
     },
     {
       "symbol": "QQQ",
-      "price": "711.30",
-      "change_pct": "+0.85"
+      "price": "710.60",
+      "change_pct": "+0.61"
     },
     {
       "symbol": "BTC",
-      "price": "79038",
-      "change_pct": "+1.60"
+      "price": "79178.61",
+      "change_pct": "+1.82"
     },
     {
       "symbol": "ETH",
-      "price": "2475",
-      "change_pct": "+0.80"
+      "price": "2473.87",
+      "change_pct": "+1.04"
     },
     {
       "symbol": "GOLD",
-      "price": "2520",
-      "change_pct": "+0.50"
+      "price": "4304.30",
+      "change_pct": "+0.15"
     },
     {
       "symbol": "OIL",
-      "price": "72.40",
-      "change_pct": "-0.30"
+      "price": "80.51",
+      "change_pct": "-2.25"
     },
     {
       "symbol": "DXY",
-      "price": "101.20",
-      "change_pct": "-0.10"
+      "price": "98.97",
+      "change_pct": "-0.69"
     }
   ],
-  "verdict": "Markets are in a holding pattern ahead of Nvidia earnings and Warsh's Jackson Hole debut, with crypto strength and trade tensions creating cross-currents.",
+  "verdict": "Markets face a critical inflection point Wednesday with Nvidia earnings and PCE data likely to dictate near-term direction amid elevated positioning and cross-currents from falling oil, rising trade tensions, and Fed transition uncertainty.",
   "sentiment": "mixed",
   "sources": [
-    "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-aug-25-132700491.html",
-    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-aug-25-2026",
+    "https://www.cnbc.com/2026/08/24/stock-market-today-live-updates.html",
     "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-august-25-dow-sp-500-nasdaq-080527092.html",
-    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-tuesday-august-25-2026-highest-opening-for-bitcoin-in-over-three-months-123338376.html"
+    "https://www.bloomberg.com/news/articles/2026-08-25/asian-stocks-set-to-gain-as-oil-extends-declines-markets-wrap",
+    "https://www.riotimesonline.com/global-economy-briefing-august-26-2026/",
+    "https://coinmarketcap.com/currencies/bitcoin/",
+    "https://www.coindesk.com/",
+    "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 58,
+      "value": 59,
       "label": "Greed",
-      "previous_close": 55,
-      "updated": "2026-08-25T17:30:26+00:00"
+      "previous_close": 59,
+      "updated": "2026-08-26T10:22:31+00:00"
     },
     "crypto": {
-      "value": 74,
+      "value": 65,
       "label": "Greed",
-      "updated": "2026-08-25T00:00:00.000Z"
+      "updated": "2026-08-26T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-08-25T17:32:11.729Z",
+  "generated_at": "2026-08-26T10:41:49.082Z",
   "model": "claude-sonnet-4-5-20250929"
 }
