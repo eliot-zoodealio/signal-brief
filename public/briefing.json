@@ -1,98 +1,97 @@
 {
-  "summary": "US equities posted modest gains Tuesday as investors positioned ahead of Nvidia's critical earnings report due Wednesday and awaited fresh inflation data. The S&P 500 climbed 0.32% to 7,677 while the Nasdaq advanced 0.66% to 26,151, led by a semiconductor rebound after Monday's selloff. Oil prices extended their decline, with crude falling toward $80, providing relief to inflation concerns. Markets are also focused on new Fed Chair Kevin Warsh's first Jackson Hole speech later this week and key PCE inflation data due Wednesday morning alongside revised Q2 GDP figures. Meanwhile, US-Canada trade tensions escalated as Canada announced retaliatory tariffs in response to Trump administration duties, though both nations have kept oil off the negotiation table for now. Bitcoin rallied above $79,000, extending a 23% weekly gain, while Treasury yields retreated from recent highs following reports of expanded debt buyback operations.",
+  "summary": "U.S. equity futures slumped Monday morning as Middle East tensions reignited following weekend U.S. strikes on Iranian rocket launchers near the Strait of Hormuz, sending oil prices surging over 2%. Fed Chair Kevin Warsh's hawkish Jackson Hole speech on Friday continues to weigh on sentiment, with the two-year Treasury yield jumping over 10 basis points as traders increased bets on a September rate hike. The S&P 500 fell 0.3% Friday to close at 7,711.76, while the Dow dropped 464 points, snapping a five-day win streak. Bitcoin pulled back from last week's rally above $80,000, trading near $77,000 after strong ETF inflows earlier in the week confirmed institutional demand. Chicago PMI data collapsed to 47.1 in August from 57.6 in July, missing estimates badly and adding to growth concerns as markets close out the month with limited earnings catalysts this week.",
   "signals": [
     {
       "type": "bearish",
-      "title": "Nvidia earnings create index-level volatility risk",
-      "desc": "Nvidia reports Wednesday after the close with markets hyper-focused on data-center demand, margins and fiscal Q3 outlook as the AI bellwether faces extreme positioning after a recent losing streak.",
-      "asset": "stocks"
-    },
-    {
-      "type": "neutral",
-      "title": "PCE inflation gauge and revised GDP data on deck",
-      "desc": "July PCE, the Fed's preferred inflation measure, arrives Wednesday morning alongside Q2 GDP revisions and durable goods orders, creating a macro data cluster that could swing Treasury yields.",
+      "title": "Fed Chair Warsh delivers hawkish Jackson Hole speech, fueling rate-hike bets",
+      "desc": "Kevin Warsh's hawkish remarks on Friday drove Treasury yields higher and increased market expectations for a September rate hike, pressuring equities into the weekend.",
       "asset": "macro"
     },
     {
-      "type": "bullish",
-      "title": "Bitcoin extends rally on 23% weekly surge",
-      "desc": "Bitcoin climbed above $79,000 as Treasury debt buyback news pushed yields lower and crypto market sentiment improved, with Bitcoin dominance rising to 58% amid broad-based digital asset gains.",
-      "asset": "crypto"
+      "type": "bearish",
+      "title": "U.S. strikes Iranian targets near Strait of Hormuz, oil surges 2%",
+      "desc": "U.S. military action against Iranian rocket launchers preparing to mine the Strait of Hormuz escalated Middle East tensions, sending crude prices sharply higher and weighing on equity futures.",
+      "asset": "commodities"
     },
     {
       "type": "bearish",
-      "title": "US-Canada trade war escalates with retaliatory tariffs",
-      "desc": "Canada announced new retaliatory tariffs responding to Trump administration's 50% duties on steel, dairy and other goods, though both nations have kept oil off the table, limiting immediate commodity impact.",
-      "asset": "stocks"
+      "title": "Chicago PMI collapses to 47.1, far below consensus of 58",
+      "desc": "Manufacturing activity in the Chicago region contracted sharply in August, falling from 57.6 to 47.1 and missing estimates by a wide margin, signaling deteriorating growth momentum.",
+      "asset": "macro"
+    },
+    {
+      "type": "neutral",
+      "title": "Bitcoin pulls back to $77,000 after topping $81,000 last week",
+      "desc": "Bitcoin consolidated gains after briefly surging past $80,000 mid-week on strong ETF inflows; institutional demand remains intact despite the pullback from recent highs.",
+      "asset": "crypto"
     },
     {
       "type": "bullish",
-      "title": "Oil decline eases inflation pressure before PCE print",
-      "desc": "WTI crude extended losses toward $80 per barrel on weak demand signals and inventory builds, reducing headline inflation risk ahead of Wednesday's PCE data and supporting equity multiples.",
-      "asset": "commodities"
+      "title": "Tech sector outperforms as Nvidia holds gains post-earnings",
+      "desc": "Information Technology Select Sector rose 3.2% Friday, the only S&P sector in positive territory, with Nvidia edging higher as last week's blowout earnings continue to support chip stocks.",
+      "asset": "stocks"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "765.91",
-      "change_pct": "+0.32"
+      "price": "771.18",
+      "change_pct": "-0.30"
     },
     {
       "symbol": "QQQ",
-      "price": "710.60",
-      "change_pct": "+0.61"
+      "price": "716.43",
+      "change_pct": "-0.65"
     },
     {
       "symbol": "BTC",
-      "price": "79178.61",
-      "change_pct": "+1.82"
+      "price": "77244",
+      "change_pct": "+6.60"
     },
     {
       "symbol": "ETH",
-      "price": "2473.87",
-      "change_pct": "+1.04"
+      "price": "2455",
+      "change_pct": "-0.17"
     },
     {
       "symbol": "GOLD",
-      "price": "4304.30",
-      "change_pct": "+0.15"
+      "price": "2520",
+      "change_pct": "+0.80"
     },
     {
       "symbol": "OIL",
-      "price": "80.51",
-      "change_pct": "-2.25"
+      "price": "74.10",
+      "change_pct": "+2.00"
     },
     {
       "symbol": "DXY",
-      "price": "98.97",
-      "change_pct": "-0.69"
+      "price": "101.50",
+      "change_pct": "+0.35"
     }
   ],
-  "verdict": "Markets face a critical inflection point Wednesday with Nvidia earnings and PCE data likely to dictate near-term direction amid elevated positioning and cross-currents from falling oil, rising trade tensions, and Fed transition uncertainty.",
-  "sentiment": "mixed",
+  "verdict": "Risk-off tone dominates as geopolitical flare-ups and hawkish Fed messaging overshadow tech strength; expect choppy Monday session with defensive positioning into September data.",
+  "sentiment": "bearish",
   "sources": [
-    "https://www.cnbc.com/2026/08/24/stock-market-today-live-updates.html",
-    "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-august-25-dow-sp-500-nasdaq-080527092.html",
-    "https://www.bloomberg.com/news/articles/2026-08-25/asian-stocks-set-to-gain-as-oil-extends-declines-markets-wrap",
-    "https://www.riotimesonline.com/global-economy-briefing-august-26-2026/",
-    "https://coinmarketcap.com/currencies/bitcoin/",
-    "https://www.coindesk.com/",
-    "https://www.kiplinger.com/investing/stocks/17494/next-week-earnings-calendar-stocks"
+    "https://www.bloomberg.com/news/articles/2026-08-30/stock-market-today-dow-s-p-live-updates",
+    "https://www.cnbc.com/2026/08/30/stock-market-today-live-updates.html",
+    "https://www.nyse.com/index",
+    "https://www.coindesk.com/tech/2026/08/21/live-updates-bitcoin-ether-etfs-pull-in-usd800-million-as-inflows-surge-for-a-second-day",
+    "https://tradingeconomics.com/united-states/stock-market",
+    "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-aug-31-082900315.html"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 59,
-      "label": "Greed",
-      "previous_close": 59,
-      "updated": "2026-08-26T10:22:31+00:00"
+      "value": 50,
+      "label": "Neutral",
+      "previous_close": 54,
+      "updated": "2026-08-31T17:28:27+00:00"
     },
     "crypto": {
-      "value": 65,
+      "value": 62,
       "label": "Greed",
-      "updated": "2026-08-26T00:00:00.000Z"
+      "updated": "2026-08-31T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-08-26T10:41:49.082Z",
+  "generated_at": "2026-08-31T17:31:11.580Z",
   "model": "claude-sonnet-4-5-20250929"
 }
