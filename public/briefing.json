@@ -1,34 +1,34 @@
 {
-  "summary": "U.S. equity futures slumped Monday morning as Middle East tensions reignited following weekend U.S. strikes on Iranian rocket launchers near the Strait of Hormuz, sending oil prices surging over 2%. Fed Chair Kevin Warsh's hawkish Jackson Hole speech on Friday continues to weigh on sentiment, with the two-year Treasury yield jumping over 10 basis points as traders increased bets on a September rate hike. The S&P 500 fell 0.3% Friday to close at 7,711.76, while the Dow dropped 464 points, snapping a five-day win streak. Bitcoin pulled back from last week's rally above $80,000, trading near $77,000 after strong ETF inflows earlier in the week confirmed institutional demand. Chicago PMI data collapsed to 47.1 in August from 57.6 in July, missing estimates badly and adding to growth concerns as markets close out the month with limited earnings catalysts this week.",
+  "summary": "<cite index=\"1-1,1-3\">Oil jumped in early Asia trading as Middle East tensions accelerated, while the dollar held gains after hawkish comments from Federal Reserve Chair Kevin Warsh fueled bets on a rate hike next month.</cite> <cite index=\"1-4\">Global benchmark crude gained 2% at the open after the U.S. military on Sunday struck Iranian rocket launchers that were preparing to send mines into the Strait of Hormuz</cite>, intensifying energy-market volatility on the final trading day of August. <cite index=\"2-1\">The Dow Jones Industrial Average fell 0.9% or 464 points to close at 53,885.10</cite> on Friday, while <cite index=\"2-13\">the S&P 500 was down 0.3% to finish at 7,711.76</cite> after Warsh's Jackson Hole speech raised inflation concerns. Crypto markets remained under pressure, with <cite index=\"18-1,18-3\">Bitcoin opening at $77,695.48 on Monday, 0.7% lower than Sunday, before moving up to $77,999.80</cite>, while <cite index=\"18-15\">U.S. airstrikes on Iranian rocket launchers over the weekend renewed hostilities in the Middle East, pushing oil prices higher and further raising expectations that rate hikes are imminent this year</cite>. Despite the pullback, <cite index=\"23-12\">spot Bitcoin ETFs maintained relatively strong capital inflows, with cumulative net inflows of approximately $924 million from August 24 to 28</cite>, though institutional demand cooled somewhat as geopolitical risk dominated sentiment into Monday's session.",
   "signals": [
     {
       "type": "bearish",
-      "title": "Fed Chair Warsh delivers hawkish Jackson Hole speech, fueling rate-hike bets",
-      "desc": "Kevin Warsh's hawkish remarks on Friday drove Treasury yields higher and increased market expectations for a September rate hike, pressuring equities into the weekend.",
-      "asset": "macro"
+      "title": "Fed Chair Warsh hawkish Jackson Hole remarks fuel September rate hike bets",
+      "desc": "Fed Chair Kevin Warsh's hawkish Jackson Hole speech on inflation sparked market selloff Friday and lifted dollar, bond yields, pressuring equities and risk assets into Monday.",
+      "asset": "stocks"
     },
     {
       "type": "bearish",
-      "title": "U.S. strikes Iranian targets near Strait of Hormuz, oil surges 2%",
-      "desc": "U.S. military action against Iranian rocket launchers preparing to mine the Strait of Hormuz escalated Middle East tensions, sending crude prices sharply higher and weighing on equity futures.",
+      "title": "U.S. strikes Iranian rocket launchers near Strait of Hormuz, oil surges 2%",
+      "desc": "Weekend military action by the U.S. against Iran reignited Middle East tensions, sending oil up 2% at Asia open and raising stagflation fears for equity markets.",
       "asset": "commodities"
     },
     {
       "type": "bearish",
-      "title": "Chicago PMI collapses to 47.1, far below consensus of 58",
-      "desc": "Manufacturing activity in the Chicago region contracted sharply in August, falling from 57.6 to 47.1 and missing estimates by a wide margin, signaling deteriorating growth momentum.",
+      "title": "Chicago PMI manufacturing index plunges to 47.1, missing estimates",
+      "desc": "Chicago purchasing managers' index for manufacturing came in at 47.1 in August, significantly below the consensus estimate of 58, signaling contraction and weighing on sentiment.",
       "asset": "macro"
     },
     {
-      "type": "neutral",
-      "title": "Bitcoin pulls back to $77,000 after topping $81,000 last week",
-      "desc": "Bitcoin consolidated gains after briefly surging past $80,000 mid-week on strong ETF inflows; institutional demand remains intact despite the pullback from recent highs.",
+      "type": "bullish",
+      "title": "Bitcoin and Ethereum ETFs log $924M and $824M weekly inflows respectively",
+      "desc": "Spot Bitcoin ETFs recorded cumulative net inflows of approximately $924 million from August 24 to 28, while Ethereum ETFs saw $824 million in five consecutive days of inflows, signaling resilient institutional demand.",
       "asset": "crypto"
     },
     {
-      "type": "bullish",
-      "title": "Tech sector outperforms as Nvidia holds gains post-earnings",
-      "desc": "Information Technology Select Sector rose 3.2% Friday, the only S&P sector in positive territory, with Nvidia edging higher as last week's blowout earnings continue to support chip stocks.",
+      "type": "neutral",
+      "title": "Markets position for heavy September economic data and earnings slate",
+      "desc": "Investors locking in profits on final August session ahead of first-week September events including jobs data, Fed policy signals, and corporate earnings, creating choppy conditions.",
       "asset": "stocks"
     }
   ],
@@ -41,50 +41,50 @@
     {
       "symbol": "QQQ",
       "price": "716.43",
-      "change_pct": "-0.65"
+      "change_pct": "+0.00"
     },
     {
       "symbol": "BTC",
-      "price": "77244",
-      "change_pct": "+6.60"
+      "price": "77999.80",
+      "change_pct": "-0.70"
     },
     {
       "symbol": "ETH",
-      "price": "2455",
-      "change_pct": "-0.17"
+      "price": "2453.78",
+      "change_pct": "-1.60"
     },
     {
       "symbol": "GOLD",
-      "price": "2520",
-      "change_pct": "+0.80"
+      "price": "2520.00",
+      "change_pct": "+0.50"
     },
     {
       "symbol": "OIL",
-      "price": "74.10",
+      "price": "85.20",
       "change_pct": "+2.00"
     },
     {
       "symbol": "DXY",
-      "price": "101.50",
-      "change_pct": "+0.35"
+      "price": "101.80",
+      "change_pct": "+0.40"
     }
   ],
-  "verdict": "Risk-off tone dominates as geopolitical flare-ups and hawkish Fed messaging overshadow tech strength; expect choppy Monday session with defensive positioning into September data.",
+  "verdict": "Risk-off tone dominates as hawkish Fed, Middle East strikes, and weak manufacturing data overshadow resilient crypto ETF inflows; defensive positioning likely into September data gauntlet.",
   "sentiment": "bearish",
   "sources": [
     "https://www.bloomberg.com/news/articles/2026-08-30/stock-market-today-dow-s-p-live-updates",
-    "https://www.cnbc.com/2026/08/30/stock-market-today-live-updates.html",
-    "https://www.nyse.com/index",
-    "https://www.coindesk.com/tech/2026/08/21/live-updates-bitcoin-ether-etfs-pull-in-usd800-million-as-inflows-surge-for-a-second-day",
+    "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-aug-31-082900315.html",
+    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-august-31-2026-higher-rate-expectations-pressure-crypto-prices-lower-132222145.html",
+    "https://www.btcc.com/en-US/academy/strategy-analysis/crypto-weekly-report-4",
     "https://tradingeconomics.com/united-states/stock-market",
-    "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-aug-31-082900315.html"
+    "https://www.cnbc.com/2026/08/30/stock-market-today-live-updates.html"
   ],
   "fear_greed": {
     "stocks": {
       "value": 50,
       "label": "Neutral",
       "previous_close": 54,
-      "updated": "2026-08-31T17:28:27+00:00"
+      "updated": "2026-08-31T17:52:54+00:00"
     },
     "crypto": {
       "value": 62,
@@ -92,6 +92,6 @@
       "updated": "2026-08-31T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-08-31T17:31:11.580Z",
+  "generated_at": "2026-08-31T17:56:33.590Z",
   "model": "claude-sonnet-4-5-20250929"
 }
