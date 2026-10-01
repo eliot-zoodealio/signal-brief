@@ -1,97 +1,97 @@
 {
-  "summary": "<cite index=\"1-1,1-3\">Oil jumped in early Asia trading as Middle East tensions accelerated, while the dollar held gains after hawkish comments from Federal Reserve Chair Kevin Warsh fueled bets on a rate hike next month.</cite> <cite index=\"1-4\">Global benchmark crude gained 2% at the open after the U.S. military on Sunday struck Iranian rocket launchers that were preparing to send mines into the Strait of Hormuz</cite>, intensifying energy-market volatility on the final trading day of August. <cite index=\"2-1\">The Dow Jones Industrial Average fell 0.9% or 464 points to close at 53,885.10</cite> on Friday, while <cite index=\"2-13\">the S&P 500 was down 0.3% to finish at 7,711.76</cite> after Warsh's Jackson Hole speech raised inflation concerns. Crypto markets remained under pressure, with <cite index=\"18-1,18-3\">Bitcoin opening at $77,695.48 on Monday, 0.7% lower than Sunday, before moving up to $77,999.80</cite>, while <cite index=\"18-15\">U.S. airstrikes on Iranian rocket launchers over the weekend renewed hostilities in the Middle East, pushing oil prices higher and further raising expectations that rate hikes are imminent this year</cite>. Despite the pullback, <cite index=\"23-12\">spot Bitcoin ETFs maintained relatively strong capital inflows, with cumulative net inflows of approximately $924 million from August 24 to 28</cite>, though institutional demand cooled somewhat as geopolitical risk dominated sentiment into Monday's session.",
+  "summary": "U.S. markets traded mixed on Thursday, October 1, as investors grappled with surging Treasury yields and sticky inflation data. The 10-year Treasury yield climbed to 5.33%, its highest level since April 2002, weighing heavily on rate-sensitive sectors despite Wednesday's softer PCE inflation reading. Manufacturing data showed input price pressures jumped to their highest since May, reigniting inflation fears and pushing the S&P 500 toward its worst week since August. Meanwhile, the Fed's September rate hike to 3.75-4.00%—the first increase since 2023—continues to reverberate through markets, with odds of another October hike hovering near 39%. On the crypto front, Citigroup raised its 12-month Bitcoin target to $113,000 and Ethereum to $3,028, citing resumed ETF inflows and stronger market activity. Spot Bitcoin ETFs recorded $2.4 billion in inflows during late September, their best week since October 2025, though BTC remains range-bound near $83,500.",
   "signals": [
     {
       "type": "bearish",
-      "title": "Fed Chair Warsh hawkish Jackson Hole remarks fuel September rate hike bets",
-      "desc": "Fed Chair Kevin Warsh's hawkish Jackson Hole speech on inflation sparked market selloff Friday and lifted dollar, bond yields, pressuring equities and risk assets into Monday.",
+      "title": "10-Year Treasury Yields Surge to 5.33%, Highest Since 2002",
+      "desc": "Rising yields are pressuring equities and increasing recession concerns, with the S&P 500 on track for its worst week since August.",
       "asset": "stocks"
     },
     {
       "type": "bearish",
-      "title": "U.S. strikes Iranian rocket launchers near Strait of Hormuz, oil surges 2%",
-      "desc": "Weekend military action by the U.S. against Iran reignited Middle East tensions, sending oil up 2% at Asia open and raising stagflation fears for equity markets.",
-      "asset": "commodities"
-    },
-    {
-      "type": "bearish",
-      "title": "Chicago PMI manufacturing index plunges to 47.1, missing estimates",
-      "desc": "Chicago purchasing managers' index for manufacturing came in at 47.1 in August, significantly below the consensus estimate of 58, signaling contraction and weighing on sentiment.",
+      "title": "Manufacturing Prices Jump to May Highs, Stoking Inflation Fears",
+      "desc": "ISM data showed raw material prices spiked to the highest since May, fueling expectations for another Fed rate hike in October and pressuring stocks.",
       "asset": "macro"
     },
     {
       "type": "bullish",
-      "title": "Bitcoin and Ethereum ETFs log $924M and $824M weekly inflows respectively",
-      "desc": "Spot Bitcoin ETFs recorded cumulative net inflows of approximately $924 million from August 24 to 28, while Ethereum ETFs saw $824 million in five consecutive days of inflows, signaling resilient institutional demand.",
+      "title": "Citigroup Raises Bitcoin Target to $113K on ETF Inflow Recovery",
+      "desc": "Citi hiked its 12-month BTC price target by 38% and ETH to $3,028, citing $2.4 billion in late-September ETF inflows and improving macro backdrop.",
       "asset": "crypto"
     },
     {
       "type": "neutral",
-      "title": "Markets position for heavy September economic data and earnings slate",
-      "desc": "Investors locking in profits on final August session ahead of first-week September events including jobs data, Fed policy signals, and corporate earnings, creating choppy conditions.",
+      "title": "Fed Holds at 3.75-4.00%, October Hike Odds at 39%",
+      "desc": "Markets are pricing in a 39% chance of another 25bp hike at the October 27-28 FOMC meeting, keeping policy uncertainty elevated.",
+      "asset": "macro"
+    },
+    {
+      "type": "neutral",
+      "title": "Earnings Reports Mixed: HPE Surges on $1.2B Vultr Deal, Mattel Tumbles 4.2%",
+      "desc": "Hewlett Packard Enterprise jumped 3.9% after announcing a $1.2 billion cloud deal, while Mattel dropped 4.2% on CEO succession news.",
       "asset": "stocks"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "771.18",
-      "change_pct": "-0.30"
+      "price": "762.63",
+      "change_pct": "-0.21"
     },
     {
       "symbol": "QQQ",
-      "price": "716.43",
-      "change_pct": "+0.00"
+      "price": "739.77",
+      "change_pct": "+0.25"
     },
     {
       "symbol": "BTC",
-      "price": "77999.80",
-      "change_pct": "-0.70"
+      "price": "83448",
+      "change_pct": "-1.31"
     },
     {
       "symbol": "ETH",
-      "price": "2453.78",
-      "change_pct": "-1.60"
+      "price": "2687",
+      "change_pct": "+0.40"
     },
     {
       "symbol": "GOLD",
-      "price": "2520.00",
-      "change_pct": "+0.50"
+      "price": "4195",
+      "change_pct": "+0.15"
     },
     {
       "symbol": "OIL",
-      "price": "85.20",
-      "change_pct": "+2.00"
+      "price": "74.20",
+      "change_pct": "+2.10"
     },
     {
       "symbol": "DXY",
-      "price": "101.80",
-      "change_pct": "+0.40"
+      "price": "101.85",
+      "change_pct": "+0.45"
     }
   ],
-  "verdict": "Risk-off tone dominates as hawkish Fed, Middle East strikes, and weak manufacturing data overshadow resilient crypto ETF inflows; defensive positioning likely into September data gauntlet.",
-  "sentiment": "bearish",
+  "verdict": "Equities face headwinds from multi-decade high yields and inflation concerns, though crypto is finding support from renewed institutional flows and bullish Wall Street price targets.",
+  "sentiment": "mixed",
   "sources": [
-    "https://www.bloomberg.com/news/articles/2026-08-30/stock-market-today-dow-s-p-live-updates",
-    "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-aug-31-082900315.html",
-    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-monday-august-31-2026-higher-rate-expectations-pressure-crypto-prices-lower-132222145.html",
-    "https://www.btcc.com/en-US/academy/strategy-analysis/crypto-weekly-report-4",
-    "https://tradingeconomics.com/united-states/stock-market",
-    "https://www.cnbc.com/2026/08/30/stock-market-today-live-updates.html"
+    "https://www.bloomberg.com/news/articles/2026-09-30/stock-market-today-dow-s-p-live-updates",
+    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-01-2026",
+    "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html",
+    "https://www.coindesk.com/",
+    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-october-1-2026-not-much-price-movement-this-morning-but-citigroup-says-that-will-change-113313201.html",
+    "https://crypto.com/us/market-updates/best-crypto-to-watch-october-2026"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 50,
-      "label": "Neutral",
-      "previous_close": 54,
-      "updated": "2026-08-31T17:52:54+00:00"
+      "value": 27,
+      "label": "Fear",
+      "previous_close": 31,
+      "updated": "2026-10-01T17:10:45+00:00"
     },
     "crypto": {
-      "value": 62,
+      "value": 74,
       "label": "Greed",
-      "updated": "2026-08-31T00:00:00.000Z"
+      "updated": "2026-10-01T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-08-31T17:56:33.590Z",
+  "generated_at": "2026-10-01T17:18:00.200Z",
   "model": "claude-sonnet-4-5-20250929"
 }
