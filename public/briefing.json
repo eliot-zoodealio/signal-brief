@@ -1,97 +1,97 @@
 {
-  "summary": "U.S. markets traded mixed on Thursday, October 1, as investors grappled with surging Treasury yields and sticky inflation data. The 10-year Treasury yield climbed to 5.33%, its highest level since April 2002, weighing heavily on rate-sensitive sectors despite Wednesday's softer PCE inflation reading. Manufacturing data showed input price pressures jumped to their highest since May, reigniting inflation fears and pushing the S&P 500 toward its worst week since August. Meanwhile, the Fed's September rate hike to 3.75-4.00%—the first increase since 2023—continues to reverberate through markets, with odds of another October hike hovering near 39%. On the crypto front, Citigroup raised its 12-month Bitcoin target to $113,000 and Ethereum to $3,028, citing resumed ETF inflows and stronger market activity. Spot Bitcoin ETFs recorded $2.4 billion in inflows during late September, their best week since October 2025, though BTC remains range-bound near $83,500.",
+  "summary": "U.S. equities extended their rally on Monday with the Nasdaq hitting a fresh record high, climbing 1.1% as mega-cap tech led gains and investors looked past elevated Treasury yields and oil prices near $100. The S&P 500 rose 0.7% to close at 7,774 while the Dow added 91 points. Markets are now focused on Wednesday's release of the September FOMC minutes, which will shed light on the Fed's rationale for its September 25-basis-point rate hike—the first since 2023—and gauge the appetite for further tightening. Odds of an October hike have collapsed to just 17%, but futures still price in an 83% chance of at least one more move by December. In crypto, Bitcoin ETFs posted $90 million in outflows on Monday despite BTC holding near $86,000, with BlackRock's IBIT absorbing $70 million in inflows while ARK and Fidelity saw sharp redemptions. Ethereum continues to trade sideways above $2,700 amid persistent ETF outflows. On the M&A front, Schneider Electric agreed to acquire PTC for $22.6 billion and C.H. Robinson will buy RXO for $5.8 billion, signaling continued corporate dealmaking despite uncertainty around Fed policy.",
   "signals": [
     {
-      "type": "bearish",
-      "title": "10-Year Treasury Yields Surge to 5.33%, Highest Since 2002",
-      "desc": "Rising yields are pressuring equities and increasing recession concerns, with the S&P 500 on track for its worst week since August.",
+      "type": "bullish",
+      "title": "Nasdaq hits record high on mega-cap tech strength",
+      "desc": "Tech-heavy Nasdaq closed at all-time high of 27,477 on Monday as Nvidia and Microsoft rallied, signaling continued institutional demand for AI leaders ahead of Q3 earnings season.",
       "asset": "stocks"
     },
     {
       "type": "bearish",
-      "title": "Manufacturing Prices Jump to May Highs, Stoking Inflation Fears",
-      "desc": "ISM data showed raw material prices spiked to the highest since May, fueling expectations for another Fed rate hike in October and pressuring stocks.",
-      "asset": "macro"
-    },
-    {
-      "type": "bullish",
-      "title": "Citigroup Raises Bitcoin Target to $113K on ETF Inflow Recovery",
-      "desc": "Citi hiked its 12-month BTC price target by 38% and ETH to $3,028, citing $2.4 billion in late-September ETF inflows and improving macro backdrop.",
+      "title": "Bitcoin ETFs see $90M outflows as institutional appetite narrows",
+      "desc": "U.S. spot Bitcoin ETFs posted $90 million in net outflows Monday with ARK losing $85M and Fidelity down $75M, indicating profit-taking despite BTC holding $86K levels.",
       "asset": "crypto"
     },
     {
       "type": "neutral",
-      "title": "Fed Holds at 3.75-4.00%, October Hike Odds at 39%",
-      "desc": "Markets are pricing in a 39% chance of another 25bp hike at the October 27-28 FOMC meeting, keeping policy uncertainty elevated.",
+      "title": "FOMC minutes Wednesday to clarify Fed's tightening path",
+      "desc": "September meeting minutes due 2pm ET will reveal divisions on further rate hikes after the Fed's unanimous 25bp increase, with markets pricing only 17% odds of October move.",
       "asset": "macro"
     },
     {
-      "type": "neutral",
-      "title": "Earnings Reports Mixed: HPE Surges on $1.2B Vultr Deal, Mattel Tumbles 4.2%",
-      "desc": "Hewlett Packard Enterprise jumped 3.9% after announcing a $1.2 billion cloud deal, while Mattel dropped 4.2% on CEO succession news.",
+      "type": "bullish",
+      "title": "M&A wave continues as Schneider buys PTC for $22.6B",
+      "desc": "Schneider Electric's all-cash acquisition of industrial software firm PTC and C.H. Robinson's $5.8B RXO deal signal strong corporate dealmaking appetite despite macro uncertainty.",
       "asset": "stocks"
+    },
+    {
+      "type": "bearish",
+      "title": "Treasury yields remain elevated near multi-decade highs",
+      "desc": "10-year Treasury yields hovering near 19-year peaks continue to cap upside for risk assets and pressure crypto, with markets pricing Fed rates near 4.7% into late 2027.",
+      "asset": "macro"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "762.63",
-      "change_pct": "-0.21"
+      "price": "774.83",
+      "change_pct": "+0.67"
     },
     {
       "symbol": "QQQ",
-      "price": "739.77",
-      "change_pct": "+0.25"
+      "price": "756.20",
+      "change_pct": "+0.88"
     },
     {
       "symbol": "BTC",
-      "price": "83448",
-      "change_pct": "-1.31"
+      "price": "86105",
+      "change_pct": "+0.46"
     },
     {
       "symbol": "ETH",
-      "price": "2687",
-      "change_pct": "+0.40"
+      "price": "2714",
+      "change_pct": "+0.31"
     },
     {
       "symbol": "GOLD",
-      "price": "4195",
-      "change_pct": "+0.15"
+      "price": "4186",
+      "change_pct": "+0.71"
     },
     {
       "symbol": "OIL",
-      "price": "74.20",
-      "change_pct": "+2.10"
+      "price": "99.34",
+      "change_pct": "-0.67"
     },
     {
       "symbol": "DXY",
-      "price": "101.85",
-      "change_pct": "+0.45"
+      "price": "102.45",
+      "change_pct": "+0.12"
     }
   ],
-  "verdict": "Equities face headwinds from multi-decade high yields and inflation concerns, though crypto is finding support from renewed institutional flows and bullish Wall Street price targets.",
+  "verdict": "Tech leadership and M&A momentum support risk-on positioning into Wednesday's FOMC minutes, but elevated yields and crypto ETF outflows suggest caution as Fed tightening cycle remains unfinished.",
   "sentiment": "mixed",
   "sources": [
-    "https://www.bloomberg.com/news/articles/2026-09-30/stock-market-today-dow-s-p-live-updates",
-    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-01-2026",
-    "https://www.cnbc.com/2026/09/16/fed-rate-decision-september-2026.html",
-    "https://www.coindesk.com/",
-    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-thursday-october-1-2026-not-much-price-movement-this-morning-but-citigroup-says-that-will-change-113313201.html",
-    "https://crypto.com/us/market-updates/best-crypto-to-watch-october-2026"
+    "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-oct-6-054400913.html",
+    "https://admiralmarkets.com/analytics/traders-blog/fomc-minutes-october-2026",
+    "https://news.bitcoin.com/bitcoin-etf/bitcoin-etfs-lose-90-million-blackrock-keeps-buying/",
+    "https://finance.yahoo.com/markets/stocks/articles/company-news-oct-6-2026-055600786.html",
+    "https://fxstreet.com/cryptocurrencies/news/crypto-today-bitcoin-ethereum-xrp-bulls-battle-to-restart-uptrend-amid-etf-outflows-202610061034",
+    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-06-2026"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 27,
-      "label": "Fear",
-      "previous_close": 31,
-      "updated": "2026-10-01T17:10:45+00:00"
+      "value": 48,
+      "label": "Neutral",
+      "previous_close": 43,
+      "updated": "2026-10-06T17:03:16+00:00"
     },
     "crypto": {
-      "value": 74,
+      "value": 73,
       "label": "Greed",
-      "updated": "2026-10-01T00:00:00.000Z"
+      "updated": "2026-10-06T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-10-01T17:18:00.200Z",
+  "generated_at": "2026-10-06T17:04:09.458Z",
   "model": "claude-sonnet-4-5-20250929"
 }
