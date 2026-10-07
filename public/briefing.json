@@ -1,97 +1,97 @@
 {
-  "summary": "U.S. equities extended their rally on Monday with the Nasdaq hitting a fresh record high, climbing 1.1% as mega-cap tech led gains and investors looked past elevated Treasury yields and oil prices near $100. The S&P 500 rose 0.7% to close at 7,774 while the Dow added 91 points. Markets are now focused on Wednesday's release of the September FOMC minutes, which will shed light on the Fed's rationale for its September 25-basis-point rate hike—the first since 2023—and gauge the appetite for further tightening. Odds of an October hike have collapsed to just 17%, but futures still price in an 83% chance of at least one more move by December. In crypto, Bitcoin ETFs posted $90 million in outflows on Monday despite BTC holding near $86,000, with BlackRock's IBIT absorbing $70 million in inflows while ARK and Fidelity saw sharp redemptions. Ethereum continues to trade sideways above $2,700 amid persistent ETF outflows. On the M&A front, Schneider Electric agreed to acquire PTC for $22.6 billion and C.H. Robinson will buy RXO for $5.8 billion, signaling continued corporate dealmaking despite uncertainty around Fed policy.",
+  "summary": "U.S. equities pulled back Wednesday from record highs as rising oil prices and Treasury yields stoked inflation concerns ahead of the Fed's September FOMC minutes. The S&P 500 and Nasdaq closed at all-time highs Tuesday, but opened down 0.3% to 0.7% Wednesday as Brent crude climbed above $102 on Iranian attacks in the Strait of Hormuz and the 10-year Treasury yield approached 5.33%, its highest level since 2002. Crypto markets tumbled in sympathy, with Bitcoin falling below $84,000 and over $487 million in long positions liquidated within one hour. Traders are bracing for hawkish language in the FOMC minutes due at 2 p.m. ET, even though market pricing for an October rate hike has fallen to roughly 20% after a weak September jobs report. In company news, Constellation Energy and Vistra surged on multi-billion-dollar nuclear power deals with Alphabet and the Department of Energy, respectively, while Webull plunged 20% on reports of ties to China's government.",
   "signals": [
     {
-      "type": "bullish",
-      "title": "Nasdaq hits record high on mega-cap tech strength",
-      "desc": "Tech-heavy Nasdaq closed at all-time high of 27,477 on Monday as Nvidia and Microsoft rallied, signaling continued institutional demand for AI leaders ahead of Q3 earnings season.",
+      "type": "bearish",
+      "title": "Oil Spike and Treasury Yield Surge Hit Risk Assets",
+      "desc": "Brent crude broke $102 amid Iranian tanker attacks, pushing the 10-year Treasury yield to 24-year highs near 5.33% and triggering inflation fears that sent equities and crypto sharply lower.",
       "asset": "stocks"
     },
     {
       "type": "bearish",
-      "title": "Bitcoin ETFs see $90M outflows as institutional appetite narrows",
-      "desc": "U.S. spot Bitcoin ETFs posted $90 million in net outflows Monday with ARK losing $85M and Fidelity down $75M, indicating profit-taking despite BTC holding $86K levels.",
+      "title": "Crypto Liquidation Wave: $487M in Longs Wiped Out",
+      "desc": "Bitcoin dropped below $84,000 and Ethereum fell 5.8% as over $487 million in leveraged long positions liquidated in one hour, with crypto market cap down 3.8% to $2.925 trillion.",
       "asset": "crypto"
     },
     {
       "type": "neutral",
-      "title": "FOMC minutes Wednesday to clarify Fed's tightening path",
-      "desc": "September meeting minutes due 2pm ET will reveal divisions on further rate hikes after the Fed's unanimous 25bp increase, with markets pricing only 17% odds of October move.",
+      "title": "Fed Minutes Expected to Show Hawkish Debate Despite Market Dovishness",
+      "desc": "September FOMC minutes (2 p.m. ET) will cover the unanimous 25bp rate hike decision, but market pricing for October hike has since plunged to 20% after weak jobs data, creating potential for volatility if tone is hawkish.",
       "asset": "macro"
     },
     {
       "type": "bullish",
-      "title": "M&A wave continues as Schneider buys PTC for $22.6B",
-      "desc": "Schneider Electric's all-cash acquisition of industrial software firm PTC and C.H. Robinson's $5.8B RXO deal signal strong corporate dealmaking appetite despite macro uncertainty.",
+      "title": "Nuclear Power Deals Lift Constellation Energy +12.3%, Vistra +10.8%",
+      "desc": "Alphabet signed a $4.3 billion, 20-year nuclear power purchase agreement with Constellation Energy, while the DOE committed $4.2 billion to Vistra for facility upgrades, driving major rallies in both stocks.",
       "asset": "stocks"
     },
     {
       "type": "bearish",
-      "title": "Treasury yields remain elevated near multi-decade highs",
-      "desc": "10-year Treasury yields hovering near 19-year peaks continue to cap upside for risk assets and pressure crypto, with markets pricing Fed rates near 4.7% into late 2027.",
-      "asset": "macro"
+      "title": "China Ties Report Sinks Webull 20%",
+      "desc": "Webull stock plunged 20% after U.S. lawmakers reportedly flagged that the trading platform is tied to China's government in structural ways, raising regulatory risk.",
+      "asset": "stocks"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "774.83",
-      "change_pct": "+0.67"
+      "price": "779.09",
+      "change_pct": "-0.30"
     },
     {
       "symbol": "QQQ",
-      "price": "756.20",
-      "change_pct": "+0.88"
+      "price": "759.66",
+      "change_pct": "-0.45"
     },
     {
       "symbol": "BTC",
-      "price": "86105",
-      "change_pct": "+0.46"
+      "price": "84200",
+      "change_pct": "-2.10"
     },
     {
       "symbol": "ETH",
-      "price": "2714",
-      "change_pct": "+0.31"
+      "price": "2578",
+      "change_pct": "-4.96"
     },
     {
       "symbol": "GOLD",
-      "price": "4186",
-      "change_pct": "+0.71"
+      "price": "4159",
+      "change_pct": "-0.66"
     },
     {
       "symbol": "OIL",
-      "price": "99.34",
-      "change_pct": "-0.67"
+      "price": "102.00",
+      "change_pct": "+2.50"
     },
     {
       "symbol": "DXY",
-      "price": "102.45",
-      "change_pct": "+0.12"
+      "price": "103.20",
+      "change_pct": "+0.35"
     }
   ],
-  "verdict": "Tech leadership and M&A momentum support risk-on positioning into Wednesday's FOMC minutes, but elevated yields and crypto ETF outflows suggest caution as Fed tightening cycle remains unfinished.",
-  "sentiment": "mixed",
+  "verdict": "Markets face a cautious session as macro crosswinds intensify: oil-driven inflation fears and elevated Treasury yields pressure risk assets, while FOMC minutes at 2 p.m. ET could amplify volatility if the tone clashes with dovish market pricing.",
+  "sentiment": "bearish",
   "sources": [
-    "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-oct-6-054400913.html",
-    "https://admiralmarkets.com/analytics/traders-blog/fomc-minutes-october-2026",
-    "https://news.bitcoin.com/bitcoin-etf/bitcoin-etfs-lose-90-million-blackrock-keeps-buying/",
-    "https://finance.yahoo.com/markets/stocks/articles/company-news-oct-6-2026-055600786.html",
-    "https://fxstreet.com/cryptocurrencies/news/crypto-today-bitcoin-ethereum-xrp-bulls-battle-to-restart-uptrend-amid-etf-outflows-202610061034",
-    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-06-2026"
+    "https://www.bloomberg.com/news/articles/2026-10-06/stock-market-today-dow-s-p-live-updates",
+    "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-7-133458375.html",
+    "https://www.theblock.co/",
+    "https://www.tradingview.com/news/financemagnates:773c7150d094b:0-why-is-crypto-down-today-bitcoin-ethereum-xrp-and-dogecoin-slip-after-400m-liquidation-wave/",
+    "https://finance.yahoo.com/markets/stocks/articles/company-news-oct-7-2026-075100947.html",
+    "https://admiralmarkets.com/analytics/traders-blog/fomc-minutes-october-2026"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 48,
-      "label": "Neutral",
-      "previous_close": 43,
-      "updated": "2026-10-06T17:03:16+00:00"
+      "value": 44,
+      "label": "Fear",
+      "previous_close": 47,
+      "updated": "2026-10-07T17:19:01+00:00"
     },
     "crypto": {
-      "value": 73,
+      "value": 71,
       "label": "Greed",
-      "updated": "2026-10-06T00:00:00.000Z"
+      "updated": "2026-10-07T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-10-06T17:04:09.458Z",
+  "generated_at": "2026-10-07T17:22:54.726Z",
   "model": "claude-sonnet-4-5-20250929"
 }
