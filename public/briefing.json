@@ -1,35 +1,35 @@
 {
-  "summary": "U.S. equities pulled back Wednesday from record highs as rising oil prices and Treasury yields stoked inflation concerns ahead of the Fed's September FOMC minutes. The S&P 500 and Nasdaq closed at all-time highs Tuesday, but opened down 0.3% to 0.7% Wednesday as Brent crude climbed above $102 on Iranian attacks in the Strait of Hormuz and the 10-year Treasury yield approached 5.33%, its highest level since 2002. Crypto markets tumbled in sympathy, with Bitcoin falling below $84,000 and over $487 million in long positions liquidated within one hour. Traders are bracing for hawkish language in the FOMC minutes due at 2 p.m. ET, even though market pricing for an October rate hike has fallen to roughly 20% after a weak September jobs report. In company news, Constellation Energy and Vistra surged on multi-billion-dollar nuclear power deals with Alphabet and the Department of Energy, respectively, while Webull plunged 20% on reports of ties to China's government.",
+  "summary": "Markets retreated Wednesday from record highs as geopolitical tensions sent oil above $102 and Treasury yields to 24-year peaks, stoking inflation concerns ahead of the Fed's September FOMC minutes release. The S&P 500 and Nasdaq pulled back after closing at all-time highs Tuesday, with investors reassessing valuations as the 10-year yield hovered near 5.31% and markets priced only a 20% chance of an October rate hike. Crypto markets tumbled harder, with Bitcoin falling below $84,000 and Ethereum dropping below $2,600 as over $547 million in leveraged longs were liquidated in a single hour amid the risk-off move triggered by Iranian tanker attacks in the Strait of Hormuz. On the corporate front, Constellation Energy surged 12% on a $4.3 billion nuclear power deal with Alphabet, while Ether faced additional pressure from a sixth consecutive day of spot ETF outflows after Tom Lee signaled that major holder Bitmine would soon stop accumulating tokens.",
   "signals": [
     {
       "type": "bearish",
-      "title": "Oil Spike and Treasury Yield Surge Hit Risk Assets",
-      "desc": "Brent crude broke $102 amid Iranian tanker attacks, pushing the 10-year Treasury yield to 24-year highs near 5.33% and triggering inflation fears that sent equities and crypto sharply lower.",
-      "asset": "stocks"
+      "title": "Oil spikes above $102 on Iranian tanker attacks, yields hit 24-year high",
+      "desc": "Brent crude surged past $102 amid escalating Middle East tensions while the 10-year Treasury yield approached 5.31%, raising inflation fears and pressuring risk assets including equities and crypto.",
+      "asset": "macro"
     },
     {
       "type": "bearish",
-      "title": "Crypto Liquidation Wave: $487M in Longs Wiped Out",
-      "desc": "Bitcoin dropped below $84,000 and Ethereum fell 5.8% as over $487 million in leveraged long positions liquidated in one hour, with crypto market cap down 3.8% to $2.925 trillion.",
+      "title": "Crypto liquidation cascade: $547M in longs wiped out as Bitcoin breaks $84K",
+      "desc": "Bitcoin plunged from $85,500 to below $84,000 in under 30 minutes as over $547 million in leveraged long positions liquidated, with Ethereum dropping harder to $2,562 on continued ETF outflows.",
       "asset": "crypto"
     },
     {
       "type": "neutral",
-      "title": "Fed Minutes Expected to Show Hawkish Debate Despite Market Dovishness",
-      "desc": "September FOMC minutes (2 p.m. ET) will cover the unanimous 25bp rate hike decision, but market pricing for October hike has since plunged to 20% after weak jobs data, creating potential for volatility if tone is hawkish.",
+      "title": "FOMC minutes due as markets price 20% October hike odds despite hawkish tone expected",
+      "desc": "Fed minutes from the September meeting are expected to show a more hawkish debate than the unanimous rate increase suggests, but markets have already priced down October hike probability to just 20% after weak jobs data.",
       "asset": "macro"
     },
     {
       "type": "bullish",
-      "title": "Nuclear Power Deals Lift Constellation Energy +12.3%, Vistra +10.8%",
-      "desc": "Alphabet signed a $4.3 billion, 20-year nuclear power purchase agreement with Constellation Energy, while the DOE committed $4.2 billion to Vistra for facility upgrades, driving major rallies in both stocks.",
+      "title": "Constellation Energy soars 12% on $4.3B Alphabet nuclear power agreement",
+      "desc": "Alphabet signed a 20-year deal to secure 890 megawatts of nuclear power from Constellation Energy, highlighting mega-cap tech's aggressive push into AI infrastructure and clean energy sourcing.",
       "asset": "stocks"
     },
     {
       "type": "bearish",
-      "title": "China Ties Report Sinks Webull 20%",
-      "desc": "Webull stock plunged 20% after U.S. lawmakers reportedly flagged that the trading platform is tied to China's government in structural ways, raising regulatory risk.",
-      "asset": "stocks"
+      "title": "Ethereum underperforms as Bitmine nears end of accumulation, ETF outflows hit day six",
+      "desc": "ETH fell 5.5% to $2,562 after Tom Lee revealed Bitmine will stop buying once it reaches 5% ownership, while spot Ether ETFs logged a sixth straight day of redemptions led by $202M from BlackRock's ETHA.",
+      "asset": "crypto"
     }
   ],
   "tickers": [
@@ -40,23 +40,23 @@
     },
     {
       "symbol": "QQQ",
-      "price": "759.66",
-      "change_pct": "-0.45"
+      "price": "756.59",
+      "change_pct": "-0.40"
     },
     {
       "symbol": "BTC",
-      "price": "84200",
-      "change_pct": "-2.10"
+      "price": "83,771",
+      "change_pct": "-2.47"
     },
     {
       "symbol": "ETH",
-      "price": "2578",
-      "change_pct": "-4.96"
+      "price": "2,580",
+      "change_pct": "-4.82"
     },
     {
       "symbol": "GOLD",
-      "price": "4159",
-      "change_pct": "-0.66"
+      "price": "377.80",
+      "change_pct": "-1.17"
     },
     {
       "symbol": "OIL",
@@ -65,26 +65,26 @@
     },
     {
       "symbol": "DXY",
-      "price": "103.20",
+      "price": "103.50",
       "change_pct": "+0.35"
     }
   ],
-  "verdict": "Markets face a cautious session as macro crosswinds intensify: oil-driven inflation fears and elevated Treasury yields pressure risk assets, while FOMC minutes at 2 p.m. ET could amplify volatility if the tone clashes with dovish market pricing.",
+  "verdict": "Risk-off rotation driven by Middle East flare-up and bond-yield surge snaps equity records and triggers crypto cascade, with Fed minutes and oil trajectory determining near-term direction.",
   "sentiment": "bearish",
   "sources": [
     "https://www.bloomberg.com/news/articles/2026-10-06/stock-market-today-dow-s-p-live-updates",
-    "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-7-133458375.html",
-    "https://www.theblock.co/",
-    "https://www.tradingview.com/news/financemagnates:773c7150d094b:0-why-is-crypto-down-today-bitcoin-ethereum-xrp-and-dogecoin-slip-after-400m-liquidation-wave/",
+    "https://www.coindesk.com/latest-crypto-news",
     "https://finance.yahoo.com/markets/stocks/articles/company-news-oct-7-2026-075100947.html",
-    "https://admiralmarkets.com/analytics/traders-blog/fomc-minutes-october-2026"
+    "https://crypto.news/why-is-crypto-market-going-down-today/",
+    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-07-2026",
+    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-october-7-2026-crypto-prices-fade-along-with-risk-appetite-113324902.html"
   ],
   "fear_greed": {
     "stocks": {
       "value": 44,
       "label": "Fear",
       "previous_close": 47,
-      "updated": "2026-10-07T17:19:01+00:00"
+      "updated": "2026-10-07T17:40:09+00:00"
     },
     "crypto": {
       "value": 71,
@@ -92,6 +92,6 @@
       "updated": "2026-10-07T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-10-07T17:22:54.726Z",
+  "generated_at": "2026-10-07T17:42:11.935Z",
   "model": "claude-sonnet-4-5-20250929"
 }
