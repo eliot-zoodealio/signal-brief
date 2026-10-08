@@ -1,67 +1,67 @@
 {
-  "summary": "Markets retreated Wednesday from record highs as geopolitical tensions sent oil above $102 and Treasury yields to 24-year peaks, stoking inflation concerns ahead of the Fed's September FOMC minutes release. The S&P 500 and Nasdaq pulled back after closing at all-time highs Tuesday, with investors reassessing valuations as the 10-year yield hovered near 5.31% and markets priced only a 20% chance of an October rate hike. Crypto markets tumbled harder, with Bitcoin falling below $84,000 and Ethereum dropping below $2,600 as over $547 million in leveraged longs were liquidated in a single hour amid the risk-off move triggered by Iranian tanker attacks in the Strait of Hormuz. On the corporate front, Constellation Energy surged 12% on a $4.3 billion nuclear power deal with Alphabet, while Ether faced additional pressure from a sixth consecutive day of spot ETF outflows after Tom Lee signaled that major holder Bitmine would soon stop accumulating tokens.",
+  "summary": "Markets opened lower Thursday as oil prices surged above $104 and Treasury yields hit fresh multi-decade highs, reigniting inflation concerns and prompting a defensive tilt across equities. The S&P 500 fell 0.3% while the Nasdaq dropped 1.3% following a Financial Times report that OpenAI's annualized revenue fell short of expectations, triggering a selloff in chipmakers. Meanwhile, Fed minutes released Wednesday showed most officials view another rate hike by year-end as appropriate, though weak September payrolls—just 29,000 jobs added versus 84,000 expected—have traders pricing only a 20% chance of an October hike. Crypto markets tumbled in tandem, with Bitcoin sliding below $83,000 after U.S. spot Bitcoin ETFs recorded their largest single-day outflow since June, hemorrhaging $485 million on October 7. BlackRock's IBIT led redemptions at $207.7 million, erasing October's early gains and signaling waning institutional appetite amid elevated yields and a firmer dollar.",
   "signals": [
     {
       "type": "bearish",
-      "title": "Oil spikes above $102 on Iranian tanker attacks, yields hit 24-year high",
-      "desc": "Brent crude surged past $102 amid escalating Middle East tensions while the 10-year Treasury yield approached 5.31%, raising inflation fears and pressuring risk assets including equities and crypto.",
+      "title": "Bitcoin ETFs See Largest Outflow Since June at $485M",
+      "desc": "U.S. spot Bitcoin ETFs lost $485 million on October 7, led by BlackRock's IBIT with $207.7 million in withdrawals, turning monthly flows negative and pressuring BTC below $83,000.",
+      "asset": "crypto"
+    },
+    {
+      "type": "bearish",
+      "title": "Fed Minutes Signal December Rate Hike Likely Despite Weak Jobs Data",
+      "desc": "FOMC minutes showed most officials expect another quarter-point hike by year-end, though September payrolls of only 29,000 have reduced October hike odds to 20%, keeping pressure on risk assets.",
       "asset": "macro"
     },
     {
       "type": "bearish",
-      "title": "Crypto liquidation cascade: $547M in longs wiped out as Bitcoin breaks $84K",
-      "desc": "Bitcoin plunged from $85,500 to below $84,000 in under 30 minutes as over $547 million in leveraged long positions liquidated, with Ethereum dropping harder to $2,562 on continued ETF outflows.",
-      "asset": "crypto"
+      "title": "Oil Surges Above $104, Treasury Yields Hit 24-Year Highs",
+      "desc": "Brent crude climbed above $104 while the 10-year Treasury yield reached 5.34%, the highest since 2002, reviving stagflation fears and weighing on equities and crypto.",
+      "asset": "commodities"
     },
     {
-      "type": "neutral",
-      "title": "FOMC minutes due as markets price 20% October hike odds despite hawkish tone expected",
-      "desc": "Fed minutes from the September meeting are expected to show a more hawkish debate than the unanimous rate increase suggests, but markets have already priced down October hike probability to just 20% after weak jobs data.",
-      "asset": "macro"
-    },
-    {
-      "type": "bullish",
-      "title": "Constellation Energy soars 12% on $4.3B Alphabet nuclear power agreement",
-      "desc": "Alphabet signed a 20-year deal to secure 890 megawatts of nuclear power from Constellation Energy, highlighting mega-cap tech's aggressive push into AI infrastructure and clean energy sourcing.",
+      "type": "bearish",
+      "title": "Chipmakers Sink on OpenAI Revenue Miss Report",
+      "desc": "Financial Times reported OpenAI's annualized revenue is $20 billion below expectations, sending semiconductor stocks down 3% and dragging the Nasdaq 100 down 1.3% to session lows.",
       "asset": "stocks"
     },
     {
-      "type": "bearish",
-      "title": "Ethereum underperforms as Bitmine nears end of accumulation, ETF outflows hit day six",
-      "desc": "ETH fell 5.5% to $2,562 after Tom Lee revealed Bitmine will stop buying once it reaches 5% ownership, while spot Ether ETFs logged a sixth straight day of redemptions led by $202M from BlackRock's ETHA.",
-      "asset": "crypto"
+      "type": "neutral",
+      "title": "Megacap Earnings Season Set to Begin Late October",
+      "desc": "Microsoft and Alphabet report October 27, followed by Meta, Apple, Amazon, and Tesla on October 28, with AI capex and revenue monetization the key focus for investors.",
+      "asset": "stocks"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "779.09",
-      "change_pct": "-0.30"
+      "price": "774.28",
+      "change_pct": "-0.63"
     },
     {
       "symbol": "QQQ",
-      "price": "756.59",
-      "change_pct": "-0.40"
+      "price": "753.88",
+      "change_pct": "-1.27"
     },
     {
       "symbol": "BTC",
-      "price": "83,771",
-      "change_pct": "-2.47"
+      "price": "83101.69",
+      "change_pct": "-0.21"
     },
     {
       "symbol": "ETH",
-      "price": "2,580",
-      "change_pct": "-4.82"
+      "price": "2577.00",
+      "change_pct": "-5.05"
     },
     {
       "symbol": "GOLD",
-      "price": "377.80",
-      "change_pct": "-1.17"
+      "price": "4147.60",
+      "change_pct": "+0.17"
     },
     {
       "symbol": "OIL",
-      "price": "102.00",
-      "change_pct": "+2.50"
+      "price": "104.00",
+      "change_pct": "+2.88"
     },
     {
       "symbol": "DXY",
@@ -69,29 +69,29 @@
       "change_pct": "+0.35"
     }
   ],
-  "verdict": "Risk-off rotation driven by Middle East flare-up and bond-yield surge snaps equity records and triggers crypto cascade, with Fed minutes and oil trajectory determining near-term direction.",
+  "verdict": "Risk-off tone dominates as surging oil and yields collide with Fed hawkishness and crypto ETF outflows, pressuring equities and digital assets into the CPI print on October 14.",
   "sentiment": "bearish",
   "sources": [
-    "https://www.bloomberg.com/news/articles/2026-10-06/stock-market-today-dow-s-p-live-updates",
-    "https://www.coindesk.com/latest-crypto-news",
-    "https://finance.yahoo.com/markets/stocks/articles/company-news-oct-7-2026-075100947.html",
-    "https://crypto.news/why-is-crypto-market-going-down-today/",
-    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-07-2026",
-    "https://finance.yahoo.com/personal-finance/investing/article/bitcoin-and-ethereum-prices-today-wednesday-october-7-2026-crypto-prices-fade-along-with-risk-appetite-113324902.html"
+    "https://www.bloomberg.com/news/articles/2026-10-07/stock-market-today-dow-s-p-live-updates",
+    "https://en.cryptonomist.ch/2026/10/08/us-bitcoin-etf-outflows/",
+    "https://fxstreet.com/news/fed-minutes-set-to-provide-some-insight-into-the-timing-of-next-rate-hikes-202610071400",
+    "https://www.tickmill.com/blog/daily-market-outlook-october-8-2026",
+    "https://thehill.com/business/6135206-fed-officials-project-future-increases/",
+    "https://admiralmarkets.com/analytics/traders-blog/treasury-yields-hit-2002-high-weekly-digest-8-oct-2026"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 44,
+      "value": 38,
       "label": "Fear",
-      "previous_close": 47,
-      "updated": "2026-10-07T17:40:09+00:00"
+      "previous_close": 45,
+      "updated": "2026-10-08T17:16:55+00:00"
     },
     "crypto": {
-      "value": 71,
+      "value": 64,
       "label": "Greed",
-      "updated": "2026-10-07T00:00:00.000Z"
+      "updated": "2026-10-08T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-10-07T17:42:11.935Z",
+  "generated_at": "2026-10-08T17:20:02.317Z",
   "model": "claude-sonnet-4-5-20250929"
 }
