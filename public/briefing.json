@@ -1,96 +1,97 @@
 {
-  "summary": "US equities retreated Thursday as surging oil prices above $102/bbl and climbing Treasury yields reignited stagflation fears, halting a rally that had pushed major indexes to new records earlier this week. The Nasdaq led declines, falling over 1.4% intraday after the Financial Times reported OpenAI's annualized revenue is roughly $20 billion lower than previously estimated, triggering a sharp selloff in semiconductor stocks. Meanwhile, crypto markets extended their slide as Bitcoin and Ethereum ETFs logged significant outflows—Bitcoin funds shed $487 million on Wednesday while Ethereum ETFs bled for a seventh consecutive session with $202 million in withdrawals. Rising rates and a stronger dollar are pressuring both risk assets, with the 10-year Treasury yield hovering near 5.3% amid persistent inflation concerns. Fed commentary remains hawkish, though Chair Kevin Warsh's tenure is still nascent following the contentious transition from Powell, who is staying on the Board as a governor amid legal battles over central bank independence.",
+  "summary": "Markets are climbing Friday as investors digest a hawkish policy backdrop following the Fed's first rate hike since 2023. The FOMC raised rates 25 basis points to 3.75-4.00% on September 16, with Chair Kevin Warsh signaling inflation remains elevated and 16 of 18 members expecting at least one more hike this year. FOMC minutes released October 7 confirmed a tilt toward further tightening. Meanwhile, stock markets are shaking off Thursday's tech selloff, sparked by reports that OpenAI's annualized revenue may be $20 billion lower than expected, raising fresh questions about AI valuations. Oil prices retreated after President Trump pledged not to attack Iran before the midterm elections, easing geopolitical pressure. Bitcoin is stabilizing around $82,400 after ETFs hemorrhaged $729 million over two days—the worst outflow stretch since June—amid rising Treasury yields and weakening risk appetite. Delta Airlines slashed guidance after missing Q3 earnings, and SpaceX's $8 billion spectrum deal sent telecom giants tumbling while tower operators surged. With September jobs data showing just 29,000 payrolls added and the University of Michigan consumer sentiment survey due at 10 AM, investors are balancing Fed hawkishness against softening macro data ahead of earnings season's peak in late October.",
   "signals": [
     {
       "type": "bearish",
-      "title": "OpenAI revenue shortfall sparks chip stock rout",
-      "desc": "Financial Times reported OpenAI's annualized revenue is $20 billion below prior estimates, sending semiconductor stocks down 3% and dragging Nasdaq 100 lower by 1.3%.",
+      "title": "Fed Chair Warsh signals more rate hikes as inflation remains elevated",
+      "desc": "The FOMC raised rates 25 bps in September and 16 of 18 members project at least one more hike this year, pressuring risk assets as the 10-year Treasury yield hovers near 5.26%.",
       "asset": "stocks"
     },
     {
       "type": "bearish",
-      "title": "Bitcoin and Ethereum ETFs see heavy outflows",
-      "desc": "Bitcoin spot ETFs recorded $487 million in outflows Wednesday while Ethereum ETFs extended losses to seven straight sessions with $202 million withdrawn, signaling fading institutional demand.",
+      "title": "Bitcoin ETFs see $729M outflow in two days, worst since June",
+      "desc": "US spot Bitcoin ETFs lost $484.9 million on October 7 and $244.1 million on October 8, signaling institutional retreat as Treasury yields compete for capital.",
       "asset": "crypto"
     },
     {
       "type": "bearish",
-      "title": "Oil surge above $102 revives stagflation fears",
-      "desc": "Brent crude climbed above $102/bbl on escalating Middle East tensions, pressuring equity valuations and reigniting concerns over energy-driven inflation amid already elevated Treasury yields.",
+      "title": "OpenAI revenue concerns trigger tech selloff, AI valuations under scrutiny",
+      "desc": "Reports that OpenAI's annualized revenue may be $20 billion below estimates sparked Thursday's tech decline, with chipmakers Nvidia down 2.9%, Broadcom down 4.6%, and Micron down 4.8%.",
+      "asset": "stocks"
+    },
+    {
+      "type": "bullish",
+      "title": "Oil retreats as Trump pledges no Iran attack before midterms",
+      "desc": "President Trump's statement that the US will not attack Iran before November 3 elections sent crude prices lower, easing inflationary pressures and supporting equity markets Friday.",
       "asset": "commodities"
     },
     {
-      "type": "bearish",
-      "title": "10-year Treasury yield near 5.3% weighs on growth stocks",
-      "desc": "Bond yields remain stubbornly high at 5.31% on the 10-year as markets price persistent inflation and reduced Fed easing expectations, narrowing the runway for tech multiple expansion.",
-      "asset": "macro"
-    },
-    {
       "type": "neutral",
-      "title": "Jobless claims data due at 8:30 AM ET",
-      "desc": "Initial jobless claims expected at 200K with continuing claims at 1.71M; constructive print could stabilize sentiment, but labor market cooling without recession remains the Fed's base case.",
-      "asset": "macro"
+      "title": "SpaceX spectrum deal reshuffles telecom sector, tower stocks surge",
+      "desc": "SpaceX's $8 billion low-band spectrum acquisition sent Verizon, AT&T, and T-Mobile down over 7% while American Tower, Crown Castle, and SBA Communications surged on new build-out demand.",
+      "asset": "stocks"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "777.22",
-      "change_pct": "-0.24"
+      "price": "777.57",
+      "change_pct": "+0.47"
     },
     {
       "symbol": "QQQ",
-      "price": "757.73",
-      "change_pct": "-0.25"
+      "price": "750.54",
+      "change_pct": "+0.40"
     },
     {
       "symbol": "BTC",
-      "price": "83000",
-      "change_pct": "-1.20"
+      "price": "82661.70",
+      "change_pct": "+1.19"
     },
     {
       "symbol": "ETH",
-      "price": "2580",
-      "change_pct": "-1.85"
+      "price": "2567.78",
+      "change_pct": "-1.97"
     },
     {
       "symbol": "GOLD",
-      "price": "377.19",
-      "change_pct": "+0.35"
+      "price": "4190.08",
+      "change_pct": "+1.33"
     },
     {
       "symbol": "OIL",
-      "price": "104.00",
-      "change_pct": "+3.38"
+      "price": "105.00",
+      "change_pct": "-0.11"
     },
     {
       "symbol": "DXY",
-      "price": "103.20",
-      "change_pct": "+0.40"
+      "price": "102.25",
+      "change_pct": "+0.24"
     }
   ],
-  "verdict": "Risk-off tone prevails as oil shock, rising yields, and AI revenue skepticism outweigh recent momentum; defensive posture warranted into jobless claims and month-end earnings.",
-  "sentiment": "bearish",
+  "verdict": "Stocks are bouncing on lower oil and tech recovery, but Fed hawkishness, crypto outflows, and AI valuation concerns keep bulls cautious ahead of late-October earnings.",
+  "sentiment": "mixed",
   "sources": [
-    "https://www.bloomberg.com/news/articles/2026-10-07/stock-market-today-dow-s-p-live-updates",
-    "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-8-dow-sp-500-nasdaq-080537884.html",
-    "https://fxstreet.com/cryptocurrencies/news/crypto-today-bitcoin-ethereum-xrp-extend-sell-off-amid-etf-outflows-202610081127",
-    "https://www.tickmill.com/blog/daily-market-outlook-october-8-2026",
-    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-08-2026"
+    "https://www.federalreserve.gov/newsevents.htm",
+    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-09-2026",
+    "https://www.analyticsinsight.net/price-analysis/crypto-prices-today-bitcoin-holds-near-usd-82400-as-etf-outflows-oil-spike-test-support",
+    "https://cryptoticker.io/en/bitcoin-price-prediction-standard-chartered-100000-etf-outflow/",
+    "https://investrade.com/mid-morning-look-october-09-2026/",
+    "https://www.cnbc.com/quotes/QQQ"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 37,
+      "value": 45,
       "label": "Fear",
-      "previous_close": 45,
-      "updated": "2026-10-08T17:41:07+00:00"
+      "previous_close": 38,
+      "updated": "2026-10-09T17:16:55+00:00"
     },
     "crypto": {
-      "value": 64,
+      "value": 59,
       "label": "Greed",
-      "updated": "2026-10-08T00:00:00.000Z"
+      "updated": "2026-10-09T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-10-08T17:46:36.788Z",
+  "generated_at": "2026-10-09T17:22:26.636Z",
   "model": "claude-sonnet-4-5-20250929"
 }
