@@ -1,97 +1,97 @@
 {
-  "summary": "Markets are climbing Friday as investors digest a hawkish policy backdrop following the Fed's first rate hike since 2023. The FOMC raised rates 25 basis points to 3.75-4.00% on September 16, with Chair Kevin Warsh signaling inflation remains elevated and 16 of 18 members expecting at least one more hike this year. FOMC minutes released October 7 confirmed a tilt toward further tightening. Meanwhile, stock markets are shaking off Thursday's tech selloff, sparked by reports that OpenAI's annualized revenue may be $20 billion lower than expected, raising fresh questions about AI valuations. Oil prices retreated after President Trump pledged not to attack Iran before the midterm elections, easing geopolitical pressure. Bitcoin is stabilizing around $82,400 after ETFs hemorrhaged $729 million over two days—the worst outflow stretch since June—amid rising Treasury yields and weakening risk appetite. Delta Airlines slashed guidance after missing Q3 earnings, and SpaceX's $8 billion spectrum deal sent telecom giants tumbling while tower operators surged. With September jobs data showing just 29,000 payrolls added and the University of Michigan consumer sentiment survey due at 10 AM, investors are balancing Fed hawkishness against softening macro data ahead of earnings season's peak in late October.",
+  "summary": "U.S. equity markets traded mixed on Tuesday as major banks kicked off third-quarter earnings season while semiconductor stocks extended a five-day losing streak. Goldman Sachs beat expectations with revenue of $18.68 billion and earnings of $17.01 per share, sharply above consensus, while Wells Fargo missed on revenue despite beating on earnings. Johnson & Johnson shares plunged 5-6% after missing adjusted earnings estimates. The Philadelphia Semiconductor Index fell 1.2-1.5%, marking a 17% decline from its June record as concerns mount over Chinese chipmaker CXMT's advances in memory technology. Oil remained elevated above $105 per barrel on Middle East tensions, while the 10-year Treasury yield fell to 5.22%. Investors are bracing for critical September CPI data due Wednesday morning at 8:30 AM ET, with consensus expecting 3.6-3.7% year-over-year inflation, up from August's 3.4%. Bitcoin slipped below $82,000 amid $771 million in liquidations and $681 million in weekly ETF outflows. The Fed's next rate decision is October 28, with market-implied odds of a hike sitting near 16-19% after weak September payrolls data shifted expectations toward December.",
   "signals": [
     {
       "type": "bearish",
-      "title": "Fed Chair Warsh signals more rate hikes as inflation remains elevated",
-      "desc": "The FOMC raised rates 25 bps in September and 16 of 18 members project at least one more hike this year, pressuring risk assets as the 10-year Treasury yield hovers near 5.26%.",
+      "title": "Semiconductor selloff deepens on China competition fears",
+      "desc": "The Philadelphia Semiconductor Index dropped 1.5% Tuesday, extending losses to 17% from June highs as reports of Chinese chipmaker CXMT's memory chip advances raise competitive concerns.",
+      "asset": "stocks"
+    },
+    {
+      "type": "mixed",
+      "title": "Major banks deliver mixed earnings as Goldman beats, Wells misses",
+      "desc": "Goldman Sachs crushed estimates with $18.68B revenue and $17.01 EPS versus $12.90 consensus, while Wells Fargo missed revenue by $450M despite beating earnings; Citigroup also topped estimates.",
       "asset": "stocks"
     },
     {
       "type": "bearish",
-      "title": "Bitcoin ETFs see $729M outflow in two days, worst since June",
-      "desc": "US spot Bitcoin ETFs lost $484.9 million on October 7 and $244.1 million on October 8, signaling institutional retreat as Treasury yields compete for capital.",
+      "title": "Bitcoin drops below $82K on $771M liquidations and ETF outflows",
+      "desc": "Bitcoin fell 2.8% to $81,382 amid $771 million in leveraged position liquidations and $681 million in net weekly Bitcoin ETF outflows as traders await Wednesday's CPI print.",
       "asset": "crypto"
     },
     {
-      "type": "bearish",
-      "title": "OpenAI revenue concerns trigger tech selloff, AI valuations under scrutiny",
-      "desc": "Reports that OpenAI's annualized revenue may be $20 billion below estimates sparked Thursday's tech decline, with chipmakers Nvidia down 2.9%, Broadcom down 4.6%, and Micron down 4.8%.",
-      "asset": "stocks"
-    },
-    {
       "type": "bullish",
-      "title": "Oil retreats as Trump pledges no Iran attack before midterms",
-      "desc": "President Trump's statement that the US will not attack Iran before November 3 elections sent crude prices lower, easing inflationary pressures and supporting equity markets Friday.",
+      "title": "Oil holds above $105 on Middle East geopolitical tensions",
+      "desc": "Brent crude remained above $105 per barrel as escalating Ukraine-Russia energy infrastructure strikes and Middle East tensions support energy prices, pressuring equities.",
       "asset": "commodities"
     },
     {
       "type": "neutral",
-      "title": "SpaceX spectrum deal reshuffles telecom sector, tower stocks surge",
-      "desc": "SpaceX's $8 billion low-band spectrum acquisition sent Verizon, AT&T, and T-Mobile down over 7% while American Tower, Crown Castle, and SBA Communications surged on new build-out demand.",
-      "asset": "stocks"
+      "title": "Markets brace for September CPI Wednesday with Fed hike uncertainty",
+      "desc": "September CPI due Wednesday at 8:30 AM ET with consensus at 3.6-3.7% year-over-year; outcome will shape October 28 Fed decision odds currently at 16-19% for a hike.",
+      "asset": "macro"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "777.57",
-      "change_pct": "+0.47"
+      "price": "778.10",
+      "change_pct": "-0.10"
     },
     {
       "symbol": "QQQ",
-      "price": "750.54",
-      "change_pct": "+0.40"
+      "price": "746.04",
+      "change_pct": "-0.70"
     },
     {
       "symbol": "BTC",
-      "price": "82661.70",
-      "change_pct": "+1.19"
+      "price": "81382",
+      "change_pct": "-2.80"
     },
     {
       "symbol": "ETH",
-      "price": "2567.78",
-      "change_pct": "-1.97"
+      "price": "2650",
+      "change_pct": "-3.20"
     },
     {
       "symbol": "GOLD",
-      "price": "4190.08",
-      "change_pct": "+1.33"
+      "price": "4165",
+      "change_pct": "-0.15"
     },
     {
       "symbol": "OIL",
-      "price": "105.00",
-      "change_pct": "-0.11"
+      "price": "105.20",
+      "change_pct": "-0.80"
     },
     {
       "symbol": "DXY",
-      "price": "102.25",
-      "change_pct": "+0.24"
+      "price": "103.80",
+      "change_pct": "+0.20"
     }
   ],
-  "verdict": "Stocks are bouncing on lower oil and tech recovery, but Fed hawkishness, crypto outflows, and AI valuation concerns keep bulls cautious ahead of late-October earnings.",
-  "sentiment": "mixed",
+  "verdict": "Risk-off tone prevails as chip weakness offsets bank earnings beats, all eyes on Wednesday's CPI for Fed path clarity.",
+  "sentiment": "bearish",
   "sources": [
-    "https://www.federalreserve.gov/newsevents.htm",
-    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-09-2026",
-    "https://www.analyticsinsight.net/price-analysis/crypto-prices-today-bitcoin-holds-near-usd-82400-as-etf-outflows-oil-spike-test-support",
-    "https://cryptoticker.io/en/bitcoin-price-prediction-standard-chartered-100000-etf-outflow/",
-    "https://investrade.com/mid-morning-look-october-09-2026/",
-    "https://www.cnbc.com/quotes/QQQ"
+    "https://www.bloomberg.com/news/articles/2026-10-12/stock-market-today-dow-s-p-live-updates",
+    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-13-2026",
+    "https://www.goldmansachs.com/pressroom/press-releases/2026/2026-10-13-q3-results",
+    "https://bitcoinfoundation.org/news/analysis/why-is-crypto-down-today-bitcoin-sell-off-deepens-as-771m-in-leveraged-bets-get-wiped-out/",
+    "https://tradingeconomics.com/united-states/inflation-cpi",
+    "https://admiralmarkets.com/analytics/traders-blog/fed-rate-decision-october-2026"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 45,
+      "value": 44,
       "label": "Fear",
-      "previous_close": 38,
-      "updated": "2026-10-09T17:16:55+00:00"
+      "previous_close": 46,
+      "updated": "2026-10-13T17:23:11+00:00"
     },
     "crypto": {
-      "value": 59,
+      "value": 57,
       "label": "Greed",
-      "updated": "2026-10-09T00:00:00.000Z"
+      "updated": "2026-10-13T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-10-09T17:22:26.636Z",
+  "generated_at": "2026-10-13T17:31:10.792Z",
   "model": "claude-sonnet-4-5-20250929"
 }
