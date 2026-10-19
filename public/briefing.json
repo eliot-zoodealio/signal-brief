@@ -1,97 +1,97 @@
 {
-  "summary": "U.S. equity markets traded mixed on Tuesday as major banks kicked off third-quarter earnings season while semiconductor stocks extended a five-day losing streak. Goldman Sachs beat expectations with revenue of $18.68 billion and earnings of $17.01 per share, sharply above consensus, while Wells Fargo missed on revenue despite beating on earnings. Johnson & Johnson shares plunged 5-6% after missing adjusted earnings estimates. The Philadelphia Semiconductor Index fell 1.2-1.5%, marking a 17% decline from its June record as concerns mount over Chinese chipmaker CXMT's advances in memory technology. Oil remained elevated above $105 per barrel on Middle East tensions, while the 10-year Treasury yield fell to 5.22%. Investors are bracing for critical September CPI data due Wednesday morning at 8:30 AM ET, with consensus expecting 3.6-3.7% year-over-year inflation, up from August's 3.4%. Bitcoin slipped below $82,000 amid $771 million in liquidations and $681 million in weekly ETF outflows. The Fed's next rate decision is October 28, with market-implied odds of a hike sitting near 16-19% after weak September payrolls data shifted expectations toward December.",
+  "summary": "Markets staged a cautious rebound Monday after last week's brutal tech selloff, with Nasdaq 100 futures climbing 1.9% and chip stocks rallying 3.5% as dip buyers emerged despite lingering doubts about AI spending returns. Fed Chair Kevin Warsh offered no guidance on the upcoming October 27-28 FOMC meeting, driving rate-hike odds down to just 15% and lifting gold toward $4,200 as Treasury yields eased. Inflation remains the key risk: September CPI accelerated to 3.7% year-over-year—the hottest since early 2023—driven by a 9.1% monthly spike in gasoline, while import prices jumped 1.1% on surging fuel costs. Earnings season intensifies this week with Meta and Tesla reporting Wednesday, while crypto held steady above key support levels despite a second consecutive week of Bitcoin ETF outflows totaling $229 million. Oil hovered near $110 on Middle East supply risks, mortgage rates topped 7.2%, and the New York Fed's Services Index plunged to a seven-month low, signaling mounting stagflation fears as investors brace for a data-heavy, earnings-packed week.",
   "signals": [
     {
       "type": "bearish",
-      "title": "Semiconductor selloff deepens on China competition fears",
-      "desc": "The Philadelphia Semiconductor Index dropped 1.5% Tuesday, extending losses to 17% from June highs as reports of Chinese chipmaker CXMT's memory chip advances raise competitive concerns.",
-      "asset": "stocks"
+      "title": "Fed Chair Warsh offers no October rate guidance as inflation runs at 3.7%",
+      "desc": "Warsh's refusal to signal policy intent left markets pricing only 15% odds of an October hike despite CPI hitting 3.7% YoY, the highest since 2023, raising stagflation concerns.",
+      "asset": "macro"
     },
     {
-      "type": "mixed",
-      "title": "Major banks deliver mixed earnings as Goldman beats, Wells misses",
-      "desc": "Goldman Sachs crushed estimates with $18.68B revenue and $17.01 EPS versus $12.90 consensus, while Wells Fargo missed revenue by $450M despite beating earnings; Citigroup also topped estimates.",
+      "type": "bullish",
+      "title": "Nasdaq 100 surges 1.9% as chip stocks rebound 3.5% on AI dip-buying",
+      "desc": "Tech buyers returned after Friday's 4.5% Nasdaq rout, with Intel upgraded by JPMorgan and CoreWeave rallying 6% on Goldman Sachs upgrade, signaling confidence in AI capex despite recent doubts.",
       "asset": "stocks"
     },
     {
       "type": "bearish",
-      "title": "Bitcoin drops below $82K on $771M liquidations and ETF outflows",
-      "desc": "Bitcoin fell 2.8% to $81,382 amid $771 million in leveraged position liquidations and $681 million in net weekly Bitcoin ETF outflows as traders await Wednesday's CPI print.",
+      "title": "Bitcoin ETFs post $229M outflows for second straight week",
+      "desc": "Spot Bitcoin ETFs recorded net outflows of $228.58 million last week, the second consecutive week of redemptions, though BTC held above $82,000 support amid structural resilience.",
       "asset": "crypto"
     },
     {
-      "type": "bullish",
-      "title": "Oil holds above $105 on Middle East geopolitical tensions",
-      "desc": "Brent crude remained above $105 per barrel as escalating Ukraine-Russia energy infrastructure strikes and Middle East tensions support energy prices, pressuring equities.",
-      "asset": "commodities"
+      "type": "neutral",
+      "title": "September CPI jumps 0.6% monthly on 9.1% gasoline spike",
+      "desc": "Headline inflation accelerated to 3.7% YoY from 3.4%, driven by energy costs that accounted for over half the monthly increase, while core inflation remains elevated at 3.0%.",
+      "asset": "macro"
     },
     {
-      "type": "neutral",
-      "title": "Markets brace for September CPI Wednesday with Fed hike uncertainty",
-      "desc": "September CPI due Wednesday at 8:30 AM ET with consensus at 3.6-3.7% year-over-year; outcome will shape October 28 Fed decision odds currently at 16-19% for a hike.",
-      "asset": "macro"
+      "type": "bullish",
+      "title": "Cleveland-Cliffs surges 12% on Q3 earnings beat ahead of heavy reporting week",
+      "desc": "Steel producer Cleveland-Cliffs topped Q3 estimates before the open, while Meta, Tesla, Netflix, and 212 firms over $2B market cap report this week, providing earnings catalysts.",
+      "asset": "stocks"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "778.10",
-      "change_pct": "-0.10"
+      "price": "768.23",
+      "change_pct": "+0.65"
     },
     {
       "symbol": "QQQ",
-      "price": "746.04",
-      "change_pct": "-0.70"
+      "price": "721.07",
+      "change_pct": "+1.59"
     },
     {
       "symbol": "BTC",
-      "price": "81382",
-      "change_pct": "-2.80"
+      "price": "82440.73",
+      "change_pct": "+0.77"
     },
     {
       "symbol": "ETH",
-      "price": "2650",
-      "change_pct": "-3.20"
+      "price": "2423.07",
+      "change_pct": "+0.40"
     },
     {
       "symbol": "GOLD",
-      "price": "4165",
-      "change_pct": "-0.15"
+      "price": "4200.00",
+      "change_pct": "+1.20"
     },
     {
       "symbol": "OIL",
-      "price": "105.20",
-      "change_pct": "-0.80"
+      "price": "110.00",
+      "change_pct": "-0.50"
     },
     {
       "symbol": "DXY",
-      "price": "103.80",
-      "change_pct": "+0.20"
+      "price": "103.50",
+      "change_pct": "-0.30"
     }
   ],
-  "verdict": "Risk-off tone prevails as chip weakness offsets bank earnings beats, all eyes on Wednesday's CPI for Fed path clarity.",
-  "sentiment": "bearish",
+  "verdict": "Tech's bounce and lower rate-hike odds provide near-term relief, but sticky 3.7% inflation, heavy earnings tests, and crypto outflows keep risk elevated into a volatile week.",
+  "sentiment": "mixed",
   "sources": [
-    "https://www.bloomberg.com/news/articles/2026-10-12/stock-market-today-dow-s-p-live-updates",
-    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-13-2026",
-    "https://www.goldmansachs.com/pressroom/press-releases/2026/2026-10-13-q3-results",
-    "https://bitcoinfoundation.org/news/analysis/why-is-crypto-down-today-bitcoin-sell-off-deepens-as-771m-in-leveraged-bets-get-wiped-out/",
+    "https://www.bloomberg.com/news/articles/2026-10-18/stock-market-today-dow-s-p-live-updates",
+    "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take--october-19-2026-19102026",
+    "https://www.fxstreet.com/cryptocurrencies/news/crypto-today-bitcoin-ethereum-xrp-extend-recovery-despite-etfs-outflows-202610191023",
     "https://tradingeconomics.com/united-states/inflation-cpi",
-    "https://admiralmarkets.com/analytics/traders-blog/fed-rate-decision-october-2026"
+    "https://mitrade.com/au/insights/commodity/gold/gold-price-today-australia-261019",
+    "https://nordfx.com/market-news/market-pulse-october-19-2026"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 44,
-      "label": "Fear",
-      "previous_close": 46,
-      "updated": "2026-10-13T17:23:11+00:00"
+      "value": 25,
+      "label": "Extreme Fear",
+      "previous_close": 18,
+      "updated": "2026-10-19T17:16:08+00:00"
     },
     "crypto": {
-      "value": 57,
+      "value": 59,
       "label": "Greed",
-      "updated": "2026-10-13T00:00:00.000Z"
+      "updated": "2026-10-19T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-10-13T17:31:10.792Z",
+  "generated_at": "2026-10-19T17:22:16.693Z",
   "model": "claude-sonnet-4-5-20250929"
 }
