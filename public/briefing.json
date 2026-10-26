@@ -1,97 +1,99 @@
 {
-  "summary": "Markets staged a cautious rebound Monday after last week's brutal tech selloff, with Nasdaq 100 futures climbing 1.9% and chip stocks rallying 3.5% as dip buyers emerged despite lingering doubts about AI spending returns. Fed Chair Kevin Warsh offered no guidance on the upcoming October 27-28 FOMC meeting, driving rate-hike odds down to just 15% and lifting gold toward $4,200 as Treasury yields eased. Inflation remains the key risk: September CPI accelerated to 3.7% year-over-year—the hottest since early 2023—driven by a 9.1% monthly spike in gasoline, while import prices jumped 1.1% on surging fuel costs. Earnings season intensifies this week with Meta and Tesla reporting Wednesday, while crypto held steady above key support levels despite a second consecutive week of Bitcoin ETF outflows totaling $229 million. Oil hovered near $110 on Middle East supply risks, mortgage rates topped 7.2%, and the New York Fed's Services Index plunged to a seven-month low, signaling mounting stagflation fears as investors brace for a data-heavy, earnings-packed week.",
+  "summary": "<cite index=\"2-5,2-7\">U.S. markets rebounded Monday as Anthropic's IPO filing and easing oil prices lifted sentiment ahead of a packed week</cite>. <cite index=\"13-1,13-2\">The Federal Reserve meets October 27–28, with a rate decision expected Wednesday at 2:00 PM ET</cite>. <cite index=\"16-10,16-11\">Markets price a roughly 90% probability the Fed will keep rates unchanged at 3.75%–4.00% after September's 25-basis-point hike</cite>. <cite index=\"29-3,32-2\">Mega-cap tech earnings dominate the calendar, with Microsoft and Alphabet reporting Wednesday after the close, followed by Intel and Amazon Thursday</cite>. <cite index=\"19-3,19-5\">In crypto, Bitcoin fell below the crucial $80,000 mark over the weekend, pressured by concerns about AI infrastructure spending and risk-off sentiment</cite>. <cite index=\"22-7,22-9\">Bitcoin dropped as low as $79,300 on the same day AI stocks tanked, and is trading near its 30-day low</cite>. <cite index=\"27-6,27-7\">Ethereum traded near $2,320 as $44 million in ETH liquidations, $1.18 billion in October ETF outflows, and a delayed network upgrade weighed on sentiment</cite>. <cite index=\"52-6,52-7\">Oil sold for $115.41 per barrel (Brent), down 23 cents from yesterday but up approximately $49.50 over the past year</cite>. <cite index=\"2-9\">Brent crude hovered near $117 in a volatile session</cite>, reflecting ongoing Middle East tensions.",
   "signals": [
     {
       "type": "bearish",
-      "title": "Fed Chair Warsh offers no October rate guidance as inflation runs at 3.7%",
-      "desc": "Warsh's refusal to signal policy intent left markets pricing only 15% odds of an October hike despite CPI hitting 3.7% YoY, the highest since 2023, raising stagflation concerns.",
-      "asset": "macro"
-    },
-    {
-      "type": "bullish",
-      "title": "Nasdaq 100 surges 1.9% as chip stocks rebound 3.5% on AI dip-buying",
-      "desc": "Tech buyers returned after Friday's 4.5% Nasdaq rout, with Intel upgraded by JPMorgan and CoreWeave rallying 6% on Goldman Sachs upgrade, signaling confidence in AI capex despite recent doubts.",
-      "asset": "stocks"
-    },
-    {
-      "type": "bearish",
-      "title": "Bitcoin ETFs post $229M outflows for second straight week",
-      "desc": "Spot Bitcoin ETFs recorded net outflows of $228.58 million last week, the second consecutive week of redemptions, though BTC held above $82,000 support amid structural resilience.",
+      "title": "Bitcoin breaks below $80K on AI spending fears and ETF outflows",
+      "desc": "<cite index=\"21-16,21-17\">U.S. spot Bitcoin ETFs lost $773.5 million on October 22–23, and Bitcoin traded near $79,947 after hitting an intraday low around $79,332</cite>, signaling further downside risk before Wednesday's Fed decision.",
       "asset": "crypto"
     },
     {
       "type": "neutral",
-      "title": "September CPI jumps 0.6% monthly on 9.1% gasoline spike",
-      "desc": "Headline inflation accelerated to 3.7% YoY from 3.4%, driven by energy costs that accounted for over half the monthly increase, while core inflation remains elevated at 3.0%.",
+      "title": "Fed decision Wednesday: 90% odds of a hold at 3.75%–4.00%",
+      "desc": "<cite index=\"14-7\">A hold at 3.75%–4.00% is the overwhelming consensus, so the December language will matter more than the rate itself</cite>, with inflation at 3.7% keeping December hike risk alive.",
       "asset": "macro"
     },
     {
       "type": "bullish",
-      "title": "Cleveland-Cliffs surges 12% on Q3 earnings beat ahead of heavy reporting week",
-      "desc": "Steel producer Cleveland-Cliffs topped Q3 estimates before the open, while Meta, Tesla, Netflix, and 212 firms over $2B market cap report this week, providing earnings catalysts.",
+      "title": "Anthropic IPO filing sparks tech rebound; chips rally 3%",
+      "desc": "<cite index=\"2-5,2-7\">Anthropic PBC filed for an IPO, fueling a revival in the AI trade and sending a closely watched chipmaker gauge up 3%</cite>, offering relief after last week's Meta-driven selloff.",
       "asset": "stocks"
+    },
+    {
+      "type": "bearish",
+      "title": "Ethereum faces triple headwinds: liquidations, outflows, upgrade delay",
+      "desc": "<cite index=\"27-11,27-12\">CoinGlass data showed about $44 million in ETH positions liquidated over 24 hours, with roughly 74% from longs, including a single $6.97 million liquidation on Binance</cite>, compounding ETF redemption pressure.",
+      "asset": "crypto"
+    },
+    {
+      "type": "bearish",
+      "title": "Oil hovers near $117 on Iran tensions, stoking inflation fears",
+      "desc": "<cite index=\"47-1,47-5\">Crude oil prices reached a five-month high following reports the U.S. and Israel might plan a renewed attack on Iran, with Brent rising 3.1% to $116.72</cite>, threatening Fed tightening and weighing on risk assets.",
+      "asset": "commodities"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "768.23",
-      "change_pct": "+0.65"
+      "price": "763.68",
+      "change_pct": "+0.60"
     },
     {
       "symbol": "QQQ",
-      "price": "721.07",
-      "change_pct": "+1.59"
+      "price": "709.14",
+      "change_pct": "+0.80"
     },
     {
       "symbol": "BTC",
-      "price": "82440.73",
-      "change_pct": "+0.77"
+      "price": "80267",
+      "change_pct": "-1.02"
     },
     {
       "symbol": "ETH",
-      "price": "2423.07",
-      "change_pct": "+0.40"
+      "price": "2328",
+      "change_pct": "-2.47"
     },
     {
       "symbol": "GOLD",
-      "price": "4200.00",
-      "change_pct": "+1.20"
+      "price": "4030",
+      "change_pct": "+0.49"
     },
     {
       "symbol": "OIL",
-      "price": "110.00",
-      "change_pct": "-0.50"
+      "price": "115.41",
+      "change_pct": "-0.19"
     },
     {
       "symbol": "DXY",
-      "price": "103.50",
-      "change_pct": "-0.30"
+      "price": "101.63",
+      "change_pct": "-0.04"
     }
   ],
-  "verdict": "Tech's bounce and lower rate-hike odds provide near-term relief, but sticky 3.7% inflation, heavy earnings tests, and crypto outflows keep risk elevated into a volatile week.",
+  "verdict": "Markets await Fed decision and mega-cap tech earnings in a week that will determine whether AI trade fears or growth optimism prevail.",
   "sentiment": "mixed",
   "sources": [
-    "https://www.bloomberg.com/news/articles/2026-10-18/stock-market-today-dow-s-p-live-updates",
-    "https://www.home.saxo/en-sg/content/articles/macro/asia-market-quick-take--october-19-2026-19102026",
-    "https://www.fxstreet.com/cryptocurrencies/news/crypto-today-bitcoin-ethereum-xrp-extend-recovery-despite-etfs-outflows-202610191023",
-    "https://tradingeconomics.com/united-states/inflation-cpi",
-    "https://mitrade.com/au/insights/commodity/gold/gold-price-today-australia-261019",
-    "https://nordfx.com/market-news/market-pulse-october-19-2026"
+    "https://www.bloomberg.com/news/articles/2026-10-25/us-equity-futures-climb-as-crude-oil-price-dips-markets-wrap",
+    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-26-2026",
+    "https://www.coindesk.com/daybook-us/2026/10/26/a-usd68-million-bitcoin-bet-is-targeting-a-post-midterm-election-breakout-to-usd90-000",
+    "https://crypto.news/will-bitcoin-price-crash-again-as-it-falls-below-80000/",
+    "https://www.cryptotimes.io/2026/10/26/ethereum-price-today-eth-clings-to-2320-as-44m-longs-wiped-glamsterdam-stalls-before-fed/",
+    "https://www.spreadex.com/financials/news-analysis/financial-trading-blog/26-10-2026",
+    "https://fedratecalc.com/fomc-meeting-schedule/",
+    "https://www.inkl.com/news/current-price-of-oil-as-of-oct-26-2026"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 25,
-      "label": "Extreme Fear",
-      "previous_close": 18,
-      "updated": "2026-10-19T17:16:08+00:00"
+      "value": 26,
+      "label": "Fear",
+      "previous_close": 21,
+      "updated": "2026-10-26T17:05:25+00:00"
     },
     "crypto": {
-      "value": 59,
-      "label": "Greed",
-      "updated": "2026-10-19T00:00:00.000Z"
+      "value": 50,
+      "label": "Neutral",
+      "updated": "2026-10-26T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-10-19T17:22:16.693Z",
+  "generated_at": "2026-10-26T17:09:48.347Z",
   "model": "claude-sonnet-4-5-20250929"
 }
