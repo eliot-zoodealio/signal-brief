@@ -1,99 +1,97 @@
 {
-  "summary": "<cite index=\"2-5,2-7\">U.S. markets rebounded Monday as Anthropic's IPO filing and easing oil prices lifted sentiment ahead of a packed week</cite>. <cite index=\"13-1,13-2\">The Federal Reserve meets October 27–28, with a rate decision expected Wednesday at 2:00 PM ET</cite>. <cite index=\"16-10,16-11\">Markets price a roughly 90% probability the Fed will keep rates unchanged at 3.75%–4.00% after September's 25-basis-point hike</cite>. <cite index=\"29-3,32-2\">Mega-cap tech earnings dominate the calendar, with Microsoft and Alphabet reporting Wednesday after the close, followed by Intel and Amazon Thursday</cite>. <cite index=\"19-3,19-5\">In crypto, Bitcoin fell below the crucial $80,000 mark over the weekend, pressured by concerns about AI infrastructure spending and risk-off sentiment</cite>. <cite index=\"22-7,22-9\">Bitcoin dropped as low as $79,300 on the same day AI stocks tanked, and is trading near its 30-day low</cite>. <cite index=\"27-6,27-7\">Ethereum traded near $2,320 as $44 million in ETH liquidations, $1.18 billion in October ETF outflows, and a delayed network upgrade weighed on sentiment</cite>. <cite index=\"52-6,52-7\">Oil sold for $115.41 per barrel (Brent), down 23 cents from yesterday but up approximately $49.50 over the past year</cite>. <cite index=\"2-9\">Brent crude hovered near $117 in a volatile session</cite>, reflecting ongoing Middle East tensions.",
+  "summary": "Markets are treading cautiously ahead of the Federal Reserve's October decision, expected at 2pm ET today, with Chair Kevin Warsh widely anticipated to hold rates steady after September's surprise hike. The decision comes as persistent inflation linked to elevated oil prices—with Brent near $111—and upcoming midterm elections complicate the outlook. Equities rallied Tuesday on strong AI momentum: the S&P 500 gained 0.6% to 7,722.60 and the Nasdaq surged 1.2% to 26,477.81, driven by SK Hynix's record earnings and Anthropic's IPO filing. Bitcoin reclaimed $81,000 with $176 million in ETF inflows, while Ethereum held near $2,340 despite continued outflows. Earnings season delivered sharp divergences: Vertiv and Phillips 66 crushed expectations, while Enphase and Boston Scientific disappointed. Microsoft and Alphabet report after the close, setting the stage for a critical test of the AI infrastructure trade.",
   "signals": [
     {
-      "type": "bearish",
-      "title": "Bitcoin breaks below $80K on AI spending fears and ETF outflows",
-      "desc": "<cite index=\"21-16,21-17\">U.S. spot Bitcoin ETFs lost $773.5 million on October 22–23, and Bitcoin traded near $79,947 after hitting an intraday low around $79,332</cite>, signaling further downside risk before Wednesday's Fed decision.",
-      "asset": "crypto"
-    },
-    {
       "type": "neutral",
-      "title": "Fed decision Wednesday: 90% odds of a hold at 3.75%–4.00%",
-      "desc": "<cite index=\"14-7\">A hold at 3.75%–4.00% is the overwhelming consensus, so the December language will matter more than the rate itself</cite>, with inflation at 3.7% keeping December hike risk alive.",
+      "title": "Fed holds rates steady after September hike, eyes December move",
+      "desc": "The Federal Reserve is widely expected to keep rates unchanged today after raising in September for the first time since 2023, but markets will parse Chair Warsh's comments for signals on December policy amid stubborn inflation driven by Iran-linked oil surges.",
       "asset": "macro"
     },
     {
       "type": "bullish",
-      "title": "Anthropic IPO filing sparks tech rebound; chips rally 3%",
-      "desc": "<cite index=\"2-5,2-7\">Anthropic PBC filed for an IPO, fueling a revival in the AI trade and sending a closely watched chipmaker gauge up 3%</cite>, offering relief after last week's Meta-driven selloff.",
+      "title": "SK Hynix blowout earnings ignite global chip rally",
+      "desc": "SK Hynix reported a 632% surge in operating profit and sold-out memory capacity through 2029, sending its shares up over 10% and lifting Samsung, the Kospi 6.6%, and U.S. semiconductor stocks, reinforcing the AI infrastructure demand thesis.",
       "asset": "stocks"
     },
     {
-      "type": "bearish",
-      "title": "Ethereum faces triple headwinds: liquidations, outflows, upgrade delay",
-      "desc": "<cite index=\"27-11,27-12\">CoinGlass data showed about $44 million in ETH positions liquidated over 24 hours, with roughly 74% from longs, including a single $6.97 million liquidation on Binance</cite>, compounding ETF redemption pressure.",
+      "type": "bullish",
+      "title": "Bitcoin ETFs post $176M inflow, second consecutive day",
+      "desc": "U.S. spot Bitcoin ETFs recorded net inflows of $176 million on October 27, marking a second straight day of institutional demand as BTC reclaimed $81,000 ahead of the Fed decision and Big Tech earnings.",
       "asset": "crypto"
     },
     {
       "type": "bearish",
-      "title": "Oil hovers near $117 on Iran tensions, stoking inflation fears",
-      "desc": "<cite index=\"47-1,47-5\">Crude oil prices reached a five-month high following reports the U.S. and Israel might plan a renewed attack on Iran, with Brent rising 3.1% to $116.72</cite>, threatening Fed tightening and weighing on risk assets.",
+      "title": "Oil surges above $111 on Iran escalation fears",
+      "desc": "Brent crude jumped 1.5% to $111 and WTI rose 1.6% to $101.50 amid reports that Washington has asked Gulf states to prepare for a possible post-midterm campaign against Iran, keeping inflation and rate-hike expectations elevated.",
       "asset": "commodities"
+    },
+    {
+      "type": "mixed",
+      "title": "Data center stocks split: Vertiv soars, Enphase crashes on rate sensitivity",
+      "desc": "Vertiv surged 13.3% after doubling orders and raising guidance, while Enphase plunged 15.8% citing higher rates and an expired tax credit hurting home solar demand, highlighting sector divergence ahead of the Fed decision.",
+      "asset": "stocks"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "763.68",
-      "change_pct": "+0.60"
+      "price": "769.66",
+      "change_pct": "+0.56"
     },
     {
       "symbol": "QQQ",
-      "price": "709.14",
-      "change_pct": "+0.80"
+      "price": "721.32",
+      "change_pct": "+1.28"
     },
     {
       "symbol": "BTC",
-      "price": "80267",
-      "change_pct": "-1.02"
+      "price": "81359.62",
+      "change_pct": "+2.01"
     },
     {
       "symbol": "ETH",
-      "price": "2328",
-      "change_pct": "-2.47"
+      "price": "2343.71",
+      "change_pct": "+1.61"
     },
     {
       "symbol": "GOLD",
-      "price": "4030",
-      "change_pct": "+0.49"
+      "price": "371.30",
+      "change_pct": "-0.26"
     },
     {
       "symbol": "OIL",
-      "price": "115.41",
-      "change_pct": "-0.19"
+      "price": "111.00",
+      "change_pct": "+1.50"
     },
     {
       "symbol": "DXY",
-      "price": "101.63",
-      "change_pct": "-0.04"
+      "price": "102.40",
+      "change_pct": "+0.10"
     }
   ],
-  "verdict": "Markets await Fed decision and mega-cap tech earnings in a week that will determine whether AI trade fears or growth optimism prevail.",
+  "verdict": "Fed decision day dominates with rates expected on hold but hawkish guidance likely given oil-driven inflation, while mega-cap tech earnings tonight will determine whether the AI rally has legs or fades into year-end risk-off.",
   "sentiment": "mixed",
   "sources": [
-    "https://www.bloomberg.com/news/articles/2026-10-25/us-equity-futures-climb-as-crude-oil-price-dips-markets-wrap",
-    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-oct-26-2026",
-    "https://www.coindesk.com/daybook-us/2026/10/26/a-usd68-million-bitcoin-bet-is-targeting-a-post-midterm-election-breakout-to-usd90-000",
-    "https://crypto.news/will-bitcoin-price-crash-again-as-it-falls-below-80000/",
-    "https://www.cryptotimes.io/2026/10/26/ethereum-price-today-eth-clings-to-2320-as-44m-longs-wiped-glamsterdam-stalls-before-fed/",
-    "https://www.spreadex.com/financials/news-analysis/financial-trading-blog/26-10-2026",
-    "https://fedratecalc.com/fomc-meeting-schedule/",
-    "https://www.inkl.com/news/current-price-of-oil-as-of-oct-26-2026"
+    "https://www.cnn.com/2026/10/28/business/live-news/federal-reserve-interest-rate-october",
+    "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-oct-28-081900420.html",
+    "https://www.fxstreet.com/cryptocurrencies/news/cryptocurrencies-price-prediction-bitcoin-pi-crypto-european-wrap-28-october-202610281217",
+    "https://nexo.com/blog/markets-today-october-28",
+    "https://www.everhint.com/stock-market-news-october-28-2026-morning-update-last-12-hours-pacific-time/",
+    "https://nordfx.com/market-news/market-pulse-october-28-2026"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 26,
+      "value": 35,
       "label": "Fear",
-      "previous_close": 21,
-      "updated": "2026-10-26T17:05:25+00:00"
+      "previous_close": 34,
+      "updated": "2026-10-28T16:57:12+00:00"
     },
     "crypto": {
-      "value": 50,
+      "value": 51,
       "label": "Neutral",
-      "updated": "2026-10-26T00:00:00.000Z"
+      "updated": "2026-10-28T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-10-26T17:09:48.347Z",
+  "generated_at": "2026-10-28T17:01:56.870Z",
   "model": "claude-sonnet-4-5-20250929"
 }
