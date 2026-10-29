@@ -1,97 +1,97 @@
 {
-  "summary": "Markets are treading cautiously ahead of the Federal Reserve's October decision, expected at 2pm ET today, with Chair Kevin Warsh widely anticipated to hold rates steady after September's surprise hike. The decision comes as persistent inflation linked to elevated oil prices—with Brent near $111—and upcoming midterm elections complicate the outlook. Equities rallied Tuesday on strong AI momentum: the S&P 500 gained 0.6% to 7,722.60 and the Nasdaq surged 1.2% to 26,477.81, driven by SK Hynix's record earnings and Anthropic's IPO filing. Bitcoin reclaimed $81,000 with $176 million in ETF inflows, while Ethereum held near $2,340 despite continued outflows. Earnings season delivered sharp divergences: Vertiv and Phillips 66 crushed expectations, while Enphase and Boston Scientific disappointed. Microsoft and Alphabet report after the close, setting the stage for a critical test of the AI infrastructure trade.",
+  "summary": "The Federal Reserve held rates unchanged at 3.75-4.00% in a split 10-2 vote on October 28, with two hawkish dissents from Cook and Hammack pushing December hike odds to 83%. The decision was overshadowed by Thursday morning's macro data: Q3 GDP accelerated to 3.4% (vs 3.2% expected), and core PCE inflation held at 3.1%, reinforcing economic resilience while keeping pressure on the Fed to resume tightening. Meanwhile, Big Tech earnings delivered a stark divide—Alphabet plunged over 10% after its first revenue and profit miss in four years, dragging Nasdaq futures down 1%, while Microsoft rallied 3% on Azure strength. ServiceNow and Fortinet crashed 18% and 26% respectively, triggering a broad software sell-off. Bitcoin dropped below $80,000 after briefly touching $81,700, as spot ETF inflows of $137 million on Wednesday were overwhelmed by renewed risk-off sentiment and hawkish Fed tone. Markets face a key test today with Amazon, Intel, and Caterpillar earnings after the close.",
   "signals": [
     {
-      "type": "neutral",
-      "title": "Fed holds rates steady after September hike, eyes December move",
-      "desc": "The Federal Reserve is widely expected to keep rates unchanged today after raising in September for the first time since 2023, but markets will parse Chair Warsh's comments for signals on December policy amid stubborn inflation driven by Iran-linked oil surges.",
+      "type": "bearish",
+      "title": "Fed holds with hawkish dissents, December hike odds jump to 83%",
+      "desc": "Two FOMC members voted for an immediate 25bp hike and Chair Warsh offered no dovish guidance, leaving the door open for tightening next meeting.",
       "asset": "macro"
     },
     {
-      "type": "bullish",
-      "title": "SK Hynix blowout earnings ignite global chip rally",
-      "desc": "SK Hynix reported a 632% surge in operating profit and sold-out memory capacity through 2029, sending its shares up over 10% and lifting Samsung, the Kospi 6.6%, and U.S. semiconductor stocks, reinforcing the AI infrastructure demand thesis.",
+      "type": "bearish",
+      "title": "Alphabet crashes 10% on first revenue/profit miss in four years",
+      "desc": "Google parent spent $9.1 billion more than it brought in via free cash flow, with search growth slowing despite strong cloud, dragging Nasdaq futures down 1%.",
       "asset": "stocks"
     },
     {
       "type": "bullish",
-      "title": "Bitcoin ETFs post $176M inflow, second consecutive day",
-      "desc": "U.S. spot Bitcoin ETFs recorded net inflows of $176 million on October 27, marking a second straight day of institutional demand as BTC reclaimed $81,000 ahead of the Fed decision and Big Tech earnings.",
+      "title": "Q3 GDP beats at 3.4%, core PCE in-line at 3.1%",
+      "desc": "Stronger-than-expected growth and stable inflation support the resilience narrative, but also justify further Fed hawkishness.",
+      "asset": "macro"
+    },
+    {
+      "type": "bearish",
+      "title": "Bitcoin falls below $80k as spot ETF inflows fade after three-day streak",
+      "desc": "BTC dropped from $81,700 to sub-$80,000 as hawkish Fed tone and tech weakness trigger $356M in leveraged liquidations, mostly longs.",
       "asset": "crypto"
     },
     {
       "type": "bearish",
-      "title": "Oil surges above $111 on Iran escalation fears",
-      "desc": "Brent crude jumped 1.5% to $111 and WTI rose 1.6% to $101.50 amid reports that Washington has asked Gulf states to prepare for a possible post-midterm campaign against Iran, keeping inflation and rate-hike expectations elevated.",
-      "asset": "commodities"
-    },
-    {
-      "type": "mixed",
-      "title": "Data center stocks split: Vertiv soars, Enphase crashes on rate sensitivity",
-      "desc": "Vertiv surged 13.3% after doubling orders and raising guidance, while Enphase plunged 15.8% citing higher rates and an expired tax credit hurting home solar demand, highlighting sector divergence ahead of the Fed decision.",
+      "title": "Software stocks collapse: ServiceNow -18%, Fortinet -26% post-earnings",
+      "desc": "ServiceNow missed guidance and Fortinet cut forecasts, sparking a sector-wide rout and pulling down cybersecurity names CRWD and PANW by 6%.",
       "asset": "stocks"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "769.66",
-      "change_pct": "+0.56"
+      "price": "770.75",
+      "change_pct": "-0.20"
     },
     {
       "symbol": "QQQ",
-      "price": "721.32",
-      "change_pct": "+1.28"
+      "price": "719.25",
+      "change_pct": "-0.90"
     },
     {
       "symbol": "BTC",
-      "price": "81359.62",
-      "change_pct": "+2.01"
+      "price": "79783.70",
+      "change_pct": "-1.57"
     },
     {
       "symbol": "ETH",
-      "price": "2343.71",
-      "change_pct": "+1.61"
+      "price": "2307.78",
+      "change_pct": "-2.30"
     },
     {
       "symbol": "GOLD",
-      "price": "371.30",
-      "change_pct": "-0.26"
+      "price": "4038.00",
+      "change_pct": "-0.60"
     },
     {
       "symbol": "OIL",
-      "price": "111.00",
-      "change_pct": "+1.50"
+      "price": "114.00",
+      "change_pct": "+0.00"
     },
     {
       "symbol": "DXY",
-      "price": "102.40",
-      "change_pct": "+0.10"
+      "price": "102.20",
+      "change_pct": "+0.00"
     }
   ],
-  "verdict": "Fed decision day dominates with rates expected on hold but hawkish guidance likely given oil-driven inflation, while mega-cap tech earnings tonight will determine whether the AI rally has legs or fades into year-end risk-off.",
-  "sentiment": "mixed",
+  "verdict": "Hawkish Fed, hot GDP, and Big Tech carnage point to a risk-off open with tech under pressure while defensives and the dollar hold steady.",
+  "sentiment": "bearish",
   "sources": [
-    "https://www.cnn.com/2026/10/28/business/live-news/federal-reserve-interest-rate-october",
-    "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-oct-28-081900420.html",
-    "https://www.fxstreet.com/cryptocurrencies/news/cryptocurrencies-price-prediction-bitcoin-pi-crypto-european-wrap-28-october-202610281217",
-    "https://nexo.com/blog/markets-today-october-28",
-    "https://www.everhint.com/stock-market-news-october-28-2026-morning-update-last-12-hours-pacific-time/",
-    "https://nordfx.com/market-news/market-pulse-october-28-2026"
+    "https://finance.yahoo.com/economy/policy/live/fed-meeting-live-updates-interest-rates-held-steady-in-split-vote-warsh-says-politics-played-no-role-ahead-of-midterm-elections-191946928.html",
+    "https://www.caproasia.com/2026/10/29/fomc-meeting-2026-october-united-states-fed-interest-rate-unchanged-3-75-4-range-target-inflation-at-2/",
+    "https://www.stocktitan.net/articles/stock-market-today-live-october-29-2026",
+    "https://cointelegraph.com/markets/bitcoin-etf-137-million-october-back-green",
+    "https://www.coingabbar.com/en/crypto-news-bitcoin-ethereum-price-today-fed-rate-pce-inflation",
+    "https://nexo.com/blog/markets-today-october-29"
   ],
   "fear_greed": {
     "stocks": {
       "value": 35,
       "label": "Fear",
-      "previous_close": 34,
-      "updated": "2026-10-28T16:57:12+00:00"
+      "previous_close": 36,
+      "updated": "2026-10-29T17:14:40+00:00"
     },
     "crypto": {
       "value": 51,
       "label": "Neutral",
-      "updated": "2026-10-28T00:00:00.000Z"
+      "updated": "2026-10-29T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-10-28T17:01:56.870Z",
+  "generated_at": "2026-10-29T17:19:55.393Z",
   "model": "claude-sonnet-4-5-20250929"
 }
