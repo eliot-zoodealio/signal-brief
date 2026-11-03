@@ -1,97 +1,97 @@
 {
-  "summary": "The Federal Reserve held rates unchanged at 3.75-4.00% in a split 10-2 vote on October 28, with two hawkish dissents from Cook and Hammack pushing December hike odds to 83%. The decision was overshadowed by Thursday morning's macro data: Q3 GDP accelerated to 3.4% (vs 3.2% expected), and core PCE inflation held at 3.1%, reinforcing economic resilience while keeping pressure on the Fed to resume tightening. Meanwhile, Big Tech earnings delivered a stark divide—Alphabet plunged over 10% after its first revenue and profit miss in four years, dragging Nasdaq futures down 1%, while Microsoft rallied 3% on Azure strength. ServiceNow and Fortinet crashed 18% and 26% respectively, triggering a broad software sell-off. Bitcoin dropped below $80,000 after briefly touching $81,700, as spot ETF inflows of $137 million on Wednesday were overwhelmed by renewed risk-off sentiment and hawkish Fed tone. Markets face a key test today with Amazon, Intel, and Caterpillar earnings after the close.",
+  "summary": "<cite index=\"8-3\">The Federal Reserve held interest rates unchanged at its October meeting, maintaining the federal funds target range at 3.75%-4.00%</cite>, with <cite index=\"4-6\">futures markets currently assigning a 76% chance of a quarter-point hike at the December FOMC meeting</cite>. Markets closed mixed Monday as <cite index=\"13-4\">Apple shares were down after the tech giant issued a disappointing margin forecast and reported weaker-than-expected fourth-quarter iPad sales</cite>, while <cite index=\"15-8,15-9\">chip stocks pushed the Nasdaq higher in late morning trading on Tuesday, though Apple's drop wiped about $107 billion off its market value</cite>. The crypto sector faced continued pressure as <cite index=\"23-4,23-5\">BlackRock's iShares Bitcoin Trust (IBIT) lost $405.3 million on Monday, its biggest daily withdrawal since June, with the group's net withdrawals at $398.6 million</cite>, extending a difficult month amid <cite index=\"23-9,23-10\">volatility triggered by the $6.3 billion Binance hack, with Bitcoin momentarily dipping under $76,400 on Monday, marking its weakest point since August</cite>. U.S. midterm elections added another layer of uncertainty to trading sentiment.",
   "signals": [
     {
       "type": "bearish",
-      "title": "Fed holds with hawkish dissents, December hike odds jump to 83%",
-      "desc": "Two FOMC members voted for an immediate 25bp hike and Chair Warsh offered no dovish guidance, leaving the door open for tightening next meeting.",
-      "asset": "macro"
-    },
-    {
-      "type": "bearish",
-      "title": "Alphabet crashes 10% on first revenue/profit miss in four years",
-      "desc": "Google parent spent $9.1 billion more than it brought in via free cash flow, with search growth slowing despite strong cloud, dragging Nasdaq futures down 1%.",
-      "asset": "stocks"
-    },
-    {
-      "type": "bullish",
-      "title": "Q3 GDP beats at 3.4%, core PCE in-line at 3.1%",
-      "desc": "Stronger-than-expected growth and stable inflation support the resilience narrative, but also justify further Fed hawkishness.",
-      "asset": "macro"
-    },
-    {
-      "type": "bearish",
-      "title": "Bitcoin falls below $80k as spot ETF inflows fade after three-day streak",
-      "desc": "BTC dropped from $81,700 to sub-$80,000 as hawkish Fed tone and tech weakness trigger $356M in leveraged liquidations, mostly longs.",
+      "title": "Bitcoin ETFs suffer $399M outflows as BlackRock leads exodus",
+      "desc": "Spot Bitcoin ETFs recorded $398.6 million in outflows Monday led by BlackRock's IBIT fund shedding $405 million, signaling institutional risk-off amid the Binance hack fallout and election uncertainty.",
       "asset": "crypto"
     },
     {
       "type": "bearish",
-      "title": "Software stocks collapse: ServiceNow -18%, Fortinet -26% post-earnings",
-      "desc": "ServiceNow missed guidance and Fortinet cut forecasts, sparking a sector-wide rout and pulling down cybersecurity names CRWD and PANW by 6%.",
+      "title": "Apple margin warning wipes $107 billion in market value",
+      "desc": "Apple issued a disappointing profit margin forecast and weak iPad sales, triggering a selloff that erased over $100 billion in market cap and pressured the Dow lower on Election Day.",
       "asset": "stocks"
+    },
+    {
+      "type": "neutral",
+      "title": "Fed holds rates at 3.75%-4.00%, December hike 76% priced in",
+      "desc": "The Federal Reserve paused rate hikes at its October meeting following September's 25bp increase, with markets pricing in a three-quarter probability of another hike in December.",
+      "asset": "macro"
+    },
+    {
+      "type": "bullish",
+      "title": "Semiconductor stocks rebound despite Apple weakness",
+      "desc": "Chip stocks lifted the Nasdaq higher in midday trading Tuesday with Nvidia rebounding sharply, offsetting Apple's drag as investors await AMD earnings after the close.",
+      "asset": "stocks"
+    },
+    {
+      "type": "bearish",
+      "title": "Binance hack aftermath keeps Bitcoin near $76,400 support",
+      "desc": "The $6.3 billion Binance security breach continues to weigh on crypto sentiment with Bitcoin testing critical support at $76,400 and the Fear & Greed Index at extreme fear levels.",
+      "asset": "crypto"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "770.75",
-      "change_pct": "-0.20"
+      "price": "752.10",
+      "change_pct": "-0.48"
     },
     {
       "symbol": "QQQ",
-      "price": "719.25",
-      "change_pct": "-0.90"
+      "price": "681.09",
+      "change_pct": "-1.36"
     },
     {
       "symbol": "BTC",
-      "price": "79783.70",
-      "change_pct": "-1.57"
+      "price": "76995",
+      "change_pct": "-0.97"
     },
     {
       "symbol": "ETH",
-      "price": "2307.78",
-      "change_pct": "-2.30"
+      "price": "2262",
+      "change_pct": "-0.87"
     },
     {
       "symbol": "GOLD",
-      "price": "4038.00",
-      "change_pct": "-0.60"
+      "price": "2750",
+      "change_pct": "+0.30"
     },
     {
       "symbol": "OIL",
-      "price": "114.00",
-      "change_pct": "+0.00"
+      "price": "96.06",
+      "change_pct": "-0.41"
     },
     {
       "symbol": "DXY",
-      "price": "102.20",
-      "change_pct": "+0.00"
+      "price": "103.50",
+      "change_pct": "+0.15"
     }
   ],
-  "verdict": "Hawkish Fed, hot GDP, and Big Tech carnage point to a risk-off open with tech under pressure while defensives and the dollar hold steady.",
-  "sentiment": "bearish",
+  "verdict": "Risk appetite remains bifurcated with semiconductors offsetting mega-cap tech weakness while crypto digests institutional outflows and election uncertainty ahead of key AMD earnings and midterm results.",
+  "sentiment": "mixed",
   "sources": [
-    "https://finance.yahoo.com/economy/policy/live/fed-meeting-live-updates-interest-rates-held-steady-in-split-vote-warsh-says-politics-played-no-role-ahead-of-midterm-elections-191946928.html",
-    "https://www.caproasia.com/2026/10/29/fomc-meeting-2026-october-united-states-fed-interest-rate-unchanged-3-75-4-range-target-inflation-at-2/",
-    "https://www.stocktitan.net/articles/stock-market-today-live-october-29-2026",
-    "https://cointelegraph.com/markets/bitcoin-etf-137-million-october-back-green",
-    "https://www.coingabbar.com/en/crypto-news-bitcoin-ethereum-price-today-fed-rate-pce-inflation",
-    "https://nexo.com/blog/markets-today-october-29"
+    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-03-2026",
+    "https://fool.com/investing/2026/11/02/the-fed-is-suddenly-on-hold-when-start-hiking",
+    "https://coindesk.com/markets/2026/11/03/bitcoin-steadies-after-dip-to-usd76-300-as-etf-outflows-and-midterm-elections-weigh-on-crypto",
+    "https://en.cryptonomist.ch/2026/11/03/bitcoin-etf-outflows-blackrock/",
+    "https://www.stocktitan.net/articles/stock-market-today-live-november-3-2026",
+    "https://fortune.com/article/price-of-bitcoin-11-03-2026/"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 35,
-      "label": "Fear",
-      "previous_close": 36,
-      "updated": "2026-10-29T17:14:40+00:00"
+      "value": 20,
+      "label": "Extreme Fear",
+      "previous_close": 23,
+      "updated": "2026-11-03T18:06:28+00:00"
     },
     "crypto": {
-      "value": 51,
-      "label": "Neutral",
-      "updated": "2026-10-29T00:00:00.000Z"
+      "value": 26,
+      "label": "Fear",
+      "updated": "2026-11-03T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-10-29T17:19:55.393Z",
+  "generated_at": "2026-11-03T18:15:37.516Z",
   "model": "claude-sonnet-4-5-20250929"
 }
