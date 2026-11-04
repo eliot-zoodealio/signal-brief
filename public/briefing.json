@@ -1,97 +1,96 @@
 {
-  "summary": "<cite index=\"8-3\">The Federal Reserve held interest rates unchanged at its October meeting, maintaining the federal funds target range at 3.75%-4.00%</cite>, with <cite index=\"4-6\">futures markets currently assigning a 76% chance of a quarter-point hike at the December FOMC meeting</cite>. Markets closed mixed Monday as <cite index=\"13-4\">Apple shares were down after the tech giant issued a disappointing margin forecast and reported weaker-than-expected fourth-quarter iPad sales</cite>, while <cite index=\"15-8,15-9\">chip stocks pushed the Nasdaq higher in late morning trading on Tuesday, though Apple's drop wiped about $107 billion off its market value</cite>. The crypto sector faced continued pressure as <cite index=\"23-4,23-5\">BlackRock's iShares Bitcoin Trust (IBIT) lost $405.3 million on Monday, its biggest daily withdrawal since June, with the group's net withdrawals at $398.6 million</cite>, extending a difficult month amid <cite index=\"23-9,23-10\">volatility triggered by the $6.3 billion Binance hack, with Bitcoin momentarily dipping under $76,400 on Monday, marking its weakest point since August</cite>. U.S. midterm elections added another layer of uncertainty to trading sentiment.",
+  "summary": "U.S. equity markets surged Wednesday after Democrats swept both chambers of Congress in the midterm elections, with the Dow jumping over 1,200 points and the S&P 500 rallying 1.75% by midday. Investors appear relieved by the prospect of divided government, betting that Democratic control will limit Trump administration policy volatility. The Reserve Bank of Australia hiked rates 25 basis points to 4.85% overnight, citing persistent inflation pressures, while Bitcoin rebounded above $80,000 despite three consecutive days of ETF outflows totaling $1.16 billion. Factory orders data came in stronger than expected at 1.8%, supporting optimism around industrial demand. Oil prices tumbled 7% on diplomatic progress, easing inflation concerns and boosting rate-sensitive sectors. The next major catalyst is Friday's October jobs report, with 65,000 payrolls expected and unemployment holding at 4.2%.",
   "signals": [
     {
-      "type": "bearish",
-      "title": "Bitcoin ETFs suffer $399M outflows as BlackRock leads exodus",
-      "desc": "Spot Bitcoin ETFs recorded $398.6 million in outflows Monday led by BlackRock's IBIT fund shedding $405 million, signaling institutional risk-off amid the Binance hack fallout and election uncertainty.",
+      "type": "bullish",
+      "title": "Democrats sweep Congress, market rallies on divided government",
+      "desc": "Democrats won both House and Senate, sparking a 1,200-point Dow surge as investors price gridlock limiting policy uncertainty and AI regulation fears.",
+      "asset": "stocks"
+    },
+    {
+      "type": "bullish",
+      "title": "Bitcoin reclaims $80,000 after three-day ETF outflow streak eases",
+      "desc": "BTC rebounded from $76,300 to above $80,000 as ETF outflows slowed from $643M to $116M, with institutional selling pressure moderating.",
       "asset": "crypto"
     },
     {
       "type": "bearish",
-      "title": "Apple margin warning wipes $107 billion in market value",
-      "desc": "Apple issued a disappointing profit margin forecast and weak iPad sales, triggering a selloff that erased over $100 billion in market cap and pressured the Dow lower on Election Day.",
-      "asset": "stocks"
-    },
-    {
-      "type": "neutral",
-      "title": "Fed holds rates at 3.75%-4.00%, December hike 76% priced in",
-      "desc": "The Federal Reserve paused rate hikes at its October meeting following September's 25bp increase, with markets pricing in a three-quarter probability of another hike in December.",
+      "title": "RBA hikes rates 25bp to 4.85% as inflation remains sticky",
+      "desc": "Australia's central bank raised rates citing capacity pressures and fuel price pass-through, signaling persistent global inflation challenges.",
       "asset": "macro"
     },
     {
       "type": "bullish",
-      "title": "Semiconductor stocks rebound despite Apple weakness",
-      "desc": "Chip stocks lifted the Nasdaq higher in midday trading Tuesday with Nvidia rebounding sharply, offsetting Apple's drag as investors await AMD earnings after the close.",
+      "title": "Factory orders beat at 1.8% vs. 1.1% consensus",
+      "desc": "September factory orders topped estimates, reinforcing resilient industrial demand and supporting cyclical equity exposure ahead of jobs data.",
       "asset": "stocks"
     },
     {
       "type": "bearish",
-      "title": "Binance hack aftermath keeps Bitcoin near $76,400 support",
-      "desc": "The $6.3 billion Binance security breach continues to weigh on crypto sentiment with Bitcoin testing critical support at $76,400 and the Fear & Greed Index at extreme fear levels.",
-      "asset": "crypto"
+      "title": "Oil crashes 7% on diplomatic progress, election outcome",
+      "desc": "WTI crude fell sharply toward $95 as geopolitical tensions eased and Democratic sweep reduces odds of aggressive energy policy, pressuring XLE.",
+      "asset": "commodities"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "752.10",
-      "change_pct": "-0.48"
+      "price": "767.62",
+      "change_pct": "+1.76"
     },
     {
       "symbol": "QQQ",
-      "price": "681.09",
-      "change_pct": "-1.36"
+      "price": "694.47",
+      "change_pct": "+1.34"
     },
     {
       "symbol": "BTC",
-      "price": "76995",
-      "change_pct": "-0.97"
+      "price": "80339",
+      "change_pct": "+3.88"
     },
     {
       "symbol": "ETH",
-      "price": "2262",
-      "change_pct": "-0.87"
+      "price": "2528",
+      "change_pct": "+2.15"
     },
     {
       "symbol": "GOLD",
-      "price": "2750",
-      "change_pct": "+0.30"
+      "price": "3724",
+      "change_pct": "+3.68"
     },
     {
       "symbol": "OIL",
-      "price": "96.06",
-      "change_pct": "-0.41"
+      "price": "95.20",
+      "change_pct": "-7.10"
     },
     {
       "symbol": "DXY",
-      "price": "103.50",
-      "change_pct": "+0.15"
+      "price": "103.45",
+      "change_pct": "-0.65"
     }
   ],
-  "verdict": "Risk appetite remains bifurcated with semiconductors offsetting mega-cap tech weakness while crypto digests institutional outflows and election uncertainty ahead of key AMD earnings and midterm results.",
-  "sentiment": "mixed",
+  "verdict": "Risk assets rallying on election clarity and easing oil prices, but Friday's jobs data and persistent central bank hawkishness keep volatility elevated.",
+  "sentiment": "bullish",
   "sources": [
-    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-03-2026",
-    "https://fool.com/investing/2026/11/02/the-fed-is-suddenly-on-hold-when-start-hiking",
-    "https://coindesk.com/markets/2026/11/03/bitcoin-steadies-after-dip-to-usd76-300-as-etf-outflows-and-midterm-elections-weigh-on-crypto",
-    "https://en.cryptonomist.ch/2026/11/03/bitcoin-etf-outflows-blackrock/",
-    "https://www.stocktitan.net/articles/stock-market-today-live-november-3-2026",
-    "https://fortune.com/article/price-of-bitcoin-11-03-2026/"
+    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-04-2026",
+    "https://www.coindesk.com/markets/2026/11/03/bitcoin-steadies-after-dip-to-usd76-300-as-etf-outflows-and-midterm-elections-weigh-on-crypto",
+    "https://rba.gov.au/media-releases/2026/mr-26-30.html",
+    "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-4-132500586.html",
+    "https://www.benzinga.com/markets/equities/26/11/62877866/stock-market-today-dow-rallies-oil-sinks-midterms-democrats-sweep-congress"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 20,
-      "label": "Extreme Fear",
-      "previous_close": 23,
-      "updated": "2026-11-03T18:06:28+00:00"
+      "value": 28,
+      "label": "Fear",
+      "previous_close": 19,
+      "updated": "2026-11-04T18:29:36+00:00"
     },
     "crypto": {
-      "value": 26,
+      "value": 34,
       "label": "Fear",
-      "updated": "2026-11-03T00:00:00.000Z"
+      "updated": "2026-11-04T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-11-03T18:15:37.516Z",
+  "generated_at": "2026-11-04T18:30:15.677Z",
   "model": "claude-sonnet-4-5-20250929"
 }
