@@ -1,96 +1,97 @@
 {
-  "summary": "U.S. equity markets surged Wednesday after Democrats swept both chambers of Congress in the midterm elections, with the Dow jumping over 1,200 points and the S&P 500 rallying 1.75% by midday. Investors appear relieved by the prospect of divided government, betting that Democratic control will limit Trump administration policy volatility. The Reserve Bank of Australia hiked rates 25 basis points to 4.85% overnight, citing persistent inflation pressures, while Bitcoin rebounded above $80,000 despite three consecutive days of ETF outflows totaling $1.16 billion. Factory orders data came in stronger than expected at 1.8%, supporting optimism around industrial demand. Oil prices tumbled 7% on diplomatic progress, easing inflation concerns and boosting rate-sensitive sectors. The next major catalyst is Friday's October jobs report, with 65,000 payrolls expected and unemployment holding at 4.2%.",
+  "summary": "<cite index=\"10-3,11-3\">US stocks plunged on Thursday as a Democratic sweep in the midterm elections sparked fears over AI regulation and data center growth, triggering a massive selloff in semiconductor and tech stocks that erased Wednesday's post-election rally.</cite> <cite index=\"11-6,13-6\">The PHLX Semiconductor index plummeted 10%, with the Nasdaq 100 falling 5% and erasing $1.9 trillion in value, while the S&P 500 dropped nearly 4% and the Dow shed over 1,500 points.</cite> <cite index=\"10-5,10-6\">Nvidia slid 9% and Qualcomm sank on weak outlooks, while Tesla and SpaceX each lost over 9%.</cite> <cite index=\"20-1,20-6,27-4\">Crypto markets initially rebounded after the midterms, with Bitcoin reclaiming $80,000 and Ethereum topping $2,400, supported by the first November ETF inflows, though the rally cooled as stock selloff intensified.</cite> <cite index=\"4-7,4-10,5-1\">The Fed held rates steady last week and upgraded its economic assessment from \"solid\" to \"strong,\" though recent inflation data showed the PCE index rising 0.5% in September, the fastest since March.</cite> <cite index=\"29-4,29-7,29-9\">On the earnings front, ConocoPhillips beat with $3.27 EPS on surging oil prices, while Cummins saw strong demand from AI data center power equipment driving a 13% revenue increase.</cite>",
   "signals": [
     {
-      "type": "bullish",
-      "title": "Democrats sweep Congress, market rallies on divided government",
-      "desc": "Democrats won both House and Senate, sparking a 1,200-point Dow surge as investors price gridlock limiting policy uncertainty and AI regulation fears.",
+      "type": "bearish",
+      "title": "Democrat midterm sweep triggers AI stock rout on regulation fears",
+      "desc": "Post-election Democratic control of Congress sparked massive selling in chip and AI stocks on fears of tighter regulation, with semiconductors down 10% in worst day since April 2025 tariff crisis.",
       "asset": "stocks"
     },
     {
-      "type": "bullish",
-      "title": "Bitcoin reclaims $80,000 after three-day ETF outflow streak eases",
-      "desc": "BTC rebounded from $76,300 to above $80,000 as ETF outflows slowed from $643M to $116M, with institutional selling pressure moderating.",
-      "asset": "crypto"
+      "type": "bearish",
+      "title": "Nasdaq erases $1.9 trillion as tech selloff spreads beyond chips",
+      "desc": "Broad tech weakness overwhelmed markets with Nasdaq down 5%, S&P 500 off 4%, and mega-cap names like Nvidia (-9%), Tesla (-9%) leading declines as AI buildout concerns mount.",
+      "asset": "stocks"
     },
     {
       "type": "bearish",
-      "title": "RBA hikes rates 25bp to 4.85% as inflation remains sticky",
-      "desc": "Australia's central bank raised rates citing capacity pressures and fuel price pass-through, signaling persistent global inflation challenges.",
+      "title": "Bitcoin falls 5.5% as crypto rally stalls at key resistance",
+      "desc": "Crypto reversed sharply after briefly topping $80,000, with Bitcoin dropping back to $76,500 range and Ethereum losing $2,400 level as stock market turmoil weighs on risk assets.",
+      "asset": "crypto"
+    },
+    {
+      "type": "neutral",
+      "title": "Fed upgrades growth outlook to \"strong\" but holds rates amid sticky inflation",
+      "desc": "The Federal Reserve described economic activity as expanding at a \"strong\" pace versus prior \"solid\" assessment, while September PCE inflation accelerated to 0.5% monthly, complicating rate cut path.",
       "asset": "macro"
     },
     {
       "type": "bullish",
-      "title": "Factory orders beat at 1.8% vs. 1.1% consensus",
-      "desc": "September factory orders topped estimates, reinforcing resilient industrial demand and supporting cyclical equity exposure ahead of jobs data.",
-      "asset": "stocks"
-    },
-    {
-      "type": "bearish",
-      "title": "Oil crashes 7% on diplomatic progress, election outcome",
-      "desc": "WTI crude fell sharply toward $95 as geopolitical tensions eased and Democratic sweep reduces odds of aggressive energy policy, pressuring XLE.",
+      "title": "Oil producer earnings beat as energy prices surge on supply concerns",
+      "desc": "ConocoPhillips crushed estimates with $3.27 EPS as realized oil/gas prices jumped 32% year-over-year to $61.40 per barrel equivalent, reflecting tight supply conditions.",
       "asset": "commodities"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "767.62",
-      "change_pct": "+1.76"
+      "price": "754.12",
+      "change_pct": "-1.65"
     },
     {
       "symbol": "QQQ",
-      "price": "694.47",
-      "change_pct": "+1.34"
+      "price": "661.61",
+      "change_pct": "-4.38"
     },
     {
       "symbol": "BTC",
-      "price": "80339",
-      "change_pct": "+3.88"
+      "price": "76584",
+      "change_pct": "-5.07"
     },
     {
       "symbol": "ETH",
-      "price": "2528",
-      "change_pct": "+2.15"
+      "price": "2386",
+      "change_pct": "-1.29"
     },
     {
       "symbol": "GOLD",
-      "price": "3724",
-      "change_pct": "+3.68"
+      "price": "4015",
+      "change_pct": "+0.78"
     },
     {
       "symbol": "OIL",
-      "price": "95.20",
-      "change_pct": "-7.10"
+      "price": "96.00",
+      "change_pct": "+2.88"
     },
     {
       "symbol": "DXY",
-      "price": "103.45",
-      "change_pct": "-0.65"
+      "price": "103.20",
+      "change_pct": "-0.42"
     }
   ],
-  "verdict": "Risk assets rallying on election clarity and easing oil prices, but Friday's jobs data and persistent central bank hawkishness keep volatility elevated.",
-  "sentiment": "bullish",
+  "verdict": "Risk-off dominates as political uncertainty around AI regulation triggers historic tech washout, overwhelming initial post-election optimism and crypto bounce.",
+  "sentiment": "bearish",
   "sources": [
-    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-04-2026",
-    "https://www.coindesk.com/markets/2026/11/03/bitcoin-steadies-after-dip-to-usd76-300-as-etf-outflows-and-midterm-elections-weigh-on-crypto",
-    "https://rba.gov.au/media-releases/2026/mr-26-30.html",
-    "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-4-132500586.html",
-    "https://www.benzinga.com/markets/equities/26/11/62877866/stock-market-today-dow-rallies-oil-sinks-midterms-democrats-sweep-congress"
+    "https://www.bloomberg.com/news/articles/2026-11-04/stock-market-today-dow-s-p-live-updates",
+    "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html",
+    "https://www.kucoin.com/news/flash/bitcoin-ethereum-and-xrp-surge-amid-crypto-market-rally",
+    "https://www.fool.com/investing/2026/11/05/with-1-word-fed-sent-important-message-investors/",
+    "https://bloomberg.com/opinion/articles/2026-11-05/federal-reserve-needs-a-new-way-to-talk-to-investors",
+    "https://www.tipranks.com/news/these-are-the-stocks-reporting-earnings-today-november-5-2026"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 28,
-      "label": "Fear",
-      "previous_close": 19,
-      "updated": "2026-11-04T18:29:36+00:00"
+      "value": 20,
+      "label": "Extreme Fear",
+      "previous_close": 27,
+      "updated": "2026-11-05T18:31:52+00:00"
     },
     "crypto": {
-      "value": 34,
-      "label": "Fear",
-      "updated": "2026-11-04T00:00:00.000Z"
+      "value": 50,
+      "label": "Neutral",
+      "updated": "2026-11-05T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-11-04T18:30:15.677Z",
+  "generated_at": "2026-11-05T18:34:04.538Z",
   "model": "claude-sonnet-4-5-20250929"
 }
