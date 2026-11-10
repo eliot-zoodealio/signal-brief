@@ -1,97 +1,97 @@
 {
-  "summary": "<cite index=\"10-3,11-3\">US stocks plunged on Thursday as a Democratic sweep in the midterm elections sparked fears over AI regulation and data center growth, triggering a massive selloff in semiconductor and tech stocks that erased Wednesday's post-election rally.</cite> <cite index=\"11-6,13-6\">The PHLX Semiconductor index plummeted 10%, with the Nasdaq 100 falling 5% and erasing $1.9 trillion in value, while the S&P 500 dropped nearly 4% and the Dow shed over 1,500 points.</cite> <cite index=\"10-5,10-6\">Nvidia slid 9% and Qualcomm sank on weak outlooks, while Tesla and SpaceX each lost over 9%.</cite> <cite index=\"20-1,20-6,27-4\">Crypto markets initially rebounded after the midterms, with Bitcoin reclaiming $80,000 and Ethereum topping $2,400, supported by the first November ETF inflows, though the rally cooled as stock selloff intensified.</cite> <cite index=\"4-7,4-10,5-1\">The Fed held rates steady last week and upgraded its economic assessment from \"solid\" to \"strong,\" though recent inflation data showed the PCE index rising 0.5% in September, the fastest since March.</cite> <cite index=\"29-4,29-7,29-9\">On the earnings front, ConocoPhillips beat with $3.27 EPS on surging oil prices, while Cummins saw strong demand from AI data center power equipment driving a 13% revenue increase.</cite>",
+  "summary": "U.S. markets tumbled Tuesday after October CPI data came in hotter than expected, reigniting fears of another Federal Reserve rate hike in December. Headline inflation rose 0.4% month-over-month versus the 0.3% consensus, while core CPI climbed 0.3% against expectations for 0.2%. Fed Governor Christopher Waller signaled openness to a quarter-point December hike and floated the possibility of a half-point move if inflation remains elevated. The S&P 500 fell roughly 1% intraday, short-dated Treasury yields jumped 20 basis points to 4.76%, and money markets now price in 28 basis points of tightening for the December FOMC meeting. Bitcoin ETFs extended their bleed, losing $201 million Monday as BlackRock's IBIT marked its seventh straight day of outflows, totaling $1.66 billion over the streak. Nvidia shares dropped more than 3% and weighed heavily on tech, while Microsoft slid after Anthropic unveiled workplace tools that compete directly with Office. Earnings season is winding down, with CoreWeave and Applied Materials reporting this week amid a sharp post-earnings rotation out of AI plays.",
   "signals": [
     {
       "type": "bearish",
-      "title": "Democrat midterm sweep triggers AI stock rout on regulation fears",
-      "desc": "Post-election Democratic control of Congress sparked massive selling in chip and AI stocks on fears of tighter regulation, with semiconductors down 10% in worst day since April 2025 tariff crisis.",
-      "asset": "stocks"
-    },
-    {
-      "type": "bearish",
-      "title": "Nasdaq erases $1.9 trillion as tech selloff spreads beyond chips",
-      "desc": "Broad tech weakness overwhelmed markets with Nasdaq down 5%, S&P 500 off 4%, and mega-cap names like Nvidia (-9%), Tesla (-9%) leading declines as AI buildout concerns mount.",
-      "asset": "stocks"
-    },
-    {
-      "type": "bearish",
-      "title": "Bitcoin falls 5.5% as crypto rally stalls at key resistance",
-      "desc": "Crypto reversed sharply after briefly topping $80,000, with Bitcoin dropping back to $76,500 range and Ethereum losing $2,400 level as stock market turmoil weighs on risk assets.",
-      "asset": "crypto"
-    },
-    {
-      "type": "neutral",
-      "title": "Fed upgrades growth outlook to \"strong\" but holds rates amid sticky inflation",
-      "desc": "The Federal Reserve described economic activity as expanding at a \"strong\" pace versus prior \"solid\" assessment, while September PCE inflation accelerated to 0.5% monthly, complicating rate cut path.",
+      "title": "October CPI exceeds estimates, pressuring stocks and bonds",
+      "desc": "Headline CPI rose 0.4% vs 0.3% expected and core up 0.3% vs 0.2%, pushing two-year yields up 20 bps and lifting December Fed hike odds to 28 bps.",
       "asset": "macro"
     },
     {
-      "type": "bullish",
-      "title": "Oil producer earnings beat as energy prices surge on supply concerns",
-      "desc": "ConocoPhillips crushed estimates with $3.27 EPS as realized oil/gas prices jumped 32% year-over-year to $61.40 per barrel equivalent, reflecting tight supply conditions.",
-      "asset": "commodities"
+      "type": "bearish",
+      "title": "Fed's Waller backs December quarter-point hike, floats half-point option",
+      "desc": "Waller said he would support at least a 25-bp hike in December and suggested a 50-bp move if inflation data does not improve, rattling risk assets.",
+      "asset": "macro"
+    },
+    {
+      "type": "bearish",
+      "title": "Bitcoin ETFs post seventh straight day of outflows totaling $1.66B",
+      "desc": "BlackRock's IBIT lost $213M Monday, extending cumulative withdrawals to $1.66B since Oct. 30 as rising rate expectations weigh on crypto demand.",
+      "asset": "crypto"
+    },
+    {
+      "type": "bearish",
+      "title": "Microsoft shares drop after Anthropic unveils Office-competing tools",
+      "desc": "Anthropic announced Claude Sheets, Whiteboards, and Data products that rival Microsoft Office, pressuring MSFT shares midday amid its IPO filing.",
+      "asset": "stocks"
+    },
+    {
+      "type": "bearish",
+      "title": "Nvidia slides 3% as tech rotation accelerates post-CPI",
+      "desc": "NVDA fell despite Monday's 4% Nasdaq rally, acting as the heaviest S&P 500 drag as investors rotate out of high-multiple AI plays into defensives.",
+      "asset": "stocks"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "754.12",
-      "change_pct": "-1.65"
+      "price": "749.56",
+      "change_pct": "-1.03"
     },
     {
       "symbol": "QQQ",
-      "price": "661.61",
-      "change_pct": "-4.38"
+      "price": "676.54",
+      "change_pct": "-0.41"
     },
     {
       "symbol": "BTC",
-      "price": "76584",
-      "change_pct": "-5.07"
+      "price": "74200",
+      "change_pct": "-0.83"
     },
     {
       "symbol": "ETH",
-      "price": "2386",
-      "change_pct": "-1.29"
+      "price": "2090",
+      "change_pct": "-1.64"
     },
     {
       "symbol": "GOLD",
-      "price": "4015",
-      "change_pct": "+0.78"
+      "price": "379.53",
+      "change_pct": "+1.88"
     },
     {
       "symbol": "OIL",
-      "price": "96.00",
-      "change_pct": "+2.88"
+      "price": "91.45",
+      "change_pct": "-4.60"
     },
     {
       "symbol": "DXY",
-      "price": "103.20",
-      "change_pct": "-0.42"
+      "price": "106.20",
+      "change_pct": "+0.45"
     }
   ],
-  "verdict": "Risk-off dominates as political uncertainty around AI regulation triggers historic tech washout, overwhelming initial post-election optimism and crypto bounce.",
+  "verdict": "Hot CPI and hawkish Fed rhetoric have markets bracing for tighter policy into year-end, with risk assets under pressure and defensive rotation gaining momentum.",
   "sentiment": "bearish",
   "sources": [
-    "https://www.bloomberg.com/news/articles/2026-11-04/stock-market-today-dow-s-p-live-updates",
-    "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-oil-rises-chip-stocks-141439950.html",
-    "https://www.kucoin.com/news/flash/bitcoin-ethereum-and-xrp-surge-amid-crypto-market-rally",
-    "https://www.fool.com/investing/2026/11/05/with-1-word-fed-sent-important-message-investors/",
-    "https://bloomberg.com/opinion/articles/2026-11-05/federal-reserve-needs-a-new-way-to-talk-to-investors",
-    "https://www.tipranks.com/news/these-are-the-stocks-reporting-earnings-today-november-5-2026"
+    "https://www.bloomberg.com/news/articles/2026-11-09/stock-market-today-dow-s-p-live-updates",
+    "https://thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-10-2026",
+    "https://www.investing.com/news/economy-news/reaction-roundup-experts-analysts-weigh-in-on-october-cpi-report-5016277",
+    "https://www.cnbc.com/2026/11/10/stock-market-movers-live-updates.html",
+    "https://www.gncrypto.news/news/blackrock-bitcoin-etf-posts-1-66b-outflows-in-seven-days/",
+    "https://www.ccn.com/news/crypto/bitcoin-etf-outflows-1-28b-fed-rate-hike/"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 20,
-      "label": "Extreme Fear",
-      "previous_close": 27,
-      "updated": "2026-11-05T18:31:52+00:00"
+      "value": 33,
+      "label": "Fear",
+      "previous_close": 32,
+      "updated": "2026-11-10T18:26:12+00:00"
     },
     "crypto": {
-      "value": 50,
-      "label": "Neutral",
-      "updated": "2026-11-05T00:00:00.000Z"
+      "value": 32,
+      "label": "Fear",
+      "updated": "2026-11-10T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-11-05T18:34:04.538Z",
+  "generated_at": "2026-11-10T18:30:19.367Z",
   "model": "claude-sonnet-4-5-20250929"
 }
