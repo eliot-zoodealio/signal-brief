@@ -1,97 +1,98 @@
 {
-  "summary": "U.S. markets tumbled Tuesday after October CPI data came in hotter than expected, reigniting fears of another Federal Reserve rate hike in December. Headline inflation rose 0.4% month-over-month versus the 0.3% consensus, while core CPI climbed 0.3% against expectations for 0.2%. Fed Governor Christopher Waller signaled openness to a quarter-point December hike and floated the possibility of a half-point move if inflation remains elevated. The S&P 500 fell roughly 1% intraday, short-dated Treasury yields jumped 20 basis points to 4.76%, and money markets now price in 28 basis points of tightening for the December FOMC meeting. Bitcoin ETFs extended their bleed, losing $201 million Monday as BlackRock's IBIT marked its seventh straight day of outflows, totaling $1.66 billion over the streak. Nvidia shares dropped more than 3% and weighed heavily on tech, while Microsoft slid after Anthropic unveiled workplace tools that compete directly with Office. Earnings season is winding down, with CoreWeave and Applied Materials reporting this week amid a sharp post-earnings rotation out of AI plays.",
+  "summary": "<cite index=\"1-15,6-1\">Tuesday's hot CPI report and hawkish Fed officials sent Treasury yields sharply higher and triggered a 0.38% decline in the S&P 500, with markets now pricing a 90% chance of a December rate hike</cite>. <cite index=\"3-10,4-6\">Wednesday brought a sharp reversal as CoreWeave reported third-quarter revenue of $3.66 billion, beating estimates and raising full-year guidance to $13.0-$13.3 billion, sparking a broad rally in AI and semiconductor stocks</cite>. <cite index=\"3-6,7-4\">The S&P 500 rose 0.9% and the Nasdaq Composite rallied 1.8% as chipmakers like Broadcom and Micron surged more than 5%</cite>. <cite index=\"26-4\">Crypto markets faced over $723 million in liquidations following the inflation data, with nearly 79% from longs</cite>, though <cite index=\"27-3,27-4\">Bitcoin recovered above $74,500 and Ethereum rose 3.6% to $2,094 on Wednesday as Deutsche Bank launched its institutional crypto custody service</cite>. The bond market remained closed for Veterans Day, leaving equities to digest inflation concerns without the usual fixed-income anchor.",
   "signals": [
     {
       "type": "bearish",
-      "title": "October CPI exceeds estimates, pressuring stocks and bonds",
-      "desc": "Headline CPI rose 0.4% vs 0.3% expected and core up 0.3% vs 0.2%, pushing two-year yields up 20 bps and lifting December Fed hike odds to 28 bps.",
+      "title": "Hot CPI triggers Fed rate hike repricing to 90% odds",
+      "desc": "October CPI came in above consensus at 0.4%, prompting hawkish Fed commentary and pushing December rate-hike probability to 90%, pressuring risk assets.",
       "asset": "macro"
     },
     {
-      "type": "bearish",
-      "title": "Fed's Waller backs December quarter-point hike, floats half-point option",
-      "desc": "Waller said he would support at least a 25-bp hike in December and suggested a 50-bp move if inflation data does not improve, rattling risk assets.",
-      "asset": "macro"
+      "type": "bullish",
+      "title": "CoreWeave beats on revenue, raises guidance amid AI demand resilience",
+      "desc": "CoreWeave's Q3 revenue of $3.66B and raised full-year guidance to $13.0-13.3B fueled a 10.7% stock surge and lifted chip sector, signaling robust AI infrastructure spending.",
+      "asset": "stocks"
+    },
+    {
+      "type": "bullish",
+      "title": "Anthropic IPO oversubscribed, targets $1.4T valuation",
+      "desc": "Anthropic's blockbuster IPO attracted orders several times available shares at a $1.4 trillion valuation target, reinforcing AI equity momentum and boosting sector sentiment.",
+      "asset": "stocks"
     },
     {
       "type": "bearish",
-      "title": "Bitcoin ETFs post seventh straight day of outflows totaling $1.66B",
-      "desc": "BlackRock's IBIT lost $213M Monday, extending cumulative withdrawals to $1.66B since Oct. 30 as rising rate expectations weigh on crypto demand.",
+      "title": "Crypto liquidations hit $723M as leveraged longs unwind",
+      "desc": "Hot CPI data triggered $723 million in crypto liquidations with 79% from longs, reflecting overleveraged positioning and fragile market structure in digital assets.",
       "asset": "crypto"
     },
     {
-      "type": "bearish",
-      "title": "Microsoft shares drop after Anthropic unveils Office-competing tools",
-      "desc": "Anthropic announced Claude Sheets, Whiteboards, and Data products that rival Microsoft Office, pressuring MSFT shares midday amid its IPO filing.",
-      "asset": "stocks"
-    },
-    {
-      "type": "bearish",
-      "title": "Nvidia slides 3% as tech rotation accelerates post-CPI",
-      "desc": "NVDA fell despite Monday's 4% Nasdaq rally, acting as the heaviest S&P 500 drag as investors rotate out of high-multiple AI plays into defensives.",
-      "asset": "stocks"
+      "type": "bullish",
+      "title": "Deutsche Bank launches crypto custody, Bitcoin reclaims $74K",
+      "desc": "Deutsche Bank's institutional custody launch for Bitcoin and Ethereum helped crypto recover from Tuesday's selloff, with BTC rebounding above $74,500 and ETH up 3.6%.",
+      "asset": "crypto"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "749.56",
-      "change_pct": "-1.03"
+      "price": "749.92",
+      "change_pct": "-0.37"
     },
     {
       "symbol": "QQQ",
-      "price": "676.54",
-      "change_pct": "-0.41"
+      "price": "674.76",
+      "change_pct": "-0.68"
     },
     {
       "symbol": "BTC",
-      "price": "74200",
-      "change_pct": "-0.83"
+      "price": "73937",
+      "change_pct": "-1.16"
     },
     {
       "symbol": "ETH",
-      "price": "2090",
-      "change_pct": "-1.64"
+      "price": "2054",
+      "change_pct": "-1.69"
     },
     {
       "symbol": "GOLD",
-      "price": "379.53",
-      "change_pct": "+1.88"
+      "price": "4037.90",
+      "change_pct": "+0.19"
     },
     {
       "symbol": "OIL",
-      "price": "91.45",
-      "change_pct": "-4.60"
+      "price": "88.11",
+      "change_pct": "+2.41"
     },
     {
       "symbol": "DXY",
-      "price": "106.20",
-      "change_pct": "+0.45"
+      "price": "106.50",
+      "change_pct": "+0.52"
     }
   ],
-  "verdict": "Hot CPI and hawkish Fed rhetoric have markets bracing for tighter policy into year-end, with risk assets under pressure and defensive rotation gaining momentum.",
-  "sentiment": "bearish",
+  "verdict": "Markets face tug-of-war between hawkish Fed repricing and resilient AI earnings, with Wednesday's tech rally suggesting demand fundamentals may outweigh rate headwinds near-term.",
+  "sentiment": "mixed",
   "sources": [
-    "https://www.bloomberg.com/news/articles/2026-11-09/stock-market-today-dow-s-p-live-updates",
-    "https://thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-10-2026",
-    "https://www.investing.com/news/economy-news/reaction-roundup-experts-analysts-weigh-in-on-october-cpi-report-5016277",
-    "https://www.cnbc.com/2026/11/10/stock-market-movers-live-updates.html",
-    "https://www.gncrypto.news/news/blackrock-bitcoin-etf-posts-1-66b-outflows-in-seven-days/",
-    "https://www.ccn.com/news/crypto/bitcoin-etf-outflows-1-28b-fed-rate-hike/"
+    "https://pro.thestreet.com/stock-market-today/a-serious-change-in-sentiment",
+    "https://www.bnnbloomberg.ca/markets/2026/11/11/rebounding-ai-stocks-lift-wall-street/",
+    "https://theblyesheet.substack.com/p/the-blye-sheet-before-the-bell-november-b53",
+    "https://www.cryptotimes.io/2026/11/11/crypto-market-down-today-btc-eth-xrp-prices-fall-after-cpi-724m-longs-liquidated/",
+    "https://www.cryptotimes.io/2026/11/11/crypto-market-up-bitcoin-price-reclaims-74k-as-eth-xrp-sol-rally-on-deutsche-bank-custody-launch/",
+    "https://fortune.com/article/price-of-bitcoin-11-11-2026/",
+    "https://www.investing.com/etfs/spdr-s-p-500"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 33,
+      "value": 38,
       "label": "Fear",
-      "previous_close": 32,
-      "updated": "2026-11-10T18:26:12+00:00"
+      "previous_close": 33,
+      "updated": "2026-11-11T18:22:30+00:00"
     },
     "crypto": {
-      "value": 32,
+      "value": 29,
       "label": "Fear",
-      "updated": "2026-11-10T00:00:00.000Z"
+      "updated": "2026-11-11T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-11-10T18:30:19.367Z",
+  "generated_at": "2026-11-11T18:25:58.445Z",
   "model": "claude-sonnet-4-5-20250929"
 }
