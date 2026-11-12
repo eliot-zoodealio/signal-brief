@@ -1,98 +1,98 @@
 {
-  "summary": "<cite index=\"1-15,6-1\">Tuesday's hot CPI report and hawkish Fed officials sent Treasury yields sharply higher and triggered a 0.38% decline in the S&P 500, with markets now pricing a 90% chance of a December rate hike</cite>. <cite index=\"3-10,4-6\">Wednesday brought a sharp reversal as CoreWeave reported third-quarter revenue of $3.66 billion, beating estimates and raising full-year guidance to $13.0-$13.3 billion, sparking a broad rally in AI and semiconductor stocks</cite>. <cite index=\"3-6,7-4\">The S&P 500 rose 0.9% and the Nasdaq Composite rallied 1.8% as chipmakers like Broadcom and Micron surged more than 5%</cite>. <cite index=\"26-4\">Crypto markets faced over $723 million in liquidations following the inflation data, with nearly 79% from longs</cite>, though <cite index=\"27-3,27-4\">Bitcoin recovered above $74,500 and Ethereum rose 3.6% to $2,094 on Wednesday as Deutsche Bank launched its institutional crypto custody service</cite>. The bond market remained closed for Veterans Day, leaving equities to digest inflation concerns without the usual fixed-income anchor.",
+  "summary": "Markets are navigating dueling crosscurrents as November 12 unfolds. A hot October CPI print—headline up 0.4% month-over-month and core up 0.3%, both above forecasts—ignited a repricing of December FOMC expectations, with markets now pricing almost 60 basis points of tightening through March and a slim but uncomfortable chance of a 50-basis-point hike next month. Fed Governor Waller and Dallas Fed's Logan opened the door to faster hikes earlier this week, though Cleveland's hawkish Beth Hammack stopped short of endorsing a larger move today. The 2-year Treasury yield surged 17 basis points Tuesday and added another 3 basis points Thursday, trading at 4.77%. Meanwhile, Nvidia shares plunged as much as 13% in early trading after reports that the board ousted CEO Jensen Huang following allegations of a second extramarital affair and possible intelligence concerns; the stock later trimmed losses to around 5%. Broader equity indices wobbled but turned positive by midday, with the S&P 500 up 0.12% and the Dow up 0.25%, as AI infrastructure play CoreWeave's blowout Q3 results (revenue up 168% year-over-year) provided a counterweight. Crypto remains under pressure: Bitcoin briefly broke below $72,000 for the first time since August, weighed down by five consecutive days of ETF outflows totaling $1.44 billion—BlackRock's IBIT alone shed $270 million Wednesday—and a $14.2 billion stablecoin supply contraction, the largest since 2022. MSCI's decision to remove MicroStrategy from its benchmark indexes added to selling pressure in crypto-adjacent equities.",
   "signals": [
     {
       "type": "bearish",
-      "title": "Hot CPI triggers Fed rate hike repricing to 90% odds",
-      "desc": "October CPI came in above consensus at 0.4%, prompting hawkish Fed commentary and pushing December rate-hike probability to 90%, pressuring risk assets.",
+      "title": "Hot CPI fuels Fed 50bp hike speculation, yields surge",
+      "desc": "October CPI came in at 0.4% m/m vs forecast, pushing markets to price 60bp of tightening through March and sending the 2-year yield up 20bp this week to 4.77%.",
       "asset": "macro"
     },
     {
-      "type": "bullish",
-      "title": "CoreWeave beats on revenue, raises guidance amid AI demand resilience",
-      "desc": "CoreWeave's Q3 revenue of $3.66B and raised full-year guidance to $13.0-13.3B fueled a 10.7% stock surge and lifted chip sector, signaling robust AI infrastructure spending.",
+      "type": "bearish",
+      "title": "Nvidia CEO Jensen Huang ousted, shares drop 13% intraday",
+      "desc": "Board removed Huang after reports of second affair and intelligence concerns; CFO Colette Kress named interim CEO, with multiple Wall Street downgrades following the news.",
       "asset": "stocks"
     },
     {
       "type": "bullish",
-      "title": "Anthropic IPO oversubscribed, targets $1.4T valuation",
-      "desc": "Anthropic's blockbuster IPO attracted orders several times available shares at a $1.4 trillion valuation target, reinforcing AI equity momentum and boosting sector sentiment.",
+      "title": "CoreWeave blowout earnings rally tech stocks Wednesday",
+      "desc": "AI infrastructure provider reported Q3 revenue of $3.66B (up 168% y/y) and raised 2026 guidance by 26%, sparking a 1.6% Nasdaq rally and 2% Apple close at record $355.63.",
       "asset": "stocks"
     },
     {
       "type": "bearish",
-      "title": "Crypto liquidations hit $723M as leveraged longs unwind",
-      "desc": "Hot CPI data triggered $723 million in crypto liquidations with 79% from longs, reflecting overleveraged positioning and fragile market structure in digital assets.",
+      "title": "Bitcoin ETF outflows hit $1.44B over five days, BTC breaks $72K",
+      "desc": "BlackRock's IBIT shed $270M Wednesday alone as persistent institutional withdrawals and $14.2B stablecoin supply drop pushed BTC to lowest level since August.",
       "asset": "crypto"
     },
     {
-      "type": "bullish",
-      "title": "Deutsche Bank launches crypto custody, Bitcoin reclaims $74K",
-      "desc": "Deutsche Bank's institutional custody launch for Bitcoin and Ethereum helped crypto recover from Tuesday's selloff, with BTC rebounding above $74,500 and ETH up 3.6%.",
+      "type": "bearish",
+      "title": "MSCI drops MicroStrategy from indexes, crypto stocks hit",
+      "desc": "Index operator confirmed removal of Bitcoin treasury companies including MSTR from benchmarks effective November 30, pressuring crypto-adjacent equities and highlighting financing model risk.",
       "asset": "crypto"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "749.92",
-      "change_pct": "-0.37"
+      "price": "757.30",
+      "change_pct": "+0.12"
     },
     {
       "symbol": "QQQ",
-      "price": "674.76",
-      "change_pct": "-0.68"
+      "price": "685.15",
+      "change_pct": "+0.01"
     },
     {
       "symbol": "BTC",
-      "price": "73937",
-      "change_pct": "-1.16"
+      "price": "73208.24",
+      "change_pct": "-0.98"
     },
     {
       "symbol": "ETH",
-      "price": "2054",
-      "change_pct": "-1.69"
+      "price": "2050.06",
+      "change_pct": "-0.43"
     },
     {
       "symbol": "GOLD",
-      "price": "4037.90",
-      "change_pct": "+0.19"
+      "price": "361.50",
+      "change_pct": "-1.01"
     },
     {
       "symbol": "OIL",
-      "price": "88.11",
-      "change_pct": "+2.41"
+      "price": "72.80",
+      "change_pct": "+0.15"
     },
     {
       "symbol": "DXY",
-      "price": "106.50",
-      "change_pct": "+0.52"
+      "price": "106.45",
+      "change_pct": "+0.65"
     }
   ],
-  "verdict": "Markets face tug-of-war between hawkish Fed repricing and resilient AI earnings, with Wednesday's tech rally suggesting demand fundamentals may outweigh rate headwinds near-term.",
+  "verdict": "Hawkish Fed repricing and Nvidia leadership turmoil create cross-pressures, but equities finding support from AI infrastructure strength while crypto faces sustained institutional exodus.",
   "sentiment": "mixed",
   "sources": [
-    "https://pro.thestreet.com/stock-market-today/a-serious-change-in-sentiment",
-    "https://www.bnnbloomberg.ca/markets/2026/11/11/rebounding-ai-stocks-lift-wall-street/",
-    "https://theblyesheet.substack.com/p/the-blye-sheet-before-the-bell-november-b53",
-    "https://www.cryptotimes.io/2026/11/11/crypto-market-down-today-btc-eth-xrp-prices-fall-after-cpi-724m-longs-liquidated/",
-    "https://www.cryptotimes.io/2026/11/11/crypto-market-up-bitcoin-price-reclaims-74k-as-eth-xrp-sol-rally-on-deutsche-bank-custody-launch/",
-    "https://fortune.com/article/price-of-bitcoin-11-11-2026/",
-    "https://www.investing.com/etfs/spdr-s-p-500"
+    "https://pro.thestreet.com/stock-market-today/2026-11-12",
+    "https://home.saxo/en-mena/content/articles/macro/market-quick-take---nvidia-stumble-weighs-on-sentiment---12-november-2026-12112026",
+    "https://www.bloomberg.com/news/articles/2026-11-12/fed-s-hammack-says-more-restrictive-rates-are-needed",
+    "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-12-071100866.html",
+    "https://crypto.news/blackrock-leads-300-million-bitcoin-etf-outflows-as-btc-struggles-near-73k/",
+    "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-12-2026",
+    "https://analysisofficial.substack.com/p/after-hours-technology-earnings-tuesday"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 38,
+      "value": 44,
       "label": "Fear",
-      "previous_close": 33,
-      "updated": "2026-11-11T18:22:30+00:00"
+      "previous_close": 37,
+      "updated": "2026-11-12T18:01:00+00:00"
     },
     "crypto": {
-      "value": 29,
+      "value": 28,
       "label": "Fear",
-      "updated": "2026-11-11T00:00:00.000Z"
+      "updated": "2026-11-12T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-11-11T18:25:58.445Z",
+  "generated_at": "2026-11-12T18:06:05.349Z",
   "model": "claude-sonnet-4-5-20250929"
 }
