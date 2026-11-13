@@ -1,96 +1,97 @@
 {
-  "summary": "Markets are navigating twin shocks today as Nvidia CEO Jensen Huang resigned after 33 years, sending the AI chipmaker down 10% premarket and rattling tech stocks, while hawkish Fed commentary following Tuesday's hot CPI print keeps rate-hike expectations elevated. The October CPI rose 0.3% month-over-month for the third consecutive month, above the 0.2% forecast, prompting Fed officials including Waller and Daly to signal openness to a 50-basis-point hike in December. Bitcoin fell below $72,000 as spot ETFs recorded a fifth straight day of outflows totaling $1.44 billion since November 5, with BlackRock's IBIT accounting for the bulk of withdrawals. Despite the Nvidia chaos, broader markets held firm Wednesday with the S&P 500 gaining 1.3% and Apple hitting a fresh record at $355.63, though Thursday's premarket showed caution with SPY futures down modestly. Cisco and Applied Materials report earnings after the close, with AI infrastructure demand in focus.",
+  "summary": "Wall Street fell sharply Friday as Nvidia CEO Jensen Huang's sudden resignation sent shockwaves through technology stocks, compounding pressure from persistent inflation and hawkish Fed rhetoric. The Nasdaq led declines, down 1.6% intraday, with chip stocks plunging after Huang stepped down amid reports of extramarital affairs including one involving a suspected Chinese spy. Producer price inflation hit 6.5% annually—the highest since November 2022—following October's hotter-than-expected core CPI, reinforcing expectations that the Fed will resume rate hikes at upcoming meetings. San Francisco Fed President Mary Daly confirmed Thursday that further tightening will likely be needed, while BofA now expects hikes at the next three FOMC meetings. Bitcoin extended losses below $69,000 as crypto ETFs hemorrhaged $1.44 billion over five consecutive days, with BlackRock's IBIT accounting for most outflows. Treasury yields climbed to 5.10%, adding pressure to equity valuations as the VIX spiked 6.9% to 18.70.",
   "signals": [
     {
       "type": "bearish",
-      "title": "Nvidia CEO Huang resigns amid China chip scandal, stock plunges 10%",
-      "desc": "Jensen Huang's abrupt exit after 33 years has rattled AI infrastructure stocks, with CFO Colette Kress named interim CEO and DOJ launching antitrust probe into Nvidia, Megaspeed, and Supermicro.",
+      "title": "Nvidia CEO Huang Resigns Amid Scandal, Shares Sink 14% from Nov 6 Peak",
+      "desc": "Jensen Huang's sudden exit over extramarital affairs including suspected Chinese spy involvement triggered broad tech selloff with AMD down 10.7% and chip sector cratering.",
       "asset": "stocks"
     },
     {
       "type": "bearish",
-      "title": "Hot October CPI fuels 50-bp December hike speculation",
-      "desc": "Core CPI rose 0.3% for the third straight month, topping forecasts, while Fed's Waller and Logan opened the door to faster tightening and markets now price nearly 60 basis points of hikes through March 2027.",
+      "title": "Producer Price Inflation Surges to 6.5%, Highest Since 2022",
+      "desc": "PPI jumped to highest rate since November 2022, far exceeding 4% consumer inflation and signaling businesses may pass costs to consumers as Fed hike cycle resumes.",
       "asset": "macro"
     },
     {
       "type": "bearish",
-      "title": "Bitcoin ETFs bleed $1.44B in five-day outflow streak",
-      "desc": "Spot Bitcoin ETFs recorded fifth consecutive day of withdrawals on November 11, with BlackRock's IBIT losing $269.73 million as BTC fell below $72,000 and year-to-date flows turned negative at -$1.42 billion.",
+      "title": "Bitcoin ETFs Bleed $1.44B in Five Days, BlackRock IBIT Leads Exodus",
+      "desc": "US spot Bitcoin ETFs posted fifth straight day of outflows with IBIT shedding $269.7M Wednesday alone as BTC fell below $69,000 for first time since August.",
       "asset": "crypto"
     },
     {
-      "type": "bullish",
-      "title": "AMD surges 6% on analyst upgrade amid Nvidia turmoil",
-      "desc": "Advanced Micro Devices rallied as investors bet on competitive advantages from Nvidia's leadership crisis, with Broadcom also gaining on expectations of AI chip market share shifts.",
-      "asset": "stocks"
+      "type": "bearish",
+      "title": "Fed's Daly Signals More Rate Hikes Needed, BofA Calls Three Consecutive Increases",
+      "desc": "San Francisco Fed President confirmed further tightening likely as businesses contemplate price hikes; BofA now forecasts Fed hikes at next three meetings through early 2027.",
+      "asset": "macro"
     },
     {
       "type": "neutral",
-      "title": "Apple hits record high as mega-cap tech diverges",
-      "desc": "AAPL closed at all-time high of $355.63 Wednesday, up 2%, showing resilience in tech even as Nvidia drama and rising rates pressure growth stocks, with S&P 500 up 1.3%.",
-      "asset": "stocks"
+      "title": "Treasury Yields Hit 5.10% as Fed Meeting Schedule Restructured for 2027",
+      "desc": "10-year yields climbed to 5.10% pressuring tech valuations while Fed Chairman Warsh announced October 2027 meeting will skip rate vote for strategic policy review.",
+      "asset": "macro"
     }
   ],
   "tickers": [
     {
       "symbol": "SPY",
-      "price": "761.02",
-      "change_pct": "+0.16"
+      "price": "757.12",
+      "change_pct": "-0.35"
     },
     {
       "symbol": "QQQ",
-      "price": "691.21",
-      "change_pct": "+0.12"
+      "price": "688.17",
+      "change_pct": "-0.32"
     },
     {
       "symbol": "BTC",
-      "price": "71887.00",
-      "change_pct": "-3.37"
+      "price": "68900",
+      "change_pct": "-6.00"
     },
     {
       "symbol": "ETH",
-      "price": "2016.59",
-      "change_pct": "-3.37"
+      "price": "1925",
+      "change_pct": "-7.50"
     },
     {
       "symbol": "GOLD",
-      "price": "355.46",
-      "change_pct": "-2.66"
+      "price": "3880",
+      "change_pct": "-0.13"
     },
     {
       "symbol": "OIL",
-      "price": "144.83",
-      "change_pct": "+2.38"
+      "price": "89.50",
+      "change_pct": "+1.50"
     },
     {
       "symbol": "DXY",
-      "price": "1.1081",
-      "change_pct": "-0.41"
+      "price": "106.80",
+      "change_pct": "+0.45"
     }
   ],
-  "verdict": "Leadership vacuum at Nvidia and hawkish Fed pivot create near-term volatility, but resilient mega-cap earnings and selective sector rotation suggest markets will digest shocks rather than crater.",
-  "sentiment": "mixed",
+  "verdict": "Risk-off sentiment dominates as Nvidia's leadership crisis, sticky inflation prints, and Fed hawkishness converge to pressure equities and crypto into year-end.",
+  "sentiment": "bearish",
   "sources": [
+    "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-13-081500049.html",
     "https://www.bloomberg.com/news/articles/2026-11-10/us-core-cpi-rises-more-than-forecast-0-3-supporting-rate-hike",
-    "https://home.saxo/en-sg/content/articles/macro/market-quick-take---nvidia-stumble-weighs-on-sentiment---12-november-2026-12112026",
-    "https://www.cryptotimes.io/2026/11/12/bitcoin-falls-below-72k-as-etfs-record-1-44b-outflows-in-5-days/",
-    "https://www.fool.com/coverage/stock-market-today/2026/11/12/stock-market-midday-nov-12-nvidia-ceo-resigns-amd-surges-as-wall-street-edges-higher/",
-    "https://finance.yahoo.com/markets/stocks/articles/stock-market-news-nov-12-071100866.html"
+    "https://bloomberg.com/news/articles/2026-11-12/fed-s-daly-says-more-rate-hikes-likely-needed-to-cool-inflation",
+    "https://news.bitcoin.com/bitcoin-etf/bitcoin-etfs-lose-1-44b-in-5-days-as-selling-deepens/",
+    "https://dailycaller.com/2026/11/13/prices-are-sky-high-and-consumers-suffer-inflationppi-cpi-inflation/",
+    "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-13-2026"
   ],
   "fear_greed": {
     "stocks": {
-      "value": 43,
+      "value": 38,
       "label": "Fear",
-      "previous_close": 37,
-      "updated": "2026-11-12T18:39:22+00:00"
+      "previous_close": 40,
+      "updated": "2026-11-13T18:23:16+00:00"
     },
     "crypto": {
-      "value": 28,
-      "label": "Fear",
-      "updated": "2026-11-12T00:00:00.000Z"
+      "value": 20,
+      "label": "Extreme Fear",
+      "updated": "2026-11-13T00:00:00.000Z"
     }
   },
-  "generated_at": "2026-11-12T18:44:07.928Z",
+  "generated_at": "2026-11-13T18:25:42.259Z",
   "model": "claude-sonnet-4-5-20250929"
 }
